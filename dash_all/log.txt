@@ -1,0 +1,5979 @@
+commit 5ba0bc25448227f33559a71adb4746ebb09bc349
+Merge: a79381e fb9684a
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Dec 27 11:43:02 2018 -0500
+
+    Merge pull request #513 from plotly/fix-tests
+    
+    Update cdnjs files used in tests.
+
+commit a79381ebb1b497c49a494aafcf453c1db43a0afe
+Merge: f9820fd 1f8f3fd
+Author: Marianne Corvellec <marianne.corvellec@ens-lyon.org>
+Date:   Thu Dec 27 01:13:19 2018 +0100
+
+    Merge pull request #515 from plotly/mkcor-testrun-instructions
+    
+    Update instructions for running tests locally
+
+commit 1f8f3fdec99823998e4431d603767d5513f5d9ad
+Author: Marianne Corvellec <marianne.corvellec@ens-lyon.org>
+Date:   Wed Dec 26 23:20:29 2018 +0100
+
+    Update instructions for running tests locally
+
+commit f9820fdb4e06396477f7b9061f7bc0968f7f8f99
+Merge: 7ca31c0 41746dc
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Dec 26 17:05:39 2018 -0500
+
+    Merge pull request #511 from plotly/mkcor-install-instructions
+    
+    Point to existing install instructions
+
+commit 41746dc34da29457be48779cc829cbf4a2aaad48
+Author: Marianne Corvellec <marianne.corvellec@ens-lyon.org>
+Date:   Wed Dec 26 22:23:05 2018 +0100
+
+    Follow existing venv convention
+
+commit 708d62876ce0ab181e3e511fd6d80f4d13a82359
+Author: Marianne Corvellec <marianne.corvellec@ens-lyon.org>
+Date:   Tue Dec 25 21:37:30 2018 +0100
+
+    Write up instructions for dev setup
+
+commit fb9684a58aecdc8c0cd8c98d35260899483765c6
+Author: t4rk1n <t4rk@outlook.com>
+Date:   Mon Dec 24 14:29:37 2018 -0500
+
+    Update cdnjs files used in tests.
+
+commit ae76a47c8fbdcdcfd838068a3651550a86314d2e
+Author: Marianne Corvellec <marianne.corvellec@ens-lyon.org>
+Date:   Sat Dec 22 18:34:12 2018 +0100
+
+    Point to existing install instructions
+
+commit 7ca31c0f5bea894ac48f9f49fb8282268b905888
+Merge: 7654c22 12c1915
+Author: Ryan Patrick Kyle <rpkyle@users.noreply.github.com>
+Date:   Tue Dec 18 15:32:55 2018 -0500
+
+    Merge pull request #509 from plotly/0.34.1-release
+    
+    0.35.0-release
+
+commit 12c191588006b480809e4b1edb5aa54bc6ea1524
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 15:04:53 2018 -0500
+
+    version corrected to 0.35.0
+
+commit 9e4c5ea90a7424bbccd412c5970fba80687bceb6
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 15:04:00 2018 -0500
+
+    version should be 0.35.0, not fix
+
+commit 8a67c33a7aee8707fdd0c7ccbf6c0214f14035e3
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 14:54:15 2018 -0500
+
+    CHANGELOG.md updated
+
+commit e9cd6f8fc908e0f60b75e887e09662ef903e7d21
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 14:50:05 2018 -0500
+
+    version incremented to 0.34.1
+
+commit 7654c226b57db4f40d2d8887847c6a642c3e5d64
+Merge: 0c7eb4a a073828
+Author: Ryan Patrick Kyle <rpkyle@users.noreply.github.com>
+Date:   Tue Dec 18 14:31:54 2018 -0500
+
+    Merge pull request #483 from plotly/R2
+    
+    [WIP] Revised version of R 'transpiler' with support for generator methods
+
+commit a073828b208a940772303d61de3fa044f0ddb9bd
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 14:23:50 2018 -0500
+
+    removed trailing whitespace
+
+commit 28725e6fdee3be2713b1910cb207ce38e13d757e
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 14:20:55 2018 -0500
+
+    removed unnecessary importlib import
+
+commit 5923e6bb3608b6602717d53895e97e81673b33b6
+Merge: 99b6438 0c7eb4a
+Author: Ryan Patrick Kyle <rpkyle@users.noreply.github.com>
+Date:   Tue Dec 18 14:16:12 2018 -0500
+
+    Merge branch 'master' into R2
+
+commit 99b6438b7878daf6a36a059d84f79edebfeb8082
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 13:40:41 2018 -0500
+
+    :paw_prints: relocated `importlib` statements
+
+commit 4a67a6cb8ef2f8f650b3647e30425d6a9db2804e
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 13:15:58 2018 -0500
+
+    building R pkg now requires setting `--r-prefix`
+
+commit cdf8f9c4590a6ad9e5fe47be2b8029d78d8b9a12
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 13:09:50 2018 -0500
+
+    updated `props_to_r_type`
+
+commit f7d02dc1c7733946ea89dddd6515051331bfef7d
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 11:23:07 2018 -0500
+
+    converted else back to elif
+
+commit 4ca4d58490001e88e3ebbc8529c4841199688bc7
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 18 11:21:30 2018 -0500
+
+    removed dead function block
+
+commit 0c7eb4a044de24a7b55dae3948364df01a263579
+Merge: 50c6c41 fd096a9
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Dec 17 19:03:58 2018 -0500
+
+    Merge pull request #490 from plotly/improve-generation-cli
+    
+    Add ignore option to component generation.
+
+commit fd096a93b7edeee855d34c9c7d25781b60c4b368
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Dec 17 19:00:35 2018 -0500
+
+    Update version and changelog.
+
+commit 9b5ab504bc1a99551f7b0d7a0efeccf8807d48e9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Dec 13 16:16:01 2018 -0500
+
+    Add ignore option to component generation.
+
+commit adcddac5d7be490c817f84f9bc2e98c1e85d6221
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:44:31 2018 -0500
+
+    fix up docstrings for `generate_js_metadata`
+
+commit df97a38a28cc4ce381cfd37c242c4e729c7924e1
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:42:32 2018 -0500
+
+    inserted more detailed docstring for help file generator
+
+commit f8041a7a624ab204817a97f9df9bbc7c66740961
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:33:02 2018 -0500
+
+    remove unnecessary call to `os.makedirs`
+
+commit 3176684dc64fa7bcb0d8396d08562ae9a06da774
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:29:54 2018 -0500
+
+    edited to remove use of __contains__
+
+commit 0fc3d2d7b1573dbc11f2e2b6b7d815cc161b7071
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:18:57 2018 -0500
+
+    make warning msg for component prefix more explicit
+
+commit 059400f4f8536a5a5524e20c504b3161eeba7c13
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 16:01:45 2018 -0500
+
+    jk, method *now* json_to_r_type >> props_to_r_type
+
+commit dc8b254e375895b9a56df7ea6140e2fe276053f9
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 15:52:48 2018 -0500
+
+    removed comment
+
+commit 47e851610f8592d83830dc6985d3367231979afa
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Mon Dec 17 15:52:07 2018 -0500
+
+    fixed props, renamed/improved props_to_r method
+
+commit 8332e0c370fb1e201eff0bb3c1f09f5f64724d93
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Fri Dec 14 10:33:36 2018 -0500
+
+    fixed missing quotation in propNames removed after earlier edits
+
+commit 50c6c418a565b29619ac21ee122ec013f98fc465
+Merge: 75a285f 3a69377
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Fri Dec 14 10:24:29 2018 -0500
+
+    Merge pull request #487 from plotly/bare-exceptions
+    
+    Bare exceptions
+
+commit 14d23c298b81dc01256163db39549f9e8abe2704
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Thu Dec 13 18:20:37 2018 -0500
+
+    addresses T4rk1n comment about taking `name` attribute
+
+commit c150dd2a3cdb3f4acdf06dcaedfd48516d176d70
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 15:15:43 2018 -0500
+
+    resolve pylint complaints
+
+commit c80e33e7fee21ce5c2e228f46cee3261c1751871
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 15:08:01 2018 -0500
+
+    :paw_prints: migrated long strings to globals for readability
+
+commit 05b8a7eb33a3ecde249cde1f57162ec75d3ce09f
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 13:52:43 2018 -0500
+
+    refactored to avoid :camel: in prop_keys filtering
+
+commit 2094f36dc5b1fe18ad2cffc2fe56bf619726b872
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:58:49 2018 -0500
+
+    address suggestion by rmarren1 to correct formatting of bracket
+
+commit a6bfc1ec76f560a7003d0659e894818cfeb52d3a
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:57:01 2018 -0500
+
+    s/props.keys()/prop_keys
+
+commit fa8fb3888f4423f8ce0f933b45b3760547263d28
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:34:58 2018 -0500
+
+    edits to address pylint issues in _r_components_generation.py
+
+commit 5c95c87be8a8ef4c9f620c21daf138c77e9ada8d
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:31:07 2018 -0500
+
+    at suggestion of rmarren1, strip _r suffix from proposed methods
+
+commit fcbe97124d5d683c46ca88d98d17c5a5ac80466b
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:30:56 2018 -0500
+
+    at suggestion of rmarren1, strip _r suffix from proposed methods
+
+commit 75d29b702bc44af9b3d688d86904e3154563471b
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 12 11:16:01 2018 -0500
+
+    fixed code regression caused by modifying key template in default_wildcards
+
+commit 8d71c0c5fad7fa61f377cbfee49452394c1b8fc2
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 16:29:18 2018 -0500
+
+    added backticks
+
+commit 8a0891496460f1184cddd73f36ea791e4fd59e6c
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:54:00 2018 -0500
+
+    edits to resolve pylint/flake8 complaints
+
+commit 7614c4d499a4db7be4f196b609be4ce585cc294e
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:50:58 2018 -0500
+
+    edits to satisfy pylint
+
+commit 99ba5c7aaf13d9cc8e7f4f3704a4eea6b1f2aafa
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:33:15 2018 -0500
+
+    fixed import order in _r_components_generation.py
+
+commit 3cf3b22d146a04f2bd50c8c01d1a6655af63e2a7
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:27:01 2018 -0500
+
+    fixed 2 pylint issues
+
+commit ffe7f5f96f064e173ff20de457be992ae188bf8f
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:21:47 2018 -0500
+
+    refactor direct access to JSON keys to use .get instead
+
+commit bb352e8feefaac155b44071ebea6894be23e2da5
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:17:55 2018 -0500
+
+    remove spaces
+
+commit 6f954e5172011e8cfb0baf8d9728cb2a47fec83f
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:09:50 2018 -0500
+
+    rm more parens, replace apostrophes with dblquotes
+
+commit 3f2eb22f6f6dd8dce8efd889c42810c680b76290
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 15:05:10 2018 -0500
+
+    renamed/refactored make_package_name_r to snake_case_to_camel_case
+
+commit a3804eb3bc85ec938e0ed8db78c438459086220e
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:49:40 2018 -0500
+
+    added check for R dir to component_generator.py
+
+commit d13304319a613b178c448d7b9645e29241dce291
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:46:12 2018 -0500
+
+    added line to pull in CSS deps to inst/lib
+
+commit 600ef853eecbfb33e3f45607f5b56ac34493473d
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:35:22 2018 -0500
+
+    relocated check for R dir to component_generator.py
+
+commit 759941e859ac42a1655ceaa9e98f01d255386ed4
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:33:24 2018 -0500
+
+    eliminate unnecessary rewrites; fix prop_keys assignment
+
+commit d321153d475ad960b28087b33c73a5fa3a94db6f
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:21:35 2018 -0500
+
+    rm unnecessary parens
+
+commit 6afe2185efa981dc2b22d0a4060c3023d602e8c8
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:13:58 2018 -0500
+
+    updated docstrings
+
+commit 628ec823a2a24d541abc88eab190b6101c2fe972
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:04:51 2018 -0500
+
+    refactored prefix assignment, removed :s in templates
+
+commit ab3937676741ad42f779b6a1fda2b1401d1a4d86
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 14:04:25 2018 -0500
+
+    refactored prefix assignment, added warning msg
+
+commit ec5733afd9f39635bba00bdf8ca7db1c5e49f9ea
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 12:23:14 2018 -0500
+
+    edited _r_components_generation.py
+
+commit a207992ef63bca457d55f6985c19fe17f7108584
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 12:21:56 2018 -0500
+
+    clarified --rlang help for cli
+
+commit 413c3da2eaaa91785147c96e0465ea804f25b80b
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 12:18:04 2018 -0500
+
+    moved import importlib to preamble of .py
+
+commit bd6bf8d78c1cd0b87ceab256c67a5170e1b27446
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 12:14:54 2018 -0500
+
+    added --r-prefix argument to cli
+
+commit 3a693776adc44ec4fcffddf443c263536854a3a6
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Tue Dec 11 12:10:29 2018 -0500
+
+    Change version number.
+
+commit 6f615c1c63aca0ed69d94cb3706e082d772c8a1b
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 11:57:15 2018 -0500
+
+    removed unnecessary brackets around string in object_type
+
+commit 2c3212efccadca1746420ecca6195924f8b1d27d
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 11:56:15 2018 -0500
+
+    refactored code to avoid direct use of protocols
+
+commit 049bc4b4b6d1c63ef3a286632cbea09ce0a5ce62
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Tue Dec 11 11:46:20 2018 -0500
+
+    addresses format template issue
+
+commit 526c580d60cd4dd68b9b1f846436322098758183
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 16:29:15 2018 -0500
+
+    Add specific new exception types to changelog and change back version number.
+
+commit 5ee1929ac9a5dc706284d7b9dad57fa1cf5415e1
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 16:06:26 2018 -0500
+
+    Update changelog and version number.
+
+commit ca2d281166fb6c6edae1fa366ff5035a0fe9f6ac
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 15:56:35 2018 -0500
+
+    Fix whitespace issue.
+
+commit 2e7533ec86ecdbe9d60c40fd882948e09c046027
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 15:54:02 2018 -0500
+
+    Add ResourceException.
+
+commit 1a9a9bf17454ec09e12500334ad636146588e81a
+Merge: 6933512 75a285f
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 15:52:38 2018 -0500
+
+    Merge branch 'master' into bare-exceptions
+
+commit 6933512334ba84c4dd44e8c55eb83dce7353b8ac
+Author: Shammamah Hossain <shammamah.hossain@gmail.com>
+Date:   Mon Dec 10 10:47:56 2018 -0500
+
+    Create and implement new exception types.
+
+commit 75a285f16da29780a3658d9d92a9847c15e7549d
+Merge: 85e4863 056de14
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Dec 10 10:38:07 2018 -0500
+
+    Merge pull request #485 from mungojam/message-typo-fix
+    
+    Fix typo in missing events/inputs error
+
+commit 056de140106c6a7fd599c270ee2540c5e9f7b3f0
+Author: Mark Adamson <mark@adamsonfamily.co.uk>
+Date:   Sun Dec 9 20:50:04 2018 +0000
+
+    Update version and changelog
+
+commit 42197423cf974937aab632a4c92629bcc48bbe59
+Author: Mark Adamson <mark@adamsonfamily.co.uk>
+Date:   Sat Dec 8 22:16:26 2018 +0000
+
+    Fix typo in missing events/inputs error
+
+commit 3aca86f3cafbc066343295dc2ad94a12a61e6ceb
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Fri Dec 7 23:36:25 2018 -0500
+
+    flake8 passes locally
+
+commit 27aeea782bf8e3b5d00efabf1ba4ba8ab4e8d3d2
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Fri Dec 7 23:29:03 2018 -0500
+
+    edits to resolve pylint and flake8 unhappiness
+
+commit 85e486357eedb3d97cd2d383c5476a03ccf4401c
+Merge: b0ea2f4 5fe9d45
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Fri Dec 7 14:01:03 2018 -0500
+
+    Merge pull request #484 from plotly/extract-meta-mute-props
+    
+    Mute dash related missing props docstring from extract-meta warnings.
+
+commit 5fe9d4590c35ddf9595a37e106cd5d8fed582958
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Dec 7 13:50:43 2018 -0500
+
+    Update version and changelog.
+
+commit b0811518c36c1ca674e6bec7b141d6887c94bc81
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Dec 6 18:01:15 2018 -0500
+
+    add excluded props name when warning about missing props docstring.
+
+commit b0ea2f4c4122dafe5ddec70fa7100aa18902605e
+Merge: cc6bd35 c4f4c49
+Author: Marc-André Rivet <Marc-Andre-Rivet@users.noreply.github.com>
+Date:   Fri Dec 7 11:45:37 2018 -0500
+
+    Merge pull request #478 from plotly/dash-support-map-files
+
+commit c4f4c49274b13446f5058ccc18f04e2b131f7257
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Fri Dec 7 11:08:30 2018 -0500
+
+    - changing vesion bump from patch to minor
+    - update changelog with dynamic
+
+commit cc6bd359451dc26f29d0d80fd5f2f69a5c14bee7
+Merge: 93f82c6 e642aa0
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Fri Dec 7 10:36:35 2018 -0500
+
+    Merge pull request #477 from plotly/update-tests-dcc
+    
+    Update tests dcc
+
+commit 191b34b18607a1897bcd5facba2cf3bbaa7da57d
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 22:11:28 2018 -0500
+
+    - refactor relative package logic
+
+commit 2f39135104f8311c5c44641b287e26166b4f5013
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 21:13:31 2018 -0500
+
+    - move registration logic
+
+commit 670a03fdb769ab2a17cb3f4cc66d7ca0fe4b8519
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Thu Dec 6 17:41:00 2018 -0500
+
+    fixed bug in R help file function descriptions
+
+commit 481d15fd640034e130588d47b75762562f6483a0
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 17:03:25 2018 -0500
+
+    - fix linting
+
+commit 656e24dc956801c3f92656e5c822ac4e6c463507
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 16:47:50 2018 -0500
+
+    - revert print
+
+commit e9adb52b1ba7ce4f763012a6673d57cbe3b1a402
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 16:42:48 2018 -0500
+
+    - add dynamic file loading support
+
+commit d02047c4ae81496cb1d380936fabd17dafb6b9e3
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Thu Dec 6 08:30:14 2018 -0500
+
+    - update changelog
+
+commit 6e8cbb79157af9cd68e969f69e2df34e4b633c44
+Author: Marc-André Rivet <marcandre.rivet@sociablelabs.com>
+Date:   Wed Dec 5 13:06:10 2018 -0500
+
+    add map file support to dash
+
+commit c96092ec00baa3b8e38326d06bf670e7a43929a3
+Merge: 9b10f91 93f82c6
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 5 11:58:30 2018 -0500
+
+    Merge branch 'master' of github.com:plotly/dash into R2
+
+commit 9b10f9114e7691559399c678c999e19f68e254d0
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 5 11:53:43 2018 -0500
+
+    fixed bug in component generation
+
+commit e642aa08d454fdfcfd9e3b77b65962a0cb43c67a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Dec 5 11:52:30 2018 -0500
+
+    Unlock dcc >= 0.40.2
+
+commit 03b069d06d263cdc559b067a93c29cb22433a598
+Author: Ryan Patrick Kyle <ryan@plot.ly>
+Date:   Wed Dec 5 00:19:55 2018 -0500
+
+    refactored code to work with generator method
+
+commit 56acfef7f0ae5135d5782169f423baf5f79993ed
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Dec 3 15:47:32 2018 -0500
+
+    Unlock dcc.
+
+commit 93f82c677e46e9992a9056ad43a15e4bf82cb8b4
+Merge: 951c890 2f5d6e9
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Nov 29 15:56:22 2018 -0500
+
+    Merge pull request #473 from plotly/fix-imports
+    
+    Fix `_imports_.py` generation
+
+commit 2f5d6e98b4ffb89a0ae5e7f69b05972fc001095f
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 29 12:57:38 2018 -0500
+
+    Update version and changelog.
+
+commit fa0d56b6950b04159cf7bdfa184d793149e146da
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 29 12:47:38 2018 -0500
+
+    Fix `_imports_.py` generation
+
+commit 951c8909a25ff14de7165fced9a1dfb7cb2b8849
+Merge: dcd0f41 a492448
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Nov 29 11:45:18 2018 -0500
+
+    Merge pull request #451 from plotly/extract-meta
+    
+    Combine extract-meta and component generation in a cli.
+
+commit a4924483ab937b3b8f7bbd68f5b1aa56b037b1c5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 26 17:25:01 2018 -0500
+
+    Update version and changelog.
+
+commit 4878245f2ead071bb5e78364be5c07c94e598b60
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 26 16:58:23 2018 -0500
+
+    :feet: Move component generation code to _py_components_generation.py
+
+commit 6d8e6b7f96720884aaaf0df8418e3dc0bf1b37c0
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 26 16:16:28 2018 -0500
+
+    Use pkg_resources to make the extract-meta.js path.
+
+commit 52a56f9f8636cecf2301c3b63c73119c7e95090d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 21 12:15:02 2018 -0500
+
+    :name_badge: src -> components_sources
+
+commit a3d5ae20293cd3dbdb881e26b7e6db3da2d51fcf
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 21 12:10:35 2018 -0500
+
+    Copy package.json, take the output filename as option.
+
+commit b53f54a0439eceba3ee3ba7db69d763e73f91dc5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 20 16:11:08 2018 -0500
+
+    Proper cli with argparse.
+
+commit c642b84f5e0fa3cc44296d1e2797350dc1c87648
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 19:38:48 2018 -0500
+
+    :feet: Move generate imports/files methods to base_components.
+
+commit 25a8e94634bab006c8f7fd177fbde78a4913e86e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 19:27:42 2018 -0500
+
+    :camel: generate classes files loop.
+
+commit 414ac623c34bea634800ba1bde69f0828ea9d5c9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 14:15:53 2018 -0500
+
+    relative import.
+
+commit 474f99539d46562f246d9f8c351cded1c23b5a40
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 13:52:18 2018 -0500
+
+    Disable superflous-parens pylint.
+
+commit b3070dcd535c617b50b684ac57f632c163c16e6c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 13:39:14 2018 -0500
+
+    :camel: generate_imports
+
+commit 68087cf811fe6beb1586906817fe30f60fe1b1d5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 13:33:48 2018 -0500
+
+    Move generated print to generate_class_file.
+
+commit b8339d1f6f0562db76f04458c1fc39c680613f25
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 13 13:31:40 2018 -0500
+
+    Rename name->component_name
+
+commit b5f619947bb4a1006529c53b6f4094cd86f497d6
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 12 19:17:41 2018 -0500
+
+    Relative import the components
+
+commit 757327ac8897efcd8fbb22f6da2c34ea2ee33b9b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 12 17:33:03 2018 -0500
+
+    Fix shell is_windows.
+
+commit 98811a141b47bdc2b192b840ca9b8d78c8e711e3
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 7 18:18:51 2018 -0500
+
+    Change output_dir to project_shortname.
+
+commit 1bbd7fbe7fd00e080976a19b76e2d3262fba95c5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 7 16:33:42 2018 -0500
+
+    Strip first newline from `_imports_.py`.
+
+commit 726623db724abeb907ec1e2eef6f73b8d9fc8f2c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 22:01:04 2018 -0500
+
+    Add _imports_.py generation.
+
+commit 1e5adce2132c0548daec2a546b16fb5a35ea8af7
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 20:18:44 2018 -0500
+
+    Dump metadata.json
+
+commit 087a63f8bfbc543b0fc0d872ee37d55ae211c2f9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 20:12:25 2018 -0500
+
+    Print extract-meta errors to stderr
+
+commit fde8d6c9cd40925f0c646df0d8a85c69f049fffe
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 19:19:18 2018 -0500
+
+    Add extract-meta to manifest.
+
+commit 1821b287a8c19a3f43011c2de157b37d20d6079a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 19:14:40 2018 -0500
+
+    Add arguments validation.
+
+commit 0c0d755798129a0a114136309f81c1168eee3f83
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 17:24:54 2018 -0500
+
+    Fix setup line len
+
+commit 9863b9dfb81526133a696c1c1fe2cb1115ecb53c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 17:15:28 2018 -0500
+
+    Combine extract-meta & component generation, wrap as cli.
+
+commit d5421184271d764acea8a9b4265b842138bd21f3
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 17:13:00 2018 -0500
+
+    Add extract-meta.js.
+
+commit dcd0f41504821ab7466983b5cd00bff009ca5911
+Merge: f590166 2ef4c6b
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Nov 19 15:51:02 2018 -0500
+
+    Merge pull request #461 from plotly/assets-snapshots
+    
+    Add assets css to percy snapshots
+
+commit 2ef4c6bada9f4a3b9d4ee4592782b50c4f8c132a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 19 15:29:32 2018 -0500
+
+    Set percy base_url/root_dir
+
+commit 5254c45309cad0ee42e0e2ca3d15bbd6775ea3a2
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 19 15:29:07 2018 -0500
+
+    Set content background color to purple.
+
+commit 75e6c3e0289c8e140e945ee547358955dbcc635d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 19 15:28:42 2018 -0500
+
+    Remove assets_url_path, add Content to display.
+
+commit f590166be2ca476c8970512fd9b23aaf26541ae8
+Merge: 800b73f d410c9c
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Nov 14 16:06:23 2018 -0500
+
+    Merge pull request #362 from plotly/hot-reload
+    
+    Hot reload
+
+commit d410c9c602bc354639206e01f91f791387d389f5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 15:14:52 2018 -0500
+
+    Update version and changelog.
+
+commit 927d69bc5473cbac60d229d158a20933de4b1245
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 14:35:02 2018 -0500
+
+    :hocho: remove resources cache.
+
+commit fb26306e4d287818fa4a169a84634187f9ac92d7
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 11:47:07 2018 -0500
+
+    Add DASH_HOT_RELOAD_MAX_RETRY environment variable.
+
+commit 63033efb0f2b780aacb8946890a74a88be26878b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 11:40:51 2018 -0500
+
+    :goat: environ -> environment.
+
+commit 407e24c12f5f7eb842fca14f58ddffc91de9eb8a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 11:36:22 2018 -0500
+
+    Proper path manipulation on assets change.
+
+commit beadd63461309aea804e3475ede2bb142c192a57
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Nov 14 11:35:21 2018 -0500
+
+    Fix :bug: with assets watch deletion.
+
+commit 4654e5fb6ad3ead5cb457422f1d5925e0b82a096
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 18 18:17:51 2018 -0400
+
+    Add missing dev_tools docstring.
+
+commit 353d79c908138431bddd08b6864793bbc502b8c9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 18 13:33:39 2018 -0400
+
+    Fix rebase.
+
+commit f22ea7de535b00b3cbea2905d3a69905c0872f8c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Oct 9 13:41:51 2018 -0400
+
+    Generate a debugger PIN and print it when logs are silenced.
+
+commit 1ae7dcaccc1385b8f26900dd81911600c4c292f6
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 4 23:00:55 2018 -0400
+
+    Add hot_reload_max_retry.
+
+commit 494243e542f24bc239a92d75c76e0bcdb7bbf889
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 3 13:50:56 2018 -0400
+
+    Cast registered_paths keys to list, py3 compat.
+
+commit d74498fba4f4424b99be565cfd3080c869d90515
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 14:57:28 2018 -0400
+
+    Fix logging formatting.
+
+commit e714af38a4eaed39e1bf93dc4da4d208032ef384
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 14:30:37 2018 -0400
+
+    Add silence routes logging to dev tools.
+
+commit 1e4eae625faa1ae2dc414ce1d9e790cd45a56227
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 14:06:44 2018 -0400
+
+    Set to serve locally when dev tools are activated.
+
+commit 46383d180d7f051f48043b39e45dce84fe2d5357
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 14:05:23 2018 -0400
+
+    Add hot reload dev tools arguments to run_server.
+
+commit 410865ea729015f32e19d534eb18fc6ce0aad0f7
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 13:57:18 2018 -0400
+
+    Line length fix & add more info to the dev tools docstring.
+
+commit 08bbdc13ac0c424a29a75c6671f9c22d76118d35
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 21 13:40:29 2018 -0400
+
+    Integrate hot reload with enable_dev_tools.
+
+commit 631da7bea177fc175fbafc4cd455b05e690783ab
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 18 12:51:39 2018 -0400
+
+    Add configurable watch_interval.
+
+commit 8c993fa82c2cf0b6cbe836e99ffe4567eebb6bb8
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 17 14:23:43 2018 -0400
+
+    Support reloading css only.
+
+commit 7c77bc8ce1f15d6f38006c150f74b6b369970604
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 14 14:51:29 2018 -0400
+
+    Add package list to the reload response.
+
+commit 94bf7c08ea9a23b81947231c4c2def48a31ae041
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 14 14:06:03 2018 -0400
+
+    Hot-reload on adding/removing assets files.
+
+commit 13202e5d94a1161dec3924ed2a9f4e1cd09e9b0d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 13 16:51:27 2018 -0400
+
+    Disable pylint37 too-many-statements.
+
+commit ab533302927e86123ae0c7a06b55e9b3da445176
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 13 16:49:58 2018 -0400
+
+    Fix activate debug when hot_reload is true.
+
+commit 23882f532a4e48d7922a747ddacecad24b8b73b4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 12 10:56:49 2018 -0400
+
+    Reset hard reload to false when serving the hash.
+
+commit 493f99d248693858591eaa18061fe66210c08a71
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 12 10:41:18 2018 -0400
+
+    Add comment on the filename in _on_assets_change.
+
+commit cc6c21cc191e61d09e829c23b6dccdb8be97ca87
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Aug 31 16:54:16 2018 -0400
+
+    Always set debug to true when hot_reload=True.
+    
+    Remove hash from configs.
+
+commit 5b10597b4e168173eda7be313bdd8b280cf1b2b0
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Aug 15 17:44:39 2018 -0400
+
+    Add assets filewatcher to reload on assets changes.
+
+commit 572353378e79fa916fc717beaaf8dc789caee2f4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 9 17:18:02 2018 -0400
+
+    Add reload interval config.
+
+commit 335e03873132abe45688e4ea8d377b4c6a6750bd
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 9 16:42:54 2018 -0400
+
+    Add reload route and renderer config.
+
+commit 800b73f7e15ce071585445682e65d96fe57a9572
+Author: bpostlethwaite <post.ben.here@gmail.com>
+Date:   Mon Nov 12 15:13:32 2018 -0500
+
+    versioning policy section
+
+commit f2eebff0b1387b97ca6b596a6524f4a7380c6891
+Author: bpostlethwaite <post.ben.here@gmail.com>
+Date:   Mon Nov 12 15:10:41 2018 -0500
+
+    clarify reversioning
+
+commit fa7012112f0d982062afac35ac256a7db955456c
+Author: bpostlethwaite <post.ben.here@gmail.com>
+Date:   Mon Nov 12 15:08:09 2018 -0500
+
+    add missing  in CONTRIBUTING
+
+commit fac2e3ec89f966fa6666e80a981edc9cbc841749
+Author: bpostlethwaite <post.ben.here@gmail.com>
+Date:   Mon Nov 12 13:25:38 2018 -0500
+
+    grammar and minor edit in CONTRIBUTING
+
+commit 262acc522f5725ec88d6c9872eb7c40babfe69d3
+Author: bpostlethwaite <post.ben.here@gmail.com>
+Date:   Mon Nov 12 13:20:55 2018 -0500
+
+    add version and release policy to CONTRIBUTING
+
+commit 3533073d1e2de5ad208a278d604822afbb9c57fa
+Merge: 1663fea 561462a
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Nov 8 09:14:42 2018 -0500
+
+    Merge pull request #352 from jbampton/patch-2
+    
+    Pylint and Flake8 enabled for the tests folder
+
+commit 561462a395c102936fa6a1a570ac80fca5c3c602
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Sat Aug 25 06:58:20 2018 +1000
+
+    Add pylint and flake8 testing for the tests folder
+
+commit 1663feaf7529536d29def59f29f14f8ac2ac43fa
+Merge: 1c94fd2 b731b6e
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Tue Nov 6 11:14:03 2018 -0500
+
+    Merge pull request #444 from plotly/component-suites-registration
+    
+    Register component suites by importing.
+
+commit b731b6eb97e788345cf78819555c3f7cc58a9edf
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 11:08:11 2018 -0500
+
+    Pylint fix.
+
+commit 2449ee9595cbefc4d6f16706cdafabb9d412d188
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Nov 6 11:04:53 2018 -0500
+
+    Version bump.
+
+commit c8e6fa8991b9b3be9a461855eaa1f4633ec13074
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 5 11:14:08 2018 -0500
+
+    Remove len cache bust from resources, integrate with hot-reload later.
+
+commit 9a65658f8ddd384c6db153b0fe1f1fc0809fc08d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 5 11:05:10 2018 -0500
+
+    Remove cache bust len from ComponentRegistry.
+
+commit b565cbc8874e5f00f3375cd9ff1e8c514d6c8547
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Nov 2 21:58:41 2018 -0400
+
+    Refactor `__new__` to ComponentMeta.
+
+commit f0cd7f72259b763cbbaa3b9c2e2457e0d8dcf260
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:49:58 2018 -0400
+
+    Add late component register test.
+
+commit b002d14822b715ab03671381bfcb32a740fca662
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:41:09 2018 -0400
+
+    Disable pylint old-style-class
+
+commit f779d27c02d27d9cec93cbed3128808bf28c4848
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:36:29 2018 -0400
+
+    Line length fix.
+
+commit cdb785d390be4a243e8e4a74568fd97cc671c075
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:35:20 2018 -0400
+
+    Add resources cache.
+
+commit ff3d16a13b97fb5c39fcd27be5f92f21b25f6b68
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:22:37 2018 -0400
+
+    Rename ComponentRegistry.component_registry -> registry.
+
+commit db2485fcc3605c549674e8ce1b127c72916d47dd
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Nov 1 11:16:37 2018 -0400
+
+    Add dist cache for the registry.
+
+commit c6a3020e29403b11946c2960b8cc240efda7a681
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 31 20:01:29 2018 -0400
+
+    Register the components namespace in component_loader.load_components
+
+commit bb5fea5e29c28a4dcbbcd79f9bfd94f799d6101d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 31 16:42:13 2018 -0400
+
+    Pylint fixes
+
+commit ed8595cb7794e5c91d6165021719f74f15b08548
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 31 16:35:21 2018 -0400
+
+    Use abc.ABCMeta as metaclass base for component as MutableMapping.
+
+commit da5223d4acd6c30477855934c7a6160a3106ad63
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 31 16:10:09 2018 -0400
+
+    Refactor component registration.
+
+commit 1c94fd296e544bb9c1a14b016a71d6a1f9c8159e
+Merge: 09f551a 06f848f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Nov 5 20:06:54 2018 -0500
+
+    Merge pull request #450 from plotly/remove-keywords
+    
+    Use all python keywords when checking if prop name is valid
+
+commit 06f848f95233cdbca36f8f4a5bd7b4a3d13aa24b
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Nov 5 19:43:56 2018 -0500
+
+    Try lock `dash-core-components==0.35.1`
+
+commit 0c0dfbfa47b53d5a07ac67852d066f5ac3df248e
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Nov 5 19:18:53 2018 -0500
+
+    Bump changelog, version.
+
+commit 115307cd2cfc5424e7cda2816ec8f44a38e6227d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Nov 5 18:55:51 2018 -0500
+
+    Change base_component to use full keyword list rather than version specific.
+
+commit 903879b447aba51febfd086a2ae4d681c3a4c35f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Nov 5 18:55:30 2018 -0500
+
+    Add set of all python keywords.
+
+commit 09f551a10b68dff605c597a5d9df7f48eaf09c21
+Merge: 61b0545 229978b
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Nov 5 10:48:30 2018 -0500
+
+    Merge pull request #443 from plotly/fix-registered-path
+    
+    Change registered_paths to a `collections.defaultdict(set)`.
+
+commit 229978b91a1bc3447508999ae027449e5c1beef5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Nov 5 10:06:29 2018 -0500
+
+    Update version and changelog.
+
+commit 8b64280c97a4f1b4ccf35f44cae98b86e7a645ce
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 31 14:04:41 2018 -0400
+
+    Change registered_paths to a `collections.defaultdict(set)`.
+
+commit 61b05450ed562923f7d5b67842c9b04c899c4928
+Merge: 5ac9a3b da9da91
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Tue Oct 30 13:33:58 2018 -0400
+
+    Merge pull request #439 from plotly/requirements
+    
+    Refactor requirements.txt
+
+commit da9da91f1bc817dc233dd7aab30998092833c720
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Oct 29 14:07:28 2018 -0400
+
+    Update dcc requirements.
+
+commit 9e3ca4d0e05576ba4ed15edbee305f64cc6b22e0
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Oct 29 13:50:40 2018 -0400
+
+    Fix tests with WebDriverWait.
+
+commit 23f7aed24bcea0b504696d79989b2611d802dbe4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Oct 29 13:33:28 2018 -0400
+
+    Move dev-requirements to .circleci/requirements
+
+commit c468a174a7253950268ebfac985e4f9804578f27
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Oct 29 13:31:16 2018 -0400
+
+    Delete requirements.txt
+
+commit 5ac9a3b2a15dc82461fbc632dd2d0b59f966f1f4
+Merge: a6a1ea9 aa7611b
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 20:28:45 2018 -0400
+
+    Merge pull request #432 from plotly/rmarren1-patch-1
+    
+    Updates to Contributing Checklists
+
+commit a6a1ea9778cd20256ea2b378164fc14f5ef50d3e
+Merge: 1469268 d134bb9
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Oct 18 18:01:15 2018 -0400
+
+    Merge pull request #431 from plotly/generate-classes-endline
+    
+    Replace docstring `\r\n` with `\n` when generating classes from windows.
+
+commit d134bb9fc9d6e3834c21f8f538d5007eb25d6a27
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 18 17:58:13 2018 -0400
+
+    Update version and changelog.
+
+commit aa7611b5c2e738ce17267c14f738faeaeb20e2a4
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 17:57:56 2018 -0400
+
+    Update CONTRIBUTING.md
+
+commit 8f3dcbb17013576245ad2a5d45ea117f046c52b8
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 18 17:03:54 2018 -0400
+
+    Replace docstring `\r\n` with `\n` when generating classes from windows.
+
+commit 49814d93c0f02bb480478f64cbce7ab5a7a38884
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 17:13:25 2018 -0400
+
+    Updates to Checklists
+
+commit 1469268cbfa7142e83bf46ee85beb850ef16b76a
+Merge: 9312fe4 7f70192
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 16:55:55 2018 -0400
+
+    Merge pull request #430 from plotly/allow-tuples
+    
+    Allow Dash `children` to be a tuple instead of a list
+
+commit 7f70192dc19ba7d8d996ec608665d717900d7f8d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 16:51:06 2018 -0400
+
+    Bump CHANGELOG.md, version.py.
+
+commit 81d764e05ef00229ed15de2cfb15b4e049dc3616
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 15:17:08 2018 -0400
+
+    pylint fixes
+
+commit 50e0d7ef04bdbf380f2be7bd8eac108a74675321
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 15:13:52 2018 -0400
+
+    list and collections.MutableSequence are redundant
+
+commit 0951d00b715dc9b2841c65b8bbc299003d74dbd3
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 15:05:26 2018 -0400
+
+    Allow also `collections.MutableMapping` for backward compatability.
+
+commit d28e615b8583762b23bdbeb2967b2a18f6056e24
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 14:56:13 2018 -0400
+
+    Allow tuples to be traversed.
+
+commit 1e64a9a65583bda6096bb5fa2365d117878c91cb
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 14:55:14 2018 -0400
+
+    Test that tuples can be traversed.
+
+commit 9312fe454b1c1f14a513c69de5e773a137b69fc6
+Merge: 02eb3f2 df5111e
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 13:40:34 2018 -0400
+
+    Merge pull request #429 from plotly/fix-ci-path-issue
+    
+    Fix ci path issue
+
+commit df5111e006582013f66114ba73614da8f53338e3
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 13:04:54 2018 -0400
+
+    remove sys import
+
+commit c2454e34a813f63e65bee83a6efb29f44702b23b
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 12:53:28 2018 -0400
+
+    Try to fix just by not using python -m venv
+
+commit e9a1f6a44706837cccc0438d3e50921969e03358
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Oct 18 12:49:32 2018 -0400
+
+    Fix path issue.
+
+commit 02eb3f23ed43e0ab9b1577dd605b486a9da39ac7
+Merge: 71fb742 d649ce0
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Oct 17 14:17:15 2018 -0400
+
+    Merge pull request #418 from plotly/fix-http-equiv
+    
+    Fix http-equiv typo.
+
+commit d649ce0376f945a3b3b6efc250d8f4ba02347ce3
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 17 14:13:59 2018 -0400
+
+    Update version and changelog.
+
+commit 1c7c92e18566b97eca56250299dfbdb84ad3e562
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Oct 17 13:33:22 2018 -0400
+
+    Skip broken test.
+
+commit d51db27c484c3a0b5b9fcf6d95ada83166b4c260
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 4 14:32:38 2018 -0400
+
+    Fix line length.
+
+commit 76361ebe10a1cba4603e2854a1c973657f8c1303
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Oct 4 12:52:40 2018 -0400
+
+    Fix http-equiv typo.
+
+commit 71fb742a34c3e63434202c9676ec9f6191909027
+Merge: 99867f5 72cc1f2
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Oct 7 22:15:50 2018 -0400
+
+    Merge pull request #377 from hinnefe2/unnest-init-add-url-function
+    
+    Move add_url function definition out of Dash.__init__()
+
+commit 72cc1f202b88dc2e44876f30bed7c890c9e9c2f1
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Fri Oct 5 22:07:29 2018 -0500
+
+    Update favicon route to use new _add_url function
+
+commit 617e074a2d4fb0a2e1e3d244c4e06fa7bd80bd8e
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Fri Oct 5 21:40:42 2018 -0500
+
+    Update CHANGELOG.md and bump version.py
+
+commit 60e80825a938f032af3c48ca314576abadf4251f
+Merge: b91fbcb 99867f5
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Fri Oct 5 21:37:13 2018 -0500
+
+    Merge branch 'master' into unnest-init-add-url-function
+
+commit b91fbcbfee1d95e04defecf4c0afeb0187f36581
+Author: hinnefe2 <hhinnefeld@civisanalytics.com>
+Date:   Tue Oct 2 09:31:00 2018 -0500
+
+    Make Dash._add_url record urls in Dash.routes
+
+commit 99867f5b2e6d845dd6e8588b65698f0d7075ec24
+Merge: 066bd6b 72f5e97
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Oct 1 22:51:41 2018 -0400
+
+    Merge pull request #379 from plotly/contributing
+    
+    Create CONTRIBUTING.md
+
+commit 72f5e97395386ca4e547f1247257009f41238d1d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 15:41:48 2018 -0400
+
+    .zip -> .tar.gz
+
+commit 75747505026d33e51c8491206b8febbd49658a6d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 10:05:06 2018 -0400
+
+    Forgot >
+
+commit a6ac33e9ea946a6f6d124d46041c2810a4782afa
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 10:00:39 2018 -0400
+
+    Add note
+    
+    Note to make PR in dash-docs post release
+
+commit 3545064aac4833dcebe12dcd845d3cc1fc6076df
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:59:20 2018 -0400
+
+    Add note
+    
+    Note to make issue in Documentation post release checklist
+
+commit 5bc63a7d20188d4b4770637ef9268d7f9ae4f76f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:55:59 2018 -0400
+
+    Update checklist CHANGELOG for large PRs
+
+commit ab389db96d7884578f0dd422ad3270e38d6a2069
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:53:43 2018 -0400
+
+    Update financial contributions section
+
+commit 26a62b330a63581a5bea508b203e05a4dbf5a7ef
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:51:52 2018 -0400
+
+    Add note for larger features to make issue
+
+commit abe75f092d45e6c58383e22a0038a26eea5385f4
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:48:35 2018 -0400
+
+    react components -> python code
+
+commit e4e064a909ec7ce997d2b5264432d33f142250f3
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Sep 28 09:45:52 2018 -0400
+
+    Add windows progress issue
+
+commit 066bd6b0ded53901d50f63823a4f97059002ab09
+Merge: c240226 9e3ea06
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 26 16:26:24 2018 -0400
+
+    Merge pull request #408 from plotly/version-bump
+    
+    Update version and changelogs.
+
+commit 9e3ea0629d856a993eee73e427c200cca62ecafd
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 16:22:03 2018 -0400
+
+    Update version and changelogs.
+
+commit c240226c96e70cf507fb2ecdfa93ecbb2c3f70b2
+Merge: 9c00695 7fb1ae1
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 26 16:19:01 2018 -0400
+
+    Merge pull request #407 from plotly/fix-favicon
+    
+    Fix missing default favicon in 0.28.0
+
+commit 7fb1ae1d2d906459ac91e1fa6e880b3b0d761c72
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 16:14:56 2018 -0400
+
+    Fix missing favicon, setup.py include_package_data=True
+
+commit 9c00695ccc2e55532137d145534b241e336b99a2
+Merge: 5dfbc44 30e8f14
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 26 15:14:00 2018 -0400
+
+    Merge pull request #406 from plotly/default-favicon
+    
+    Default favicon
+
+commit 30e8f143973376ecf3a78ddc1719cb6e362bd127
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 15:10:16 2018 -0400
+
+    Update version and changelogs.
+
+commit 5dfbc440e42e3ca07b734e865585cc1fd5e6f9bd
+Merge: f94991b 0dda8ac
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 26 15:04:26 2018 -0400
+
+    Merge pull request #403 from jbampton/patch-5
+    
+    Remove the first and last blank lines from the HTML output in view so…
+
+commit d2a2752ed3b088d6f23782ee84ec9f952349ae0d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 14:57:12 2018 -0400
+
+    Add assets favicon cache busting, clearer favicon tag format.
+
+commit 11905d83a4edb2e3d95f364824b46ab68258a04b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 11:34:44 2018 -0400
+
+    Fix favicon format indent.
+
+commit bb0d0c4c30d0a5502ee03e1ea220a8c607d8671e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 11:28:09 2018 -0400
+
+    Add cache control header to default favicon.
+
+commit 0103ee526f624a272c572083920d88707938e523
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 26 11:16:16 2018 -0400
+
+    Add default dash favicon.
+
+commit 0dda8ac8d17ed29a989766b7b4bbacd987edc15e
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Tue Sep 25 03:49:56 2018 +1000
+
+    Remove the first and last blank lines from the HTML output in view source mode
+
+commit 413fc2fc147cbab2c4e8f754476f6b12c5666e8d
+Merge: 1ceece8 f94991b
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Thu Sep 20 21:24:32 2018 -0500
+
+    Merge branch 'master' into unnest-init-add-url-function
+
+commit 1ceece8191369072f42d31f2bba4721e0f3a04e4
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Thu Sep 20 21:21:03 2018 -0500
+
+    Move misplaced lines from merging master
+
+commit f94991be2db9a3a640ea680c2cf872611f857eb6
+Merge: e725e70 81d2220
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Sep 20 21:30:58 2018 -0400
+
+    Merge pull request #369 from plotly/serve-unminified
+    
+    Add unminified components bundle support.
+
+commit 81d22207e441f18d30e97baccda501cd2ed3cf25
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 21:05:35 2018 -0400
+
+    Add merged community PR to changelog.
+
+commit f02e0d9c36fe31e2f27910781126b53ac64b2f1b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 21:04:59 2018 -0400
+
+    Update enable_dev_tools docstring.
+
+commit 501946847c7c21badb31b76393a88eefc7d49d10
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 12:23:09 2018 -0400
+
+    Update version and changelogs.
+
+commit 7952d28fc5295fd90ab623cee7f457609a8b9cad
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 12:06:49 2018 -0400
+
+    Remove blank line from merge.
+
+commit 4b4bbc35dfd691b8ba1549dae0a179a8011c0aa3
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 11:07:59 2018 -0400
+
+    Debug as default for get_config in enable_dev_tools.
+
+commit 44b86a1cca7da270b93caaeed01a5e8e23b18b50
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 19 14:28:51 2018 -0400
+
+    Return debug from enable_dev_tools.
+
+commit 774661220bdcc5e46ff54cba7cdfd638084112dc
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 17 16:12:54 2018 -0400
+
+    Add DASH_DEBUG, DASH_SERVE_DEV_BUNDLES env configs.
+
+commit 0dcb93da902a23cf7429d67edb62057f43ba4caa
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 17 11:16:08 2018 -0400
+
+    Pylint fix.
+
+commit b0f46cb1ab9e0e44bfc9d309a89deb1d92ebc21c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 17 11:06:02 2018 -0400
+
+    Refactor enable_dev_tools variables names.
+
+commit 330f217ebc8db9cc31234426da44f1344d6e484f
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 10 18:50:49 2018 -0400
+
+    Move dev_tools activation to method.
+
+commit d4763678e5a5037df89d8ee68c36ad5588b32e06
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 7 14:22:14 2018 -0400
+
+    Disable dev_tools for tests.
+
+commit 28f749eefc55e15dddc907981f02a4d905105a3e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 7 14:17:28 2018 -0400
+
+    Activate the dev tools in `run_server`.
+
+commit e0390b723f491af95cd01745b578d92955a14529
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 4 12:16:23 2018 -0400
+
+    Add dev_bundle resources support.
+
+commit e725e707e9bad9ae6875c0d375ec55154ab1d88f
+Merge: c562883 fe961df
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Sep 20 18:10:32 2018 -0400
+
+    Merge pull request #350 from jbampton/patch-1
+    
+    Use HTML5 syntax for the meta tag
+
+commit c562883fdaea6ef8de2b11e8de6cc5e6164a1ba1
+Merge: a6388be ff30e61
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Sep 20 18:05:29 2018 -0400
+
+    Merge pull request #398 from plotly/update-catch-all-route-comment
+    
+    Add used by dcc.Location to catch-all route comment.
+
+commit ff30e61ce0c0eaeaa044264102630a45b6eb8375
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 17:19:06 2018 -0400
+
+    Lock dash-html-components version.
+
+commit c468403b23e759600c5053f8cb5b5d5bff6b7e32
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 20 17:13:59 2018 -0400
+
+    Add used by dcc.Location to catch-all route comment.
+
+commit 8bb367cc285d3028136a95701dc01f9424c74a43
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Wed Sep 19 20:11:16 2018 -0500
+
+    Fix indentation for pylint
+
+commit 4fd05fc1579884ac752175d4e704048d47ffb78a
+Merge: d94eb9a a6388be
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Wed Sep 19 20:06:37 2018 -0500
+
+    Merge branch 'master' into unnest-init-add-url-function
+
+commit d94eb9a3d3e77fd14d1c79e0f4150a8ef5b477aa
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Wed Sep 19 19:59:28 2018 -0500
+
+    Make Dash.add_url() private as Dash._add_url()
+
+commit a6388bebe88c5aaba3c549832da398b21a16db24
+Merge: 4a3fd72 12dadc1
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 19 10:45:04 2018 -0400
+
+    Merge pull request #394 from plotly/fix-invalid-component-suites
+    
+    Return 404 from serve_components_suites when the path is not registered.
+
+commit 12dadc17cb866ae1340616b690170b9c191f350d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Sep 19 10:40:55 2018 -0400
+
+    Update changelogs.
+
+commit d260d0deb240f585eb0e9c0212c4c60f781d549e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 18 11:54:04 2018 -0400
+
+    Add InvalidResourceError exception type, fix #393.
+
+commit 4a3fd72729407ec810e9f7ba25331af66f8b056a
+Merge: 846d071 4a7a1d6
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Sep 19 10:36:53 2018 -0400
+
+    Merge pull request #387 from plotly/cache-headers-fix
+    
+    Add cache control header and cache busting urls to components suites.
+
+commit 4a7a1d6486c89860624eabe987507b01cf88fb37
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 18 11:35:04 2018 -0400
+
+    Version bump.
+
+commit edc08ab7e4a5c5bfa4c1ec1c1f23e4e18b8ac52c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 11 10:18:07 2018 -0400
+
+    Add cache control header and cache busting urls to components suites.
+
+commit 846d0711fe2b9ff3ad2f922dbd014ba4e7d0f76d
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Sep 14 01:00:25 2018 -0400
+
+    Update README.md
+
+commit fa90e7605096f3202b097c5f9f2c1fc1efa3d122
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Sep 10 18:37:01 2018 -0400
+
+    Fix typo.
+
+commit 162e8f41dcf72c805d1cfe4e5c67c44e5d926815
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Sep 10 18:36:21 2018 -0400
+
+    Fix typo
+
+commit ee0884a98b1ad4f48531a2b2cd3c89e5d25670b9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Sep 10 18:33:57 2018 -0400
+
+    Update CONTRIBUTING.md
+
+commit 3c6637825c4da2c313adb3bcd38367912d1aa3e7
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Sep 10 13:38:40 2018 -0400
+
+    Create CONTRIBUTING.md
+
+commit dbcb2a128ddec239842d9d61ffcb20c9a7fb3198
+Merge: cc85eb4 7e075d1
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Sep 10 11:35:23 2018 -0400
+
+    Merge pull request #374 from plotly/fix-assets-url-path
+    
+    Use `assets_url_path` in `get_asset_url`.
+
+commit 7e075d178aa4f24b3e12c59f7f3586d1fb752236
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 10 11:25:24 2018 -0400
+
+    Version bump.
+
+commit 967743260d7bae2c1643ba8a31ce8d59b21b0508
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 7 15:43:20 2018 -0400
+
+    Use `assets_url_path` in `get_asset_url`.
+
+commit f13a98918fd9919b705fe5f717875a8ab6ad2767
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Sat Sep 8 16:00:57 2018 -0500
+
+    Fix indentation for pylint
+
+commit c0a5e915a1407c8b79dfbd5a27d2841eadb6931a
+Author: hinnefe2 <hinnefe2@illinois.edu>
+Date:   Sat Sep 8 15:39:17 2018 -0500
+
+    Move add_url function definition out of Dash.__init__()
+
+commit cc85eb4299a1dd70f541ca54f0340d4667f41a0b
+Merge: 78b84ca 2a4596a
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Fri Sep 7 16:28:12 2018 -0400
+
+    Merge pull request #372 from plotly/fix-percy-multi-build
+    
+    Only run percy on 2.7.
+
+commit 2a4596a047a30fed0d708586db48739d5adaae88
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 7 14:52:21 2018 -0400
+
+    Remove unused percy vars.
+
+commit 7aa30fab40887a910f2dda6ba72f6e808d9b625d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Sep 7 11:10:11 2018 -0400
+
+    Only run percy on 2.7.
+
+commit 78b84cada4927bfa02bc53c44cb765880eafe2c5
+Merge: 7219b3d 9959758
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Sep 6 13:27:00 2018 -0400
+
+    Merge pull request #365 from plotly/fix-init-configs
+    
+    Fix url_base_pathname init configs
+
+commit 99597587979fbe14e945438d07f5f2c1ae8fadfa
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Sep 6 13:06:58 2018 -0400
+
+    Version bump.
+
+commit d5a3f588ff97a993a24c6f65c6372424b64d3010
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 4 11:08:09 2018 -0400
+
+    Fix circle cache key.
+
+commit a32ae9e148c639cb735b526150a376edbd8f239d
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Sep 4 10:37:46 2018 -0400
+
+    dash-html-components==0.12.0
+
+commit 35bcb9e203e3551ce10ff877dd46b7eaf018c3cd
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Sep 3 16:09:55 2018 -0400
+
+    Set url_base_pathname default to None.
+
+commit 7219b3d9f827e95bbbace801aa955b8c21ff8ffe
+Merge: 2c1d39f b815c39
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Aug 27 17:03:40 2018 -0400
+
+    Merge pull request #351 from plotly/assets-requests-prefix
+    
+    Prefix assets with `requests_pathname_prefix`.
+
+commit b815c392a4184acc158b5cab3e4b3a7e549022d1
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 27 16:43:16 2018 -0400
+
+    Version bump.
+
+commit 6295e22f77fdc85e7980f03834706cbfdd94189e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Aug 24 14:48:19 2018 -0400
+
+    Fix assets path take request_pathname_prefix into consideration.
+
+commit 2c1d39f8b2fa2883857aa30bbb4245e0fe2a64e0
+Merge: 8d1c9ce c51f2c3
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Aug 27 10:59:02 2018 -0400
+
+    Merge pull request #343 from plotly/fix-assets-x2
+    
+    Only create an assets blueprint if it's not registered.
+
+commit c51f2c366ccf51fa238e26dbc8095edd4f3151c5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 27 10:51:58 2018 -0400
+
+    Update version and changelog.
+
+commit d22a8cf459ad4519a5b3df753945f332e83143c4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 20 11:49:15 2018 -0400
+
+    Only create an assets blueprint if it's not registered.
+
+commit 8d1c9cef22030420d2e256fcc9c7466781110807
+Merge: 0543e3d ad074af
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Aug 26 16:12:49 2018 -0400
+
+    Merge pull request #336 from rmarren1/fix-func-layout
+    
+    Change _validate_layout to accept functions that return layouts.
+
+commit ad074af208289a8cbbdb674c4979bc761d82cf5f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Aug 26 16:07:10 2018 -0400
+
+    Update dash-core-components version in requirements files to be latest.
+
+commit 7a97f11d314d93f51694e8f34fb44150f16b0d2f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Aug 26 15:56:55 2018 -0400
+
+    Freeze core component versions in requirements.txt
+
+commit 4611b7b4472b12c997440cbf4f00976db63c5f71
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Aug 26 15:20:52 2018 -0400
+
+    Bump changelog and version.
+
+commit dc06232540d3313d9bde4c6dacb0b5e4e5ccf38c
+Merge: c07361e 0543e3d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sat Aug 25 15:38:13 2018 -0400
+
+    Merge branch 'master' into fix-func-layout
+
+commit 0543e3d546ec26918dd59606d238352570f2cab3
+Merge: e5f7d20 a946434
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sat Aug 25 16:19:40 2018 +1000
+
+    Merge pull request #346 from ned2/fix-flask-server-assets
+    
+    Make `Dash` instances use `name` attr of Flask server if one is provided
+
+commit fe961df99554c4de5020ab883ee07c651ac2f2ea
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Sat Aug 25 05:48:14 2018 +1000
+
+    Use HTML5 syntax for the meta tag
+
+commit a946434eff180034cf939db45367497b4c39d87f
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Fri Aug 24 21:13:23 2018 +1000
+
+    Make `Dash` instances use `name` attr of Flask server if one is provided
+    
+    Fixes #345
+
+commit e5f7d20e898e328fc66970b281750c0e73b0dd1b
+Merge: 936bd6a 20b0405
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Aug 20 15:48:18 2018 -0400
+
+    Merge pull request #318 from plotly/assets-ignore
+    
+    Add `assets_ignore` init keyword, regex filter for the assets files.
+
+commit 20b04052b248c3bad5bb54bca7ee2a7f6b8635b0
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 20 15:43:26 2018 -0400
+
+    Version bump.
+
+commit 93cca1b0558439ee27275884e989c63a4198444b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 2 12:13:34 2018 -0400
+
+    Add `assets_ignore` init keyword, regex filter for the assets files.
+
+commit 936bd6a2285693b70848c0ddd65dbb013e5c1cea
+Author: Jason K. Moore <moorepants@gmail.com>
+Date:   Mon Aug 20 11:42:33 2018 -0700
+
+    PyPi README markdown setting added to setup.py. (#333)
+    
+    Fixes #180
+    
+    This adds the new setting to setup.py so that PyPi will render the
+    markdown formatted README.
+
+commit 4d93652e40b55eb94c75359f5d47013051839ecf
+Merge: 5fc998a 0e46327
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Aug 20 11:37:07 2018 -0400
+
+    Merge pull request #335 from plotly/css-include-order
+    
+    CSS/JS external resources loaded before the assets
+
+commit 0e46327e32748963ed3658178da2821b5e0bb590
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 20 11:06:39 2018 -0400
+
+    Version bump.
+
+commit c07361e0155b4dd9da6e6e4f8ff3af775f44520b
+Merge: 8e34d46 5fc998a
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Aug 17 18:41:58 2018 -0400
+
+    Merge branch 'master' into fix-func-layout
+
+commit 8e34d46ce18b263f6c150e00cce97a59d199cfcc
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Aug 17 18:37:13 2018 -0400
+
+    :camel:
+
+commit 73c8c001bc4e570ecc2b17d35652739c7b637957
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Aug 14 17:58:21 2018 -0400
+
+    Include external js before assets, add tests.
+
+commit 2d947aa0e92271990a6225aacd701b2eba1a5089
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Aug 14 14:51:46 2018 -0400
+
+    Include the external css before the rest.
+
+commit 5fc998a117fadccc5eabbdd60b1afcf37376abbc
+Merge: 7361db5 25375ba
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Fri Aug 17 16:26:44 2018 -0400
+
+    Merge pull request #338 from plotly/update-circle-2
+    
+    Update circle 2
+
+commit 25375ba3e28c72ff6d4162b99cb92cc48d95c9c3
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 16 13:03:44 2018 -0400
+
+    Run tests without tox.
+    
+    Remove tox.ini
+
+commit 76cabf1ab87129233ea358fe5eee78d933753187
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 16 11:45:24 2018 -0400
+
+    Circle configs test template.
+
+commit 51e6235a9b421a7a32466574747a606fe3cf0e02
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Aug 15 13:20:09 2018 -0400
+
+    Set dash_html_components>=0.12.0rc3
+    
+    Try fix py37 pylint compat.
+    
+    Try fix py37 pylint compat.
+    
+    Ignore the renamed/new pylint rules.
+
+commit 18d25abce3f3d4fab0c9248861572244c18cffea
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Aug 14 20:41:37 2018 -0400
+
+    Change _validate_layout to accept functions that return layouts.
+
+commit 42bae3fc1802d3827468e920c3d09586664a57b2
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Aug 14 12:29:13 2018 -0400
+
+    Add python 3.7 testing.
+
+commit a07d1bb9901fe18c5cdeeb88a60f6a83973e1fdd
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Aug 10 17:09:05 2018 -0400
+
+    Replace circle configs.
+
+commit 7361db52690810891c5f68501eda1d71043cb777
+Merge: a5b7592 8568403
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Tue Aug 14 10:54:12 2018 -0400
+
+    Merge pull request #322 from plotly/pathname-prefix
+    
+    Pathname prefix from environ variables.
+
+commit 8568403180dd1705d717e8af48a3b7c5499f7905
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Aug 14 10:47:01 2018 -0400
+
+    Update version and CHANGELOG.
+
+commit 4e09830381f1e264f7dc0ae7cdd9a7ab40a39910
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 13 18:02:01 2018 -0400
+
+    Add test_configs to tox.
+
+commit 2032f06bc6693c133f89e25bb58202cb4de485dc
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 13 12:38:16 2018 -0400
+
+    Add configs from init or env, add pathname configs tests.
+
+commit 2b9c4ede2b6b6b3cc001acb01e5cc57f64c0fee0
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 9 12:55:35 2018 -0400
+
+    Add requests_pathname_prefix init arg.
+
+commit f8bf5c0364c703d44ebf415c4e79b07969a7cc29
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Aug 3 14:45:07 2018 -0400
+
+    Take requests_pathname_prefix config from os.environ
+
+commit ef9f04716672a9c940ff24bbea0d545754943fc8
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 2 14:33:42 2018 -0400
+
+    Change formatted resources prefix to use `requests_pathname_prefix`.
+
+commit a5b75920b160f925cb73f16e285797976000c4dc
+Merge: 211558c 2d8a033
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Mon Aug 13 12:48:58 2018 -0400
+
+    Merge pull request #320 from plotly/duplicate-component-ids
+    
+    Disallow duplicate component ids.
+
+commit 2d8a0334089904e172d6b735c4017c47d85ae40e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Aug 13 12:41:53 2018 -0400
+
+    Update version and CHANGELOG.md
+
+commit f591ae59b4e5a31552ba2b83a199cb6f1e544668
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 9 15:00:25 2018 -0400
+
+    Specify duplicate component id in initial layout.
+
+commit e190768d7ae3db400e744d6d1d594969aacd2bf9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 31 13:31:10 2018 -0400
+
+    Disallow duplicate component ids.
+
+commit 211558cf50cb6adb93a54f581b81593f84e6730a
+Merge: 7d847c6 eae46e5
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Aug 10 20:06:31 2018 -0400
+
+    Merge pull request #325 from rmarren1/ide-fix-async
+    
+    Fix bugs in 0.23.1
+
+commit eae46e59ee2a3c071c463c547b9474b30f9501d8
+Merge: 1d0f19a 7d847c6
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Aug 10 19:57:05 2018 -0400
+
+    Merge branch 'master' into ide-fix-async
+
+commit 1d0f19adbc54540997d99a5f0f4b60558d4bdeec
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Aug 10 19:54:23 2018 -0400
+
+    Update CHANGELOG.md
+
+commit 7d847c6e25885bb5b02b769ccfefe5aef9ad724f
+Merge: cc0599b 67f8601
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Fri Aug 10 16:32:07 2018 -0400
+
+    Merge pull request #309 from plotly/dev-mode-disable-cache
+    
+    Bust the assets cache on modification.
+
+commit 67f860120f6d8d0bfcd62ed248135d69e28b73e4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Aug 10 16:25:30 2018 -0400
+
+    Update version and CHANGELOG.
+
+commit 88a5b18a6e7b5fe245a7a6498fe37ed7ea916fa9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 31 17:53:27 2018 -0400
+
+    Append modified time query string to assets files.
+
+commit cc0599b80f82af81c9f70875ef162bedf3fc8d4c
+Author: Mung <jbampton@users.noreply.github.com>
+Date:   Sat Aug 11 06:00:08 2018 +1000
+
+    Remove duplicate key/value pair from Python dictionary. (#256)
+    
+    Minor indentation fixes.
+    Remove unneeded parens.
+    Remove unused variable i.
+
+commit 6f42579d81ce0fae6b6ed3d381d7bc1cabf7924d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 8 10:44:13 2018 -0400
+
+    Update changelog
+
+commit 3aea0fbe1af8002b2f3c58621a548459bae909e9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 8 10:39:54 2018 -0400
+
+    Fix dash-html-components/issues/54, add test for python keyword props
+
+commit 76d6fbbcba5fc55894865e5db7a8ec9335185a6e
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Aug 7 18:28:52 2018 -0400
+
+    Fix #321, add test case for prop-less components.
+
+commit 1f27bac61fc30f0480f585bebbc43c861cb5adb3
+Merge: e3a5486 4934c7f
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Aug 2 11:27:53 2018 -0400
+
+    Merge pull request #305 from plotly/add-js-css-init
+    
+    Add `external_js/css_urls` to dash init.
+
+commit 4934c7ff97bbd7eb7639fa4d8a03d30ecc891f77
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 2 11:19:43 2018 -0400
+
+    Update version and changelog.
+
+commit bdbdf34463ff819294db268cc568638675ad8b35
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Aug 2 10:59:02 2018 -0400
+
+    Remove whitespace from merge.
+
+commit 770d6e1cbeeed2cd0ba0508b033628ef85f3b9ad
+Merge: 86ea309 e3a5486
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Thu Aug 2 10:45:37 2018 -0400
+
+    Merge branch 'master' into add-js-css-init
+
+commit e3a5486126189628b4099fe08ca944b769de54d7
+Merge: 8a9820c 0b3b55c
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Aug 1 17:59:34 2018 -0400
+
+    Merge pull request #316 from plotly/ie-compat-meta-tag
+    
+    Add meta http-equiv for ie compatibility to the index by default.
+
+commit 0b3b55cde25c1d4404dfe0097674a9931c54b6d5
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Aug 1 16:55:05 2018 -0400
+
+    Add meta http-equiv for ie compatibility to the index by default.
+
+commit 8a9820c484d987fef5bfe0f5e9b8d51bcc0e5fc1
+Merge: a7005b2 5858699
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 16:33:32 2018 -0400
+
+    Merge pull request #276 from rmarren1/ide
+    
+    IDE support
+
+commit 5858699d134960a14075b33ef3e8b0c069bd7f89
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 16:26:10 2018 -0400
+
+    Remove extra line in version.py
+
+commit 6cb29c4d027bcb92d3b2afdbbcdbd39d0751c982
+Merge: ac52a59 a7005b2
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 16:23:27 2018 -0400
+
+    Merge branch 'master' into ide
+
+commit ac52a5943e9d5996541600186a11520a46ffd565
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 16:22:18 2018 -0400
+
+    Update changelog and version.
+
+commit 86ea309c3afac7e111d1d6aa4b7285e94074d5e6
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Aug 1 14:31:34 2018 -0400
+
+    Add support for arbitrary (link/scripts) tags with attributes.
+
+commit a7005b29b7fd622821df8ab4b84ccac8480a5bc2
+Merge: 30353a9 3c12088
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 12:24:47 2018 -0400
+
+    Merge pull request #314 from rmarren1/273-bump-version
+    
+    Update changelog and version for #273
+
+commit 3c12088256f90797d8994e5f54b2738439d884b0
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 12:00:49 2018 -0400
+
+    Update changelog and version.
+
+commit 30353a9911bfad40b3f41a119b9ed86f52c28ad6
+Merge: 54ca4a3 718e259
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Aug 1 10:46:38 2018 -0400
+
+    Merge pull request #273 from rmarren1/json
+    
+    Give a more informative error for JSON not serializable. (#269)
+
+commit 2c721ba446b2f61d06dfb53e14dfd740bde446c6
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Aug 1 10:42:28 2018 -0400
+
+    Ensure dash_renderer is loaded after externals.
+
+commit 805ee120da3d6754895b528c5e47b2c9e1b83664
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Jul 26 12:14:59 2018 -0400
+
+    Add `external_js/css_urls` to dash ctor, support for external only urls
+
+commit 54ca4a376ec349639da5140f1e2c42a739815626
+Merge: ca570d7 495762e
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Jul 25 12:45:42 2018 -0400
+
+    Merge pull request #286 from plotly/assets-index-customizations
+    
+    Assets files & index customizations
+
+commit 495762ee782fa64706212fe3e0a97bd1f61879ea
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 25 12:37:56 2018 -0400
+
+    pylint fixes.
+
+commit cd4cfa931bbc0bcfd4602cf1041eec12a8a7eca9
+Merge: 1171f0a ca570d7
+Author: Philippe Duval <t4rk@outlook.com>
+Date:   Wed Jul 25 12:28:26 2018 -0400
+
+    Merge branch 'master' into assets-index-customizations
+
+commit 1171f0adfeee9950ec18a34a9fc494cdf392793c
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 25 12:18:31 2018 -0400
+
+    Update changelog and version.
+
+commit 2c104a54a1418d7708ec803813e78aba07c90fa8
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 25 11:02:33 2018 -0400
+
+    Ensure assets files are ordered, add more test files.
+
+commit 718e2597e0e17918ac260e211878d020d463d4db
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Jul 24 19:29:18 2018 -0400
+
+    Change `ReturnValueNotJSONSerializable` to `InvalidCallbackReturnValue`
+
+commit ca570d7a3378b8e42f484ed93a1265006fbd0d77
+Merge: f309cc2 d7e68cb
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Jul 24 13:15:46 2018 -0400
+
+    Merge pull request #294 from rmarren1/no-layout-error
+    
+    Error when no layout is present.
+
+commit 6af0381a72388647ba3245a03a98d2e46e536e5b
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 24 10:55:00 2018 -0400
+
+    Add docstring to interpolate_index.
+
+commit 0046402b18ea07cce0954c0c3ce1e61ceecca0bc
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Jul 23 18:00:23 2018 -0400
+
+    Use `flask.helpers.get_root_path` for assets folder resolution.
+
+commit 8cc781bb0c21c6f9f7a94b80c1edb3f8b18b87f4
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Mon Jul 23 17:37:14 2018 -0400
+
+    Put assets Blueprint in ctor, remove related configs.
+
+commit ed4ecf0a979332ed36b58d843230b0e8e938f0b9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Jul 18 22:40:15 2018 -0400
+
+    Throw default exception if `_validate_callback_output` doesn't catch
+
+commit ee8a4898c2f8b2d1ce668bd97494957eeb1a57e9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Jul 18 21:50:48 2018 -0400
+
+    Only validate callback to throw exception after failure to serialize.
+
+commit d7e68cb3f59d8ca9b6880cb04e328891ca84635d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Jul 18 21:16:53 2018 -0400
+
+    Move test to _setup_server, freeze pylint version
+
+commit f6e9922e37e596d1043abfe62be110165d4135a1
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 18 10:45:07 2018 -0400
+
+    Block pylint version to 1.9.2
+
+commit 4cf9e5ca2683c4d282ccdb6b6f5f2e7c5454ad38
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 17 16:22:51 2018 -0400
+
+    Remove `add_meta_tag`.
+
+commit ea0d2ca5fd87f377927f7a35b16c00de511575be
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 17 16:11:46 2018 -0400
+
+    Change interpolate_index params to kwargs.
+
+commit 2197e387d3f4d0c55a7fb203dbe90076d53fbcc8
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 11 18:15:58 2018 -0400
+
+    Add checks for index, change the format syntax to {%key%}, more tests.
+
+commit c864966bae1c72adadd5db077a1f78cefa8e4ad8
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Jul 16 20:16:31 2018 -0400
+
+    Make a new `NoLayoutException`
+
+commit abd1830b04840a41f475927fb38f9f140643ad7d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Jul 16 20:00:57 2018 -0400
+
+    Give a good error if a user calls `run_server` before setting `layout`.
+
+commit 3c6e4cfb4f09f2c3af6c0e2c7fa7996d5767fc1d
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sat Jul 14 21:07:53 2018 -0400
+
+    More semantic default arugments objects
+
+commit eaf91a1fb6d33a0a553e09e6af32ce33b591381a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 11 16:44:47 2018 -0400
+
+    Add test for assets.
+
+commit ff1cff3e80337e6afcd0d50abba6c947ff98d4bf
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 16:31:27 2018 -0400
+
+    Add test for index customization.
+
+commit 0d9151c636a180bdefe119cd481689ffc52193bb
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 15:46:32 2018 -0400
+
+    Change add_meta_tag args to a dict to support every meta attributes.
+
+commit cd0c15c04eddefc49663ea6d82edd29a02f0bbb9
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 15:24:20 2018 -0400
+
+    Re-add support for favicon in interpolate_index.
+
+commit f9434716bf093d6267b233450bfa3756bcb6bd66
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 15:08:49 2018 -0400
+
+    Add index customization by string interpolations.
+
+commit 0c96dc71af985de7b0d05b0e345509115b16a357
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 14:40:55 2018 -0400
+
+    Add _generate_meta_html to build html meta tags.
+
+commit 23195f0e5e0bd157a8a3a88fa6eb5bfd16ec2c63
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 12:31:10 2018 -0400
+
+    Rename `static` to `assets` for user static file includes.
+
+commit 4777731bdae3a26de0a3ecea54194b0982ba1a91
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 12:21:33 2018 -0400
+
+    Add support for static external resources.
+
+commit 846c8fcf3250649809eadc065857071f97ef268e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Tue Jul 10 12:14:01 2018 -0400
+
+    Fix bad line that was included in rebase.
+
+commit 1212ee53b50b6e9e839b728ff953fcb563436b0a
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Jul 6 16:41:53 2018 -0400
+
+    Add test for meta tags.
+
+commit d2cce95a12badafb497785c0663495a329f66f13
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Fri Jul 6 15:16:57 2018 -0400
+
+    Changed the meta tags dict to a list, added meta_tags to dash.__init__.
+
+commit fc265442e067057cd84202032e5d0bd5f586703e
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Thu Jul 5 17:49:40 2018 -0400
+
+    Fix static walking nested directories.
+
+commit 7ebab390b2ada25209b35757d4fbd936ec927c84
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 4 17:48:43 2018 -0400
+
+    Add support favicon located in static dir.
+
+commit 7cafb47b0f5e38128530a96463d4719041cf4622
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 4 16:16:06 2018 -0400
+
+    Add support for meta tags.
+
+commit 69b8adc9718529372805e287767e93ba7545adca
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 4 15:52:53 2018 -0400
+
+    pylint fixes.
+
+commit a14709a4bb24432adcebe65d0b4175d5a36e9051
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 4 15:29:13 2018 -0400
+
+    Add static directory walk for files to include.
+
+commit 53ec2eff77b54c5dfe2f00a76cce5e1bffbc0e9f
+Author: Philippe Duval <philippe@plot.ly>
+Date:   Wed Jul 4 14:57:36 2018 -0400
+
+    Add support for static_path resources.
+
+commit 7f609e85a7427730147b75ecfb6c15b6499f33e9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Jul 4 10:07:58 2018 -0400
+
+    Change prefix for singleton components from '-  ' to '[*] '
+
+commit 9140f27e26c1ec2318261481600a134daa7e6c2c
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Thu Jun 28 08:39:23 2018 -0400
+
+    In Python 3, spoof the __init__ function signature.
+
+commit a3a6a46dc2aeed25fc1fe66849aba7b81807aab1
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Jun 26 22:20:25 2018 -0400
+
+    Real arguments instead of **kwargs
+
+commit 84c52140b8e9f2dd7ce088ff6e78d91e9c605fe9
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Jun 24 22:14:34 2018 -0400
+
+    Fix order of arguments in test case for generate_classes
+
+commit c05890968898cb7f7aec7800743023fc228be631
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Jun 24 22:09:37 2018 -0400
+
+    Generate an _imports_.py file so py classes import normally.
+
+commit 0fb3ed9dd0dad24988c291093a3d5736dec774e2
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Jun 24 20:31:01 2018 -0400
+
+    Small fix to correctly set class _namespace attribute.
+
+commit ab441f42fd1a55eefc565d95ad52cee8e4c5e17f
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Jun 22 08:37:26 2018 -0400
+
+    Tab out singular elements in json exceptions to match list elements.
+
+commit ba33c6e2ad4be2908386ff885830087ddd236c45
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Jun 22 08:31:35 2018 -0400
+
+    Minor formatting updates.
+
+commit 6bba6e9158c1390f16f6450f76d9e1e7bf9af630
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Jun 22 08:05:17 2018 -0400
+
+    Edge cases for JSON exception, and better formatting.
+
+commit 4cc4ad1f8f70515e06a76ef5d5e6dddc57302357
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Tue Jun 19 20:20:20 2018 -0400
+
+    Added 'AUTO GENERATED FILE - DO NOT EDIT' comment.
+
+commit 433a65e53c31233e9827a2865eafbeddd425d087
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Jun 18 20:53:59 2018 -0400
+
+    More informative JSON not serializable errors with paths.
+
+commit f761537fa996b77d4adf5c14d386574485e6f291
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Wed Jun 13 07:17:06 2018 -0400
+
+    Small change to generate_classes docstring.
+
+commit 03288a163368928e821d5376eb9c321e45397aa4
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Jun 11 23:05:21 2018 -0400
+
+    update generate_classes and tests to automatically look in lib/
+
+commit f309cc2b8a45644004db98ffcaf0d9a72870c27d
+Author: Chris Parmer <chris@plot.ly>
+Date:   Mon Jun 11 20:15:53 2018 -0400
+
+    Update README.md
+
+commit 3812d8db5bce10b0ca3526ea9e81b93280a151b4
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Jun 11 19:17:58 2018 -0400
+
+    generate_classes tests.
+
+commit e79214afd2e370aa55a19f24e0d8696fc6bf65fb
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Sun Jun 10 16:54:36 2018 -0400
+
+    Add generate_classes function.
+
+commit a27a5b7443561475ed1de6111c8b30e03d5880fd
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Fri Jun 8 22:30:56 2018 -0400
+
+    generate_class_string and generate_class_file functions with tests.
+
+commit 6a1809fc619671f8bf7e1294d12ef1180e90df6b
+Author: Jason K. Moore <moorepants@gmail.com>
+Date:   Fri May 4 13:54:11 2018 -0700
+
+    setuptools installation fixes (#252)
+    
+    - Added dash_renderer as a dependency in setup.py.
+    - Added the LICENSE to MANIFEST.in.
+
+commit 25c97d1b3efd99bb7e3f0aa807abb7ebc2712a6b
+Author: Chris Parmer <chris@plot.ly>
+Date:   Sun Apr 29 22:09:18 2018 -0400
+
+    Update tests for Flask 1.0 (#251)
+    
+    `threaded` is now `True` by default in flask 1.0 and `threaded=True` can’t
+    be set if `processes>1`
+
+commit 3dfa941fbba79efafc397360520f5a8e964236f6
+Author: Ryan Marren <rymarr@tuta.io>
+Date:   Mon Apr 23 18:39:12 2018 -0400
+
+    Support for wildcard attributes, implement data-* attribute (#237)
+    
+    * data-* and aria-* attribute support, with serialization
+    
+    * edit callback validator for * attrs and a integration test
+    
+    * Tests for data-* aria-* docgen, repr
+    
+    * fixed linting issues and date-time issue with testing
+    
+    * updated changelog.md and version.py
+
+commit cc66c5e0de00d366219b823ddf58369e0dc4329b
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Apr 20 15:29:49 2018 -0400
+
+    update workshop link
+
+commit a85426ec02c7b86967508036fbaf762f0f0db2b0
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Wed Apr 4 01:41:17 2018 +1000
+
+    change Dash defaults to make adding static assets easier (#238)
+
+commit ff93d2c4331a576b445be87bb3b77576f18b030a
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 21 21:18:11 2018 -0500
+
+    v0.21.0
+
+commit 44ac465425a50acbb3c4c7779237011159126e99
+Author: Chris Parmer <chris@plot.ly>
+Date:   Wed Feb 21 21:15:01 2018 -0500
+
+    Flow integration test (#212)
+    
+    * add flowtype integration test
+    
+    sanity check for https://github.com/plotly/dash/pull/207
+    
+    * white space
+    
+    * add screenshot test to aborted example
+
+commit 8478942fd4a20774bc9ff7612b871f883f2a785b
+Author: Michael Clawar <michael@stratodem.com>
+Date:   Wed Feb 21 20:54:38 2018 -0500
+
+    187 support flow types (#207)
+    
+    * Start support for Flow typing in base_component create_docstring
+    
+    * Fix `Array` Flow type
+    
+    * Fix `union` Flow type
+    
+    * Fix `signature` Flow type
+    
+    * Work on indenting nested props
+    
+    * Update docstrings for indentations
+    
+    * Add `indent_num` to func and call
+    
+    * Add `indent_num` to func and call
+    
+    * Remove unnecessary string formatting, correct names of `boolean` and `string`
+    
+    * Remove TODO
+    
+    * Reformat string
+    
+    * Rename test component
+    
+    * Add func to test flow docstring
+    
+    * Add additional metadata to test in `base_component`
+    
+    * Remove unintentionally committed file
+    
+    * Add test file for flow metadata
+    
+    * Add test for flow metadata to docstring
+    
+    * Reword descriptions of props for testing
+    
+    * Rename prop names for testing consistency
+    
+    * Correct format in expected value for test
+    
+    * Remove `__main__` section (no longer needed)
+    
+    * Start support for Flow typing in base_component create_docstring
+    
+    * Fix `Array` Flow type
+    
+    * Fix `union` Flow type
+    
+    * Fix `signature` Flow type
+    
+    * Work on indenting nested props
+    
+    * Update docstrings for indentations
+    
+    * Add `indent_num` to func and call
+    
+    * Add `indent_num` to func and call
+    
+    * Remove unnecessary string formatting, correct names of `boolean` and `string`
+    
+    * Remove TODO
+    
+    * Reformat string
+    
+    * Rename test component
+    
+    * Add func to test flow docstring
+    
+    * Add additional metadata to test in `base_component`
+    
+    * Remove unintentionally committed file
+    
+    * Add test file for flow metadata
+    
+    * Add test for flow metadata to docstring
+    
+    * Reword descriptions of props for testing
+    
+    * Rename prop names for testing consistency
+    
+    * Correct format in expected value for test
+    
+    * Remove `__main__` section (no longer needed)
+    
+    * Update version to 0.20.1
+    
+    * Update CHANGELOG and remove old base component backup code
+    
+    * Fix line length errors in tests
+    
+    * Fix PEP8 issue with indentation
+    
+    * Appease the pylint demon.
+    
+    * pylint in Component docstring formatting
+
+commit 5bfc81b50ab9927aed2e5a79382bb10d8ba9da24
+Author: Chris Parmer <chris@plot.ly>
+Date:   Wed Feb 21 18:13:42 2018 -0500
+
+    update location
+
+commit 149cd2e80e9366b931b1c5e8f8ad3c88e39b50dc
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Jan 30 10:17:43 2018 -0500
+
+    2018 not 2017 (#206)
+
+commit bdb5db7a179d9fec9723d889538ce0ee4ac4aead
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Tue Jan 23 13:05:18 2018 +1100
+
+    add compress param to Dash (#203)
+
+commit 39d614d2458637c968d9138cb4de5606a8da09bf
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Thu Jan 11 20:17:42 2018 +1000
+
+    Fix undefined reference to __version__ in setup.py and remove '# noqa: F821 pylint: disable=undefined-variable'. You can test this fix by changing the 'version' in version.py and then running from the command line: python3 setup.py --version
+
+commit 9a4c50c415d77f68f4b19ab7e25836b8e5c3683a
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sun Jan 21 16:17:42 2018 +1100
+
+    use functools.wraps to improve callback decorator
+
+commit 60f09b9f76d1657aa5807262762194ea57d6f953
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sun Jan 21 16:09:51 2018 +1100
+
+    make imports pep8 compliant
+
+commit fd2f353814cbccc8fc9df378d780ebc96d7c136f
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Jan 19 12:44:28 2018 -0500
+
+    v0.20.0
+
+commit a79e7b26703daec4ac0344fb4b24be2275258ef8
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sat Jan 13 23:53:37 2018 +1100
+
+    added integration test
+
+commit f28e19ccbb0be6542f843829d83c066b3cf8fac2
+Author: Ned Letcher <ned@forefrontanalytics.com.au>
+Date:   Sat Jan 13 13:17:42 2018 +1100
+
+    make pylint happy about supposedly unused variable
+
+commit c6dc1ca1b3fe13bf949cc01c08d261b7eec8e15c
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sat Jan 6 01:41:34 2018 +1100
+
+    making flake8 happy
+
+commit 48252901b36db4d08501486271c25ae4a725c208
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Sat Jan 6 01:32:28 2018 +1100
+
+    forgot about Python 2
+
+commit ad92fa31f0388813ba7695ef108504397c8c0ba2
+Author: Ned Letcher <ned@forefrontanalytics.com.au>
+Date:   Fri Jan 5 14:26:51 2018 +1100
+
+    added PreventUpdate exception and attached handler to Flask server
+
+commit 308579660b8791296f437bdcd060dc89a42f2b07
+Author: Chris Parmer <chris@plot.ly>
+Date:   Mon Jan 8 19:02:35 2018 -0500
+
+    fix https://github.com/plotly/dash/issues/189 (#191)
+
+commit 94ab1e7b1bf3d56d21a57220de7309b0d19c4ca9
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Sun Jan 7 12:18:43 2018 +1000
+
+    For HTML5 script tags you can omit the type attribute when its value is JavaScript. From MDN -> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script - Omitted or a JavaScript MIME type: For HTML5-compliant browsers this indicates the script is JavaScript. HTML5 specification urges authors to omit the attribute rather than provide a redundant MIME type.
+
+commit 6c6ced1da09428c211f4c7c3303b20a583dd30b1
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Thu Jan 4 13:10:49 2018 +1000
+
+    Fix indentation. Fix Imports from package collections are not grouped (ungrouped-imports).
+
+commit 61f47aec178462c9c82858ca3e3c1d9fc9c9ec4b
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Thu Jan 4 12:46:19 2018 +1000
+
+    Third party imports 'plotly, dash_core_components as dcc, dash_html_components import Div, dash_renderer' should be placed before 'import dash' (wrong-import-order). Fix imports from package dash are not grouped (ungrouped-imports).
+
+commit 59809803f3363a9b2a3f712fc1251cb99b551ac3
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jan 3 16:36:21 2018 -0500
+
+    another round of flake8 and pylint
+
+commit e4a07deb3c9ffaa4f1fb61e5fef0935c2466492c
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jan 3 16:33:49 2018 -0500
+
+    flake8 fixes
+
+commit 2c07f191bac881b37d8705aaa4374d04a796f9cb
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jan 3 16:30:46 2018 -0500
+
+    pylint fixes
+
+commit c4d60e35937d9c118a685fff99c6acde743b547d
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jan 3 16:29:44 2018 -0500
+
+    add .pylintrc file
+
+commit bc9c7e153e686eaf94c38eb9053f9b185f2bef9b
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Dec 22 14:31:17 2017 -0500
+
+    add pylint to installation
+
+commit 95d0b6af552137f56f34d83b6abfc0e3e20d0dc8
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Dec 22 14:30:25 2017 -0500
+
+    add pylint to tests
+
+commit 56a7e8f5b0232adaba80512bd544bfff3754e7ca
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Jan 3 22:13:14 2018 +1000
+
+    Standard import 'from multiprocessing import Value' should be placed before 'import dash_html_components as html' (wrong-import-order). Third party import 'import dash_html_components as html' should be placed before 'from dash import Dash' (wrong-import-order). Third party import 'import dash_core_components as dcc' should be placed before 'from dash import Dash' (wrong-import-order)
+     https://www.python.org/dev/peps/pep-0008/#imports
+
+commit dc55798df75344eabdeaa2d4202ea289ea568700
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Jan 3 21:56:19 2018 +1000
+
+    Indent code.  Remove unused imports - Keys imported from selenium.webdriver.common.keys, dash, dash_core_components, dash_html_components imported as html, importlib, os. Standard imports 'multiprocessing, sys, time, unittest' should be placed before 'from selenium import webdriver' (wrong-import-order) - https://www.python.org/dev/peps/pep-0008/#imports. Method definitions inside a class are surrounded by a single blank line - https://www.python.org/dev/peps/pep-0008/#blank-lines.
+
+commit 8d5e3cbd77d573c1ac3c0358d4dac82387f217ec
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Jan 3 21:45:26 2018 +1000
+
+    Method definitions inside a class are surrounded by a single blank line - https://www.python.org/dev/peps/pep-0008/#blank-lines.  Remove unused imports dash, time, re, itertools and json. Remove unused State imported from dash.dependencies (unused-import). Remove unused Event imported from dash.dependencies (unused-import).
+
+commit 930b857741b33879d69c6fea53e8a8bdfa7b4ba1
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Jan 3 21:35:44 2018 +1000
+
+    Surround top-level function and class definitions with two blank lines - https://www.python.org/dev/peps/pep-0008/#blank-lines.  Remove import json (unused-import).
+
+commit dcaad50f48856e17b1e044d9dd20977eae43c4c1
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jan 2 21:15:22 2018 -0500
+
+    remove test_queue_assertions
+
+commit f2edf185f2a1bb110c7ed0b9fdbff1321d1f3dda
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jan 2 21:11:02 2018 -0500
+
+    remove test discovery
+
+commit a155e4c3c62926d668f7638a79dd9d97c22f681f
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jan 2 21:04:10 2018 -0500
+
+    first pass at integration tests
+
+commit b61f0d371239ee5a6286ce539fab24d2d3de432a
+Author: Aly Sivji <alysivji@gmail.com>
+Date:   Mon Dec 11 22:56:31 2017 -0600
+
+    Remove auth module import
+
+commit 0c9633de1ec846493fa701ac996895e8c8b1d76d
+Author: Aly Sivji <alysivji@gmail.com>
+Date:   Sat Dec 2 11:55:30 2017 -0600
+
+    Import submodules into __init__.py for IDE code completion
+
+commit 3cd6a78ee21620c77ccdbdf2724c995872383666
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Dec 11 16:06:57 2017 -0500
+
+    fix #32
+
+commit 600f532e1230678164479b0f7853f8a9f043e83e
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Thu Dec 7 18:12:05 2017 -0500
+
+    Update README.md
+
+commit 1035a3c9542eb6298d828f086c376ea657388c1b
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Thu Dec 7 18:11:39 2017 -0500
+
+    montreal workshops
+
+commit 3e988622a2e6ec994e0ac3a012506edc6fb6fb53
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Fri Dec 1 13:42:20 2017 +1000
+
+    Fix spelling and grammar
+
+commit 5ac5962b5ae72f786a894b4e2967a4bd3352d203
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Fri Dec 1 13:16:27 2017 +1000
+
+    Fix multi line docstring: one blank line required between summary line and description. https://www.python.org/dev/peps/pep-0257/#multi-line-docstrings
+
+commit 95a133dff03e13c8bbab7c2ca0f99814eaa75bad
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Fri Dec 1 11:24:54 2017 +1000
+
+    Consistently use single quotes
+
+commit 12f9b50e442541c3b614de201b3fb9d1b8a7f722
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Fri Dec 1 08:16:33 2017 +1000
+
+    Fix one line docstrings https://www.python.org/dev/peps/pep-0257/#one-line-docstrings  One line docstrings should fit on one line and end with a period
+
+commit d2e27bf1f9faf658a80ada2d4fad89cdfc609f14
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Fri Dec 1 07:40:35 2017 +1000
+
+    Remove unnecessary parens - ()
+
+commit c60aa5502dedda1d27e8350e44476b18a90348db
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Thu Nov 30 07:36:48 2017 +1000
+
+    Standard imports "unittest, os, collections" should be placed before "import plotly" (wrong-import-order).  Remove used variable "i"
+
+commit 811acb6b07bcef63471513fe2c78c82ef04ec296
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 14:16:35 2017 +1000
+
+    Remove unnecessary parens - ()
+
+commit 4362a5505ed0b36419e7b66839d1ed4f499a6b63
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 14:00:41 2017 +1000
+
+    Standard import "import json" should be placed before "from dash.development.component_loader import load_components".  Standard import "import os" should be placed before "from dash.development.component_loader import load_components". Standard import "import unittest" should be placed before "from dash.development.component_loader import load_components" (wrong-import-order).
+
+commit 9f746b997893f599a367234c2c315a932eec7a58
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 13:33:44 2017 +1000
+
+    Standard import "import unittest" should be placed before "from dash.resources import Scripts, Css". Standard import "import warnings" should be placed before "from dash.resources import Scripts, Css" (wrong-import-order).
+
+commit d8df34e5072d19efdd2ae20a8017e60d633ae45f
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 13:29:59 2017 +1000
+
+    Standard import "import json" should be placed before "import dash". Standard import "import pkgutil" should be placed before "import dash". (wrong-import-order)  Also fix indentation.
+
+commit 8e9d266d053cede9a7980d6d4a1e1453ff300048
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 13:20:16 2017 +1000
+
+    Standard import "import collections" should be placed before "from .base_component import generate_class". Standard import "import json" should be placed before "from .base_component import generate_class". (wrong-import-order)
+
+commit 47fc55a4e48390cf1d1491fa63f7f22b5c291433
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 13:16:08 2017 +1000
+
+    Standard import "import collections" should be placed before "from flask import Flask, Response".  Standard import "import importlib" should be placed before "from flask import Flask, Response". Standard import "import json" should be placed before "from flask import Flask, Response". Standard import "import pkgutil" should be placed before "from flask import Flask, Response". Standard import "import warnings" should be placed before "from flask import Flask, Response" (wrong-import-order). All seen from Pylint
+
+commit ec9057882156e834a47f87de38dbeb58e7cddf0b
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 12:28:50 2017 +1000
+
+    Remove unnecessary parens - ()
+
+commit d012158e9a6ba18240bbd2a97fbec5153716b098
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 12:12:58 2017 +1000
+
+    Use """triple double quotes""" around docstrings.  https://www.python.org/dev/peps/pep-0257/
+
+commit 454c597d9e263d453504bebf88df34d2ee413c83
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 11:59:52 2017 +1000
+
+    Use """triple double quotes""" around docstrings.  https://www.python.org/dev/peps/pep-0257/
+
+commit 5005b2bf0a17fece49ccfb77860e07a2f8ad74a3
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 11:15:57 2017 +1000
+
+    Remove unnecessary parens - ()
+
+commit 6832530bf2fa68bf18e39091922fa14296217bc5
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 10:31:35 2017 +1000
+
+    Standard import "import io" should be placed before  "from setuptools import setup, find_packages" (wrong-import-order). Also fix continued line indentation.  These issues are found from using Pylint https://www.pylint.org/
+
+commit 45a165bbbb781ef4f9add4e0746c8811bbe70463
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 07:36:26 2017 +1000
+
+    Fix HTML meta tag to be HTML5 compliant by removing the closing slash as seen on https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+
+commit f7416257f7224de915e23275c8c042e9f819d884
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Wed Nov 29 05:58:13 2017 +1000
+
+    Fix position of HTML footer tag to be inside the HTML body tag.  You can see the error at https://validator.w3.org/ when validating a Dash app.
+
+commit 4e146bcfc41a522839a54d8dca359775d84ac807
+Author: Ravin Thambapillai <rthambapillai@palantir.com>
+Date:   Tue Nov 28 15:26:18 2017 +0000
+
+    remove unnecessary formatting line
+
+commit 0af7905c2f1c6eac5d269a1522bb0fd651eb50be
+Author: Ravin Thambapillai <rthambapillai@palantir.com>
+Date:   Tue Nov 28 15:25:09 2017 +0000
+
+    update Readme
+
+commit bb349fbe3d5a9afb214c4c905247870c0a0ec959
+Author: John Bampton <jbampton@users.noreply.github.com>
+Date:   Tue Nov 28 23:57:36 2017 +1000
+
+    Standardise HTML link tags to use the HTML5 format as shown here:
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link  as this
+    project uses a HTML5 DOCTYPE.
+
+commit 4ee769d3593d5297602c2bb6faca0eb63884d480
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Oct 16 21:13:05 2017 -0400
+
+    v0.19.0
+
+commit 5e03e94c64c5acd80b6775ed0c6310d37b5213f8
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Oct 16 21:12:40 2017 -0400
+
+    rm csrf protection - fixes #141
+
+commit 6b071870cf22814841c43e5d48cdc930b6ad817f
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Oct 3 19:05:15 2017 -0400
+
+    Create CODE_OF_CONDUCT.md
+
+commit e1c166d6cd41fdf63b5df768b9a18c89f494290e
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Oct 3 13:31:11 2017 -0400
+
+    Update README.md
+
+commit 4c19dd186e1aea72ae973df2e13328c7f18288f1
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Wed Sep 13 01:30:11 2017 -0400
+
+    Update README.md
+
+commit 1a57022f1eea3d17bf9f17c46174a203b6aa724b
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Wed Sep 13 01:29:22 2017 -0400
+
+    workshop
+
+commit 5cce7764cfe36dac1898f2895533b5c3a9894144
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 17:33:09 2017 -0400
+
+    v0.18.3
+
+commit d058dde022444fb999a71614e26509f2419a2e00
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 16:19:02 2017 -0400
+
+    flake8 line length
+
+commit 77d5fe755426897777853a36a09a65c59a3e574f
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Sep 8 16:17:52 2017 -0400
+
+    Update date on changelog
+
+commit ba54c6c9ca6891d249434ccecbf8b32f85bfeba0
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 16:12:21 2017 -0400
+
+    v0.18.3rc1
+
+commit a71fcdaf8c63e9387e8b0329de0f642e462fa4cc
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 16:07:03 2017 -0400
+
+    :bug: add back catch-all route
+    
+    this was hacked away in a bad commit before
+
+commit 885340256a92d2242c622a8e57fe7064890e80cb
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 16:06:38 2017 -0400
+
+    move class based config to a dict-based config
+    
+    The class-based config was causing a few issues:
+    - It was being shared across instances of dash! This was a surprise to
+    me. Check this out:
+    ```
+    In [1]: class Dash(object):
+       ...:     def __init__(self):
+       ...:         pass
+       ...:     class config:
+       ...:         b = 3
+       ...:
+    
+    In [2]: d1 = Dash()
+    
+    In [3]: d1.config.b = 10
+    
+    In [4]: d2 = Dash()
+    
+    In [4]: d2.config.b = 15
+    
+    In [5]: d1.config.b
+    Out[5]: 15
+    
+    In [6]: d2.config.b
+    Out[6]: 15
+    ```
+    - A dict-based config is just much better to deal with: you can
+    `print(app.config)` to see all of the values and defaults and you can
+    call dict methods like `update` on it.
+    - For backwards compatibility, `config` is a `AttributeDict` which
+    allows assignment through `__setattr__` (i.e. “dot” assignment), which
+    is how the previous config worked
+    - This also corrects the spelling correction to
+    `supress_callback_exceptions` but falls back to the original mispelled
+    version if the new version doesn’t exist yet (for backwards
+    compatibility)
+
+commit f1e31b5755409ac4d88eabcc42da3018f1dca2e0
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 15:52:30 2017 -0400
+
+    Filter out bad characters in env
+    
+    reapplying
+    https://github.com/plotly/dash/commit/5bf683c18b1dc4dd90fa0ee34c8db2378b
+    7827d0
+
+commit 3581b98d02bffbead3e04293ce377ea5f24b5399
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 11:07:42 2017 -0400
+
+    typo
+
+commit 81bd042561fc896c1aee0ceb44a0118b59426e9b
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 11:04:53 2017 -0400
+
+    v0.18.2
+
+commit a5a5a5ce0820c84cda1650f4cb594862e0163a6d
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Sep 8 11:04:43 2017 -0400
+
+    Add back https://github.com/plotly/dash/pull/70
+    
+    This was accidentely removed in a git merge
+
+commit b890bd8184fcf82ced88f313cf834e0f07592298
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Sep 7 11:34:01 2017 -0400
+
+    v0.18.1
+
+commit a60f6909c07cff9ec29ffbe2a77893f663702085
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Sep 7 11:27:42 2017 -0400
+
+    Remove unused import
+
+commit 99bdba2ed01276090514000f5c493254e839af2c
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Sep 7 11:22:36 2017 -0400
+
+    If layout is a function, compute the value and cache it for validation checks and resource checks
+
+commit dea7b753de9e01ad9add9e353619ee5f80dcb9f4
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Sep 7 10:08:48 2017 -0400
+
+    v0.18.0
+
+commit 31315d66b0410e639dd420047584eda017cddc92
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:38:21 2017 -0400
+
+    Update README.md
+
+commit 435b82075146d60b4b8fc3def1ec5ca2e07e47dd
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:34:27 2017 -0400
+
+    Update README.md
+
+commit 18f76adda35fdf1c7825bd50335df86642ff0d6c
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:26:42 2017 -0400
+
+    Update README.md
+
+commit 48f8ba134954eba195793f3441d084291211cf56
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:26:04 2017 -0400
+
+    Update README.md
+
+commit ecc999703f2dcbdc53fab7e3215f8563f5200272
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:23:44 2017 -0400
+
+    Update README.md
+
+commit 5a62433d1b469fbd8fdfd383f576dfd4151d8c4f
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:23:16 2017 -0400
+
+    Update README.md
+
+commit dc7e068bfda8a3dc8a81e15c37780686dfe7b6d1
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:22:58 2017 -0400
+
+    Update README.md
+
+commit f696de2a8826f5a995472deabfe315410241e897
+Author: Chris Parmer <chris@plot.ly>
+Date:   Tue Sep 5 18:21:35 2017 -0400
+
+    Update README.md
+
+commit 60e828e4cdb7c88c81c843c3115fb6f194fd666a
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:18:20 2017 -0400
+
+    CHANGELOG.md
+
+commit c99b4c2cbdea51a2bed10008c2ed462864253b5c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:14:55 2017 -0400
+
+    fix intentional flake8 issues
+
+commit c35d858db6d0870309de7f52239b7788e42165e3
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:12:26 2017 -0400
+
+    flake8 python3 fix
+
+commit 22dcc67a2b7f06fafc7c4f827eeab0f33d550838
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:11:04 2017 -0400
+
+    another check that flake8 is running on circleci
+
+commit 6a6b791b509082ccc2f2daf65294c7844d95a9cd
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:08:33 2017 -0400
+
+    introduce a syntax error to test if circleci is running flake8 ok
+
+commit 82f1bdbf538cec505b229519424e26594bbdae93
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 18:07:09 2017 -0400
+
+    flake8 tests and fixes
+
+commit f7e27339066be9444b09b0ece37fa81d433ea3a2
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:34:42 2017 -0400
+
+    tidy
+
+commit ddaa7cc9d9ba1d8d7975c5bc5f4b3973ca77d700
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:34:10 2017 -0400
+
+    sort the propnames in the exception
+
+commit f2ed4187ab454ee4de6368d449a9c0763899afc5
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:32:02 2017 -0400
+
+    :lock: keep `debug=False` as the default
+
+commit 5e478b6d2bc7c1ffc9bde86a04abe53b4157f9d3
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:22:30 2017 -0400
+
+    update copy
+
+commit 51466ed426948bc14ec7557d2e574a4b77080d71
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:13:49 2017 -0400
+
+    fix path in test
+
+commit 9e5de99b318c5ce3da3b18072d3db85017f6f6b3
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:09:46 2017 -0400
+
+    some test fixes
+
+commit ae0c1a5a9c88e9e6aa2511465fa4973825fd4701
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 17:01:29 2017 -0400
+
+    remove test_authentication
+    
+    this has since moved to the `dash-auth` package
+
+commit fac1736b01512d509dbd0b78d924ac95e33863a5
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 16:57:37 2017 -0400
+
+    changelog template
+
+commit e234d75fc70a72155dc909cc5d654b2c5cffd4b6
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 16:55:23 2017 -0400
+
+    pair down circle versions
+
+commit cc6e8a7c24f4d4e8b9cd8b9c732889265d6380f0
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Sep 5 16:55:00 2017 -0400
+
+    0.17.8rc3
+
+commit 1abc9aa2152cc7a75f276e61fc362ef449c331a2
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Aug 14 00:25:52 2017 -0400
+
+    new routes config: separate url_base_pathname into 2 settings: one for backend routes (routes_pathname_prefix) and another for the front-end requests (requests_pathname_prefix). this allows greater flexibility in proxying dash apps
+
+commit f0dde954edae6d01f35336f842a272b82d240802
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Aug 14 00:00:59 2017 -0400
+
+    rc2
+
+commit 064c811dc46e9cb28f51a55886e58d610286b37b
+Author: Ned Letcher <nletcher@gmail.com>
+Date:   Mon Aug 14 22:11:43 2017 +1000
+
+    added id to KeyError for get and set on Components (#112)
+
+commit b390e73b72fb174aa70d309f50a7dcd04598e94d
+Author: Chris Parmer <chris@plot.ly>
+Date:   Thu Aug 10 12:18:01 2017 -0400
+
+    Update README.md
+
+commit 4f1d6531e94403a2c2729999f90cf76d7e4235a4
+Author: Olga Botvinnik <olga.botvinnik@gmail.com>
+Date:   Mon Aug 7 10:45:24 2017 -0700
+
+    Sort `prop_ names` on exceptions (#107)
+
+commit 71f81cb123b1c484f3ee7e88d26fc9c5f5b31acb
+Author: Chris Parmer <chris@plot.ly>
+Date:   Fri Jul 21 13:28:30 2017 -0400
+
+    Create ISSUE_TEMPLATE.md
+
+commit 81dcb12fd2940a77c361ed277417657da18935fe
+Merge: 8cc1ed9 b58ca7f
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Mon Jul 10 14:37:12 2017 -0400
+
+    Merge pull request #70 from rc1405/master
+    
+    Dash App with Multiple Flask Routes
+
+commit b58ca7f6fb5ae52cd7289dc28ae2437afc71d39b
+Author: Ryan Cote <minervaconsole@gmail.com>
+Date:   Wed Jul 5 18:44:03 2017 +0000
+
+    Modified to allow for multiple routes
+
+commit 8cc1ed9d10e6f2c224c0944f511919c802edce75
+Merge: a2c0e8c 5bf683c
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Tue Jun 27 10:02:58 2017 -0400
+
+    Merge pull request #39 from tomkoker/master
+    
+    Replace all illegal characters in environment variable
+
+commit a2c0e8c33747b4bb8d27d9772d29b44bcd163363
+Merge: a8fc53b 554fc2b
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Tue Jun 27 09:55:42 2017 -0400
+
+    Merge pull request #48 from latorrefabian/missing_import
+    
+    add missing import json (?)
+
+commit 554fc2be3e9502be95a773b2d641a68810bd7818
+Author: Fabian Latorre <latorrefabian@gmail.com>
+Date:   Tue Jun 27 08:44:18 2017 -0500
+
+    add missing import json (?)
+
+commit 5bf683c18b1dc4dd90fa0ee34c8db2378b7827d0
+Author: tomkoker <teddy.koker@gmail.com>
+Date:   Fri Jun 23 21:11:12 2017 -0400
+
+    prevented from setting invalid environmental variables
+
+commit a8fc53ba880d26e3c131f7849795d173596405ec
+Merge: 5c2f0a6 cb262a0
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Thu Jun 22 17:00:22 2017 -0400
+
+    Merge pull request #17 from plotly/chriddyp-patch-1
+    
+    Default to `debug=False`
+
+commit 5c2f0a665a401a5ebe449da321d004898f1b0d09
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jun 22 12:02:46 2017 -0400
+
+    v0.17.7
+
+commit d8c41cfa4de4a3d6703791edbd01387c1eec770d
+Merge: 7a31ee1 e00b8b7
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Thu Jun 22 12:01:45 2017 -0400
+
+    Merge pull request #23 from xnoder/master
+    
+    Fix unicode error on Py3.6.1 during install
+
+commit e00b8b72acdd3d4d46d1bf2411f893f4ea0ee44d
+Author: Paul Stevens <paul.stevens@firefly.af.didata.local>
+Date:   Thu Jun 22 08:05:53 2017 +0200
+
+    Fix unicode error on Py3.6.1 during install
+    
+    Fix a unicode handling error during installation
+    on Python 3.6.1 by forcing Py27 and Py3 to use
+    the compatible io.open method on both versions.
+
+commit cb262a0121e23dd43005e6ee6495b8487c05abe1
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Wed Jun 21 13:38:12 2017 -0400
+
+    Default to `debug=False`
+    
+    Require users to explicitly set `debug=True` so that they are better aware of the security implications
+
+commit 7a31ee12c2a6e567513e17d2d4aac332553902f4
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Wed Jun 21 13:35:25 2017 -0400
+
+    Create LICENSE
+    
+    fixes #15 - thank you @keithing !
+
+commit c483cc4af67db7b86cdf3d730aafaac8081a162a
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Wed Jun 21 11:20:58 2017 -0400
+
+    update announcement letter
+
+commit d2ebc837aaf20b8b63b2cb4e844b56fe1cd7b118
+Merge: baa6f29 e061c65
+Author: Chris Parmer <chriddyp@users.noreply.github.com>
+Date:   Wed Jun 21 10:25:19 2017 -0400
+
+    Merge pull request #13 from plotly/d2
+    
+    Dash 2.0
+
+commit e061c65be4ea5baa68e28a6f75efca707dcaac15
+Merge: b4241bd bc9ff76
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 19:25:43 2017 -0400
+
+    Merge branch 'master' of https://github.com/plotly/dash2
+
+commit b4241bd36a32e5d0012cbf7c03a697419c7ee8a1
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 19:24:51 2017 -0400
+
+    :wave: rm Dash 1.0
+
+commit bc9ff7616e846db763d2ec4a6e07ccd1d098a6c0
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 17:33:55 2017 -0400
+
+    v0.17.5
+
+commit f8ba5241e05907b473e418a80e2de24f29546c21
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 17:29:22 2017 -0400
+
+    rewrite setup.py
+
+commit 4a17b08f3225984377b55699748e886121dfa02c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 17:29:11 2017 -0400
+
+    rewrite readme
+
+commit bbe8d7eff513f5bcaacd5ccf4ea020028d76118f
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 17:29:03 2017 -0400
+
+    secret access to page `title`
+
+commit b1de3ef4a51c21733223a8032b8a1de36e61e6ae
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 20 16:32:57 2017 -0400
+
+    publish to `dash` not `dash.ly` on `pip`
+
+commit 41c54fbb61a2c44849dcb28c4289ffa128a0e12f
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 16:35:31 2017 -0400
+
+    v0.17.3
+
+commit 8ea4142ccb253af7f6fc1a7fc8d158e829cf81c4
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 16:35:01 2017 -0400
+
+    optional csrf
+
+commit b16032c167b0767ebcc1c441f29b3bf80c953c61
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 14:18:33 2017 -0400
+
+    clean up exception
+
+commit 0910e618f25fa9d4d1d2715440cddda86f43bd34
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 14:18:21 2017 -0400
+
+    rm comment
+
+commit bc47f2d4cfabe5bae0322804fc95a34e51bd13b2
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 11:26:24 2017 -0400
+
+    `JavaScript` not `javascript` everywhere
+
+commit fcfb3d1bec715107df2cbf11ea95d88af6fc977c
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 11:26:03 2017 -0400
+
+    raise an exception if the user supplied multiple outputs
+
+commit cc2d13895e9c0952ed9b9d23bca0c8c128d32dfd
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 11:24:25 2017 -0400
+
+    Add a `_dash-loading` class to the loading element so that users style it
+    
+    the same `_dash-loading` class is used in the front-end
+
+commit 92ff56f333bad263e84f2c8a7fba34deae41e80c
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 11:23:57 2017 -0400
+
+    template the `config` in the HTML instead of serving it
+    
+    some config variables, like `url_base_pathname`, affect the API
+    endpoints. this prevents us from serving the config through the API
+    itself.
+
+commit 0f8619511cb08345922ce99769210baaae7df3ee
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 19 11:20:35 2017 -0400
+
+    prefix urls with `url_base_name` and `_dash`
+
+commit e5876f91f79637d9233d1c572f0a55fb4c8091f1
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Jun 9 15:00:19 2017 -0400
+
+    v0.17.1
+
+commit 2315029736d2515138e904c4e49a9c27db302560
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Jun 9 15:00:11 2017 -0400
+
+    fallback to None if `value` isn't supplied
+    
+    this matches the way `input` is handled
+
+commit 107a0664fcf4bc518d184df6b5a46f2f729b281a
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Jun 6 17:41:59 2017 -0400
+
+    v0.17.0
+
+commit 81f4726feb20b45fbae0d3288938449689002d01
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Tue Jun 6 17:39:04 2017 -0400
+
+    Replace `content` with `children` (#58)
+
+commit 1a6f4de257eebc85e788b080696c81121bc198fa
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 5 22:11:17 2017 -0400
+
+    v0.16.0 - python 3 support
+
+commit 7fb88435c72a40756ad036dcad045994749be718
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 5 22:10:44 2017 -0400
+
+    use canonical `get_json` method
+
+commit d11684779a6bf649b7ffd45fca1421f82a479951
+Merge: 6b77f9e 7eda066
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 5 21:31:04 2017 -0400
+
+    Merge branch 'master' of https://github.com/plotly/dash2
+
+commit 6b77f9ec3c48d2016347e36794a9e29a8d127c44
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 5 21:30:55 2017 -0400
+
+    test updates
+
+commit 7eda0663321b6c06ca08628cd6404539efd775e0
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon Jun 5 21:30:10 2017 -0400
+
+    python 3 tests (#57)
+
+commit f04c0f179ce2923510b9ece125e59d8b84c1b8ad
+Merge: 751d7d1 4dc9898
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 26 12:33:56 2017 -0400
+
+    Merge pull request #56 from plotly/python-2to3
+    
+    Python 2to3
+
+commit 4dc98989d32f7ba56064374cb7c4d007114ba552
+Merge: 25c6f12 751d7d1
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon Apr 24 11:32:50 2017 -0400
+
+    Merge branch 'master' into python-2to3
+
+commit 25c6f120c43cf4004495eddeb0603d80b8c6e165
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 20:46:48 2017 +0530
+
+    Change test file as suggested by 2to3
+
+commit 4458712cc29cc8952e8fef26d83e7bbea183af4f
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 14:29:04 2017 +0530
+
+    Another attempt to get multiple Python versions on CI
+
+commit 3a961769214d20cce63759b47f9d4b2af87b8fda
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 14:22:45 2017 +0530
+
+    Using pyenv to support multiple Python versions
+
+commit c422b5531efa69c6eb948bdb8b66e0e6b0d5cca2
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 14:06:00 2017 +0530
+
+    Add dash packages as tox dependencies
+    
+    * Also, comment out 'test_to_plotly_json_with_nested_content' test method
+      in 'tests/development/test_base_components.py'.
+    
+    * Remove specific version of Python (2.7) from circle.yml
+      Assuming that it will infer versions (2.7 / 3.4) from tox configuration
+
+commit 61adf172e307658160502fdb71ac0e75734f4f70
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 13:11:56 2017 +0530
+
+    Override nosetests from Circle CI with tox
+    
+    * Also, Circle CI will automate the 'requirements' installation.
+
+commit b87c6e875a253dece6cb63280c0c56ed3bea0e80
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 12:44:15 2017 +0530
+
+    Initial version of tox configuration
+    
+    * Failing test cases on local machine have been commented out for now.
+
+commit f70686f8a6827edb1bca8b3a8e8cb6ecd90bd421
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Thu Apr 20 08:41:16 2017 +0530
+
+    Change requirements file path (to read)
+
+commit 751d7d1c882177a1feb85304cb4f81007f0ba05b
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 17:52:07 2017 -0400
+
+    v0.15.2
+
+commit 765a58e651914b5f51939b5d869d1dcdc0f094f5
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 17:52:01 2017 -0400
+
+    typo
+
+commit 3a0fdfeedce3036235f850c2414240162ecaf319
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 17:51:55 2017 -0400
+
+    remove `.` from env variable
+
+commit 2c1ef1e9e7478e4ce6c9e7a03e4f3d91009e2be6
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 17:43:26 2017 -0400
+
+    v0.15.1
+
+commit 379781555c0b1d084d278089372fff6ad84bc0c3
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 17:43:15 2017 -0400
+
+    :lock: set secret key to a random string
+
+commit 407d769eb14bb8b75ccb5465a51448d495a495d5
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 15:33:04 2017 -0400
+
+    v0.15.0
+
+commit 47ffb9167397728ac8c687993b7078d20a689f59
+Merge: 7af58fa 7d2b5a6
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 19 15:30:45 2017 -0400
+
+    Merge pull request #55 from plotly/auth
+    
+    Auth
+
+commit a5ec60947e1dc64166d6a3945c1c1160499577a8
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Wed Apr 19 22:32:05 2017 +0530
+
+    Use find_packages from setuptools
+    
+    * Instead of hard-coding the packages, use the ease of
+      'find_packages' method.
+
+commit 3238ef327908253ce545adad4e660b0762275c38
+Author: Pravendra Singh <hackpravj@gmail.com>
+Date:   Wed Apr 19 21:53:39 2017 +0530
+
+    Initial set of changes using 2to3 conversion
+
+commit 7d2b5a66e3b9c862a8a552b0bf300bb0945abeae
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 19 12:08:17 2017 -0400
+
+    serve plotly_domain, oauth_client_id, and redirect_uri in config
+
+commit df3c3c0d5a4f5966ce4f66a34ee15948d9bef1d8
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 18:08:38 2017 -0400
+
+    :paperclip:  unify cookie name
+
+commit ec5f04232b782823960512b45ebc5b66b8fe57a2
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 18:08:23 2017 -0400
+
+    :bug: return login response as json
+
+commit 981f519b98ef73330ef5a396c8a281adce81e6ec
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:31:33 2017 -0400
+
+    beta - serve a generic object of non-sensitive data through `/_config`
+
+commit 736469dc11f455831115c66bc225a6ca428a154c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:30:52 2017 -0400
+
+    move the `_setup_server` routes to the `before_first_request` hook
+
+commit 4f0dd39023ae7c1cbc79f001b328d7c3d1d4bb0e
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:30:10 2017 -0400
+
+    new imports
+
+commit 36e010dcb3dec3bc28276d1d6c88a7a67ac0d61e
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:29:48 2017 -0400
+
+    reorganize
+
+commit a5070a04a975b23e712931aeba4c4370b1df280e
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:29:29 2017 -0400
+
+    save or update dash app if `filename` is supplied
+
+commit 3706089d141a92d083162f66ab62dcc2c8d771bd
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:28:29 2017 -0400
+
+    authorization endpoints
+    
+    - Check if the viewer has access with the `oauth_token` contained in
+    the cookie
+    - If the viewer has access, then save an access code as a cookie
+    - When the viewer revists, the access code is compared with the access
+    code that’s saved in memory as part of the app
+    - If the access codes don’t match, then access is checked through the
+    oauth token and reset
+    - The access tokens expire after 5 minutes (configurable)
+
+commit 9bd9810ab322d4f67e2a65bd1bd7c40e66013223
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 18 12:19:43 2017 -0400
+
+    login view for at the end of an oauth flow
+    
+    save the oauth token as a cookie
+
+commit fb8bb935f181fa2f6cd444f849873723ac43fbeb
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 17 20:49:32 2017 -0400
+
+    create or overwrite dash app API calls
+
+commit 1060b7c3d6a34c4f1c895c56827fa0254ae05f0d
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 17 20:49:09 2017 -0400
+
+    csrf protection
+
+commit 7af58faa83095edae6a5f26517c16df84b4ce1fe
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 4 00:12:43 2017 -0400
+
+    typo
+
+commit c4e7cc1e0360fda7f40f0860eedf5e8873edc987
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 4 00:11:48 2017 -0400
+
+    rc1 candidate
+
+commit 07191cd95c1cb642699aae1ffc2c8ebb76e47014
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 4 00:11:37 2017 -0400
+
+    incl version number as part of the package
+
+commit 87e79442924337aa7ce6f845a9b747a723e9b211
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 4 00:09:48 2017 -0400
+
+    experimental support for urls
+
+commit fabeaabb34009dda84db879096da43699bee3ddc
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 4 00:09:37 2017 -0400
+
+    typo
+
+commit 8988d7c4d119305d5a7f978f5b738c9617915e97
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 28 00:22:54 2017 -0400
+
+    v0.14.1
+
+commit 84b4251c0daf67a8887904868a19725b8fc2934c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 28 00:19:20 2017 -0400
+
+    note about suprerssing exceptions
+
+commit 8f8d63a73dac0f72edb79b3185943091a429a860
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 28 00:19:10 2017 -0400
+
+    use layout value whether it's computed or not
+
+commit 033084416c334d2dbd4e7888b3e45196abecd112
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 28 00:18:49 2017 -0400
+
+    rename
+
+commit 552f114621247875f3b448fffa6687e2aa9bf3d9
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Mar 24 20:24:21 2017 -0400
+
+    :zap:
+
+commit f3be78c3ae9f12adbb6bd4edb78ec76fb8a9608d
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Mar 24 20:24:16 2017 -0400
+
+    rm examples
+
+commit 99e864f41847afae17b650122fbb138174b412c8
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Mar 23 21:27:38 2017 -0400
+
+    refactor callback api to handle returning a singular property from outputs
+
+commit 9373ca86785767daf38203e789ec8a1627029fa8
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Mar 23 21:27:10 2017 -0400
+
+    update api url names
+
+commit 13e38a2441d38dbfd9ce6ba4692fa84fab7a89e1
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Mar 23 21:26:57 2017 -0400
+
+    support event exceptions
+
+commit a00ef6310447543229733fadffaa2da8e1f4378f
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 22:59:13 2017 -0400
+
+    v0.14.0
+
+commit 7a895b6356287adb6695015efbe31be0f9b908ed
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 22:59:05 2017 -0400
+
+    list `available_properties` and `available_events` in the public namespace
+
+commit 37841669bd524b1e5de985c4ac506fd91c7dc94b
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 22:58:46 2017 -0400
+
+    raise exception if a required property isn't specified
+
+commit 07393a721fd0c639eb7d5c7582d0ed5ec33ba60c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 17:33:34 2017 -0400
+
+    v0.13
+
+commit d4b2d636dcb2cb74e90724da8a10a3e0836f6205
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 17:29:06 2017 -0400
+
+    fix tests
+
+commit b95664313befcf2f1fe902adef33738aec65c95d
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Mar 21 17:19:16 2017 -0400
+
+    include events in components
+
+commit 923dd85cd53ece1b5e48c5dc0da53e84027b0f6e
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Mar 20 23:40:10 2017 -0400
+
+    State, Input, Event, and Output classes
+
+commit a64ade2ab7ed1ae34a5725667bcd8e70b4ee1be5
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Mar 20 23:39:48 2017 -0400
+
+    rename react to dash
+
+commit 3c0857fa4305856d6527bce9df346cccb54992e1
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Mar 20 23:39:16 2017 -0400
+
+    handle richer react docgen metadata
+    
+    including types, descriptions, required values, and more
+
+commit 674971066b7dc34e47b7e350bad275d2faeeca16
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 21:23:45 2017 -0500
+
+    threaded as the default
+
+commit d8a0795a798e0f84a0e63835c53c35138b81e140
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 20:33:19 2017 -0500
+
+    comment about setup script
+
+commit f5d6d84a324fb43609502c991457a89613ff090b
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 20:06:45 2017 -0500
+
+    v0.12.6
+
+commit 4692a4067d65a3519d586899ae393206c3387d42
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 20:06:40 2017 -0500
+
+    require flask-compress, remove flask-cors
+
+commit a674edd0af987cfd02e5f272f5cea73a906d464b
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:58:50 2017 -0500
+
+    require newer versions of packages that include css and js deps
+
+commit b0957f465cf8628a387ea351f95d2fe96de6f62c
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:57:32 2017 -0500
+
+    remove old example
+
+commit fc70d319d9aaa0f652d01d77d82505f02812bf89
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:57:27 2017 -0500
+
+    update example
+
+commit 936b4c03541b28c60173928e5cafce43b9923f7c
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:57:18 2017 -0500
+
+    using pkgutils instead of custom rolled dep resolver
+
+commit 7037678c1efcd3270828a444012cddb6329d3b4b
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:56:53 2017 -0500
+
+    use css and js classes to serve dependencies
+
+commit f2f4ae774a4c2c46a9cd21bb6b32a7313d1b6223
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:55:40 2017 -0500
+
+    class to manage local and remote css and js deps
+
+commit 2b1558d42446d7aed1179fd85bc2eadfe8781203
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 19:54:29 2017 -0500
+
+    method to traverse every item (not just items with ids)
+
+commit 7b9b4d72ce4cb2a281c72c8e95fb896b9a8151c5
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 18:56:34 2017 -0500
+
+    upgrade and clean up deps
+
+commit 5002a12c5d7c7f73ddf4ab2c12675f84e23d1d9f
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 18:37:57 2017 -0500
+
+    faster json response
+
+commit e06c8c92ee77d1275dc5d167af560fb3d0bfd738
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 18:36:06 2017 -0500
+
+    rm cors
+
+commit c0625a6a31b81ba8bbb7c4fc863db00ccdb579da
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 8 18:35:36 2017 -0500
+
+    gzip
+
+commit e55d9d6446b2b512f2400282f5be16b24764b099
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 1 20:54:05 2017 -0500
+
+    v0.12.5
+
+commit c62ce93cd446e4128e1179dd57b6c3546b2dbcfe
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Mar 1 20:53:52 2017 -0500
+
+    :bug: fix up `content`
+    
+    - handle strings, numbers, None values
+    - allow `content` to just be a single component
+    - better nested test cases
+
+commit 337e33fe2f3ac4472513ea17f12df41f1f191ff3
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Feb 21 19:07:02 2017 -0500
+
+    v0.12.4
+
+commit 23af5c538e39c503c3ef3cca3581fc490bf6ad82
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Feb 21 19:06:47 2017 -0500
+
+    load scripts asynchronously, run then in order
+
+commit 8bffaa84f606369455bdf4d23a5764e8685f0e3a
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Feb 21 18:33:52 2017 -0500
+
+    v0.12.3
+
+commit 47d78a0f73de5966669542ae016e317cca2f94dc
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Feb 21 18:33:33 2017 -0500
+
+    include minimum required dash libraries
+
+commit 1c8dcd12a7841f76b091757e8ff8905ff9380ec0
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Feb 21 18:26:17 2017 -0500
+
+    include versions of packages in requests to bust cache
+
+commit 11fcdf1fe371ec74a01044792b6ef9a3ddad0b1d
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 19:40:48 2017 -0500
+
+    v0.12.2 - New logic for serving bundles
+
+commit e144371a5920080a88b09c731a6a8eaf71e28a4f
+Merge: 4ccea6b f867a73
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Feb 15 18:34:26 2017 -0500
+
+    Merge pull request #54 from plotly/alpha
+    
+    Alpha
+
+commit f867a73f68b85d033e45c99b0d0f088f34b534a0
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 18:34:15 2017 -0500
+
+    v0.12.1
+
+commit cd683643e18032e5c42073eb69ba3590d6355847
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 18:33:20 2017 -0500
+
+    rm hardcoded address
+
+commit c8464e50ad7564f4a9a8542c7beb17221f4bf143
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 18:08:59 2017 -0500
+
+    bump version
+
+commit 22be5b0c15015cd70a07bbfe707a722443a54702
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:22:12 2017 -0500
+
+    test react
+
+commit 17b3fb9cce07e56e6db04c57a5547bb6c6ec5e20
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:22:01 2017 -0500
+
+    testing instructions
+
+commit 48a11a599cb17e1a86f02e2305833ad4ffe3a171
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:21:48 2017 -0500
+
+    updated api
+
+commit 0ac39dbd093c955b08a949c5cea568b3d5cabd0a
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:14:20 2017 -0500
+
+    add url to load dependencies separately from layout
+
+commit 671390c1aba9d56352b17f8ab2564ceedb090bae
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:12:20 2017 -0500
+
+    serve html string instead of html file
+
+commit efba89d65d31488df39e0326284ace35dd389b29
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 15 14:11:25 2017 -0500
+
+    :bath: comments
+
+commit 97f2b78b3b0f5037fd175760a22b694568b1a2aa
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 8 17:11:55 2017 -0500
+
+    fix tests
+
+commit 136b2920aba83b2a373e3c8577d68c8fa102e4e4
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 8 16:48:22 2017 -0500
+
+    pep :8ball:
+
+commit 68861ac0cde13c2bd2469d48ffd2b6f1768d3fb3
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 8 16:48:12 2017 -0500
+
+    add first round of unit tests
+
+commit bfcadd79d38e358ec0b522c723915a202b974d45
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 8 16:47:23 2017 -0500
+
+    Tighten up componen_loader
+    
+    - remove the list of `default_props` - those props really only apply
+    for base HTML components, not higher level components
+    - respect order of keys in prop JSON
+
+commit a7165ba0e6937f4e85c6e1cd60c70bafcb1d7b3e
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Feb 8 16:45:34 2017 -0500
+
+    tighten up abstract component class
+    
+    - ABC: inherit MutableMapping to get a bunch of methods for free
+    - Make `content` a prop
+    - Support `content` as a string, Component, or list
+    - Support setting `None` as an argument (transformed into a `null` prop)
+
+commit abd88b3795ef3c3681102eefbfcddd1eca765777
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jan 25 18:37:16 2017 -0500
+
+    Move renderer to its own repo
+
+commit 4ccea6b02dbe786b7d625e4068a0b5f6bd1aebde
+Merge: 826ca60 0fdccf1
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Sun Jul 31 19:33:36 2016 -0700
+
+    Merge pull request #48 from plotly/component-js-bundle
+    
+    WIP: Load component JS bundles dynamically
+
+commit 0fdccf1715d4063dd07bdcf66cbfa4bcb90deb39
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 19:06:02 2016 -0700
+
+    :dolls: How component suite bundle resolution works
+
+commit ac5b23c777fda4b221e5d7924de8b8e512b89fb4
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 19:05:48 2016 -0700
+
+    Change canonical example to click_example
+
+commit b2333a8343f2acf154014f2bf0fa184e935c45a3
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 19:03:06 2016 -0700
+
+    Use dash.run_server and specify component_suites in examples
+
+commit b3e0ab4cb744bbece627440e38feecfb8975daed
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 18:53:06 2016 -0700
+
+    Resolve component suite package paths
+    
+    - Support `python setup.py sdist` installs
+    - Support `python setup.py install [upload]` installs
+
+commit 0f148dd953e07fc778789b72f90898a236a7850b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 18:50:36 2016 -0700
+
+    Specify component suite names without egg stuff
+
+commit accdc657beea02db5065f4510210648382f4259a
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 18:50:03 2016 -0700
+
+    :dolls: Add virtualenv instructions
+
+commit 2af989053369c74a1558434ab0afcc0cda4d4ee9
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 14:30:26 2016 -0700
+
+    Remove import of component suites in JS build
+
+commit eed7de73b7d7f2cddf5d5c63cda1b6f3074f86ac
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 11:36:50 2016 -0700
+
+    Resolve components from `window[namespace]`
+
+commit 0190dabd1500934f83db645cb8c76ecf1e6f6076
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 31 09:41:56 2016 -0700
+
+    Add <Pre/> html element to registry
+    
+    This is temporary until the html component suite is dynamically loaded
+
+commit 8d6e0fa2d64317f67a7d491410f5fd2178d70b8b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 30 17:17:12 2016 -0700
+
+    Remove dash-core-components from static registry
+
+commit 99b26bc49a9a29c67ae9a61f6a2800c1ec2e0a14
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 30 17:10:48 2016 -0700
+
+    WIP: Serve up component suite bundles in HEAD
+
+commit 5c01d5a22d3cf1078714523f89b8be6b24417f14
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 30 15:13:29 2016 -0700
+
+    Export component namespace in layout JSON
+
+commit 7e2f82920a59a51baa050218b126a0fde8c9fa2b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jul 29 10:16:42 2016 -0700
+
+    Serve up static file bundle via Flask
+    
+    From localhost:8050
+
+commit 826ca6091c85ea8184cc96130299b7ddf87c5a03
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 24 08:14:36 2016 -0700
+
+    Add link to issue for `content` prop-agataion
+
+commit d2848f26379a70c787bca355320e9732e5b96fd6
+Merge: 610de16 7ac2c83
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Sun Jul 24 08:11:54 2016 -0700
+
+    Merge pull request #46 from plotly/plotly-click-example
+    
+    WIP: Add click example
+
+commit 7ac2c83fa3b8429813ace0b39011f476713622c8
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jul 20 21:03:15 2016 -0700
+
+    Add style props to PlotlyGraph divs for sweet layout
+    
+    - Upgrade to dash-core-components@0.1.4 to support style prop for PlotlyGraph
+    - Upgrade to dash-html-components@0.2.3 to support style objects for divs
+
+commit 4e330605ed889d6ce3728346fa3c7cf267a1426c
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jul 20 12:22:03 2016 -0700
+
+    Add python debugging notes
+
+commit 7048dc846c9ab614e99b69376160e53de4803df0
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jul 20 12:21:51 2016 -0700
+
+    Add yslice graph
+
+commit 5ac77a14257fde400f4c5851825bff75772b472d
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jul 20 09:37:01 2016 -0700
+
+    WIP: Add click example
+    
+    - Update to core components v0.1.3
+    - Add non-working click example with heatmap
+
+commit 610de161fed5412ffa237ac47878d5672140c999
+Merge: bdea5da 2cdd32d
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jul 18 16:45:57 2016 -0700
+
+    Merge pull request #41 from plotly/plotly-graph-example
+    
+    Plotly graph example
+
+commit 2cdd32d05c69944f3b7119ec4c8b76d8aec5fd72
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jul 18 16:20:53 2016 -0700
+
+    Use sudo to install python packages in CircleCI
+
+commit f67650a1ec30df7dc817c8212e024248a00406b6
+Merge: c68e9e1 601958b
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jul 18 16:11:23 2016 -0700
+
+    Merge pull request #43 from plotly/stock-ticker-example
+    
+    Stock ticker example
+
+commit 601958b33394aefd93861485be75dc5af23566b6
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 14:03:38 2016 -0700
+
+    Add stock ticker example
+
+commit af8ed1e189ac91f7b18fb86db969b682103d0d40
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 14:02:26 2016 -0700
+
+    :smile_cat: Support single children of elements
+    
+    You can now do
+    ```
+    P(
+      Strong('This is bold')
+    )
+    ```
+
+commit c68e9e152bfcb411223cb32e7a645455bb1a37f2
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 13:18:42 2016 -0700
+
+    Initialize with first data set
+
+commit 42b96525eab7a6f7bbbd5e5c23560ad55664177a
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 13:37:23 2016 -0700
+
+    Split out `data` and `layout` props from `figure`
+
+commit a3cad465c43cc88ac382e0bf44166d49420ae02e
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 13:22:37 2016 -0700
+
+    Add plotly graph example with animals
+
+commit c07baa2fedbf9fb22b21af567e545232ae840d86
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 13:22:21 2016 -0700
+
+    Add PlotlyGraph to registry
+
+commit 8627fd07ecaa1a0e587851feb7509f1800e2ee69
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 11:04:31 2016 -0700
+
+    Set all props in Component constructor
+
+commit 9072a9a470280bc852e5e5202e2db188d7b4c743
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 11:03:33 2016 -0700
+
+    Register Label and Dropdown core components
+
+commit bdea5da9a604b34b450b0797cb30596838b12fc0
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 12:46:51 2016 -0700
+
+    Bump component suite version dependencies
+
+commit b10d7bf294c1fbf763af4b2dfffc1b38844c7bd1
+Merge: b1af633 df28689
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Sun Jul 17 09:00:25 2016 -0700
+
+    Merge pull request #33 from plotly/python-componentz
+    
+    remove components from dash backend
+
+commit df2868944b27f84f645df28e73b8b91041e47299
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 08:27:04 2016 -0700
+
+    :dolls: Update README
+
+commit d08e4a261741ae30397fe0b1694c847463d5c75f
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sun Jul 17 08:21:14 2016 -0700
+
+    Add dash core and html component deps from pypi
+
+commit fa7ac940487cae6215e56c41dc4f455b02ac60ec
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 09:11:01 2016 -0700
+
+    Intercept returns new state of component, not old
+    
+    TODO: Figure out how to update python repr. of layout,
+    right now we are not syncing client state to layout
+
+commit b0219e33df1680220b84bf38733b197d1c2d8390
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 09:09:51 2016 -0700
+
+    :bug: Don't render Observer as Notifier
+    
+    Check for length of dependants, not truthiness of empty array
+
+commit 139a997381f04dba4b09cfa191c3889e246d58d5
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Sat Jul 16 09:09:29 2016 -0700
+
+    Compute dependency graph on layout load
+
+commit a111a391a9f291d5a2608ec93ee7018bef1d4561
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jul 15 13:24:10 2016 -0700
+
+    Import Div and P components in registry.js
+
+commit 79d65df81f34c0ef4139e76ea7fb2663c63ecc34
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jul 15 13:23:57 2016 -0700
+
+    Reach into `props` for `id`
+
+commit 8cc99ccff2fa9c635b26d3799a3f17001bcc4c7d
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jul 12 09:14:06 2016 -0700
+
+    Add `content` kwarg in generate_class
+    
+    For some reason, passing `content` in `component_arguments`
+    into `generate_class` doesn't work. Need to define it inside
+    `generate_class` in `keyword_arguments`. Some subtle :snake:
+    nuance I don't understand.
+
+commit 189077a760f543418eefb22dc2ecc878eac6df52
+Merge: 855595c b15c4a4
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jul 11 10:30:42 2016 -0700
+
+    Merge pull request #38 from plotly/move-default-props
+    
+    Move all default props to component_loader.py
+
+commit b15c4a46ec529d9aefff2ee3a6c0b533b05aee87
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jul 11 10:30:27 2016 -0700
+
+    Add comment to base_component keyword_arguments
+    
+    CC @chriddyp
+
+commit 855595ce60184871e963a11c55e1bd74b48d2562
+Author: chriddyp <chris@plot.ly>
+Date:   Fri Jul 8 18:46:41 2016 -0400
+
+    :see_no_evil: 'id' is required in these components
+
+commit c3ca8316d65a601b83a1ce713a05231424ac5197
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jul 8 08:18:43 2016 -0700
+
+    Move all default props to component_loader.py
+
+commit 48271190df5570fd817bcb758b3e0f1c0cbb72a6
+Merge: 5406025 7a8f135
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Fri Jul 8 08:18:09 2016 -0700
+
+    Merge pull request #37 from plotly/fix-component-generations
+    
+    hello world
+
+commit 7a8f135a3e22e3690d4db49b305004898ff76642
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jul 7 17:51:35 2016 -0400
+
+    :package: version bump for deving
+
+commit b63d6879e73a28d65cc29ed9ff2ca8c2c3bb2029
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jul 7 17:50:36 2016 -0400
+
+    :zap: remove commented code
+
+commit 4130ac478a44a39727e65a95003e16ef75d55eed
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jul 7 17:50:26 2016 -0400
+
+    :wrench: remove `supported_react_attributes`
+    
+    these attributes are only valid for basic HTML components, not for
+    developer-built higher order components
+
+commit 3566d0bf2516868a5f40363ea237841dc550d6e1
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jul 7 17:49:39 2016 -0400
+
+    remove required keys
+    
+    we don’t really have the notion of required keys anymore. `content` and
+    `dependencies` need to be part of the class for dash to work properly
+    but other properties like `style` or `id` aren’t strictly necessary
+
+commit dc97b798efef37b1c1638674ce0c825e41d826f3
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Jul 7 17:47:43 2016 -0400
+
+    :bathtub: clean up python distribution and npm files from repo
+
+commit 5406025b2b51a7376b625364490f037c4fabfc35
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu Jun 30 17:11:47 2016 -0700
+
+    Add script for publishing to PyPi
+    
+    ignore artifacts
+
+commit f884c8246bf05e5ac26643ecad548c99b8d71966
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu Jun 30 15:55:40 2016 -0700
+
+    Import components from pip packages
+
+commit 67770ff36f6282bf0cd05e6436e753e80da73b25
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jun 29 16:46:25 2016 -0700
+
+    update python package setup
+
+commit fd0ceedd809aba0899b37646b3676f2bacb475dc
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jun 29 16:45:38 2016 -0700
+
+    :wrench: start taking components out of the core dash backend
+
+commit 5d8c77d16d00eb05f9e13f06de55a815b537ba29
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Jun 29 16:43:32 2016 -0700
+
+    :wrench: "development" module for creating component classes
+
+commit b1af633943b22b01a8c912b8409d36b46e80d377
+Merge: 1af04de 199a58c
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Thu Jun 30 13:50:18 2016 -0700
+
+    Merge pull request #32 from plotly/use-html-component-suite
+    
+    Use html component suite
+
+commit 199a58cf710a28a008519e7a14e6ce3d3fe7b685
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 28 19:47:58 2016 -0700
+
+    :smile_cat: Use external `dash-html-components` package
+
+commit 1af04debc154872e822b79423044f907d61f1cee
+Merge: 6db21d3 b63ea86
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Thu Jun 30 13:22:37 2016 -0700
+
+    Merge pull request #31 from plotly/single-callback
+    
+    Components receive a single callback prop `valueChanged`
+
+commit b63ea86e4f5a1e759f2fcbd02532f56358983b2f
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu Jun 30 13:15:39 2016 -0700
+
+    Bump `dash-core-components` to v0.1.0
+
+commit 17a707374e7aef14810644f55f0efa6ae2141ac3
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 28 11:25:48 2016 -0700
+
+    Add TODO about side effects in actions
+
+commit 3d9f55f1c7dbd3ca8c1c80e8c7c85f01eab8258f
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 28 11:25:16 2016 -0700
+
+    Pass single `valueChanged` handler to interactive components
+
+commit 6db21d3277cc3680a12c42fc317a4ee00a88810a
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 28 11:29:01 2016 -0700
+
+    :bug: Fix path to `dash-core-components` metadata
+
+commit 3e00dddc176377c11e85619a4c199b21d9d82f8c
+Merge: c84f6a1 3af59ee
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Tue Jun 28 10:20:11 2016 -0700
+
+    Merge pull request #29 from plotly/builder-archetype
+    
+    Standardize component paths in registry
+
+commit 3af59ee8036152971689b01edcf84f9dbd0a116f
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 28 10:11:16 2016 -0700
+
+    Use new name & bump version of `dash-core-components`
+
+commit 47447d1bfde03561efc91fd677fcd4daf8876774
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 27 10:42:02 2016 -0700
+
+    Standardize component paths in registry
+
+commit c84f6a117f855c4a0116f6574cb7e1f0f34838a2
+Merge: ffd3ee7 e0289be
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jun 27 10:52:00 2016 -0700
+
+    Merge pull request #28 from plotly/fix-install
+    
+    Remove install step for component-suites
+
+commit e0289be6d6b65cfeb411f08bcf259d49a9fd467e
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 27 08:50:38 2016 -0700
+
+    :wrench: Remove unnecessary overrides in Circle
+
+commit 79f1b6e75a806421087a5e3beb28a6e527c79e7a
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 27 08:45:21 2016 -0700
+
+    Remove install step for component-suites
+
+commit ffd3ee752d563dc390478f1e486873f1f7f176fc
+Author: Mart van de Ven <tijptjik@users.noreply.github.com>
+Date:   Sat Jun 25 00:51:03 2016 +0800
+
+    Typo in http://plotly-dash.herokuapp.com url
+
+commit b3f353bee64d2023888e037e58e6474597ef94de
+Merge: 73b628b 4d980ec
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Tue Jun 21 14:41:45 2016 -0700
+
+    Merge pull request #24 from plotly/external-component-suites
+    
+    External component suites
+
+commit 4d980eca033745b3b735f66f912d05fcff6539f4
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 21 15:30:12 2016 -0500
+
+    Don't test external component suite
+
+commit c2c14ba3b4ba39538c0bf0e3bf26254ec44a4509
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jun 17 11:01:52 2016 -0700
+
+    Add github repo info to package.json
+
+commit c2c1777f3aa757d51c41c62d22b0fbe124e22b31
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jun 17 10:35:55 2016 -0700
+
+    Update README.md to reflect external component repo
+
+commit ec2456b6a9c23fc7c705008eb8febb19dbcf8f25
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jun 17 10:32:51 2016 -0700
+
+    Fix paths to new location of `dash-components-core`
+
+commit bcbc2e6ef9e4fdcd1f0a31b4e337fd4c4aa43bc0
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri Jun 17 09:45:03 2016 -0700
+
+    Move `component-suites/` to an external repo
+    
+    `dash-components-core`
+
+commit 73b628b4384390884532dcea5262f83d8a4692cb
+Merge: 6bfa3a2 5b3e8e2
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Fri Jun 17 09:37:19 2016 -0700
+
+    Merge pull request #21 from plotly/dynamic-components-rebased
+    
+    Dynamically load basic component suite
+
+commit 5b3e8e2c9cf3e0c1887137f23bdec4c05531fffd
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 14:55:56 2016 -0700
+
+    :dolls: Add link to start :snake: backend in README
+
+commit 9334718df816402fb5b912ee6bc4d946fe6bbee4
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 14:40:49 2016 -0700
+
+    :dolls::cow: document propTypes and fix some issues
+    
+    - :cow: Better code stylez
+    - :bug: Make InputControl a controlled input to get rid of React warning.
+
+commit 795cd70df8bb3712702bf0069275229e8072f661
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 10:52:14 2016 -0700
+
+    Wrap EditableDiv with Radium in index.js
+    
+    This works around some issues with metadata generation on components
+    wrapped in higher-order components
+
+commit 29ae9e1b32a7adf937867e0fec65258367994532
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 10:45:47 2016 -0700
+
+    :smile_cat: Load component suite dynamically
+    
+    For now, the path to the suite metadata is hardcoded.
+
+commit 34f90a1bec6f3b71785d5c61c2c76eba08b81bce
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 10:22:44 2016 -0700
+
+    Add dynamic component loader
+
+commit e1dd5fcf4117341c60dbc451e8960880ab94ec09
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed Jun 15 10:12:10 2016 -0700
+
+    :memo: Add metadata to EditableDiv and extract it
+    
+    Metadata ends up in lib/metadata.json for now.
+
+commit 8d0c238092845e07f220739948c1fa72c0b366ee
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 14 10:35:08 2016 -0700
+
+    :bug: Fix invalid webpack config
+
+commit 6bfa3a263e1d5e97e72fdfc136ad6de9e4ee620e
+Merge: 18f3e07 6ce9a65
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Wed Jun 15 13:38:49 2016 -0700
+
+    Merge pull request #19 from plotly/component-suites
+    
+    Component suites
+
+commit 6ce9a65458c0a45731b01ef8b1b571a555d50abf
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 16:46:39 2016 -0700
+
+    :bug: Transpile component-suites as a pretest step
+
+commit fca29a32ea51e2989adb29b25be2a29597426e03
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 16:39:47 2016 -0700
+
+    :dolls: Add instructions for running app locally to README
+
+commit 02af53ce77e15cfad90ff20c3e2830f7f4858820
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 16:33:25 2016 -0700
+
+    :wrench: Add central eslintrc-node config
+
+commit 683699ea9888cf675104ccfc0abd2a7e2766f095
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 16:13:42 2016 -0700
+
+    Move components to /component-suites
+    
+    - Move webpack partials to central /config/partials location
+    - Create webpack configuration for component-suites
+    - Add build scripts for component-suites
+    - Add component-suites test script to global test script
+
+commit fc33beed88248f00590eb8befb08e587f88962f3
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 11:10:42 2016 -0700
+
+    Move webpack, babel dependencies to root
+    
+    These are common dependencies for building component libraries and the renderer.
+
+commit 18f3e07a358bb2bd924d70253224936fc5c92a49
+Merge: cab34b1 5e70dd9
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Jun 15 10:07:20 2016 -0400
+
+    Merge pull request #16 from plotly/backend
+    
+    [WIP] - HTTP Requests and Python Backend
+
+commit 5e70dd977d246c7e7237a12ba739df20e10d577c
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 14 15:36:30 2016 -0700
+
+    Return a new object from reducer
+
+commit 9b905de11f9f2b34c52d9beba51430351cadf188
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 14 09:36:59 2016 -0700
+
+    Add global dependency install script
+    
+    You just need to run `npm install` in the root, and the postinstall
+    script takes care of installing all subprojects.
+
+commit 458416c7158aace664e69c4d2b85fde3a2362fc1
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Tue Jun 14 09:32:19 2016 -0700
+
+    :cow: Fix lint and remove commented out code
+
+commit ecc55d80e6e0af79c79963309008585e5434bfed
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 13 13:11:49 2016 -0400
+
+    :book: add README.md
+
+commit ae27f50ba2eaefe31c38e6b37d7c0b09463c2c49
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Jun 13 13:05:43 2016 -0400
+
+    :wrench: add `requirements.txt`
+
+commit 735c6cc9653e0ae6ce43bd68b15b2d980d22ba3a
+Author: chriddyp <chris@plot.ly>
+Date:   Sat Jun 4 22:54:43 2016 -0400
+
+    working backend
+
+commit cab34b1abc9913b4a67645ea9dffe873dd6bda20
+Merge: 3c38996 27c7fbc
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jun 13 11:10:51 2016 -0700
+
+    Merge pull request #18 from plotly/root-eslint
+    
+    Create root package.json with eslint and test config
+
+commit 27c7fbccd0e68922b6a8f8463ce4fbb36b968ce7
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 10:48:37 2016 -0700
+
+    :bug: Fix path to eslint from renderer/
+
+commit 5c0cdacdbc0bc40852c95416649e81d455efd5c8
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 10:37:45 2016 -0700
+
+    Create root package.json with eslint and test config
+
+commit 3c3899620ad6a14260b1962f464fde18916f320b
+Merge: 4867295 391acfa
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Mon Jun 13 10:22:23 2016 -0700
+
+    Merge pull request #17 from plotly/bug-fix-eslint
+    
+    Bug fix eslint
+
+commit 391acfa30f96b6f95a207cc7035726ab4809341e
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 10:15:28 2016 -0700
+
+    Fix lint
+
+commit 19e85de8013bb96683fe85d2d7e949087edf9992
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon Jun 13 10:10:12 2016 -0700
+
+    :bug: Use `.`, not globbing, for eslint
+
+commit 4867295e28ef5669dd4fb25973c837a3d4c0c2b8
+Merge: 1b5cad5 b2c4bcc
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Sat Jun 4 17:37:02 2016 -0400
+
+    Merge pull request #14 from plotly/eslint-imports
+    
+    Eslint imports
+
+commit b2c4bcc7ac29ad53d0b110d5f6a7e121c2a6a07d
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri May 27 09:30:11 2016 -0700
+
+    :tiger: Add eslint rules + static analysis for ES6 imports
+
+commit 1afbd8241786986903531111f5839edcd3ecad86
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Fri May 27 09:29:07 2016 -0700
+
+    :wrench: use canonical import name for eslint-plugin-react
+
+commit 1b5cad5de06a2a4abb4e656225b6604da46c8e67
+Merge: 81ae6d3 1e28825
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon May 30 15:28:23 2016 -0400
+
+    Merge pull request #6 from plotly/dependency-tree
+    
+    Dependency tree
+
+commit 1e28825aec04258c832f17e06c99e68ab6dd8521
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Mon May 30 08:53:56 2016 -0700
+
+    :book: Rename `updateDependants` to `notifyObservers`
+
+commit 088683bd112c9831dc7d7fb83d48735f502abaaa
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 08:51:15 2016 -0700
+
+    Add TODOs for tech debt: No side-effects
+
+commit a76e365ce3c9ea377ecb658bdb60045ee236ce4f
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 08:49:16 2016 -0700
+
+    :cow: Split out variables for parent and children elements
+
+commit 3188c074f152d07a35ea2c6058307e73710347fb
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 08:45:38 2016 -0700
+
+    :see_no_evil: Fix egregious rebase mistake
+
+commit 7a6fdd88f9146616f6bea750ccbbab9337f5e9db
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 08:28:02 2016 -0700
+
+    :book: Make ternaries and conditionals more readable
+
+commit bb14f2ed95843b4a89e7d8f8ae4df58ebe1224b7
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 08:27:14 2016 -0700
+
+    :cow: crate new object for state in reducer
+
+commit 3d7cf154cbdf91580ae5994efca34eb86d6ad9d7
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 14:48:38 2016 -0700
+
+    :cow: Don't specify .js in imported modules
+
+commit f67154ad0ae6ce1a5c9afe01acfd3bd142f6b48b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 14:46:16 2016 -0700
+
+    :bug: fix lint
+
+commit a4e950ce641ba9fc2779171561f86d449685a8a6
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 09:06:50 2016 -0700
+
+    Don't require `props` to be defined in element spec
+
+commit 7e0c1bd735c81d551e0f4c9d5459a9ef3ba70553
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 16:03:54 2016 -0400
+
+    explain the dependency tree in the example
+
+commit db79514147fdc58d41b552b7c83850d74fc9ef1b
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 16:03:27 2016 -0400
+
+    :bug: props isn't required
+
+commit 70eb0e3ea837415ccb921481010cc50aa1a42ba9
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 15:58:31 2016 -0400
+
+    :star2: Spec out a more complicated dependency tree
+
+commit 7bf7e0a2ab6d9ffbb2bd1c70146c6a7521c89a7e
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 15:57:51 2016 -0400
+
+    :wrench: pass in the full path into the `ON_PROP_CHANGE` action
+
+commit cfe13065e84f09af81212d5053f0c380570cf281
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 15:56:58 2016 -0400
+
+    :bug: renderTree doesn't actually need the path store
+
+commit ca9542bd5e1c716257b3206dba8b58d1df1900fe
+Author: chriddyp <chris@plot.ly>
+Date:   Wed Apr 27 15:56:42 2016 -0400
+
+    :wrench: fix dispatch queue and mimic async POSTs with setTimeout
+
+commit e96f2cf40a0e4c42ddebc0c071993b90607fad0b
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:52:51 2016 -0400
+
+    :see_no_evil: tyop
+
+commit c5ee72096ec5897b1f9cb909f9b88773a7cc3634
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:52:39 2016 -0400
+
+    :see_no_evil: forgotten import
+
+commit 12c06170fe9718c7ba320ef3607c8dd319cf1b08
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:52:10 2016 -0400
+
+    move createTreePath to utils
+
+commit 2a32c231c1c1acecd22ddb054a1420325065ac16
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:51:37 2016 -0400
+
+    connect all slices of the state
+
+commit c132a37326a1bfc44d241751c971d535362e57dc
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:50:05 2016 -0400
+
+    :wrench: supply the dependencyGraph state in the render loop
+
+commit 8b64bcc4ab68e0322f6f83d17730abf1c8752c4c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:49:36 2016 -0400
+
+    :wrench: register new InputControl
+
+commit ccfc49936600b1d80ceba871ed2f4272b3cb5f6a
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:49:06 2016 -0400
+
+    :tada: example of a simple <input> control that can have dependants
+
+commit 7e597649e2dafbf4205239b2518d8ab691e27e6c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:48:17 2016 -0400
+
+    :fireworks: recursive updateDependants action
+    
+    this function gets called when a component updates and dispatches
+    `updateDependants`.
+    this action:
+    - looks at the component’s dependants
+    - makes POSTs to /update-component for each of the component’s
+    dependant’s with all of the necessary dependencies
+    - update’s each of the dependant’s with the new values from the
+    response of the /update-component POST
+    - recursively continues, dispatching to `updateDependants` with each of
+    those dependendant’s dependants
+    
+    consider: A depends on B which depends on C
+    when C changes, it dispatches `updateDependants` to update the value of
+    B. on the response of that POST, B updates and makes a dispatch to
+    update A with B’s new values
+
+commit e72783ba2ec8560e1e29775f9d3001d67593efca
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:40:54 2016 -0400
+
+    :wrench: cache a copy of the layout paths to the components in the store
+    
+    (we’ll need this in a subsequent commit)
+
+commit 662da9f2e77ac0ae332d755436c8dbd1db26400d
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:40:16 2016 -0400
+
+    :wrench: keep the request queue in the store
+    
+    (we’ll need this in a subsequent commit)
+
+commit 34ff880576abc912bf34728260560de1366bad9c
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:39:27 2016 -0400
+
+    :star: an `UpdateDependants` container
+    
+    `UpdateDpendants` copies the child component and passes in a connected
+    `updateDependants` dispatching function that the presentational or
+    widget control can use when it wants to signify that its state has
+    updated and that it’s dependent components should use its new props to
+    update their values via the `/update-components` POST request
+
+commit 92ac50a7f5cf7763646339bb10c287022925859d
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:37:15 2016 -0400
+
+    :palm_tree: store the dependency graph in the store
+
+commit 9ace88bfaa0946132b9d6c5b4d3a986ad4eb90a7
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 26 17:33:39 2016 -0400
+
+    :star: example of `layout` spec with "dependencies"
+
+commit 81ae6d30d48b499ca249584aa52990d564a24822
+Merge: e8894a5 6c228c4
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Fri May 27 08:57:30 2016 -0700
+
+    Merge pull request #13 from plotly/webpack
+    
+    Use Webpack
+
+commit 6c228c4302e0b283b485d785ac30138d79ff0e3b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 19:14:22 2016 -0700
+
+    :wrench: Fix dependencies
+    
+    - Remove unused dependencies
+    - Move dependencies needed for production bundling into real dependencies
+
+commit 07f59045caa7c998738f4965b82067de31fae7ed
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 15:29:50 2016 -0700
+
+    Add webpack configuration for production
+    
+    No source maps yet - line numbers don't match up when I try it in prod
+
+commit bd739a0e90cbf2b13baf9ed81e1fe9f3bf5a7a00
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Thu May 26 12:47:34 2016 -0700
+
+    Add webpack configuration for development
+
+commit 9347892695b99ec37e481b813bbace87485cd0e6
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 12:25:59 2016 -0700
+
+    :wrench: Switch to Webpack
+    
+    Warning; Watching is not yet supported, just building a large bundle.
+
+commit 9a2164b03e4cef1ba99488acfeb33275b02c2392
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 11:09:05 2016 -0700
+
+    :wrench: Move package.json from renderer/src/ to renderer/
+
+commit e8894a5a176fb34e80921141937dd985246dafcd
+Merge: 416e306 41a407d
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Wed May 25 15:34:30 2016 -0700
+
+    Merge pull request #8 from plotly/fix-dependency-issues
+    
+    Fix dependency issues
+
+commit 41a407da4eb3578744ed7627e9350571ba2fac26
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 14:34:15 2016 -0700
+
+    Don't start a background watch process
+
+commit cfd8ae2c2675defc7054f982178ae1fe46c5ffd0
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 14:33:44 2016 -0700
+
+    :see_no_evil: Fix dependency issues introduced by copy-pasta
+
+commit 416e30684950f78e91f4731349c2fd20a5b4e97e
+Merge: 6ced862 c444a1e
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed May 25 14:26:25 2016 -0400
+
+    Merge pull request #7 from plotly/circle
+    
+    Circle CI
+
+commit c444a1e746aed06ddd479908afb0157fa4b9d7db
+Author: chriddyp <chris@plot.ly>
+Date:   Wed May 25 14:22:10 2016 -0400
+
+    :wrench: Add CircleCI configuration
+
+commit 6ced862f384e55bfc2a9654f9ec2c26eea8d5ebb
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 11:00:34 2016 -0700
+
+    Allow module and require in store.js
+
+commit 8860b5e801b32ecd6490d4022d5a5600fbe3f74d
+Merge: 6144e98 dd6cdbe
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Wed May 25 10:54:05 2016 -0700
+
+    Merge pull request #4 from plotly/fix-hot-reloading
+    
+    Fixes for hot reloading
+
+commit dd6cdbe41123f813be6a7a36d468ebebef1c11d9
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 09:58:45 2016 -0700
+
+    Fixes for hot reloading
+    
+    - Add module.hot.accept listener to store as per https://github.com/reactjs/react-redux/releases/tag/v2.0.0
+    - Move store initialization out of index.js to avoid reassigning store variable
+    - Split containers up into AppContainer (Provider) and TreeContainer (the Spec'd layout)
+
+commit 6144e98763b86035b6b5257bae4bf2f1c92c286e
+Merge: c0352bf f38ad5b
+Author: Per Nilsson <per@sproutlab.com>
+Date:   Wed May 25 10:27:43 2016 -0700
+
+    Merge pull request #5 from plotly/fix-eslint
+    
+    Fix eslint
+
+commit f38ad5b13c79e592dbdeb2a48e3a76694ca5ff15
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 10:12:05 2016 -0700
+
+    :smile_cat: Add npm scripts for DX
+
+commit def9748cfc2d7bab88c532aa4c7db782297db97b
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 10:11:18 2016 -0700
+
+    :bug: Fix lint
+
+commit bf760455cd5cd2a4932dc1b9bf91af36fd334012
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 10:01:46 2016 -0700
+
+    Add some decent default eslint settings
+
+commit ea744a85411b66dc1835e6571d9f175d4ae67eda
+Author: Per Nilsson <per.nilsson@formidablelabs.com>
+Date:   Wed May 25 10:01:16 2016 -0700
+
+    Add eslint-plugin-react to devDependencies
+
+commit c0352bf9eb3859028ab2cfa947df64c5d243bdf2
+Merge: 4cfb051 ac758ce
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 27 12:02:12 2016 -0400
+
+    Merge pull request #1 from plotly/branch-1
+    
+    editable component abstraction
+
+commit 4cfb0519d1cc14ba560bbc4f11cc4f07b433c4b7
+Merge: 280281b d698aa8
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 27 00:38:01 2016 -0400
+
+    Merge pull request #3 from plotly/deployment-considerations
+    
+    Deployment considerations
+
+commit d698aa8f11e416a49accc99396446357c51ac63d
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 27 00:37:49 2016 -0400
+
+    Deployment considerations
+
+commit ac758ce0bcddcc9dc8e90a2c387028bb68c0dd07
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 25 16:51:07 2016 -0400
+
+    :wrench: clean up layout reducer
+
+commit 1792acfb6107dbdf4cd9c6ed3b519fa8d39a765d
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 25 16:50:42 2016 -0400
+
+    :lipstick: clean up our basic spec.js
+
+commit 32687160b1f5e774f7a71c22b8a515c983fe4e98
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 25 16:50:21 2016 -0400
+
+    :star2: example of a component with an `editable` prop
+    
+    The `EditableDiv` component is an example of an editable component that
+    might live in one our generic component suites.
+    
+    If rendered with `editable=true`, you can click on this component to
+    edit its text. On text input, the store is updated with the new props
+
+commit 4a499de2a016a9957f1099d9480685cc6ddb1499
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 25 16:46:18 2016 -0400
+
+    :wrench: connect the store to the container
+
+commit 0fa999c357a0b1ef37002be909dc5eb0973087ff
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 25 16:45:13 2016 -0400
+
+    :stars: add an action that can update the props of a component
+    
+    components that have the `editable` prop are wrapped by the
+    <EditableContent> container.
+    <EditableContent> is a “connected” component and merges an
+    `updateProps` dispatching function to its child.
+    The child can call updateProps with an object that can update its own
+    props. `updateProps` updates the global state (“`layout`”) with these
+    new properties and triggers a re-render through redux.
+
+commit 280281bdc3b870a10daec1387231ab2a9d1c2ac6
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Sat Apr 23 13:59:06 2016 -0700
+
+    Update README.md
+
+commit 335e192d8f9172b181d7fd6938343fc5ab68c541
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Sat Apr 23 13:56:52 2016 -0700
+
+    Update README.md
+
+commit 326e7e756b83361be46ea5bd42757f1159254285
+Author: Jack Parmer <jparmer09@gmail.com>
+Date:   Sat Apr 23 13:52:05 2016 -0700
+
+    Update README.md
+
+commit 7b0aa8a36c318b742918beef22d81c7adaef59fd
+Author: Chelsea <chelsea@plot.ly>
+Date:   Thu Apr 21 15:20:36 2016 -0400
+
+    Update README.md
+    
+    rm xtra being
+
+commit 2e39f30cee15c76aa97e916230d183cec1abd500
+Author: Chelsea <chelsea@plot.ly>
+Date:   Thu Apr 21 12:02:28 2016 -0400
+
+    Update README.md
+    
+    list alignment
+
+commit ea94b1094d225661cdfc507123f63572c3cf5e93
+Author: chriddyp <chris@plot.ly>
+Date:   Thu Apr 21 00:36:50 2016 -0400
+
+    Expand the readme with some architecture ideas
+
+commit baa6f295f53ecef66711b6e7af553fb896307394
+Merge: a46e3cc 4bfe668
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 20 16:21:44 2016 -0400
+
+    Merge pull request #10 from plotly/announcing-dash-2.0
+    
+    Dash 2.0 Announcement
+
+commit 4bfe66882e9861bf3c159a07f566791996d7bae1
+Author: Chelsea <chelsea@plot.ly>
+Date:   Wed Apr 20 13:08:30 2016 -0400
+
+    Update README.md
+    
+    small edits
+
+commit 6a8edcf0b05cabd97d2cee9ad0146e88e8e0033f
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 20 01:57:06 2016 -0400
+
+    Remove final notes
+
+commit 17a2f8b7be7341ab2621eb4ea414652f654bd8a8
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Wed Apr 20 01:52:15 2016 -0400
+
+    Update README.md
+
+commit eeb13ad9a2031e16f52044ebfcb63991b0098785
+Author: chriddyp <chris@plot.ly>
+Date:   Tue Apr 19 17:04:30 2016 -0400
+
+    doh! add `build` to the package.json
+
+commit 9a6750dc4a02d5ed421a589cf70af3fb167c7a4d
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 23:14:47 2016 -0400
+
+    first pass at an "Editable" container abstraction :)
+
+commit 8ab0541cce734a3b696e5601febeb4bce9b5e9f7
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 23:14:04 2016 -0400
+
+    wire up redux
+
+commit bc6ad023bea87e32b869019da0a3510c8a308a5a
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 16:02:01 2016 -0400
+
+    addj build dir to watch step
+
+commit 4f300699f22c6aac2d38e6261d4303bb56817d13
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon Apr 18 11:53:33 2016 -0400
+
+    Update README.md
+
+commit c2235c87fde6d6e7da7c241f01fc9a6dbddf15f8
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon Apr 18 11:53:19 2016 -0400
+
+    add link to renderer
+
+commit df7215a8eb64eb533ea522d3e4f48596ab6fbc80
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 11:51:36 2016 -0400
+
+    :stars: first pass at front-end renderer
+
+commit e9d9edc4225b6e18becdb5f598d8ea15b1c66d5f
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 11:48:56 2016 -0400
+
+    add .gitignore
+
+commit 28aed03e09b86a187bba72f2c402a69fb9dda40b
+Author: chriddyp <chris@plot.ly>
+Date:   Mon Apr 18 11:48:48 2016 -0400
+
+    intentions
+
+commit a46e3cc1f954388c3bf399dc85f27ad28374b42d
+Merge: 671ab8d 767b653
+Author: Chelsea <chelsea@plot.ly>
+Date:   Wed Jan 27 13:09:43 2016 -0500
+
+    Merge pull request #6 from plotly/python_3_edits
+    
+    make dash examples work w/ python 3
+
+commit 767b653467cac33d180a44e12bd05a223952afdb
+Author: Chelsea <cldougl@gmail.com>
+Date:   Tue Jan 26 11:47:23 2016 -0500
+
+    make dash examples work w/ python 3
+
+commit 671ab8de0bb8da6a5557209c0b12575e849c49f7
+Merge: 81d6e84 ab6cbda
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Sun Dec 6 11:39:48 2015 -0500
+
+    Merge pull request #4 from rthompsonj/master
+    
+    minor bugfixes
+
+commit ab6cbda3ccb4b7b854ec6ef918daa9e492bc76be
+Author: Robert Thompson <rthompsonj@gmail.com>
+Date:   Fri Dec 4 14:00:07 2015 -0600
+
+    Changing socket.io version to 1.3.7 so that data shows up in the examples.  Setting checkboxes to return the correct name in layoutState.js
+
+commit 81d6e842e96b7940b3c56101ca021c68b50ae6af
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Tue Aug 25 15:58:07 2015 -0400
+
+    Create LICENSE
+
+commit 6dabfb02b2d45cfe1ecbba10e3f9f711d6fe5ac1
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Wed Jun 17 19:23:55 2015 -0400
+
+    :lipstick:
+
+commit db6345ec8bf6b4aaa3dbe1c6e80c2b3c471e3dc4
+Merge: 4dc6ed1 f28be81
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Fri May 15 18:02:00 2015 -0400
+
+    Merge pull request #2 from msund/patch-1
+    
+    Adding pandas
+
+commit f28be81bc7893589d5edbda3f0b956e25161ee95
+Author: msund <Matt@plot.ly>
+Date:   Fri May 15 15:01:00 2015 -0700
+
+    Adding pandas
+    
+    Handles exception with timestamps
+
+commit 4dc6ed114080da4cb02ed2050bb63c373bff575f
+Merge: 94843c6 89e40cd
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Fri May 15 12:54:38 2015 -0400
+
+    Merge branch 'master' of https://github.com/chriddyp/pyshiny
+
+commit 94843c61f57bbd8ad76882db8de2f451177aac49
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Fri May 15 12:54:25 2015 -0400
+
+    render templates on app start, not index request
+
+commit 89e40cd939f4ef475b9151d9d2abc09b1debc874
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Fri May 15 00:32:54 2015 -0400
+
+    Update README.md
+
+commit d8ad59bcbfea1113b3195a50c7e3c95cae8bdb75
+Merge: 4664c52 fb0418a
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Fri May 15 00:08:12 2015 -0400
+
+    Merge pull request #1 from chriddyp/make_it_importable
+    
+    Refactor
+
+commit fb0418a9fa6939c0336a9b97400effbbf29923d5
+Merge: 0b05b92 4664c52
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Fri May 15 00:07:50 2015 -0400
+
+    Merge branch 'master' into make_it_importable
+    
+    Conflicts:
+            README.md
+
+commit 0b05b9283a282c530e4523a104294cd9dd5d35d9
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Fri May 15 00:06:26 2015 -0400
+
+    refactor
+
+commit 0911675d3e152ad2ca7f8af7bcb1e289b7019931
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 30 22:18:33 2015 -0400
+
+    rm venv
+
+commit a972717bda7ac33abc41c082f875658c9fd3005b
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 30 22:18:21 2015 -0400
+
+    ignore venv
+
+commit f218f687d2ea3e79f31facb19cd48b41acf6a49f
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 30 22:17:59 2015 -0400
+
+    reorganize
+
+commit 4664c5262df0cedd080863467a12414d21221129
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Sun Apr 19 09:58:12 2015 -0400
+
+    Update README.md
+
+commit 9f80c3a27224596ed0246bd8787267cebf7d9799
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 09:56:46 2015 -0400
+
+    deploy to heroku
+
+commit 675f0ba9ceff87c55aed598a3b48b51cbcbe6f78
+Merge: 07413e1 0c1835b
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 09:46:05 2015 -0400
+
+    Merge branch 'master' of https://github.com/chriddyp/pyshiny
+
+commit 07413e1ceb9438b745daf671ffa9e70c547ac587
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 09:45:45 2015 -0400
+
+    heroku app.json
+
+commit 0a7b978377adfbf445d140e12e7975fd2fa403f9
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 09:40:23 2015 -0400
+
+    define socket at start
+
+commit c5182efa0bfc257ba95ebaf6289f0be3631b5ae3
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 09:38:08 2015 -0400
+
+    rm duplicate socket
+
+commit a70d2d15c7dbe7ae9211cc941a8e7776c909a9a2
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:54:02 2015 -0400
+
+    https://
+
+commit 39041dc623c3c180ec2b073c3c3280145b6c2b39
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:46:34 2015 -0400
+
+    https
+
+commit 8e84a830a29ee2dbfe8e7c2978f34e75438c7cc0
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:42:39 2015 -0400
+
+    forgot gunicorn
+
+commit 71752b0bddbdbfaea0f6df7abb59d228cefee4d3
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:39:58 2015 -0400
+
+    gunicorn socketio
+
+commit 6f9a2e0588e447aa2af935cfcb6f945f1cac6ef3
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:29:56 2015 -0400
+
+    rename app
+
+commit 6f6d34fe68851d597912b135f81d5bc5ba60da9b
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:27:52 2015 -0400
+
+    procfile
+
+commit b0c71edda739583a524c82a378f43c442b0ef35e
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 19 02:21:19 2015 -0400
+
+    requirments and runtime
+
+commit 0c1835b2fa129f8b56260c4e699762f5352a939d
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Mon Apr 13 02:48:08 2015 -0400
+
+    Update README.md
+
+commit 911e37a6b49a9a7c23f014fcfb63b20a047341b1
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Mon Apr 13 02:47:30 2015 -0400
+
+    reorganize
+
+commit 3ae6e7b409655ba7defae5d3270046710772562d
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Mon Apr 13 02:46:39 2015 -0400
+
+    update readme
+
+commit 07abc5a40f8c833b211ce7c05b912d2ce8f35fa9
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Mon Apr 13 01:49:45 2015 -0400
+
+    first crack at some abstraction
+
+commit acf6a9ce14f170a4fd843487b1dbd4b235859f7c
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Sun Apr 12 19:08:19 2015 -0400
+
+    .gitignore
+
+commit e0b699436abca3f4be0d14424159337e75f9a4b2
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Fri Apr 10 12:11:14 2015 -0400
+
+    fix clicks
+
+commit 74ee80ce523d9b64b466bac502fd01c6fcf8a868
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 9 23:51:54 2015 -0400
+
+    updates
+
+commit e7ffe3445b3d36bc07086e75afe6bce92b56ad5e
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 9 23:44:32 2015 -0400
+
+    more dropdowns!
+
+commit e9382e715c2d687058808e5c8516b173ff0683dd
+Author: Chris P <christopher.parmer@gmail.com>
+Date:   Thu Apr 9 22:00:23 2015 -0400
+
+    gapminder example
+
+commit f9261e2539a712598e6fced3b6dd8daa790c677c
+Author: chriddyp <chriddyp@users.noreply.github.com>
+Date:   Thu Apr 9 21:53:08 2015 -0400
+
+    Initial commit

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/dash_all/dash" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/legit_all/legit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/t0/dash" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/t1/legit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/t2/tablib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tablib_all/tablib" vcs="Git" />
+  </component>
+</project>

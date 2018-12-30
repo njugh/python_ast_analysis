@@ -1,0 +1,3308 @@
+commit 699802c5be665bd358456a940953b5c1d8672754
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Nov 18 17:41:02 2018 +0800
+
+    doc how to package legit.exe for Windows
+
+commit b61d5357ab8b3f1360081d33755e0b650d196a5d
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Nov 18 17:36:25 2018 +0800
+
+    setup.py: build: py2exe -> pyinstaller
+
+commit bfdd3ec52e5b476e88e15fe98abee501935d44c9
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Nov 15 22:48:47 2018 +0800
+
+    update legit_r for click
+    
+    With the introduction of click in commit ca8b6fc,
+    the entry point changes.
+    This commit updates legit_r accordingly,
+    otherwise the packaged exe on Windows will not work.
+
+commit f3380e1726073c920dcf45ad1968adcc02f10ca4
+Merge: 350b871 daf8b8f
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Mon Nov 12 23:46:49 2018 +0800
+
+    Merge pull request #241 from glehmann/ff_only
+    
+    properly deal with ff-only
+
+commit 350b871da554da4b0f36d718e0c048075c66bce7
+Merge: 20187b4 e5997a8
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Mon Nov 12 23:37:35 2018 +0800
+
+    Merge pull request #245 from guptarohit/patch-1
+    
+    Update version in core.py to 1.0.1
+
+commit e5997a8870e55b25ee78f22252b42cb7aa3bed35
+Author: Rohit Gupta <guptarohit@users.noreply.github.com>
+Date:   Mon Oct 1 11:32:10 2018 +0530
+
+    Update version to 1.0.1
+
+commit 20187b45ce4d32146d2a2d493c315924c1cc8287
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Sep 17 08:14:40 2018 -0400
+
+    Update README.rst
+
+commit daf8b8f5fdb1d1589982c2586dec5ddf1cfb2d50
+Author: Gaëtan Lehmann <gaetan.lehmann@gmail.com>
+Date:   Wed May 2 13:55:08 2018 +0200
+
+    properly deal with ff-only
+    
+    when registered in the git options
+
+commit 7345d702aa0ad56ae92d450dcac2991d2db35f7a
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 17 12:41:15 2018 -0600
+
+    Update version and history
+
+commit 911e3ee1109ac458e9b2b4c4075d0c8f72cf770f
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 17 12:40:47 2018 -0600
+
+    Update requirements
+    
+    Obtain bug fixes and Python 3.6 support
+
+commit a3fc93a195127f57c0565eeefa496db5730f04c2
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 17 12:38:50 2018 -0600
+
+    Fix repo remote reference
+
+commit 938f8974ba902f7a3aa423e33ec5c7d8cd373963
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 17 12:38:07 2018 -0600
+
+    Remove TODO as all tasks complete
+
+commit 91774a9979b371e32f29f6683066f85a977c62c3
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 23:55:29 2018 -0600
+
+    Add Help guidance
+
+commit 2a8d9d9430d9418dc41a5fdd07843b6d93208ff5
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 23:52:38 2018 -0600
+
+    fix option formatting
+
+commit 9d36fc5038e42f2f63daa804fb4c6cf5261708eb
+Merge: 40c8c00 713ed43
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Mar 14 13:28:46 2018 +0800
+
+    Merge pull request #233 from grahamu/verbose
+    
+    Modernize CLI
+
+commit 713ed43af34a84d480d6cc1979e6c29f2a590f06
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 23:10:44 2018 -0600
+
+    Add the aforementioned utility refactor
+
+commit 51770f6b2b4e1681b700f9b87092eba63c7accd3
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 23:02:32 2018 -0600
+
+    Output main help the same for all invocations
+    
+    `legit`, `legit --help`, and `legit -h` all produce the same output.
+    Refactor utility methods to utils.py.
+    Refactor non-SCM methods out of SCMRepo class.
+
+commit 77f045b9f61865323a60e67d9fd2c4375430e9c7
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 12:04:18 2018 -0600
+
+    Swap list.append() for list.extend()
+
+commit 92eadcd79e6f7e6e35d2f58593565d0cdbc4f387
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 12:01:06 2018 -0600
+
+    Change --edit to --config
+    
+    Update doc and tests appropriately
+    Add deprecated legit commands to --uninstall option.
+
+commit 1f7dd6bdde7148d0c13474cbe99d3df1b0640aa8
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Tue Mar 13 12:00:31 2018 -0600
+
+    Remove local Editor/IDE/OS specific files
+
+commit 38093c1b3df65c1135a6d2a0b34a5d92202d5594
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 19:43:54 2018 -0600
+
+    Remove test for sync without specifying branch
+
+commit ec04d8fa986d699c91b96f4c1e93e78f3b83e862
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 19:33:37 2018 -0600
+
+    create branch for local testing
+
+commit f2ab445e7fb6d0bbeb250108f90f0f43f383e2ca
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 19:29:22 2018 -0600
+
+    move assertion for Travis testing
+
+commit bfc9fdefee5be5f3ada9c291b3ee42a24932368d
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 19:27:01 2018 -0600
+
+    Refactor tox config
+
+commit bb88a5f8940a5867e8e427837b3f3b10c599a52c
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 19:24:00 2018 -0600
+
+    Add tests
+    
+    Add tests for missing/bad arguments.
+    Raise click.BadArgumentUsage for errors.
+    Refactor verbose output.
+
+commit 5cf34961bf3fe3a807bc8736c29892bb074db594
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 17:21:18 2018 -0600
+
+    Add --edit test
+    
+    Add docstrings
+
+commit a198c4fa3a56bce7cc214049eeca264a153efc2a
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 17:20:40 2018 -0600
+
+    Use sensible default for testing ease
+
+commit d7a99bde979966c6832440cc98f3f6c57b8069d8
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 17:05:48 2018 -0600
+
+    Restore clint.textui.colored disabling
+
+commit 91a3cefa46bdf8537ce3b11b9f216e8a0a9acab1
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 17:05:28 2018 -0600
+
+    Ignore tox dir
+
+commit 944e1f703e85aaa557015689089608d637bc93ab
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 17:04:41 2018 -0600
+
+    Remove unneeded helpers
+
+commit 59992cb68d488ee3592f074762545ca79d7773c7
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 15:30:11 2018 -0600
+
+    Forward verbose and fake args to invoked switch command
+    
+    Remove github config info, tests currently do not invoke git.
+
+commit 9efadd427da67f536e7d5f14f93df4be1e9efbdd
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 14:54:59 2018 -0600
+
+    Fix token
+
+commit a65062520f55508f7d348391e1276545156dd8b1
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 14:52:16 2018 -0600
+
+    Change github username, token
+
+commit ccc34054f7f039b0bd68da022edc9522d4b37c60
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 14:14:29 2018 -0600
+
+    Add github.user
+
+commit 01ea9cbdd9fec8a6ee1bc13ffb01184de47faa76
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 14:04:17 2018 -0600
+
+    Change git config to --local
+
+commit fddc79a43bb71fd29bbc37e0c2b0feb7990a9fe4
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:45:21 2018 -0600
+
+    Restore status code check
+
+commit 55151412ef042a1d39fa9bbac9f15fa4bf0ddaaa
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:45:07 2018 -0600
+
+    Add git configuration
+
+commit 8e88b266237eb2acb5c8a101cd83e68619f49bb2
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:37:43 2018 -0600
+
+    Fix test arguments
+
+commit 7b875da90a1983961435b2e8bcbc20814f58355d
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:24:10 2018 -0600
+
+    Verify sync test output
+
+commit 93992849a78018ea337b8dbbda5c41b77b0c0b7f
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:09:56 2018 -0600
+
+    chmod shell script
+
+commit f1ee1747c86985aafc013de6fb4eb8768c5cebc9
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 13:03:07 2018 -0600
+
+    Attempt to fix git reference issues
+
+commit 087b3a858d378bd35e3afa073c00bef7a441b5ca
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 12:37:34 2018 -0600
+
+    Prevent duplicate git list calls
+    
+    Don't call git list once to determine if restore is needed
+    and a second time to get the actual stash index, when the index
+    was retrieved the first time!
+
+commit f322488dfef052a12f8a97854188c39a49483b1f
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 11:30:30 2018 -0600
+
+    Add --hard option for undo command
+    
+    Exit CLI after --install, --uninstall, --edit options.
+    Respect --fake option with --edit option.
+    Remove redundant self.repo_check() calls.
+
+commit 28c3f41ade5944380168c3dfd743d7a6b7b2e6aa
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 11:30:04 2018 -0600
+
+    Ignore testing artifacts, Pipfile
+
+commit e34419fec8ea9520e178376f2c15c6b622f12324
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 11:28:38 2018 -0600
+
+    Add help test
+
+commit 1e511e13e7bb2f6c5dd3eac1cff96061dbb7ac2d
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 10:22:55 2018 -0600
+
+    Revise trove classifiers
+    
+    Remove unsupported Python versions, add supported versions.
+    Update docs.
+
+commit e7e2d8ba10bb20e06e37eebb560d48722790f79c
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sun Mar 11 10:13:41 2018 -0600
+
+    Fix pip install command
+
+commit 399cc69d858d364a206d80f12b82b1b80c4ab8df
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 22:37:06 2018 -0700
+
+    Fix help spacing
+
+commit 70be7e4d6329b0044a1fb618eb182fcd51c5e2f1
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 22:19:21 2018 -0700
+
+    Rename --settings to --edit
+    
+    Utilities like this often specify an alternate setting file with
+    the --settings option, so renaming this.
+
+commit e818a7b0085d310a78ead3008d9886cf6212ee84
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 22:07:31 2018 -0700
+
+    Add Travis and Coveralls badges
+
+commit c2e398cceb3ad7a75968db125df55d3d0bdfc73c
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 21:43:30 2018 -0700
+
+    Update version to 1.0.0
+    
+    Improve README and HISTORY
+
+commit b73dc9c685260609d795e2863eb4620a30673b44
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 21:25:35 2018 -0700
+
+    Add more smoke tests
+
+commit 3f58ae4a73c53a8cad6cd102db49bad805e9b0ed
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 21:19:44 2018 -0700
+
+    Use click.edit() for editing legit config file
+
+commit 5dd02e30bbf6ce2554d76aca65c00c1fc5ec60d5
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 21:12:00 2018 -0700
+
+    Change some commands to options
+    
+    Make "install", "uninstall", and "settings" into main options.
+    Move these infrequently used commands to "--options".
+
+commit 54012ffa37e556aebe1d4739cdc3a199f8279222
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 20:51:54 2018 -0700
+
+    Add "uninstall" command to help and ordering
+
+commit 5c3176d6e1a64ff3632c2ea5bb0c7fde16f97873
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 20:49:39 2018 -0700
+
+    Add "uninstall" command
+    
+    Removes git aliases, no confirmation required because they can
+    easily be added again.
+
+commit 119e9969b1c7b37178daa9838181de16859b73c1
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 20:33:19 2018 -0700
+
+    Add repo check in "branches" command
+    
+    Restore use of clint.textui.colored for output via clint.textui.columns.
+    Using crayons in this situation does not work - colors not seen, strange
+    text wrapping.
+
+commit bb968b29f866735379a2b3e6575c13501a8c41d7
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 19:46:59 2018 -0700
+
+    Add tests for a few sub-commands
+    
+    Add "reqs-dev.txt" for local testing requirements.
+
+commit 92b1b09691548ef1a2b23ccac01f8073fca05d88
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 19:42:24 2018 -0700
+
+    Update Travis CI config to use tox and flake8
+    
+    Remove unsupported Python versions from CI matrix.
+
+commit 883a4fa1b3032d8509530caee1bfcac8e3703149
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 19:40:29 2018 -0700
+
+    Rename method to avoid early Python name conflict
+
+commit 4528ea911ef876bd83ee0071448f2773f6613955
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 19:39:48 2018 -0700
+
+    Restore Python 2.7 compatibility
+
+commit 366fabf8c2463f4c1e2c19dc5692fe9f1bb5ce1e
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:58:31 2018 -0700
+
+    Pin crayons
+
+commit 8f95430f5f79de7d5d6df959e4e80d3b19d11ab6
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:57:40 2018 -0700
+
+    Add simple smoke tests
+
+commit c8c722aa55d9159ef39ea49c2ed98d6b536ae157
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:57:01 2018 -0700
+
+    Reorder functions
+
+commit 1405091157423f64654f446a9af200da7c224a9a
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:29:58 2018 -0700
+
+    Add pytest dir to .gitignore
+
+commit 32d3c7049bef03dba192c31cbc4236fa3284446d
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:27:52 2018 -0700
+
+    Remove unused settings
+
+commit f686ad1d461036eee7bfecd5ac7e1172473a9c0a
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:12:00 2018 -0700
+
+    plac8
+
+commit 3e2b97aae2ecdc8a2281f1aed637fe5faecccc77
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 15:06:17 2018 -0700
+
+    Improve help output
+    
+    Remove "help" command as invoking `legit` without sub-command shows nice help.
+    Use `crayons` instead of `clint.colored`.
+
+commit caad608e491d97f028d36bd05ab54a2c20c1dbbb
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 12:11:55 2018 -0700
+
+    Add "help" command
+
+commit 296eb9de4cd7a38cd81bdad6c25cf7a9d56336b2
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Sat Mar 10 12:11:21 2018 -0700
+
+    Remove git_transparency
+
+commit 2ce3c1c6f667b46e54ad84a5eccea90e948b7c7c
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 15:58:12 2018 -0700
+
+    Add self to AUTHORS
+
+commit 723f38650663a9f12264764552e86ed3936b4753
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 15:18:59 2018 -0700
+
+    Add --verbose and --fake options
+    
+    Show commands as invoked with --verbose.
+    Show commands but do not invoke with --fake.
+
+commit 2eaf68ae33850102380f703a856f4d9dca01e8e2
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 12:54:00 2018 -0700
+
+    Move color helper func
+
+commit 0e77b98b32641810af6de0fba0d4e393d330c424
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 12:48:15 2018 -0700
+
+    Add command alias resolution
+    
+    Add flake8 configuration
+    plac8 (placate Flake8)
+
+commit 2a141d34a14545175eee94e34d826e899f545a0c
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 12:46:29 2018 -0700
+
+    Resolve upcoming Python deprecation
+
+commit 4d4a7c2d2c33f80b32f641cfd41eec8ef0af2898
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 11:14:44 2018 -0700
+
+    Add install and settings commands
+
+commit 9a38d1e9b5de85d75b2f56716c9604500c27f6b2
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 02:11:43 2018 -0700
+
+    Improve help output, command order
+
+commit fe3ede789580db28a2312d2f3d90c804d0ccdc9f
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Fri Mar 9 00:06:56 2018 -0700
+
+    Add publish and unpublish commands
+
+commit e68eed9cec854a5b7391b6e97f5eb1aa9c6c3a06
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Thu Mar 8 23:47:42 2018 -0700
+
+    fix argument name
+
+commit 5197206753423837245ad94f4c7277099f8f0a6b
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Thu Mar 8 23:46:48 2018 -0700
+
+    Add sync and branches commands
+
+commit ca8b6fcd6694df0ba8e2bebbfde7e5ea2643b768
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Thu Mar 8 22:47:37 2018 -0700
+
+    Initial use of click
+
+commit 40c8c0023f12c82f485995c16c149acfeb190be3
+Merge: 246ec45 1c7c234
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Mar 8 17:37:13 2018 -0500
+
+    Merge pull request #231 from grahamu/update-classifiers
+    
+    Add Python 3.5 & 3.6 language classifiers for 0.5.0 release
+
+commit 1c7c234ab0d866fa4f1a73d79bee23bfcaa38f6d
+Author: Graham Ullrich <graham@flyingcracker.com>
+Date:   Thu Mar 8 14:00:38 2018 -0700
+
+    Add Python 3.5 & 3.6 language classifiers
+    
+    Update Development Status to Production/Stable, since recent changes
+    for 0.5.x release fix many of the outstanding issues.
+
+commit 246ec45f7474194a37b668eef7f99ac886cca6e4
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Feb 8 20:22:59 2018 +0800
+
+    readme: doc how to install from git repository.
+
+commit f32d91891883a6cdbd4fc6a1dc9024b9e8ba8fe5
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Feb 8 01:11:27 2018 +0800
+
+    bump version to 0.5.0
+
+commit 6b9bad32424ca8734bed6e98f1a3c3f2401597e3
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Feb 8 01:09:46 2018 +0800
+
+    history: prepare to release 0.5.0.
+
+commit 92c1b4b898a7d7dba459fcbc06cc0f523db737dc
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Feb 8 01:00:12 2018 +0800
+
+    history: 0.4.1
+
+commit ac358b260bba4c689c1cf208c77372e172437f28
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Feb 8 00:56:38 2018 +0800
+
+    history: more details on 0.3.1
+
+commit 33a98adb77a0edb997fb3894b8613cd3faf0832b
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Mon Dec 25 00:18:20 2017 +0800
+
+    Remove outdated Pipfile.
+
+commit 2be64f906a0a09f6f71f326af90d87e92d600e52
+Merge: 325dd22 cd14865
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Mon Dec 25 00:06:12 2017 +0800
+
+    Merge pull request #226 from miketheman/update_gitpython_225
+    
+    Update GitPython dependency in reqs.txt
+
+commit cd14865593c9af32187d7023f57b507e54a058ba
+Author: Mike Fiedler <miketheman@gmail.com>
+Date:   Sat Dec 23 22:57:53 2017 -0500
+
+    Update GitPython dependency
+    
+    Resolves #225
+    
+    Signed-off-by: Mike Fiedler <miketheman@gmail.com>
+
+commit 325dd22fd0ed278f41f94ad5e146138ecfa7b9df
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Aug 24 20:42:30 2017 +0800
+
+    Remove sprout/harvest/graft in bash/zsh completion.
+    
+    since these commands have already been removed.
+
+commit a488d6a6ca7e1925b53ab012b8f14125ee4caba6
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Aug 24 20:38:58 2017 +0800
+
+    Remove sprout, harvest, graft in manpage
+    
+    since these commands have already been removed.
+
+commit de1e2ca0126645633475c90d34be839f43f09685
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Fri Jul 28 21:54:30 2017 +0800
+
+    Improve info on unpublish command
+    
+    when the remote branch has been deleted at the remote by someone else.
+    
+    Related issues: #58 #223
+
+commit 96d6f7b0757105b653b07d672f497460a01dd301
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 22:17:15 2017 +0800
+
+    setup.py: fix import py2exe.
+    
+    `import py2exe` was removed by accident in previous commit.
+
+commit f1e4f5c00100d7d012733c561d1b771da9aeff88
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 22:13:21 2017 +0800
+
+    Refactor: remove unused imports.
+
+commit bd155fb9d0f55c6cf5abdee896c829d0b616bd83
+Merge: 6a13703 4782928
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 21:46:08 2017 +0800
+
+    Merge branch 'rebase-merge' into develop
+
+commit 478292899831c1da478490970bc5d4f66d117510
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 21:45:43 2017 +0800
+
+    legit sync can be configured to do ff-only merge.
+    
+    `legit sync` will only do fast-forward merges
+    if both of the following conditions met:
+    
+    1. `legit.smartMerge` is **false**
+    2. `pull.ff` is **only**
+
+commit 252b1eb2cd1c0a8f223fa8022ed37752bd5d6cec
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 21:45:43 2017 +0800
+
+    legit sync can be configured to always rebase.
+    
+    legit sync will always rebase
+    if both of the following conditions met:
+    
+    1. legit.smartMerge is **false**
+    2. pull.rebase is **true**
+    
+    fix #102
+
+commit 21bb7edd081f9e47abec9b970b32f2814104d298
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 21:45:42 2017 +0800
+
+    Add boolean option legit.smartMerge
+    
+    to allow always merge, never rebase when syncing.
+    
+    fix #143
+
+commit 6a137039b0940c311dcba91b44ca026a47af3a53
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 20:04:16 2017 +0800
+
+    Remove unused function declarations.
+    
+    Remove sprout_branch() and graft_branch()
+    since their commands have been removed.
+
+commit 1e742409ec0e8b98b526d0cabcdfd5f4efa1b93f
+Merge: e90c0ab 7a50f71
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 20:03:00 2017 +0800
+
+    Merge branch 'travis-new-python-versions' into develop
+
+commit 7a50f71efe9d47239156727f94a086e11bb85b94
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 20:01:55 2017 +0800
+
+    travis: add Python 3.5 and 3.6.
+
+commit e90c0abaca2bc3ab448bf2c5fc3e7e331f41f9a1
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 19:55:44 2017 +0800
+
+    get_remote(): make legit.remoteFallback more discoverable.
+
+commit b6ec3e8aecb6e93866ffde24a5d3b6021aa93960
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 19:55:44 2017 +0800
+
+    Add option legit.remoteFallback
+    
+    to avoid pressing `[Yn]` repeatedly
+    when in a repo with a non-exist legit.remote.
+
+commit ed0c7c830a926ad9fe81b90802297ba57b182778
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 19:55:44 2017 +0800
+
+    get_remote(): fallback to default remote if legit.remote not found on remote.
+    
+    fix #184
+
+commit 488ffee8a25c03ea8036f0654e70d6a9d9874a73
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Jul 20 19:55:36 2017 +0800
+
+    Refactor get_remote(): pep8.
+
+commit b921569042a2cf0b45acb570a389427165a01516
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 22:52:24 2017 +0800
+
+    branches now works without remotes.
+    
+    fix #10
+
+commit 8ed74b32593d53262c822d80079044226afa4fa5
+Author: mattn <mattn.jp@gmail.com>
+Date:   Fri Aug 3 21:22:01 2012 +0900
+
+    use dobule quote.
+
+commit f2ae0844511620268a865e2e4825a1f41097ec95
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 20:04:56 2017 +0800
+
+    Warn before installing aliases.
+    
+    close #40
+
+commit 44128e4b02065c48ba76ebade872258703be80da
+Merge: 1a9ab20 b42bf45
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 19:27:25 2017 +0800
+
+    Merge branch 'remove-resync' into develop
+
+commit b42bf45d8661180ee515065f571d194599f037b0
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 19:26:52 2017 +0800
+
+    Remove command resync.
+    
+    - The naming is confusing.
+    - The resync command is not frequently used as sync.
+    - It is incompletely implemented (restricted to master branch).
+    
+    This commit closes #202.
+
+commit 1a9ab20fa070b22d5fd5866e6c298e637c791943
+Merge: fa27afa 065036b
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 19:14:26 2017 +0800
+
+    Merge branch 'switch-error-message' into develop.
+
+commit 065036b0dc5fa32d1c8a4d0739bc408c12615af1
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 19:13:52 2017 +0800
+
+    Error message of calling switch without branch name.
+    
+    fix #222
+
+commit fa27afa1cd21836643ba3dc9941cf79e46af8a40
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 19 19:11:02 2017 +0800
+
+    legit settings: remove dead link.
+    
+    This commit closes #65.
+
+commit f2ce7241a93bf11927a39ef783b00c4d8e7c641a
+Merge: 7be8429 8144177
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 12 21:44:33 2017 +0800
+
+    Merge pull request #221 from weakish/remove-outdated-build-scripts
+    
+    Remove outdated builder scripts.
+
+commit 8144177cdd40121e4ec2c7c80a0e9b3949017d40
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Wed Jul 12 21:39:29 2017 +0800
+
+    Remove outdated builder scripts.
+    
+    - builders/darwin.sh is outdated.
+      Pyinstaller command names has been changed for a long time.
+    
+    - legit.py does not works with current Pyinstaller.
+      Built with Pyinstaler produces broken exe
+      (Runtime Exception: relative imports outside package.)
+      On the otherside, `legit_r` works with both Pyinstaller and py2exe.
+      Thus I just keep `legit_r` and removes legit.py.
+
+commit 7be8429834359c6e311661c5c19e1ebcb8240279
+Merge: c1c1737 e64dec7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Apr 4 09:47:26 2017 -0400
+
+    Merge pull request #206 from weakish/without-remote
+    
+    Works with repos without remotes.
+
+commit c1c17376d3f9bac2e073f8c6b91e4d325150a538
+Merge: d29830f 0360553
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Apr 4 09:47:10 2017 -0400
+
+    Merge pull request #209 from weakish/refactor-fetch
+    
+    fetch(): refactor to inline.
+
+commit d29830f6ccebfdf2318a83fdf7d27391009599c2
+Merge: 7d4b513 d39686e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Apr 4 09:46:37 2017 -0400
+
+    Merge pull request #217 from GrayMissing/bug-fix
+    
+    do copy to prevent to change dictionary during iteration
+
+commit d39686e0e5a411dfd38f65bd2c21704a27c21e44
+Author: gonglinglei <gonglinglei@meituan.com>
+Date:   Fri Feb 17 16:31:54 2017 +0800
+
+    do copy to prevent to change dictionary during iteration
+
+commit 7d4b51304e1c5557f09928b169ece4ead38cc8e5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:10:53 2017 -0500
+
+    update README
+
+commit e0564b81ccabc90fef458394408038eb315e209f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:09:23 2017 -0500
+
+    fix classifiers
+
+commit 601b43fe8cb498b30782a39a68aff3d721ded0e8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:08:44 2017 -0500
+
+    pip freeze
+
+commit 35bc11475ac7f2657ed92a858b654f95f78dc2ef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:07:55 2017 -0500
+
+    v0.4.0
+
+commit c3541b8404b914262326a6ea769963b8357ca973
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:06:54 2017 -0500
+
+    pipfile
+
+commit 3ef5d7ec733ddb9fe074e14e67a92c15402aee50
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Feb 10 13:06:49 2017 -0500
+
+    undo, remove bunk commands
+
+commit 90c0bdcc099ec842c43408014a4ef1bb4340b6d2
+Merge: 7acdb20 5fc94a5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat Jan 14 20:54:41 2017 -0500
+
+    Merge pull request #211 from elopio/patch-1
+    
+    Fix print for python3
+
+commit 5fc94a5b91b19174c5525401f1194fcc2748741d
+Author: Leo Arias <leo.arias@canonical.com>
+Date:   Sat Jan 14 19:53:41 2017 -0600
+
+    Remove the print
+
+commit 9988603c936b4361086cd2360bf4a156a0ba2c29
+Author: Leo Arias <leo.arias@canonical.com>
+Date:   Sat Jan 14 19:44:05 2017 -0600
+
+    Fix print for python3
+
+commit 7acdb2018676bba14565a6371297808d807bf54f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Dec 15 17:14:27 2016 -0500
+
+    Update HISTORY.rst
+
+commit 5a7a727d22f94fed4bab16e43691706e0a16ffc4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Dec 15 16:56:08 2016 -0500
+
+    yay undo works!
+
+commit 06c33d0759dd9e50778adc11c2d7b8989ead1ac8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Dec 15 16:45:39 2016 -0500
+
+    v0.3.1
+
+commit 0a6971da5eaa435a626fbcf1e42166994f895439
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Dec 15 16:45:25 2016 -0500
+
+    undo command
+
+commit 1a5c3d081ded459ee4b8d6788ea8d4ede3e84118
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Dec 15 16:33:43 2016 -0500
+
+    remove specs
+
+commit 01c30abf411ebb65f0a5138a918d84f71a6f9acd
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Dec 11 10:26:30 2016 +0800
+
+    cli: typo in helper message.
+
+commit fab5c8fe9737f7566bea24a082312d04543e76e1
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Dec 11 09:55:54 2016 +0800
+
+    Run `legit` without arguments prints help message.
+    
+    Without report the error `Unknown command None`.
+
+commit e64dec764f72d96cda49d6c7ac8d97847dfb7698
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 23:41:53 2016 +0800
+
+    fixup! Works with repos without remotes.
+
+commit 0360553ae807e2a0d010b008c5ee1a697fc241af
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 23:11:56 2016 +0800
+
+    fetch(): refactor to inline.
+
+commit 7938ad303ae3bcbc8aef717877fc9ab73b673277
+Merge: bd60b91 6c39754
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:33:41 2016 +0800
+
+    Merge pull request #204 from weakish/refine-exit-code
+    
+    Refine some exit code.
+
+commit bd60b91ad4b3099352ebc61473637d4287f84037
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:27:29 2016 +0800
+
+    Bump version to 0.3.0
+
+commit 5ec3d1deb7b027ddc317424a51e5df1784e0db89
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:27:05 2016 +0800
+
+    Bump version to 0.2.1
+
+commit f5934f3dd230dc2553ee7e2b6c5106f32f9b3b93
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:26:19 2016 +0800
+
+    history: add 0.2.1
+
+commit 16ae700e4ff80e176d2e88a9e99c6a2956f0ee0e
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:20:34 2016 +0800
+
+    history: add 0.2.0
+
+commit 2dbcda857695a6724305375065296faa151fc772
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 22:07:23 2016 +0800
+
+    history: add 0.1.1
+
+commit 39a137a4632361faf5f5d80ec1e072decdc10944
+Author: Erik de Jonge <erik@a8.nl>
+Date:   Thu Jun 9 13:14:59 2016 +0200
+
+    In python3 filter returns an iterator, added a cast to a list
+
+commit 7d45eebdd497fcd574a8bb4683b613edacad4d79
+Merge: c65ccf9 986e7f0
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun Sep 25 21:16:57 2016 +0800
+
+    Merge pull request #187 from wkentaro/improve-help-command
+    
+    Improve the display of help command
+
+commit c65ccf95e7e3cb98818ec68510a0860d008e587d
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Thu Sep 22 20:32:26 2016 +0800
+
+    Update `__version__` to 0.2.0
+    
+    Fix #207
+
+commit 75c588f62a8a471a4eca5c968ebb0e7f13a45599
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Mon May 4 00:50:17 2015 +0800
+
+    Works with repos without remotes.
+    
+    sync/publish/unpublish will warns as before:
+    
+        No git remotes configured. Please add one.
+    
+    Other commands work with repositories without remote.
+
+commit 6c397546d88be75b8258e6190c17532dfeb883cd
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun May 3 21:46:35 2015 +0800
+
+    Refine some exit code.
+    
+    Display version and help via `-h` or `-v` should return 0 (success).
+    If a command line argument is missing, it should return non zero.
+
+commit 0eb31efec1e17190097043ea49451477a5a60b2e
+Merge: 13f5437 192cadc
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Mar 4 13:41:53 2016 -0500
+
+    Merge pull request #198 from acrobat/switch_stash_bugfix
+    
+    partially revert #111, to fix bug with previous intented behavior
+
+commit 192cadc417d410604c35e6d4318e55a428430ab2
+Author: Jeroen Thora <jeroenthora@gmail.com>
+Date:   Thu Mar 3 12:32:46 2016 +0100
+
+    partially revert #111, to fix bug with previous intented behavior
+
+commit 13f54371d59720b02eda94950046671fa826ec27
+Merge: 98e94a9 ef0328c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Jan 31 04:21:04 2016 -0500
+
+    Merge pull request #181 from wkentaro/similarity-ordered-commands
+    
+    Sort commands with similarity of command name
+
+commit ef0328c46a17d26cede587227c39db6b447cc270
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Thu Aug 27 02:22:30 2015 +0900
+
+    Sort commands with similarity of command name
+
+commit 98e94a933844a1dc0c1a2483aa832db50b8d4b99
+Merge: d923f57 a93a4f8
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 31 18:20:24 2015 +0100
+
+    Merge pull request #193 from wkentaro/use-rst2man
+    
+    Use rst2man.py instead of ronn to generate manpage
+
+commit d923f57d21b6012235eafbaeee20ecd3fe3ca525
+Merge: 2fffa4f 2a54923
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 31 18:19:01 2015 +0100
+
+    Merge pull request #190 from wkentaro/completion-for-help-command
+    
+    Add completion for help command
+
+commit 2fffa4fc3cac05ae6105f030239992bc42c29261
+Merge: d2798e4 d7f1f31
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 31 18:18:50 2015 +0100
+
+    Merge pull request #189 from wkentaro/completion-for-short-command
+    
+    Add completion for short command
+
+commit d2798e4eb3af9f41309f83d85faa1d9ddada989f
+Merge: 0ea89b5 3fc0d1f
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 31 18:18:31 2015 +0100
+
+    Merge pull request #188 from wkentaro/improve-readme-for-alias
+    
+    Improve readme for alias and help command
+
+commit a93a4f88f0b90d02c694864451a58f8bb4503c95
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 07:19:33 2015 +0900
+
+    Use rst2man.py instead of ronn to generate manpage
+
+commit 2a54923b16c462b52ed1dce4f4c35c1f2d027305
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 02:05:50 2015 +0900
+
+    Add completion for help command
+
+commit 4c62829dea66c9b433304b2e3a196060a75baa2d
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 02:05:36 2015 +0900
+
+    Add modeline for vim
+
+commit d7f1f31d6d06def1cead29d2e892329354c4850e
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 01:48:03 2015 +0900
+
+    Add completion for short command
+
+commit 0ea89b5e21c1c5cd436416b304c503cc294fe3f6
+Merge: 1c3b97d efa6416
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sun Aug 30 22:52:02 2015 +0100
+
+    Merge pull request #186 from wkentaro/special-branch-expression
+    
+    Support special expression for branch
+
+commit 1c3b97de16d55f036b5ea5959baac265aedf6a62
+Merge: 22c69c2 c9212b6
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sun Aug 30 22:51:23 2015 +0100
+
+    Merge pull request #191 from wkentaro/completion-for-resync
+    
+    Add resync completion
+
+commit c9212b6e5444863fda2729293d016843dba86d7e
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 02:13:27 2015 +0900
+
+    Add resync completion
+
+commit 3fc0d1f3fbe214bdab8905947c98646544636e75
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 01:31:24 2015 +0900
+
+    Add help command instruction in README
+
+commit ff2e83b600047afb08ab33f3bf46a6a4562db42d
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 01:31:14 2015 +0900
+
+    Add alias instruction in README
+
+commit 986e7f0b11d0882d38831fcb1ba65eed6281cfed
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 01:25:57 2015 +0900
+
+    Wrap help message with 60 max width
+
+commit 9e892522ce2d2baa36cd66661d9b4bca521d6b28
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 01:25:07 2015 +0900
+
+    Show aliases in command help
+
+commit efa641635f21a86a23059c270920889bd075048a
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 00:57:05 2015 +0900
+
+    Display switched branch by checkout_branch()
+
+commit 041e5b8afaf5f376d5a948d76ffabeaaf08a6853
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 31 00:44:12 2015 +0900
+
+    Support special expression for branch
+    
+    Closes #46
+
+commit 22c69c22b8e1514f06d5fe7a1eb49e2c821d2f6e
+Merge: 631ad46 02b9ae3
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sun Aug 30 14:46:53 2015 +0100
+
+    Merge pull request #180 from wkentaro/display-info-with-columns
+    
+    Make cmd-list easier to view  (add newline and indent)
+
+commit 631ad46318278d5b37857c17b83c5684592466c2
+Merge: fdca2ee 610faf4
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sun Aug 30 14:44:12 2015 +0100
+
+    Merge pull request #185 from wkentaro/add-manapage
+    
+    Add manpage generated from README via ronn
+
+commit 610faf46b7b340e5233187c75cd83f7c1bf1999e
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Sun Aug 30 17:49:07 2015 +0900
+
+    Add manpage generated from README via ronn
+    
+    For #47
+
+commit fdca2ee14e5a81203da00bb3a5932aaae7fc2785
+Merge: b2a74a5 d02be6a
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Thu Aug 27 16:57:11 2015 +0100
+
+    Merge pull request #182 from wkentaro/pypi-version-badge
+    
+    Use correct badge which represents pypi version
+
+commit d02be6a4985405ad5b8c925219155b6b2ccfeccb
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Fri Aug 28 00:31:41 2015 +0900
+
+    Use correct badge which represents pypi version
+
+commit 02b9ae37c2ff6b72be0e550494d204b87c2ca439
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Thu Aug 27 02:21:08 2015 +0900
+
+    Easier cmd list (add newline and indent)
+    
+    Closes #179
+
+commit b2a74a50911e02446a02913fd4d53805fb85d2ab
+Merge: cbcc691 a4f37d4
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Wed Aug 26 15:30:34 2015 +0100
+
+    Merge pull request #178 from wkentaro/doc-for-resync
+    
+    Update documentation for resync command
+
+commit a4f37d4c06a659149925ba6199cf2a83ed0fb7da
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Tue Aug 25 04:42:20 2015 +0900
+
+    Fix typo syncronize -> synchronize
+
+commit 7f285eb23fd2e9a6b0769eccba25d4dd3eb78028
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Tue Aug 25 04:13:09 2015 +0900
+
+    Update documentation for resync command
+
+commit cbcc6919fda13d9f9b876a059a5a6201f02f7aed
+Merge: e536ad4 d38c481
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 24 19:35:22 2015 +0100
+
+    Merge pull request #177 from wkentaro/fix-sprout-none-arg0
+    
+    Show pretty help stderr when cmd_sprout fails
+
+commit e536ad4a6f8ccd3cebae3f36441a8266afa98012
+Merge: 479c036 4d30d79
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 24 19:34:54 2015 +0100
+
+    Merge pull request #176 from wkentaro/fix-legit-remote-config
+    
+    Fix remote name config with legit.remote
+
+commit 479c036fa14abeebdf386bc56885db9578ca7ab3
+Merge: 5cf5121 5569e7e
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 24 19:34:03 2015 +0100
+
+    Merge pull request #173 from wkentaro/unpublish-fail-msg
+    
+    Fetch and abort if unpublishing branch not found
+
+commit d38c481318daa21bb68ba9e3a40ce53e5f280500
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Tue Aug 25 02:54:59 2015 +0900
+
+    Show pretty help stderr when cmd_sprout fails
+    
+    Closes #60
+
+commit 447d310e5637286fecc5d94b61a6c934c3e1cb83
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Tue Aug 25 02:38:06 2015 +0900
+
+    Refactor: stop checking and demanding off_branch (it's now optional)
+
+commit 4d30d79c25e9962707f12ab76a283c54eb14ff35
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Tue Aug 25 01:48:59 2015 +0900
+
+    Fix remote name config with legit.remote
+    
+    Closes https://github.com/kennethreitz/legit/issues/175
+
+commit 5cf512128e1c92700d09e5f9a3e0801661cb53f6
+Merge: 794db26 3dd7c14
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 24 17:30:03 2015 +0100
+
+    Merge pull request #174 from wkentaro/scm-get-branch
+    
+    Check if git-repo when getting current branch
+
+commit 3dd7c144fb9e4e5caeae009a1cc4c376f6b8cd40
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Mon Aug 24 23:57:22 2015 +0900
+
+    Check if git-repo when getting current branch
+    
+    Closes: https://github.com/kennethreitz/legit/issues/99
+
+commit 5569e7e3331ddc01a00b6da1d7f15fac31c72dfb
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Sat Aug 22 11:59:58 2015 +0900
+
+    Fetch and abort if unpublishing branch not found
+    
+    closes: https://github.com/kennethreitz/legit/issues/113
+
+commit 794db26cb456eaf7b7a8269f2b901d127f5c0511
+Merge: 4c5bbf9 e180635
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 10 01:42:46 2015 +0100
+
+    Merge pull request #170 from wkentaro/optarg-branch-cmd-publish
+    
+    Clarify arg0 branch of `legit publish` is optional
+
+commit e180635fd007cd196c81b1ca57104d1c7b5380cc
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Sun Aug 9 13:19:49 2015 +0900
+
+    Clarify arg0 branch of `legit publish` is optional
+
+commit 4c5bbf95270c4dd1fe7434a7487f0658717ea293
+Merge: 0a2df1c bff415e
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Aug 8 18:15:19 2015 +0100
+
+    Merge pull request #169 from wkentaro/search-parent-dir-for-dot-git
+    
+    Fix "Not a git repository" error in child folder
+
+commit 0a2df1c0cd3c492b2deb9008d70d25b3d789fb7b
+Merge: 516ca0d 4329e36
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Aug 8 18:11:27 2015 +0100
+
+    Merge pull request #167 from wkentaro/remove-get-remote-in-global
+    
+    Fix install when outside git repo
+
+commit 516ca0de324c95d3d5e88774f22a094dc30aa586
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Aug 8 11:54:08 2015 +0100
+
+    Update README.rst
+
+commit 6ad2f303d41331b56cd7613a6c3c8f1965c28289
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Aug 8 11:47:50 2015 +0100
+
+    follow https://packaging.python.org/en/latest/distributing.html#setup-py
+
+commit 88ef7a9a753fe26c980433529f43a35b840b6be1
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Aug 8 11:21:16 2015 +0100
+
+    v0.2.0
+
+commit bff415ec269624a08217a0310d8256797a1d3ccf
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Fri Aug 7 15:48:40 2015 +0900
+
+    Fix not git repo error in child dir
+
+commit 4329e36538062931e7b55e4eff4f2e555cb30356
+Author: Kentaro Wada <www.kentaro.wada@gmail.com>
+Date:   Fri Aug 7 15:27:42 2015 +0900
+
+    Stop get_remote if not in git repository
+
+commit 2465fc31f316b52b933d78d086bb529237b86b55
+Merge: 5060b74 fcb7b0d
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Tue Aug 4 21:30:12 2015 +0100
+
+    Merge pull request #136 from blueyed/fix-zsh-completion
+    
+    Minor fixes to the zsh completion
+
+commit 5060b7471a6cbfc838b988d849259d91b6d87b8f
+Merge: c19e916 34e6134
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Mon Aug 3 18:59:49 2015 +0100
+
+    Merge pull request #164 from balihoo-aharl/develop
+    
+    Add harvest to bash completions file
+
+commit 34e6134dfcc3f9cd2050d7a8989945ef131e3692
+Author: Andy Harl <aharl@balihoo.com>
+Date:   Wed Jul 15 09:23:20 2015 -0600
+
+    Add harvest to bash completions file
+
+commit c19e91617d9ff46a4a0abd1b4b31deb1313406a6
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Wed Jul 15 01:04:05 2015 +0100
+
+    Update reqs.txt
+    
+    Closes #155
+
+commit 022c656f57bdeb777df9a259a94e400007ace4c8
+Merge: bc58bc5 1e43b25
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Jul 11 00:24:55 2015 +0100
+
+    Merge pull request #162 from hickford/python3
+    
+    Clarify Python 3 support
+
+commit bc58bc56ac4db40aad846ab27b5f2b0aeb4458b1
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Jul 11 00:24:00 2015 +0100
+
+    link to packages
+
+commit eee100bc7cef3a4f26d4a05b1dbb41f591795ae3
+Merge: b77134c 373b209
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Sat Jul 11 00:21:20 2015 +0100
+
+    Merge remote-tracking branch 'weakish/readme-installation' into develop
+
+commit b77134c9c064abf2a4d681b04028a58f20cecbf4
+Merge: ab2adb4 80fd7fc
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Fri Jul 10 23:50:08 2015 +0100
+
+    Merge pull request #159 from bbonf/develop
+    
+    abort the correct verb when smart_merge fails
+
+commit 1e43b25a9bc09cb7a9001ef0561909e9915d04f2
+Author: Mirth Hickford <mirth.hickford@gmail.com>
+Date:   Fri Jul 10 23:44:17 2015 +0100
+
+    clarify Python 3 support
+
+commit 373b209bdbeffb96485095b08f3002160c766394
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun May 3 18:28:30 2015 +0800
+
+    README: document install via python setup.py.
+
+commit 28cfa9ff9cdfc87baa5ba5cf96598f8cf75c1acb
+Author: Jakukyo Friel <weakish@gmail.com>
+Date:   Sun May 3 18:26:03 2015 +0800
+
+    README: mention pip version is outdated.
+
+commit 80fd7fcb5f5638c2fe46379b4f7b123c1f140294
+Author: Ben Bonfil <bonfil@gmail.com>
+Date:   Tue Feb 24 11:15:10 2015 +0200
+
+    fixed exception handling in get_repo()
+
+commit 1219ec1f86bb9c8ad0704ae3d0ed1c706220eec1
+Author: Ben Bonfil <bonfil@gmail.com>
+Date:   Thu Feb 19 14:26:59 2015 +0200
+
+    abort the correct verb when smart_merge fails
+
+commit ab2adb4fbf46bbfbd64e1a6dd6ccf1502b775ef6
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Sun Jan 18 19:38:36 2015 +0000
+
+    Update AUTHORS
+
+commit 4d4aafc865602cb1086275921dd3ef89f2af6e6a
+Merge: 869ad28 77bcb04
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jan 8 12:18:55 2015 -0500
+
+    Merge pull request #138 from blueyed/use-named-arg
+    
+    Use `is_published` named arg with `Branch`
+
+commit 869ad2846524c73f335b84f4151d05b09befb73d
+Merge: 9a05e16 e504586
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jan 8 12:18:37 2015 -0500
+
+    Merge pull request #139 from blueyed/use-try-except-with-clint-import
+    
+    Fix `ImportError: cannot import name Args`
+
+commit 9a05e167d4d088d75d1091c66d3b4507af27aee0
+Merge: 1f571e8 277be94
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jan 8 12:17:50 2015 -0500
+
+    Merge pull request #158 from hickford/python3
+    
+    Python 3 support
+
+commit 277be9489897daadc4bf689f4577269174b1272b
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 21:05:55 2015 +0000
+
+    fix blank help message
+
+commit 856dc7eeb964db7a971dfb678c7c68869aaaef8a
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:56:38 2015 +0000
+
+    Fix dodgy character in string
+
+commit 6761b559ece1b7f4532a96930b51c043b4254c09
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:53:07 2015 +0000
+
+    Fix 'TypeError: option values must be strings'
+
+commit 528b750c69ab125f5b529df3d5c9ebd21ae86f45
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:49:18 2015 +0000
+
+    test python 3.x on travis
+
+commit 5f8ee29775560f359a44b6d7d6aa4149a80f4ad0
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:48:28 2015 +0000
+
+    simpify setup.py
+
+commit 23a0a586c16ad6d73cfbd663ef5884ed81f5bd10
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:46:02 2015 +0000
+
+    Fix error 'Type str doesn't support the buffer API'
+
+commit 92cf0339321271b480ef125938b386fb3544d528
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:43:44 2015 +0000
+
+    fix ValueError import
+
+commit d225ddff5cb0c52d20045ff54516c251b6a800bc
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:42:51 2015 +0000
+
+    2to3.py -f except
+
+commit 5ef3a1d2526a9d155a3ee852a0e5b1a78c012cbc
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:40:24 2015 +0000
+
+    2to3.py -f print
+
+commit 1845786a6eea9f26a60fa08f3bee398b4a668fb1
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:39:04 2015 +0000
+
+    from six.moves import configparser
+
+commit 61f16691d33f6e6c6e5512e103cf3e77a195f4f6
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:34:42 2015 +0000
+
+    2to3.py -f import
+
+commit 80554410989342480a4ddf1694db94d60df571f0
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:30:03 2015 +0000
+
+    update deps
+
+commit 9d571cc441ddd7dd4b99209fcf6e97623a2002a8
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 20:27:32 2015 +0000
+
+    ignore build/lib/
+
+commit 67c6cb8966e05d12f6ef5611a55c05318a868ad1
+Author: Matt Hickford <matt.hickford@gmail.com>
+Date:   Tue Jan 6 18:55:52 2015 +0000
+
+    add travis ci
+
+commit 1f571e83b9ec64b183a3482b6c5f89d555d22cbc
+Merge: 7b93d3d fb11f9f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 27 11:34:08 2014 -0400
+
+    Merge pull request #144 from bluelaguna/develop
+    
+    Change gitpython requirement
+
+commit 7b93d3dba15c33d1861d2a67ebfab9a14b898c00
+Merge: 4442088 9b94de6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 27 11:33:25 2014 -0400
+
+    Merge pull request #147 from hargriffle/patch-1
+    
+    Just a typo
+
+commit 9b94de659c7e5858fb98b9c8585664d933081418
+Author: rowanhargreaves <rowan.hargreaves@gmail.com>
+Date:   Mon May 19 15:43:47 2014 +0100
+
+    Just a typo
+
+commit 44420883733622a4aaf0b6f4637d20b6ef8f4ecf
+Merge: 473d87d fc95627
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Apr 16 10:59:41 2014 -0400
+
+    Merge pull request #145 from calebegg/patch-1
+    
+    Fix broken link to Hacker News in readme
+
+commit fb11f9fbbd3aa91ed93486b539277d090a1d5da4
+Merge: 1923f71 2d7a293
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Mon Apr 14 14:54:23 2014 -0700
+
+    Merge pull request #2 from bluelaguna/build
+    
+    Build
+
+commit 2d7a293334a49c92484b5117bdd3577cf61c2074
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Mon Apr 14 14:49:31 2014 -0700
+
+    Include windows build
+
+commit 023d6c785332d3727edcad3c23fe70e91fc3f15e
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Mon Apr 14 14:45:04 2014 -0700
+
+    Add root "legit" object for pyinstaller
+
+commit ffd5628c671baa8a92ae8198ebbaca0c9ccbc54f
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Mon Apr 14 14:41:46 2014 -0700
+
+    Fix synchronization in git stash
+
+commit 1923f71861e13e77295a79c1b203ba7e87e63ce4
+Merge: c860f7b 0b55096
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Thu Apr 10 11:19:35 2014 -0700
+
+    Merge pull request #1 from bluelaguna/resync
+    
+    New 'resync' command
+
+commit 0b55096d8437a62548389d968b52a8ab299f683a
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Thu Apr 10 11:08:16 2014 -0700
+
+    New 'resync' command
+
+commit c860f7ba3c8545bc5b7896b90124d48750e490f0
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Wed Apr 9 12:16:40 2014 -0700
+
+    Fix broken stash index by remove date info
+    
+    Fixed an issue where stash index data would get broken by extra date information.
+
+commit fc95627d1ac523ec08db710ccc2f8a57e77503b9
+Author: Caleb Eggensperger <calebegg@gmail.com>
+Date:   Wed Apr 9 13:45:19 2014 -0500
+
+    Fix broken link to Hacker News in readme
+
+commit 0d875c2709e4da668d5707e1619be7ea75cccb98
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Wed Apr 9 11:25:18 2014 -0700
+
+    Fix #140 (color at aliases installation)
+    
+    Apparently the install command string exceeds the max length of the formatter (in windows at least).
+
+commit 6f1bd01539de881a014ba584f205fc49fe4c01e1
+Author: Akeem McLennon <akeem@mclennon.com>
+Date:   Wed Apr 9 10:55:03 2014 -0700
+
+    Change gitpython requirement
+    
+    The non-numerical parts of version number seems to cause issues with pip. Since the package hasn't been updated on pypi in 3 years, it's probably safe to specify latest version for now.
+
+commit e5045867c8697db287b893f6aa8665cd3cc1c1a5
+Author: Daniel Hahler <git@thequod.de>
+Date:   Wed Jan 29 10:51:08 2014 +0100
+
+    Fix `ImportError: cannot import name Args`
+    
+    Traceback (most recent call last):
+      File "…/usr/bin/legit", line 4, in <module>
+        import legit.cli
+      File "…/lib/legit/legit/cli.py", line 16, in <module>
+        from clint import Args
+    
+    Ref: https://github.com/kennethreitz/legit/pull/130
+    Ref: https://github.com/kennethreitz/legit/pull/131
+
+commit 77bcb04ee88c650db02b9e93632f638fc965aef3
+Author: Daniel Hahler <git@thequod.de>
+Date:   Wed Jan 29 10:41:27 2014 +0100
+
+    Use `is_published` named arg with `Branch`
+    
+    This is more explicit when reading the code.
+
+commit fcb7b0da3487bb7d7024b0140159e3fb7d6ff62f
+Author: Daniel Hahler <git@thequod.de>
+Date:   Wed Jan 29 10:33:15 2014 +0100
+
+    zsh: call _legit when the autoloading is triggered
+    
+    Otherwise you have to trigger completion twice on the first invocation.
+
+commit a0a9e5dc7d126d52ad771f87c402969e98bbb714
+Author: Daniel Hahler <git@thequod.de>
+Date:   Wed Jan 29 10:31:04 2014 +0100
+
+    zsh: fix typo with harvest completion: s/__get/__git/)
+
+commit b793b24caa8f9eb7dd101aaaa6912036b9b3f3bf
+Author: Daniel Hahler <git@thequod.de>
+Date:   Wed Jan 29 10:29:50 2014 +0100
+
+    zsh completion: update helpers and do not overwrite them
+    
+    __git_branch_names and __git_command_successful come from Zsh's _git
+    completion, and might be loaded/available already.
+
+commit 473d87d32488f8f71f0ee3086814fdf62b291a60
+Merge: 1a2df5f 5025e1a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Jan 27 09:39:30 2014 -0800
+
+    Merge pull request #134 from doggy8088/develop
+    
+    Fixd a 'legit install' failed issue on Windows
+
+commit 5025e1ab9d39e81370980c9de8a21471a551538a
+Author: Will <doggy.huang@gmail.com>
+Date:   Sun Jan 19 02:19:40 2014 +0800
+
+    Fixd 'legit install' failed on Windows
+
+commit 1a2df5fff97a91f90f39cb9aba3bb8791764e5ce
+Merge: f36489a 59b7159
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:20:06 2013 -0800
+
+    Merge pull request #117 from raylillywhite/patch-1
+    
+    Set up a tracking branch on publish
+
+commit f36489a5586102ab79edf96f6aa2edc672da6b4d
+Merge: ad03f8e 1efafe8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:20:00 2013 -0800
+
+    Merge pull request #112 from OctoKatie/patch-1
+    
+    Fixed a small typo.
+
+commit ad03f8e2fa36945f6a1b8eda06d92a1af989dbb3
+Merge: 0bf8006 a6e8a7a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:19:27 2013 -0800
+
+    Merge pull request #119 from joakim/develop
+    
+    Fix synopsis for the sprout command in README
+
+commit 0bf8006f8de2f8f2061ed1472ab2a13dab15447c
+Merge: a13e40d f441345
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:19:20 2013 -0800
+
+    Merge pull request #115 from pjambet/develop
+    
+    Update README with brew instruction
+
+commit a13e40d6de5090735420a544eed6ba576dd09210
+Merge: 2a3e645 7da2b94
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:18:37 2013 -0800
+
+    Merge pull request #122 from jjb/patch-1
+    
+    also stash untracked files
+
+commit 2a3e6459a467a16d3ad7c56ee721e4c10060405d
+Merge: d8f1d09 751c33c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 31 09:17:36 2013 -0800
+
+    Merge pull request #133 from TCattd/develop
+    
+    Fix for issue #131 (from official repo). Tested and working.
+
+commit 751c33c37c5791c0619448533bac9f7090c30cd3
+Author: TCattd <esteban.git@attitude.cl>
+Date:   Wed Dec 18 15:31:25 2013 -0300
+
+    Fix for issue #131 (from official repo). Tested and working. Although #130 could be better fix, but i haven't tested it.
+
+commit d8f1d09b19ee573ce2fc054281d58e58287335e2
+Merge: 9e50692 f5697d1
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 17 10:12:43 2013 -0800
+
+    Merge pull request #132 from suan/fix_core_version
+    
+    fix core version
+
+commit 9e50692db6eb63ad4b9af9a0278ac4b0fec38438
+Merge: 3c4d321 2d910da
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Dec 17 08:57:07 2013 -0800
+
+    Merge pull request #121 from lovato/develop
+    
+    The dependency gitpython 0.3.0 stable does not exist on Pypi
+
+commit f5697d11328eb423cf7b23928d19aef6fc5eb56a
+Author: Suan-Aik Yeo <yeosuanaik@gmail.com>
+Date:   Wed Dec 11 17:45:25 2013 -0600
+
+    fix core version
+
+commit 7da2b944edd82d3057bc5e96e1e70da3711b8365
+Author: John Bachir <j@jjb.cc>
+Date:   Thu Oct 10 15:12:24 2013 -0400
+
+    also stash untracked files
+
+commit 2d910da987ff931132797460caf60ab793e4f0f9
+Author: Marco Lovato <maglovato@gmail.com>
+Date:   Tue Oct 1 16:29:54 2013 -0300
+
+    The dependency gitpython 0.3.0 stable does not exist on Pypi
+
+commit 3c4d3214811c7892edf903682fdbb44f4050b99a
+Merge: dba1681 ee478c8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 23 11:17:19 2013 -0700
+
+    Merge pull request #107 from benizi/improve-git-aliases
+    
+    Improve git aliases
+
+commit a6e8a7a47ce43153a370d1944b2792cb18154664
+Author: Joakim Stai <joakimstai@gmail.com>
+Date:   Wed Sep 4 12:48:32 2013 +0200
+
+    Fix synopsis for the sprout command
+    
+    Correctly indicate that <branch> is optional
+
+commit 59b71594204cb96751c5b924962c1e0759345d75
+Author: Ray Lillywhite <raylillywhite@gmail.com>
+Date:   Fri Jun 21 16:50:04 2013 -0600
+
+    Set up a tracking branch on publish
+    
+    As requested in kennethreitz/legit#105
+
+commit f44134571be44bacf3a688c8f9fc14e4902caea8
+Author: pjambet <pierre.jambet@gmail.com>
+Date:   Wed May 29 11:53:29 2013 -0400
+
+    Update README with brew instruction
+
+commit 1efafe83938257d7a080e87fc8543b28994379a7
+Author: OctoKatie <kag_10@hotmail.com>
+Date:   Tue May 21 14:12:29 2013 +1000
+
+    Fixed a small typo.
+
+commit dba168103ea2980126c55bea5256e043f7da20dd
+Merge: 16372e1 28a8d7a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 14 06:51:23 2013 -0700
+
+    Merge pull request #111 from mxey/switch-unstash
+    
+    Use correct branch for unstaging in switch command
+
+commit 16372e126377d53d6ce5f1b7d6c422913290d50b
+Merge: d03ee26 c937c4f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 14 06:50:23 2013 -0700
+
+    Merge pull request #110 from mxey/stash-date-format
+    
+    Ensure parseability of git stash list output
+
+commit c937c4fbb111acffdb78182116c6c00fcdb02876
+Author: Maximilian Gaß <mxey@mxey.net>
+Date:   Sat May 11 19:21:59 2013 +0200
+
+    Ensure parseability of git stash list output
+
+commit 28a8d7a7cbcc417cbabbb88b5effe5578cae3e70
+Author: Maximilian Gaß <mxey@mxey.net>
+Date:   Sat May 11 19:19:56 2013 +0200
+
+    Use correct branch for unstaging in switch command
+
+commit ee478c81d0eb5fe029a684e31555a71d15002af1
+Author: Benjamin R. Haskell <python@benizi.com>
+Date:   Thu Apr 25 01:47:15 2013 -0400
+
+    Simplifies git alias installation
+    
+    With all aliases of the form 'x = !legit x', it's easier to generate
+    them.  Also, the single quotes were unnecessary.
+
+commit 5db4e77c738c1ee1798e492d62ed48101df57050
+Author: Benjamin R. Haskell <python@benizi.com>
+Date:   Wed Apr 24 20:02:14 2013 -0400
+
+    Removes explicit shell arguments from git aliases
+    
+    Git aliases don't need to explicitly specify "$@" as the last argument.
+
+commit d03ee262dcde952c1194d6459642b909a0686f1c
+Merge: a8b7a42 1de5a72
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 4 21:34:09 2013 -0800
+
+    Merge pull request #94 from krockode/develop
+    
+    fixed a couple of typos
+
+commit 1de5a72cf7095e1740029cf91d06d300989dcb68
+Author: krockode <krockode@gmail.com>
+Date:   Sat Feb 2 18:36:22 2013 +1000
+
+    fixed a couple of typos
+
+commit a8b7a42783484fd5cf98be988ebbb96c1757675c
+Merge: 009e062 89c7725
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 1 08:45:05 2013 -0800
+
+    Merge pull request #93 from Zearin/patch-1
+    
+    (über-minor) Updates to README.rst
+
+commit 89c7725e9aa0fd2191378c9e385e1ed39f01cf66
+Author: Tony <zearin@gonk.net>
+Date:   Mon Jan 28 16:51:50 2013 -0500
+
+    (über-minor) Updates to README.rst
+
+commit 009e06222247bc48231cb2347078655e17ddaf45
+Merge: 646354a 9fe2c16
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 28 12:57:04 2013 -0800
+
+    Merge pull request #92 from kristi/rebase-bugfix
+    
+    Fix auto-merge code so that rebase will be called
+
+commit 9fe2c16395ee8c845264a50be12d68cfae70826b
+Author: Kristi Tsukida <kristi@twistle.com>
+Date:   Mon Jan 28 12:50:28 2013 -0800
+
+    Use count instead of split to count commits
+    
+    string.split will return a list with one element (the original string) if the delimiter is not found
+    
+    fix issue #62
+
+commit 646354a450aab3f29efe42e8116df1011fb8bb20
+Merge: c46adec d26d819
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jan 22 05:12:16 2013 -0800
+
+    Merge pull request #90 from volpino/develop
+    
+    Preventing errors in a new repo with no branches or remotes
+
+commit c46adec18752d83003cc80c43d4b16b78fe97e56
+Merge: 195d156 83e623b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jan 22 05:12:01 2013 -0800
+
+    Merge pull request #91 from stevage/patch-1
+    
+    Update README.rst
+
+commit 83e623b73ef3a28f134d477de9b0b5662c0d1bca
+Author: stevage <stevagewp@gmail.com>
+Date:   Tue Jan 22 15:52:36 2013 +1100
+
+    Update README.rst
+    
+    Empirically, sprout requires both arguments. Updating doco to suit.
+
+commit d26d819de85a55663b5d19e28627487cbd23b749
+Author: volpino <fox91@anche.no>
+Date:   Sun Jan 20 20:12:55 2013 +0100
+
+    Preventing errors in a new repo with no branches or remotes
+
+commit 195d156c7e76359f42a074db227145a45f7fbb91
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Dec 31 18:01:40 2012 -0500
+
+    Update LICENSE
+
+commit 7d1d6d5e86512357fc59fbc98c48e6c6e77730cb
+Merge: 10826b7 fd6bd7f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Dec 14 12:22:29 2012 -0800
+
+    Merge pull request #80 from displacedaussie/develop
+    
+    Fix a typo that appears when syncing a branch
+
+commit 10826b7b5ae5963acd232f812482440e811b518f
+Merge: b9efbda 588c36c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Dec 14 12:22:12 2012 -0800
+
+    Merge pull request #86 from suan/git-alias-tab-completion
+    
+    Add bash tab-completion for git-aliased legit
+
+commit b9efbdaeb869ac2754057893cd0091fb63ae318d
+Merge: 6f5c1df 089401d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Dec 14 12:21:37 2012 -0800
+
+    Merge pull request #85 from suan/develop
+    
+    Fix incorrect stash pop index
+
+commit 588c36ca4ca9b0ef247e2035dda5f75a88e623b5
+Author: Suan-Aik Yeo <yeosuanaik@gmail.com>
+Date:   Sun Oct 28 04:06:43 2012 -0500
+
+    Remove filenames from legit bash completions
+
+commit 55904f3af8c21154d12f71fdc3e39fc0a145a162
+Author: Suan-Aik Yeo <yeosuanaik@gmail.com>
+Date:   Sun Oct 28 02:23:02 2012 -0500
+
+    Add bash tab-completion for git-aliased legit
+
+commit 089401dd763170ad452e9e26eb755e13c196cd66
+Author: suan <yeosuanaik@gmail.com>
+Date:   Sat Oct 27 22:29:28 2012 -0500
+
+    Fix incorrect stash pop index
+
+commit fd6bd7fd3fa4f2f21a461776d859d3848a25f7ef
+Author: Daniel Marks <daniel@netsight.co.uk>
+Date:   Tue Jul 31 15:46:34 2012 +0100
+
+    Fix a typo that appears when syncing a branch
+
+commit 6f5c1df463e0ce649451bbac08e739caa8c74f82
+Merge: f0a9267 9c360f0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 18 08:35:30 2012 -0700
+
+    Merge pull request #70 from jensck/develop
+    
+    Fix AttributeError on merge conflict
+
+commit f0a9267be5ba9b4fd644b79e36a27c51ddacb367
+Merge: 7981146 33dc4d7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 18 08:20:39 2012 -0700
+
+    Merge pull request #73 from miguelbaldi/develop
+    
+    Issue #72: Implementing default behavior to current branch on the comman...
+
+commit 7981146af99727278b8bb973075bf445c3560658
+Merge: c7b4ee6 c8d7135
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 18 08:18:59 2012 -0700
+
+    Merge pull request #74 from wiseman/develop
+    
+    Consolidate command definitions and show short help text when listing commands.
+
+commit c7b4ee649ffe67ce6a32f8d18fcf3569bfe5b3b9
+Merge: 0ab54bb 4e44c02
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 18 08:05:16 2012 -0700
+
+    Merge pull request #75 from cczona/patch-1
+    
+    Update README to include legit.remote, added 6ad8bad courtesy tallowen
+
+commit 4e44c0204f9963f34ce0bf9b58a6c29beb4ff2cd
+Author: cczona <cczona@gmail.com>
+Date:   Sun Jun 17 22:48:33 2012 -0700
+
+    Update README to include legit.remote, added 6ad8bad courtesy tallowen
+
+commit c8d7135fec57e45c0536621ebbb9a363c78aa2ec
+Author: wiseman <jjwiseman@gmail.com>
+Date:   Sat Jun 16 14:13:01 2012 -0700
+
+    Define command name, implementation function, short names, usage info,
+    and help text in one place.
+    
+    Show short help text for each command when we show a list of commands.
+    
+    Adds usage and help text to the harvest, install and settings
+    commands.
+
+commit 33dc4d77d55dc7011c271b08bc70fc1f1893157d
+Author: Miguel Aranha Baldi Hörlle <miguel.baldi@1up4dev.org>
+Date:   Wed May 30 23:58:24 2012 -0300
+
+    Issue #72: Implementing default behavior to current branch on the command publish.
+
+commit 9c360f0a201542c470a0ddc7eef7d702c21ebcf7
+Author: Jens Knutson <jens.knutson@gmail.com>
+Date:   Wed Jun 6 14:54:21 2012 -0500
+
+    Fix AttributeError on merge conflict
+
+commit 0ab54bb7c433d67ad5c794cc87c7995f4abbbb3a
+Merge: cc6c4a9 ab76cb6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 30 19:31:30 2012 -0700
+
+    Merge pull request #69 from miguelbaldi/issue_68
+    
+    Issue #68
+
+commit ab76cb6f6fb19b506efb7e5eb3435fd6f4c31d24
+Author: Miguel Aranha Baldi Hörlle <miguel.baldi@1up4dev.org>
+Date:   Wed May 30 23:17:29 2012 -0300
+
+    Doing a 'repo_check' on 'get_repo' to avoid pythons stack trace when running 'legit' outside a git repository
+
+commit 3c082acecf800a2bc6842396a7c3e8e5f901f051
+Author: Miguel Aranha Baldi Hörlle <miguel.baldi@1up4dev.org>
+Date:   Wed May 30 23:09:43 2012 -0300
+
+    Adding build and dist dirs to gitignore
+
+commit cc6c4a91ee4861722e004fed9a051d64f4352696
+Merge: bcb7b1a b2eba43
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 27 11:34:52 2012 -0700
+
+    Merge pull request #66 from zerok/typo-fix
+    
+    Fixes a little typo in the sprout command's help-text.
+
+commit b2eba43b592b28f95183468047b0b36bab1372db
+Author: Horst Gutmann <zerok@zerokspot.com>
+Date:   Sun May 27 11:49:38 2012 +0200
+
+    Fixes a little typo in the sprout command's help-text.
+
+commit bcb7b1afc6f2ee4a3bb6f0e08230c1968ad26fb3
+Merge: 51b0681 b79e313
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Apr 8 21:27:53 2012 -0700
+
+    Merge pull request #54 from grantcox/develop
+    
+    Support non-standard git executable
+
+commit 51b0681cb05635a1ff431b80778cad817581dffd
+Merge: 6ad8bad 684d7b7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Apr 8 21:26:42 2012 -0700
+
+    Merge pull request #57 from offbyone/fix-detached-heads
+    
+    Handle detached head in legit branches
+
+commit 684d7b745834eacf1d5d1889b0a6ea57251a885c
+Author: Chris Rose <chrisros@amazon.com>
+Date:   Sun Apr 8 21:23:01 2012 -0700
+
+    Handle detached head in legit branches
+
+commit b79e3131161d184f70cb7380b2aa763ad674e414
+Author: Grant Cox <grant.cox@gmail.com>
+Date:   Tue Apr 3 22:33:38 2012 -0400
+
+    Added fuzzy branch name matching - currently just using "startswith".  This allows complex branch names (ie 21334-bug-mobileRegistration) to be specified as just "21334"
+
+commit 4e1348994d145cc01fb461c0ee5a8630b9fc41fa
+Author: Grant Cox <grant.cox@gmail.com>
+Date:   Tue Apr 3 21:54:33 2012 -0400
+
+    Reading git executable from GIT_PYTHON_GIT_EXECUTABLE, allowing Windows console legit to use "git config" settings
+
+commit 6ad8bad03bb47b65c6c633562a8cae082844b9cf
+Merge: 9e64b1d 547e070
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Apr 2 23:35:16 2012 -0700
+
+    Merge pull request #51 from tallowen/remote-config
+    
+    Configurable Remote
+
+commit 547e070b3681d7c9c1ff9ca6ded1eab053161b15
+Author: Owen Coutts <owen@owencoutts.com>
+Date:   Mon Apr 2 21:04:10 2012 -0700
+
+    Configurable Remote
+    
+    Configure the remote that legit uses. Use `git config legit.remote
+    "<remote name>"` to configure the remote. Raises ValueError if remote
+    does not exist.
+
+commit 9e64b1dad60954ae58610d9049061ff226b695dd
+Merge: 5202e48 3416d24
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Mar 25 12:04:30 2012 -0700
+
+    Merge pull request #34 from laurentb/fix-repo-discovery
+    
+    Let git find out where the repo is
+
+commit 3416d24303d5b972dc2dc79ae7a2d60ba69fc79f
+Author: Laurent Bachelier <laurent@bachelier.name>
+Date:   Sun Mar 25 16:26:56 2012 +0200
+
+    Let git find out where the repo is
+    
+    Ensures simpler code, and identical discovery method.
+
+commit 5202e4889ff756b4e0aab32e23720ea249fd4f91
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Mar 25 04:27:23 2012 -0400
+
+    ignore builder stuff
+
+commit ab1a16561522a070a74752e9961cb28aa91d1d41
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 23:01:14 2012 -0400
+
+    readme fix
+
+commit 6562ab01c2685c79ba37b359012c799970e3003f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:23:26 2012 -0400
+
+    v0.1.1
+
+commit 5c0ad1ff12b0e7d11047dfb6963a0cf5088559d0
+Merge: f534deb 0ee8c15
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 19:18:38 2012 -0700
+
+    Merge pull request #27 from laurentb/fix-packaging
+    
+    Fix packaging
+
+commit f534debf617accf208cc3311062d2266ecd55071
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:17:10 2012 -0400
+
+    fix rst sytntax
+
+commit 1587774ea469b4439d1b4952612b0cd9c51f1705
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:09:51 2012 -0400
+
+    safe to use now
+
+commit 2a664243b0627874ad6ff3f695bba9292ab1aa9e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:07:18 2012 -0400
+
+    Git for Humans™
+
+commit 12980eb270a4c2998311ac7e2069cd994475ab16
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:04:51 2012 -0400
+
+    updated readme
+
+commit ee3325d6461a007a124d298ed8485c68e71def94
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 22:00:55 2012 -0400
+
+    v0.1.0
+
+commit 2fb1284bd9c8c48d22b1e9c9eca93735047f7dab
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 21:59:20 2012 -0400
+
+    legit git aliases
+
+commit 69340b64ecdeba4c8a2f22004141b4b697e5ab88
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Mar 24 21:59:13 2012 -0400
+
+    git ignore
+
+commit 504848793bbfefc43f332674edba17d1c473720d
+Merge: b85336d 107eaa1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Mar 23 09:49:58 2012 -0700
+
+    Merge pull request #28 from davidthewatson/patch-1
+    
+    Add help command
+
+commit 107eaa1d8d150efea57adcb3d2d53cefa27061c3
+Author: David Watson <davidthewatson@gmail.com>
+Date:   Fri Mar 23 13:46:33 2012 -0300
+
+    Add help command
+
+commit 0ee8c15b047acd7eacf90ced605c1ce5a5c98122
+Author: Laurent Bachelier <laurent@bachelier.name>
+Date:   Thu Mar 22 03:10:03 2012 +0100
+
+    Include extras in source distribution
+
+commit 98ec4325ace43daa68e1a02af13e60d821398ff6
+Author: Laurent Bachelier <laurent@bachelier.name>
+Date:   Thu Mar 22 02:25:29 2012 +0100
+
+    Require minimum versions
+    
+    * No reason to want an exact version of clint, use latest
+    * Older gitpython versions miss git.exc.GitCommandError (at least)
+
+commit b8a1e121801ce0fbe80b9dda59e201ff98356501
+Author: Laurent Bachelier <laurent@bachelier.name>
+Date:   Thu Mar 22 02:22:33 2012 +0100
+
+    Remove unused dependencies
+
+commit b85336d373289952951774334cabab9d007bfbbc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Mar 2 16:20:13 2012 -0500
+
+    Update README.rst
+
+commit a25eec2084743f49ab0d1af7bfddf87b912a56b8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Mar 2 16:19:45 2012 -0500
+
+    Update README.rst
+
+commit 39cd362df235fc4bb34ea27347acacb043cf797e
+Merge: b8e36ab 0cd3c29
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Dec 8 08:55:25 2011 -0800
+
+    Merge pull request #23 from snaewe/patch-1
+    
+    cli: replace is_windows -> is_win
+
+commit 0cd3c290bbdaad54f96208870d1836e77634279f
+Author: Stefan Näwe <stefan.naewe+github@googlemail.com>
+Date:   Thu Dec 8 15:39:12 2011 +0100
+
+    cli: replace is_windows -> is_win
+
+commit b8e36aba2159b94bede586a69592de2049553659
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Dec 7 09:47:47 2011 -0800
+
+    Update AUTHORS
+
+commit 94acfc94c23beef9ab480e7a62ff5016a8a9273c
+Merge: f09907c 6faa23b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Dec 7 09:47:23 2011 -0800
+
+    Merge pull request #22 from Autoplectic/develop
+    
+    Add optional zsh completions
+
+commit 6faa23b1412d14d5bb9f161e572f96ce1be61ea5
+Author: Ryan James <rgjames@ucdavis.edu>
+Date:   Wed Dec 7 02:49:02 2011 -0800
+
+    Add optional zsh completions
+
+commit f09907c54d2f2dc087575607a004faf1f7257b18
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 27 21:32:47 2011 -0300
+
+    Update AUTHORS
+
+commit eb0f0d7364b0f602afbe94c2978510b0cacf423e
+Merge: b2e11b3 d6f179a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 27 17:32:06 2011 -0700
+
+    Merge pull request #21 from fcurella/develop
+    
+    Added optional bash completion script
+
+commit d6f179aab6f3d57de8988b469871be33d6d9236e
+Author: Flavio Curella <flavio.curella@gmail.com>
+Date:   Thu Oct 27 15:00:41 2011 -0500
+
+    Added optional bash completion script
+
+commit b2e11b3deaac251fe9f86804f316ce764ccab54d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 2 19:46:20 2011 -0400
+
+    v0.1.0
+
+commit 7811680433ca0d321a2b99f17f8c11c9ca78a019
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 2 19:46:14 2011 -0400
+
+    don't require remote always
+
+commit ddd976668070438fad088cf8e04951e46c354f43
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 2 19:45:58 2011 -0400
+
+    take out modifying bootstrap for now
+
+commit 5dfe5bbd4267dc1456b3a86a1274022800d66a73
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 2 19:37:02 2011 -0400
+
+    reqs fix
+
+commit 4fb3f992c4fd29407f200773a33ba99d3b882248
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 10:44:06 2011 -0400
+
+    git abortion handling and merge rollback
+    graft defaults to current branch
+
+commit 134e5b9a32d7b62d48b67ba015e21a91566deeea
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:41:46 2011 -0400
+
+    is_linux => is_lin
+
+commit d6daa8522b51fe7a3bdb0ca7c5960c710e219610
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:39:42 2011 -0400
+
+    allow_rebase for smart_merge
+
+commit 20f7c10df35bed53f74eb747ae3fd480dba39603
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:32:56 2011 -0400
+
+    logging of stashing for harvest
+
+commit 111fe8992950559c56423025758c42ddc1aaa7ef
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:32:37 2011 -0400
+
+    harvest in history
+
+commit a9a32e6d5e8abdc05950cb7afa51f2e4f70bfcbf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:20:49 2011 -0400
+
+    forbidden branch names
+
+commit d2bed90fb65e0e2e136a8a48ae6c3ce67f95d4e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:17:06 2011 -0400
+
+    harvest can be local only
+
+commit fa0c9d07b4e508f30b506ae16978966856772649
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:12:47 2011 -0400
+
+    changes
+
+commit a64c96f7b352bdfd49a3b4d50375b020392f43be
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 09:12:06 2011 -0400
+
+    new harvest command
+
+commit 5065e2f5a6829f370f82cd135931aff3368706ef
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 08:51:46 2011 -0400
+
+    Helpful messages
+
+commit ef685fa9347360e4374fc8eb3d01d0a984d088fb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 08:43:47 2011 -0400
+
+    Docstrings.
+
+commit 279124207d792b349f5f62aa1af274675a2e59b9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 08:26:17 2011 -0400
+
+    git transparency exit status
+
+commit 990cda3456b9d86ddd1ec1019a2e104df660d157
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 08:20:21 2011 -0400
+
+    branch name
+
+commit b426f63113b568968b7b907ad10883d5a3b5aa0c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 8 08:19:10 2011 -0400
+
+    smmap fork for 10.7 __del__ fix
+
+commit 6ec0d80bd3d6b1d681e0a31c81ff18c911f1d89e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jul 3 22:01:27 2011 -0400
+
+    todo update
+
+commit 815a5f91094f400cf508d7358ca561e626f9c3af
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jul 2 20:14:27 2011 -0400
+
+    authors file
+
+commit 753aadfb00586aae26a1991f44c26ca7bc3d7fea
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 1 11:12:20 2011 -0400
+
+    history file
+
+commit 86441a14b24828d58e71bcbf7e379dacdf799c22
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 1 11:12:16 2011 -0400
+
+    basic update metadata
+
+commit b017bfbd687798dbbaa4ebaaceca3b934c66de7d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 1 11:12:05 2011 -0400
+
+    only check if a repo when doing scm commands
+
+commit b54865c1da799c4628f6761a1c42acfd75d001a7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 1 11:11:44 2011 -0400
+
+    no more git commands
+
+commit 074bdeb04da5ca62b24067d62f535456f59b5c3e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 1 11:11:33 2011 -0400
+
+    initial update checks
+
+commit 958337e896fb85fba0193b33fa0961f1bf30dc9f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 30 10:13:25 2011 -0400
+
+    Conflicts:
+            reqs.txt
+
+commit 7ac04813c191e0d0531e12156f9139d85f67458c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 30 01:20:07 2011 -0400
+
+    can
+
+commit a7b81a61285ab1933bb623d00d951187181269e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 28 21:51:21 2011 -0400
+
+    path fix
+
+commit 9769593d88eddf2293a3c63535781644a12c61ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 28 21:50:11 2011 -0400
+
+    windows build setup.py
+
+commit afe5e9a0a097d6b6615e01d574b42e6c996282d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 28 11:41:33 2011 -0400
+
+    Disable colore for @mrtazz
+
+commit 52d1b0a0f9e1ecd43a7ebfb931ae35a408c41ebb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 23:15:02 2011 -0400
+
+    Caveats
+
+commit 9ddfb2c8fb8159de1ebe5dcf37e58c07bf2893da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 23:08:33 2011 -0400
+
+    Readme update
+
+commit 25906a21c973bf19cae913aee3175b7c68c26b7b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 12:45:55 2011 -0400
+
+    sync accepts optional branch parameter
+
+commit 979ec14d6f293c6d219f96b6e8213c701049c0e9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:51:49 2011 -0400
+
+    new sprout usage
+
+commit b2b6c7e80cbc1921197ec51387b9766c8647de9a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:46:27 2011 -0400
+
+    v0.0.8
+
+commit 5ff18a15dc66592f9a850b036c0f0a54d790308e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:45:52 2011 -0400
+
+    sprout first arg optional
+
+commit 35599cb0a873ac3fb5f948c61483e9e401afbae4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:44:01 2011 -0400
+
+    v0.0.7
+
+commit 7b0e4b82c2854068f0396ce274b9b9caf492e0f4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:33:43 2011 -0400
+
+    more specific formatters. Fixes #7
+
+commit c43df8a6d24cba9e948d9c9726a70fd7a70b38c8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 03:31:19 2011 -0400
+
+    No git remotes.
+    Fixes #8
+
+commit c0ebacebe1fdbd6fa793274f431065f4f88a4ad5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 02:59:35 2011 -0400
+
+    disable add/commit
+
+commit d5bd305f911891d3832652ee7993c396448895c1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 02:22:14 2011 -0400
+
+    v0.0.6
+
+commit 3dd6ca18bc4f42a588e16d8fff859ba2d843b635
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 02:21:38 2011 -0400
+
+    shortcut maps for gitlites
+
+commit 9bef659b224b485cd692b7104ae68f044e1405da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:19:30 2011 -0400
+
+    clarification
+
+commit 7cc0ece1ea2a8d38e36bd5a5a15adf31d1039c02
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:18:41 2011 -0400
+
+    No license in readme
+
+commit f46fb88d367bcc5cad39b3fdc52d307eb0ef095d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:18:06 2011 -0400
+
+    warning label
+
+commit a936ae5ca5549c1b9476672b6154e6f9089a04ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:16:50 2011 -0400
+
+    fair warning
+
+commit d465273dd704e14fc12a46cce876ab2e5c448314
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:16:13 2011 -0400
+
+    readme update
+
+commit 2e738fd2f8a2debe1bc032d573db6b7b816c17cb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:12:08 2011 -0400
+
+    v0.0.5
+
+commit c1885c1e5f8bd5f05efda8a2bbedb3fcb809042e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:10:50 2011 -0400
+
+    packaging
+
+commit c24ea7d09f320e7cf86180d1bd0bff87af464576
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 01:10:41 2011 -0400
+
+    Ready!
+
+commit a8ced8069967491cf1d7437074a28711c6d0b77f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:58:35 2011 -0400
+
+    packaging
+
+commit 2a29262089286c14ea0261b8ec712a564f5fa955
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:51:11 2011 -0400
+
+    new branches command
+
+commit 5bca32547d6fe87e7068c669d54f16c26dc0e254
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:48:19 2011 -0400
+
+    removing cruft
+
+commit cebf9b992857e6b7e8418c54dcf0571c89e5d6c7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:47:00 2011 -0400
+
+    cli update
+
+commit aa9f6d78c6253155412700963e26751fc64eb306
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:43:53 2011 -0400
+
+    darn gitx
+
+commit 655b735ca5c9b6d4e89bcdce91f850d5452c59da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:43:44 2011 -0400
+
+    hmm
+
+commit d1f1e0ca791866c3fc1b07ed9966b14311e2308a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:31:10 2011 -0400
+
+    only push to current branch
+
+commit 3ea033064cc264e742f503528004755aa0cc336c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:26:36 2011 -0400
+
+    repo cleanups
+
+commit 84fedd0fd7660182d8e49e72639cf47a490b113b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:17:43 2011 -0400
+
+    gitpython reqs
+
+commit d3c090154b45cffb42d072adef78ba20a3651f67
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:15:12 2011 -0400
+
+    display available when bad args.
+
+commit c42fe631b6e27b7eed227ab7d892a776bd9da5a8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:13:02 2011 -0400
+
+    publish command
+
+commit 4643f540d6c52866debe62461ea6f2bd1deb75ae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:11:08 2011 -0400
+
+    publish command
+
+commit 0797798064ea447b68d2039c1ab291ca32735178
+Merge: 4c67bbe b10d86f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:07:01 2011 -0400
+
+    Merge branch 'git/gitpython'
+
+commit b10d86f90e67edad485301585c7e90390e2e4abf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 27 00:05:47 2011 -0400
+
+    unpublish branches
+
+commit 9ca570fc92d1be7a6b21fac46a6d5ddebb642e5b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:59:30 2011 -0400
+
+    yay
+
+commit 9c9aaa5e6a977e764ca1ec14c8e2c9bdca9dda52
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:58:05 2011 -0400
+
+    colored out for grafting branhces
+
+commit fbd6441d19fbe136d4618711a3771a871972e508
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:53:43 2011 -0400
+
+    grafting in place
+
+commit 99bd594e55cd5b2cecec81fa8cdbbba24e3c3462
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:28:12 2011 -0400
+
+    sprout's all set.
+
+commit 3584c2c8495ff4c55d6d69353841ea950e7097e8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:21:06 2011 -0400
+
+    sprout
+
+commit d919b61513c88f91ee9ccc0cc4c760a9b939cd09
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:16:40 2011 -0400
+
+    changes
+
+commit 5e9421fa45668f3a2bbc58401efac9c7fe2cde5c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:13:51 2011 -0400
+
+    cli sections
+
+commit e9e65313aa6ee3467e0982b20230483877becb09
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:11:18 2011 -0400
+
+    whitespace
+
+commit da8ec7763dba5a0295dd98d87e9a485b2846bcbb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 23:08:33 2011 -0400
+
+    nasty
+
+commit 1c1b81401e3ebd616098021a3fcbb85f3cc0dd5a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 22:54:09 2011 -0400
+
+    legit only templates, but check for github's
+
+commit d3169f82cb8370e08440ed63a19a2131fbd9b7d5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 22:21:31 2011 -0400
+
+    fetch inside smart_pull
+
+commit ce8a78796b1c77876707a81f61a9ab43ceaf4c32
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 22:21:22 2011 -0400
+
+    smart_pull w/ auto rebase if appropriate
+
+commit 1249bf38ba1f15397aafd582c53dd6c1dc13495e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 22:13:29 2011 -0400
+
+    smart pull
+
+commit d15fbfae3688db24e8953cde9a5362929f18155f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:59:34 2011 -0400
+
+    raw checkouts
+
+commit 86dd3bf8c3c1e228e83961c295cb610693932dd3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:59:00 2011 -0400
+
+    print branch name
+
+commit 3f249fe4d8e1637bd8f14a6d740e3a50bcf8aa0b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:55:58 2011 -0400
+
+    status_log-r
+
+commit 0d0dfb0b70a3c74d9cc772aa5504f98ef18afba9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:40:33 2011 -0400
+
+    raw commands are better
+
+commit 3cac26b8467518406b34f8ca9b45a69606c0212a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:39:55 2011 -0400
+
+    colored out
+
+commit 64ebb86a98537f60cebf5f1554bb1ac7f29be9d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:33:37 2011 -0400
+
+    playing with colored out
+
+commit f3a8968421ab10502bb6b9e32c4cdf07966562e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 21:32:49 2011 -0400
+
+    new command names
+
+commit 2e0fcfef24952baf91a809e255709c0211f53c0f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 19:37:18 2011 -0400
+
+    BSD License
+
+commit 3501fbaa2991726e188cdb7b964af121fdffbeed
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 18:16:48 2011 -0400
+
+    branch specific pull/pushs
+
+commit e385c86e150f9b72d8f1c4827b9ac79ba24701d8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:58:48 2011 -0400
+
+    auto stash for sync
+
+commit 167453a13c72b5823f8bb4ab976865c8f220261e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:58:42 2011 -0400
+
+    push
+
+commit df1aa29cbd0522bd434ac149ee09a676078444a4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:57:02 2011 -0400
+
+    test commit
+
+commit 6883cae2225d8fcc1aad3f693229a773fc781832
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:34:43 2011 -0400
+
+    Epic.
+
+commit f5d3eed8809a8ea43f5d42c3042b2e4b3d9aa7de
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:34:33 2011 -0400
+
+    stash/unstash!
+
+commit 64e9121c0a4aab533e84b0349d5e9ab626b86526
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:30:32 2011 -0400
+
+    hmm
+
+commit a7531927ac46f46341aa6f8da79695bca63b1e15
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:28:52 2011 -0400
+
+    changes
+
+commit 35005a2dd83e718248167ec478b8b1c4aab8ab9f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:25:43 2011 -0400
+
+    stash list
+
+commit 5bf4ae041c3bb864cfa075770e62ec473b578041
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:22:06 2011 -0400
+
+    better
+
+commit df5f9032cfc222ecca99069c94b0c3a9d8213f2b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:21:58 2011 -0400
+
+    grr
+
+commit b2eb565fd5be1df22a25b48d8bfd61da1f8ce90d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 17:08:24 2011 -0400
+
+    autostash on switch
+
+commit 8863773b83cf40345afc312c4a2282a771af1196
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:43:24 2011 -0400
+
+    namedtuples ftw
+
+commit 1a40cabd0e8713257a11ba88cdbfab1eca7d1fc4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:43:14 2011 -0400
+
+    checking out hooked up
+
+commit 1331b4546f2274396b74c5d6d228dde7439a2835
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:28:43 2011 -0400
+
+    hmm
+
+commit 352ac0534504b8f7f5533f58f408ed1eeff3a873
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:11:28 2011 -0400
+
+    core's dying
+
+commit 3b015ad4f0c6b8e977b54d51da74999f9fec52f5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:11:21 2011 -0400
+
+    get_repo
+
+commit afaabc6449ceca73d9e820d85f6ba5d0d50869f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 16:11:09 2011 -0400
+
+    ™
+
+commit fbbd14a91b5065fdc53381efd7fb0c222a3527a8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 15:50:35 2011 -0400
+
+    brain dump
+
+commit b01a8688dad18b73fe7ed4a763ee639edd2b6478
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 12:53:31 2011 -0400
+
+    trying gitpython
+
+commit 70ad8e306f21c13861feca73662e6a955d45b029
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 12:34:35 2011 -0400
+
+    blah
+
+commit 567d1fc26d319c0bc17b34adaf9cab84a76d8c07
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 10:28:48 2011 -0400
+
+    actually get a branch list
+
+commit e56121c906e08a034600b3fb6b16faab46ecba95
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 10:28:31 2011 -0400
+
+    find_path_above in helpers
+
+commit a1b468c1a0523466a319aed2e2b8981696a2c2ad
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 09:35:54 2011 -0400
+
+    reverse find git repo
+
+commit 03a138368a823ce184e9adcd90da6a3b1df4b40a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 09:30:51 2011 -0400
+
+    pygit2 reqs
+
+commit 4c67bbeef018f0fcebac6a02718680cb917457a9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 09:16:54 2011 -0400
+
+    configuration location
+
+commit c0bcb8eed756c73cfbea0b4e95cf7871abca196b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 26 08:54:48 2011 -0400
+
+    column printing
+
+commit d4f37068b5851d43615fdd29d0d8cd58665cc7a2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 16:47:15 2011 -0400
+
+    merge command
+
+commit bf416e1559b3cb6b4cd5431aa0c8fd9b884ca480
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 16:21:37 2011 -0400
+
+    WIP
+
+commit f7c1ec373e870d8d90f8bc1485a8ef32d907484f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 12:50:00 2011 -0400
+
+    list branch names for switch
+
+commit 20c8d45bdd2dd1c2f5293c8a2c698f1663d3afcb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 12:44:15 2011 -0400
+
+    proto
+
+commit b9c99846cd2a48b33d01701d2c421c6b56d5f0da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 12:39:34 2011 -0400
+
+    available_branches proto
+
+commit d4dad39d9d97aac570cd7c766842ec6c0aa52832
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 12:37:18 2011 -0400
+
+    commands list
+
+commit 8dabe2103243386db10cdca5599148ab96e0876a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 12:28:57 2011 -0400
+
+    clint v0.2.4
+
+commit 250feb4cb8e38cdfd95b43675c4188efa045948e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:38:35 2011 -0400
+
+    basic runners in place
+
+commit 93c07c51b78a884e3d80c9b86769917bf27991f6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:35:20 2011 -0400
+
+    fix description
+
+commit 9105429aa1efeb191eac9c1b71b297f5f6fd46cb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:34:47 2011 -0400
+
+    `setup.py develop`
+
+commit a499fe6877c84b3082eb46cd623a5faa14e4c37e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:30:34 2011 -0400
+
+    basic runner structure
+
+commit 645812a015eb5d04f3a4a9daeb615c483c456fd3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:12:11 2011 -0400
+
+    legit runner import fix
+
+commit 634d45de90631d69f368e65aa616eabf48f051eb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:11:16 2011 -0400
+
+    not ready warning
+
+commit 9490fa1b7882bcb008360f01599696bf83735b1c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:10:31 2011 -0400
+
+    some files and stuff
+
+commit 822544ef53a94e90db656087de74817619ac9ec6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 11:01:53 2011 -0400
+
+    basics
+
+commit 9cbb35d55b1d63c02f12fc94b92744530fe23e47
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:58:45 2011 -0400
+
+    clint-powered
+
+commit ca68a8a768c7c02ffda758ebff73884ff5d8ff63
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:56:09 2011 -0400
+
+    passing it along
+
+commit d4ae5a1027ef3c1af680c5f4f246e402defe546b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:37:16 2011 -0400
+
+    Readme clarifications
+
+commit 00afd89029eca6288a2c8cd07f6ecfa0688d2797
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:32:23 2011 -0400
+
+    switching it up
+
+commit 7c364e3b5345bd7e5207b1835a4b5492ac46a0ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:29:13 2011 -0400
+
+    no colons
+
+commit 30a7a277ac9927f9cb1f77e9d974cecd8bf7a360
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 10:26:54 2011 -0400
+
+    The Interface
+
+commit 0820b22ccd062d36c0a3ebe1d51d71ec831a1530
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 02:05:56 2011 -0400
+
+    The concept.
+
+commit e0140094373389fdff896ebce2e80f57e432f8cd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 02:02:44 2011 -0400
+
+    :cake:
+
+commit 1a58deab830ce92c9ed65625bb6e15138791a4e9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 02:02:05 2011 -0400
+
+    gitception
+
+commit e38a99f12cc4c0e7db99f675b4540ee9575c03d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jun 25 01:58:29 2011 -0400
+
+    first commit

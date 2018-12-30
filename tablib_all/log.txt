@@ -1,0 +1,6529 @@
+commit 5a359ba4def1611b34df003bec58439a125d4e56
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Sep 17 08:14:12 2018 -0400
+
+    Update README.rst
+
+commit 359007444c2751d1cc325854ec86cdfe0a38b7bb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Sep 17 08:13:48 2018 -0400
+
+    Update README.rst
+
+commit 4f8949417e5126f8416b61d7feb6cd666bae4fb9
+Author: Maciej "RooTer" Urbański <rooter@kyberian.net>
+Date:   Wed Sep 12 21:15:20 2018 +0200
+
+    ujson presence no longer breaks tablib (resolves #297) (#311)
+
+commit 3d5943a8a43a721bea1f3e33dc669a581a095c53
+Author: Bruno Soares <brunomsss@gmail.com>
+Date:   Wed Sep 12 15:49:46 2018 -0300
+
+    Fix: Circular reference detected error (#332)
+    
+    * Rename function name
+    
+    * Add uuid handler on json dumps
+    
+    * Add myself to authors
+
+commit 38486231cc4dc46d1ff055a38fe7c236cbe5c8aa
+Author: Norman Hooper <nhooper@dimagi.com>
+Date:   Wed Sep 12 20:27:10 2018 +0200
+
+    reStructuredText (#336)
+    
+    * median for Python 2
+    
+    * More compat
+    
+    * Support reStructuredText
+    
+    * Tests
+
+commit 75f1bafd69add49d969b0f8e579baf3659f16100
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Wed Sep 12 20:24:37 2018 +0200
+
+    Removed Python 3.3 support (#310)
+
+commit 4749760e6f111dda398ddd8b3319eeaac1e3bace
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed Sep 12 15:22:06 2018 -0300
+
+    Typo: OSD -> ODS
+    
+    Fix #330
+
+commit ac3cf67620c89f71b73bed891355e8dc0491a541
+Author: Gregory Bataille <gregory.bataille@gmail.com>
+Date:   Wed Sep 12 13:34:55 2018 +0200
+
+    fix(): remove openpyxl warning by properly accessing cells (#296)
+
+commit 4c300e65a50eef72b91fa1909c9f68679723955e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Sep 1 15:42:51 2017 -0400
+
+    update install instructions
+    
+    Signed-off-by: Kenneth Reitz <me@kennethreitz.org>
+
+commit edbb16ec97bbecc679b0ebc9de6f09f7b942bf8b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Sep 1 15:37:00 2017 -0400
+
+    next version
+
+commit dec5cea72264d2008d51d2800be16ea706950fa5
+Merge: 69edb9d 3818393
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Sep 1 13:49:44 2017 -0400
+
+    Merge pull request #307 from audiolion/make-pandas-optional
+    
+    Make pandas optional
+
+commit 38183938dc7332bcbdfeef4b8631ead8e32139e0
+Author: Ryan Castner <castner.rr@gmail.com>
+Date:   Fri Sep 1 13:33:28 2017 -0400
+
+    Change how travis installs to get all test dependencies
+
+commit 7f1db4023f2310529822d721379b1019aaf320fc
+Author: Ryan Castner <castner.rr@gmail.com>
+Date:   Fri Sep 1 13:21:21 2017 -0400
+
+    Raise NotImplementedError if pandas is not installed
+
+commit b09fface1be24bd4025b705f7f8495efb398991d
+Author: Ryan Castner <castner.rr@gmail.com>
+Date:   Fri Sep 1 13:20:54 2017 -0400
+
+    Make pandas an optional install
+
+commit 69edb9def37be7f38a4fed6d6bf10a618eaec8e3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Aug 28 01:14:36 2017 -0400
+
+    Update index.rst
+
+commit ec54918f4a7303eba65e7575be52befed9c205c7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Aug 28 01:06:43 2017 -0400
+
+    Update tutorial.rst
+
+commit ab6633549f2f2f331736f3f974483c0e39a451f2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Aug 28 01:04:16 2017 -0400
+
+    Update index.rst
+
+commit 56005d80222a487178742b70f8858e4fd96fd0e3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Aug 28 01:02:49 2017 -0400
+
+    Update README.rst
+
+commit 36fa7ef097895fb0338515246beffed1557b1510
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:56:14 2017 -0400
+
+    update docs
+    
+    Signed-off-by: Kenneth Reitz <me@kennethreitz.org>
+
+commit bb0abc863eb5290527113c11af71c6379f960ef6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:49:29 2017 -0400
+
+    bunk requirements file
+    
+    Signed-off-by: Kenneth Reitz <me@kennethreitz.org>
+
+commit 58f6eefe01853a2b0adbd76d17f85ce1e3acf628
+Merge: e4726cb 412e690
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:48:10 2017 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/tablib
+
+commit e4726cb85cfe9383e7d4012a68638ebb90c58b1e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:48:01 2017 -0400
+
+    update docs
+    
+    Signed-off-by: Kenneth Reitz <me@kennethreitz.org>
+
+commit 412e6902899dda6fa9488d3347f5285a80e89d7b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:42:15 2017 -0400
+
+    Update README.rst
+
+commit 44e797d70e18b5ec7add9bf32e8d5b9ab179ece0
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:41:53 2017 -0400
+
+    Update README.rst
+
+commit 34c14aca18c0e1f44fc39bb09df31ee07b7a3fbf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:41:26 2017 -0400
+
+    Update README.rst
+
+commit 7c318adde4c4a2f3254d1fc099b55c04e8ece7e3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:41:01 2017 -0400
+
+    Update README.rst
+
+commit 5dd74c0104789b2019c97f863e597369ccfed108
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:29:44 2017 -0400
+
+    drop 2.6
+
+commit a50ff92ff2aaeae5958728cc4363f0ced23ad772
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:26:21 2017 -0400
+
+    only require pandas if python isn't 2.6
+    
+    Signed-off-by: Kenneth Reitz <me@kennethreitz.org>
+
+commit 383d4b9c4e0fc24d5a406cfd3293432821f7901e
+Merge: a3cd2c9 00e2ffa
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Aug 27 03:22:42 2017 -0400
+
+    Merge pull request #301 from jasonamyers/feature/dataframes
+    
+    Adding initial DataFrames Support
+
+commit 00e2ffa2efd1a7dd47d2a4a2a4303e1a8beb71e3
+Author: Jason Myers <jason@jasonamyers.com>
+Date:   Sat Aug 26 20:43:35 2017 -0500
+
+    Adding initial DataFrames Support
+    
+    Signed-off-by: Jason Myers <jason@jasonamyers.com>
+
+commit a3cd2c9cffaa2940762453f5a3c4f2ae69065aa7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Jun 13 12:31:42 2017 -0400
+
+    history
+
+commit d89d243a30d453a349d2f630728e72ac452815c4
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Jun 13 12:30:27 2017 -0400
+
+    v0.11.5
+
+commit 69abfc3ada5d754cb152119c0b4777043657cb6e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Jun 13 12:29:55 2017 -0400
+
+    use safe load
+
+commit 05bd0d1d42e2a1aeb3b835a4ae96de7364735192
+Author: Nicolas Appriou <nicolas.appriou@gmail.com>
+Date:   Wed Apr 19 16:02:55 2017 +0200
+
+    fix python interpreter supported version in doc (#286)
+
+commit 62807734bd6f7f4ade5befb9a22b091db4182010
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Sun Feb 26 23:05:01 2017 +0100
+
+    Replaced vendored odfpy by a dependency (#280)
+    
+    Refs #273.
+
+commit c5c2dffe421e663155baa7fa9a90540f6974554c
+Author: yarko <yarkot1@gmail.com>
+Date:   Fri Feb 24 06:39:53 2017 -0600
+
+    correct example (#276)
+    
+    map() is a function in python2, and iterator in python3+;
+    
+    In any case - map is inefficient compared to either comprehensions (most efficient), or simple loops (close second).
+    SInce in this case, data.append() returns nothing, use a simple look.
+    It is clearer, more efficient, and works with both python2 and python3
+
+commit 46102d4be718ee6fd6c003c1387df7c940e65b2c
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Fri Feb 24 13:38:07 2017 +0100
+
+    Replaced vendored omnijson by the standard lib version (#279)
+    
+    Refs #273.
+
+commit 44e9e24fec35bf7697e22aaa94feccdad23e5b79
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Mon Feb 20 23:41:38 2017 +0100
+
+    Replaced vendored pyyaml by a dependency (#278)
+
+commit 0ca5520bbc1474dbd872a3f330c681a5201336fd
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Mon Feb 20 21:29:22 2017 +0100
+
+    Replaced vendored xlrd/xlwt by dependencies (#277)
+    
+    Refs #273.
+
+commit e66eb4a18967dd4d35e6e9da265622e9e4015103
+Author: Claude Paroz <claude@2xlibre.net>
+Date:   Mon Feb 20 16:41:33 2017 +0100
+
+    Replaced vendored openpyxl by a dependency (#221)
+    
+    It is time to make it happen.
+    
+    * Dropped Python 3.2 support
+    
+    Recent dependencies are dropping Python 3.2 too.
+    
+    * Replaced vendored openpyxl by a dependency
+    
+    Thanks Tommy Anthony for the initial patch.
+
+commit 0e720d78ca7e8c4466b8f13970ebae8e12700d00
+Merge: 6afe716 76cbf9f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Jan 24 23:48:54 2017 -0500
+
+    Merge pull request #272 from founders4schools/unicodecsv
+    
+    Replaced vendored unicodecsv by a dependency
+
+commit 6afe716d64f4f6110eae537746a6a49276077c6d
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Mon Jan 23 19:10:36 2017 -0200
+
+    Version bump: 0.11.4
+
+commit 76cbf9fadf1045aca779ce6bd5fb1140c1736965
+Author: Bruno Alla <bruno.alla@founders4schools.org.uk>
+Date:   Sun Jan 15 14:59:49 2017 +0000
+
+    Read version in setup.py without importing tablib
+
+commit a93f93a458f6ab3ce48439d2d571e4f88da4c024
+Author: Bruno Alla <bruno.alla@founders4schools.org.uk>
+Date:   Sun Jan 15 14:47:14 2017 +0000
+
+    Replaced vendored unicodecsv by a dependency
+    
+    Using https://pypi.python.org/pypi/unicodecsv/0.14.1
+
+commit 3d44bdec40f2572c985f763450aefce37b60380a
+Merge: 6cb9a69 3195058
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Tue Jan 10 10:14:11 2017 -0200
+
+    Merge pull request #269 from kammala/master
+    
+    Fixed classifiers in setup.py
+
+commit 319505817a6bcdb7a418ab67410be8ac203e6309
+Author: kammala <kamaevpp@gmail.com>
+Date:   Tue Jan 10 12:20:08 2017 +0300
+
+    Fixed classifiers in setup.py
+    
+    moved classifiers from tuple to list(this allow to use setup.py upload command in python >= 3.5)
+
+commit 6cb9a697460a725e563e630ab3c162dc8f8bd307
+Merge: ddc4bd3 bb1354b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jan 5 12:51:01 2017 -0500
+
+    Merge pull request #266 from wenzhihong2003/master
+    
+    remove file must be close it.
+
+commit bb1354b61f10cf82bcd7cccf25de3d3fa2dab4ce
+Author: tomwen <wen66@126.com>
+Date:   Fri Dec 30 10:21:43 2016 +0800
+
+    remove file must be close it.
+    
+    in windows if you don't close template file, remove it will raise
+    
+    WindowsError: [Error 32]
+
+commit ddc4bd30f22e40ae4e3aa9347747f1f96912191a
+Merge: 52e547d 9fdb72c
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Dec 18 19:10:18 2016 -0200
+
+    Merge pull request #234 from BrianPainter/master
+    
+    if the object is a decimal, return the string representation of it.
+
+commit 52e547daf9ae120b6e07331e8c5791bb88f911c6
+Merge: 7f0b7a0 91d3299
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Dec 18 19:09:26 2016 -0200
+
+    Merge pull request #259 from dyve/master
+    
+    Fix #260 date and datetime export to JSON
+
+commit 7f0b7a0a22281e4f61605e8cec9e50a63170d513
+Merge: f59abe8 ddac443
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Dec 18 19:08:41 2016 -0200
+
+    Merge pull request #263 from andriisoldatenko/develop
+    
+    Remove LOCALE from str regular expression
+
+commit ddac443732bbd21511d4ecbbb5b0ab63baed2f1e
+Author: Andrii Soldatenko <andrii.soldatenko@ethoos.com>
+Date:   Sun Dec 18 17:04:28 2016 +0200
+
+    Added py36 to tox.ini
+
+commit e13f4d0abaa2a0da17fd976e8f522b329e86b658
+Author: Andrii Soldatenko <andrii.soldatenko@ethoos.com>
+Date:   Sun Dec 18 16:54:22 2016 +0200
+
+    Added py35 to tox.ini
+
+commit 54f9041f2c3cd47643bf4b9183f8cb530caf6313
+Author: Andrii Soldatenko <andrii.soldatenko@ethoos.com>
+Date:   Sun Dec 18 16:44:18 2016 +0200
+
+    Remove LOCALE from str regular expression
+
+commit 91d3299280a57a6780c446c21a506f6259552c0a
+Author: Dylan Verheul <dylan@zostera.nl>
+Date:   Wed Nov 30 12:32:47 2016 +0100
+
+    Fix date and datetime export to JSON in Python versions with a json package
+    
+    Python without a json package will use omnijson and fail on date and datetime objects.
+    Added unit tests.
+
+commit f59abe84be6197e8675bc8d04e65ee7b820f4d52
+Merge: e16bb38 cf23f23
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sat May 21 15:13:30 2016 -0400
+
+    Merge pull request #239 from ErwinJunge/dataset-title-in-docs
+    
+    Put Dataset.title in the documentation
+
+commit cf23f2344f5e611235436c1efb7d363d6b208809
+Author: Erwin Junge <erwin@junge.nl>
+Date:   Fri May 20 16:13:22 2016 +0200
+
+    Put Dataset.title in the documentation
+
+commit e16bb38c4894c51c15e84b115c13e086f9d3214a
+Merge: 75bbfbb 71ca275
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue May 3 21:30:25 2016 -0400
+
+    Merge pull request #238 from sushrutrathi/code_changes
+    
+    changes in code refactoring
+
+commit 71ca275dd1cea753a663cbe720239de1a7abb08f
+Author: Sushrut Rathi <sushrutrathi@Sushruts-MacBook-Pro.local>
+Date:   Tue May 3 13:47:25 2016 +0530
+
+    changes in code refactoring
+
+commit 75bbfbbaf467d220630df44b1f87454785b35b70
+Merge: b35d505 8cf6770
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Apr 10 18:12:37 2016 -0400
+
+    Merge pull request #233 from ScorpionResponse/html_book_test
+    
+    Add HTML format to the book_export test and fix the format to work properly
+
+commit b35d5056213e695090dbb0e2559c4df79ae75936
+Merge: a5b1f79 cd491c0
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Thu Mar 24 10:18:34 2016 -0300
+
+    Merge pull request #236 from candy0427/master
+    
+    Update README.rst
+
+commit cd491c062ce00f02241bc6bb61436b2e1f855bcc
+Author: CandyLikeSmile <2152970138@qq.com>
+Date:   Thu Mar 24 14:19:59 2016 +0800
+
+    Update README.rst
+
+commit 9fdb72cc5c69138d19c969d9cef91c5f60cd6bd0
+Author: Brian Painter <brianpainter@tindallcorp.com>
+Date:   Wed Mar 23 08:21:36 2016 -0400
+
+    if the object is a decimal, return the string representation of it.
+
+commit a5b1f7987e3dd41a32e7e9d58389af2f80f21291
+Merge: d4c66c7 5fa3d2f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Fri Mar 18 14:37:19 2016 -0400
+
+    Merge pull request #232 from chimeno/patch-1
+    
+    [docs] Update variable name in tuto
+
+commit 8cf6770a76046f104c09d65b3bfba4a2853484d8
+Author: Paul Moss <moss.paul@gmail.com>
+Date:   Fri Mar 18 18:17:19 2016 +0000
+
+    Add HTML format to the book_export test and fix the format to work properly
+
+commit 5fa3d2f886f4c63c7a65d415d39fc1039fe4b194
+Author: Daniel Chimeno <daniel@chimeno.me>
+Date:   Fri Mar 18 09:22:59 2016 +0100
+
+    [docs] Update variable name in tuto
+    
+    The tutorial has been using the 'data' variable, but in this case it's using 'd'.
+    This change that.
+
+commit d4c66c7a4e5363a1dd75f5d9680822e885f68167
+Merge: 23d21f0 af17586
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 28 00:20:37 2016 -0500
+
+    Merge pull request #229 from pmlandwehr/patch-1
+    
+    python 3 fix: map filter to ifilter
+
+commit af17586581ebf3e8b53ce34c8b9053d5260e2867
+Author: Peter M. Landwehr <plandweh@cs.cmu.edu>
+Date:   Sat Feb 27 21:14:13 2016 -0800
+
+    python 3 fix: map filter to ifilter
+
+commit 23d21f00f38ccb87a39e0f7f1b9e5cab26e8244a
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Feb 25 12:59:18 2016 -0500
+
+    Update HISTORY.rst
+
+commit 7ee924b5a69279db3115b30e11d102fb96da2ff3
+Merge: ee9666a d720bea
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Feb 25 12:58:35 2016 -0500
+
+    Merge pull request #228 from tomchristie/print-dataset-with-no-headers
+    
+    Fixed textual representation for Dataset with no headers
+
+commit d720beadac14ae051a424f1ad1add17cf7b6d240
+Author: Tom Christie <tom@tomchristie.com>
+Date:   Thu Feb 25 13:28:29 2016 +0000
+
+    Fixed __unicode__/__str__ for dataset with no headers
+
+commit ee9666a146514573a2a159baaabb0481a7e2c5c0
+Merge: 2814fbc 77a9e25
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Feb 22 09:17:34 2016 -0500
+
+    Merge pull request #225 from tusharmakkar08/master
+    
+    PEP-8 standards followed
+
+commit 77a9e2579551a870f31ece088f0d34c5171ef687
+Author: tusharmakkar08 <tusharmakkar08@gmail.com>
+Date:   Mon Feb 22 17:05:06 2016 +0530
+
+    Reverted back yaml3 for ci failure
+
+commit d515724817111d9dc60db15e1b54e149f807fba1
+Author: tusharmakkar08 <tusharmakkar08@gmail.com>
+Date:   Mon Feb 22 16:36:26 2016 +0530
+
+    PEP-8 standards followed
+
+commit 2814fbc38100e00b2e78d47cb05defa8e9854126
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 16 08:49:28 2016 -0500
+
+    v0.11.3
+
+commit 9ca1d4ec5401f4e438a313eed5da25ba48590516
+Merge: 9ba0451 abbb4e3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 16 08:46:37 2016 -0500
+
+    Merge pull request #220 from kennethreitz/master
+    
+    Master
+
+commit abbb4e32d81312df5be33f4f285eab5023a78977
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 16 08:29:17 2016 -0500
+
+    update footer in docs
+
+commit f6e757d569401cd52e10e7933943798574447601
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 16 08:27:59 2016 -0500
+
+    v0.11.2
+
+commit 9ba045184352dd6330da971ef55f2088fcdff55e
+Merge: 2299c00 d99db57
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Tue Feb 16 08:17:56 2016 -0500
+
+    Merge pull request #219 from timofurrer/bugfix/export-only
+    
+    Fix export only formats
+
+commit d99db57d75bc6a694e4eb2376d80aabbdcfbfca6
+Author: Timo Furrer <tuxtimo@gmail.com>
+Date:   Mon Feb 15 19:26:23 2016 -0800
+
+    Fix export only formats
+    
+    Formats like LaTeX could have never been exported because
+    `setattr(cls, set_%s % fmt.title, fmt.import_set)` always failed
+    for export-only formats and with that the exception was caught in the
+    outer try/except and the format tuple was set to (None, None) with
+    `cls._formats[fmt.title] = (None, None)`
+
+commit 2299c00883a8f6feacc38aef2975d52f4aa477d7
+Merge: bbdf5f1 5ba6f5d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Mon Feb 8 18:27:39 2016 -0500
+
+    Merge pull request #216 from cmhofer/develop
+    
+    Error: frzn_col_idx not defined
+
+commit 5ba6f5d91a151a4376521c93afdf2cefdb213e0c
+Author: Claudio Mike Hofer <cmhofer@gmail.com>
+Date:   Mon Feb 8 17:30:33 2016 +0100
+
+    frzn_col_idx not defined
+    
+    As in #53 already solved. Freeze panes set to A2 again.
+
+commit bbdf5f11ab0c77e0b8907c593cdd73e287c2948d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 13:46:03 2016 -0500
+
+    v0.11.1, fix packaging error
+
+commit 851ba25702e0b78d9653caa543af215f3702e10b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 11:00:14 2016 -0500
+
+    Update README.rst
+
+commit 039272b2744178cdc60f05cb994f5eafdb548ad2
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 10:56:29 2016 -0500
+
+    docs cleanup
+
+commit d6a7832e6097d13b1d7d12b9fb3f1e1a09420f7e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 10:53:25 2016 -0500
+
+    v0.11.0
+
+commit e51c4faec7113e82afb933fea734adb5939d7df7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 10:43:38 2016 -0500
+
+    smarter detect_format function
+
+commit f7fc3244ee19d5e56bb9ed45f7fda7f1d576d358
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 10:43:19 2016 -0500
+
+    updated history
+
+commit 53d69bd3ea658a7ea2146589f4d0a9207a19cd26
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 08:09:10 2016 -0500
+
+    fix __unicode__
+
+commit fcc9700d11e337947e0a99a9c10831615ef2005f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:29:08 2016 -0500
+
+    Fix for transpose().transpose() with duplicate keys
+    
+    #199
+
+commit 1ec9c18a66548b5fa9f751af550fce52defc1f3b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:02:26 2016 -0500
+
+    $ make test
+
+commit 99c28fa560b1f23e877cee931066a52053b2df66
+Merge: fa7fb57 e2d45ec
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:09:12 2016 -0500
+
+    Merge pull request #206 from kontza/develop
+    
+    Two 'raise AttributeError' converted to Python 3 -friendly format.
+
+commit fa7fb579fd66dbf054c33477e1ce4f68b1e2eee2
+Merge: be24de1 28b358c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:03:25 2016 -0500
+
+    Merge pull request #193 from jhermann/patch-1
+    
+    Formats .tsv and .html are implemented by now
+
+commit be24de19dc86bacf2cd8d6d26c97b522ed560827
+Merge: 1d4f4b6 38e1ee6
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:01:46 2016 -0500
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+commit 1d4f4b68ca833a797fc34ff8676f113edf0f64f7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:01:13 2016 -0500
+
+    cleanup
+
+commit 8debeb26aca7cc9ef427c70ee9d577eb169f9560
+Merge: 66d9e50 a774789
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 07:00:55 2016 -0500
+
+    Merge branch 'develop' into import_export
+    
+    # Conflicts:
+    #       tablib/core.py
+    #       tablib/formats/_csv.py
+    #       tablib/formats/_xlsx.py
+
+commit 38e1ee6c3ddda44a47fba729a02027b382dd35cb
+Merge: 995eaba bc6398f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:44:20 2016 -0500
+
+    Merge pull request #186 from hdzierz/develop
+    
+    Added a mechanism to avoid datetime.datetime issues when serializing dat...
+
+commit a774789252d41522d4ec8b0e2c212aff4a33904d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:40:46 2016 -0500
+
+    /s/unique/remove_duplicates
+    
+    #182
+
+commit 995eabad37c827d34539500630c710ccf510d7c1
+Merge: d90358b dca7bc9
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:38:58 2016 -0500
+
+    Merge pull request #182 from cherepski/develop
+    
+    Adding ability to unique all rows in a dataset.
+
+commit d90358bf6991ec19a4c6a07173f9127e970d96fb
+Merge: c592024 5fbdd56
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:36:12 2016 -0500
+
+    Merge branch 'develop' of https://github.com/rabinnankhwa/tablib into develop
+    
+    # Conflicts:
+    #       AUTHORS
+
+commit c5920249ded38dc5fe70f22021f4a0dd73dd97cf
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:32:10 2016 -0500
+
+    python 3.2 is terrible
+
+commit 9b6a73c97c09e8d6c8eae90456c1af2d3b742f22
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:29:07 2016 -0500
+
+    fixed stuipid test
+
+commit 679bd115b6aeeb3008890b5e7797fd7fcbf66c6c
+Merge: 32cbc36 70716fd
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:09:55 2016 -0500
+
+    Merge branch 'develop' of https://github.com/papisz/tablib into develop
+
+commit 32cbc36fc181dcdb551325529a3c582a6acb30bd
+Merge: 8bded88 79dc452
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:08:23 2016 -0500
+
+    Merge branch 'latex-export' of https://github.com/mloesch/tablib into develop
+
+commit 8bded88559552241d2a5e6d735f97eb4d69175fb
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 06:01:56 2016 -0500
+
+    update development guide
+
+commit f8f57a467e71d92bc6ac9e44d5073eeda4c6bf6e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 05:56:19 2016 -0500
+
+    updates to install guide
+
+commit a11a9939553acd7d56679e8165a1d89fff365280
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 05:52:45 2016 -0500
+
+    fix documentation
+
+commit 25894f2948e01d25bfeeb32d704f81e93d5c686c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 05:47:28 2016 -0500
+
+    remove bunk file
+
+commit 591b89693eaf19bee9847f391392b80503e0452c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 05:46:45 2016 -0500
+
+    remove TODO.rst
+
+commit 85d9c2497e62c90d879a0f8bacfdb431cd585eca
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Sun Feb 7 05:46:20 2016 -0500
+
+    --universal
+
+commit eaf52b691e262b5ec169a631ab89d20d38bb2523
+Merge: 6f53c5d 2f3acf5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 17:19:37 2016 -0500
+
+    Merge pull request #204 from dallagi/notabs
+    
+    Replace tabs with whitespaces
+
+commit 6f53c5d2b97e020fd059f10c16359248353164bf
+Merge: 90ee799 6570355
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 17:17:38 2016 -0500
+
+    Merge pull request #209 from jdharms/develop
+    
+    Small documentation fix in Dataset class
+
+commit 90ee799576995ed4c43561faf4041add6bf111be
+Merge: c02a21c 1fcb98f
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 27 17:16:22 2016 -0500
+
+    Merge pull request #208 from stclair/develop
+    
+    Fix XLSX import
+
+commit c02a21ccd2cbe66920beb5dbaa49a8cd7ddac8d9
+Merge: a785d77 fa045ca
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed Jan 20 10:48:06 2016 -0200
+
+    Merge pull request #213 from go8ose/develop
+    
+    Add section on importing to tutorial.
+
+commit fa045ca1146bdd4d5b00f85b99be177bd9bffb5c
+Author: Geoff Crompton <geoffc@trinity.unimelb.edu.au>
+Date:   Mon Jan 18 12:13:15 2016 +1100
+
+    Add section on importing to tutorial.
+
+commit 65703550c35d04c991c70b2f0576cf4575e4055e
+Author: Daniel Harms <jdharms@gmail.com>
+Date:   Tue Nov 10 14:15:37 2015 -0500
+
+    Small documentation fix in Dataset class
+
+commit 1fcb98f9aee0d580bab42f233ee11d34891cb17b
+Author: Wes <wes.stclair@gmail.com>
+Date:   Mon Nov 9 06:45:28 2015 -0700
+
+    Fix XLSX import
+    
+    Calling import_set on an XLSX file was throwing a TypeError from
+    Openpyxl. Openpyxl Reader load_workbook requires a file-like object as the first
+    argument. This commit fixes the error by passing in a file-like object
+    instead of a string.
+
+commit e2d45ecff7c1f88e49bbd9f8d77d0b34662292cd
+Author: Rumpu-Jussi <kontza@gmail.com>
+Date:   Tue Oct 27 14:46:43 2015 +0200
+
+    More Python 3 -friendly formatting.
+
+commit 47d92277cc656d8a5f8218803f44705d4966294c
+Author: Rumpu-Jussi <kontza@gmail.com>
+Date:   Tue Oct 27 14:45:55 2015 +0200
+
+    More Python 3 -friendly formatting.
+
+commit fdd74b5b0c806f3bf2d557fe2a9b4542eeecac3d
+Author: Rumpu-Jussi <kontza@gmail.com>
+Date:   Tue Oct 27 14:44:07 2015 +0200
+
+    More Python 3 -friendly formatting.
+
+commit de052f0fac8e5de7f5a64f10e663def16d795f72
+Author: Rumpu-Jussi <kontza@gmail.com>
+Date:   Tue Oct 27 14:33:44 2015 +0200
+
+    Two 'raise AttributeError' converted to Python 3 -friendly format.
+
+commit 2f3acf5af450ffbff54fe727e7d8ac803f573f2e
+Author: Marco Dalla G <marco.dallagiacoma@gmail.com>
+Date:   Wed Oct 7 11:31:26 2015 +0300
+
+    Added myself to authors, as indicated in README
+
+commit c4e8755cd23b09d870825994cedcc597d85a5aae
+Author: Marco Dalla G <marco.dallagiacoma@gmail.com>
+Date:   Wed Oct 7 11:25:56 2015 +0300
+
+    Replaced tabs with whitespaces
+
+commit 79dc4524a05e7a89b0e65e9d5b78fa6a56652848
+Author: Mathias Loesch <m.loesch83@gmail.com>
+Date:   Wed Aug 27 21:08:48 2014 +0200
+
+    Added LaTeX table export format
+
+commit a785d77901f307ef499621753b078743e2fabb81
+Merge: 2465752 b3485ec
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed May 27 13:19:36 2015 -0300
+
+    Merge pull request #194 from tommyanthony/develop
+    
+    Fixed a compatibility bug for Python 3
+
+commit b3485ec942d77ec38775a9dbfcae19bbebf55313
+Author: Thomas Anthony <anthony.p.tommy@gmail.com>
+Date:   Tue May 26 20:06:42 2015 -0700
+
+    Fixed a compatibility bug for Python 3 by adding xrange to
+    compat.py.
+    
+    The code in tablib/formats/_xls.py used xrange in parsing excel spreadsheets.
+    xrange is not a builtin for Python 3, so I've added
+            xrange = range
+    in compat.py and imported it in tablib/formats/_xls.py.
+
+commit 28b358c9da8e342a0023a4333de627ff64c715af
+Author: Jürgen Hermann <jh@web.de>
+Date:   Wed Apr 8 15:59:55 2015 +0200
+
+    Formats .tsv and .html are implemented by now
+    
+    Removed mentioning of "wanted" formats that exist.
+
+commit 24657520e9ebd6c492fd4f81e42fb427febcc972
+Merge: 2fbda0f 541fba6
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Apr 5 20:05:31 2015 -0300
+
+    Merge pull request #189 from tsroten/issue_184
+    
+    Fixes Row slicing. Fixes #184.
+
+commit 66d9e50984e7c66fd36fd86f2b469c2dae3636ba
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Feb 1 10:37:40 2014 -0200
+
+    New import/export interface with dataset and databook `import_` and `export` methods
+    and overloaded `import_set` and `import_book` functions.
+
+commit 541fba67866833e43b741c50bcfccec914c36834
+Author: Thomas Roten <thomas@roten.us>
+Date:   Sat Mar 28 16:14:27 2015 -0400
+
+    Fixes Row slicing. Fixes #184.
+
+commit bc6398ffb0a80375d0cb0ad06544d17d2cd9ecc4
+Author: Helge <helge.dzierzon@plantandfood.co.nz>
+Date:   Mon Mar 2 15:06:31 2015 +1300
+
+    Added a mechanism to avoid datetime.datetime issues when serializing data
+
+commit dca7bc9a7d637cfa6f0f00eaebe8bd0cb4e2d7cd
+Author: Kevin Cherepski <kcherepski@visual-a.com>
+Date:   Wed Feb 4 11:53:14 2015 -0500
+
+    Adding ability to unique all rows in a dataset.
+
+commit 2fbda0f43ddf1d2f3a2fe88b9320b8d04f449d4d
+Merge: 68dba0a e350f94
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Nov 15 16:28:57 2014 -0200
+
+    Merge pull request #176 from sramana/develop
+    
+    Fix import errors when installed from source
+
+commit e350f9428b689e412245c813dfe53b3cde24cbfe
+Author: Ramana Varanasi <sramana9@gmail.com>
+Date:   Mon Nov 10 16:03:10 2014 +0530
+
+    Fix import errors when installed from source
+
+commit 68dba0a77d7960715ab4ac2bca86af54f7152a9e
+Merge: e1d65ba 028be03
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Oct 4 11:26:55 2014 -0300
+
+    Merge pull request #173 from amarandon/develop
+    
+    Fix JSON import example
+
+commit 028be03c2ce66174cddc5ec4bf92445bb8801316
+Author: Alex Marandon <alex.marandon@makina-corpus.com>
+Date:   Fri Oct 3 09:17:38 2014 +0200
+
+    Fix JSON import example
+    
+    The example was triggering this error:
+    
+        JSONError: Expecting property name: line 1 column 3 (char 2)
+    
+    This is because JSON property names should be wrapped in double
+    quotes.
+    
+    While at it, I've fixed the typo in "last_name"
+
+commit e1d65ba3c86e897a529ff0e2726d7c4e88a7ec4c
+Merge: bf9510e e4cb3bc
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Fri Sep 26 16:35:29 2014 -0300
+
+    Merge pull request #172 from thibault/patch-1
+    
+    Minor typo correction
+
+commit e4cb3bcd9bb150b049905bac3d35f22db60c7682
+Author: Thibault J. <teeboo@gmail.com>
+Date:   Tue Sep 23 11:46:05 2014 +0200
+
+    Minor typo correction
+    
+    Requests -> Tablib
+
+commit bf9510e0c798b754804a4b2f5470bcbd11ea8a33
+Merge: 48e5769 82ae3ca
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Sep 6 09:54:21 2014 -0300
+
+    Merge pull request #170 from phargogh/dbf_docs_repair
+    
+    Cleaning up DBF API documentation
+
+commit 82ae3ca5073210a2ca280df97729ee78c595a65d
+Author: James Douglass <jamesdouglassusa@gmail.com>
+Date:   Fri Sep 5 14:56:33 2014 -0700
+
+    Cleaning up DBF documentation
+    
+    Fixing indentation issues (off by one space), which caused problems
+    with the sphinx rendering of the DBF docstring and otherwise cleaning
+    up the sphinx docstring.
+
+commit 5fbdd56fba67b259a2bee7979b20fbbd9a31dc63
+Author: rabinnankhwa <rabin.nankhwa@gmail.com>
+Date:   Sun Aug 31 00:12:44 2014 +0545
+
+    filter row and column values
+
+commit f187cef5f45e8e4e59d15b732c6c8307142bb634
+Author: rabinnankhwa <rabin.nankhwa@gmail.com>
+Date:   Sat Aug 30 23:52:35 2014 +0545
+
+    adding support for creating subset of a dataset.
+
+commit 87892d7266d8808374d2c32becc9df4687431227
+Author: rabinnankhwa <rabin.nankhwa@gmail.com>
+Date:   Sat Aug 30 08:56:17 2014 +0545
+
+    used get method of dictionary instead of exception handling
+
+commit 20e2ce5ba0382f66eee747f932265087ef7c1ec8
+Author: rabinnankhwa <rabin.nankhwa@gmail.com>
+Date:   Sat Aug 30 08:26:08 2014 +0545
+
+    __getslice__ method of Row classcorrected
+
+commit 48e576954d4570edc6fca07155d68d9d7a4a4c28
+Merge: 8479df7 a21f818
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Tue Aug 26 08:24:36 2014 -0300
+
+    Merge pull request #153 from phargogh/dbf-support
+    
+    Support for dBase (DBF) files
+
+commit a21f8187f8bdbe27434478da45fa58f3e2158268
+Author: James Douglass <jamesdouglassusa@gmail.com>
+Date:   Fri May 30 17:27:59 2014 -0700
+
+    Adding DBF support.
+    
+    Squashing two squashes.
+    
+    Adding DBF support
+    
+    Adding the DBFpy python package
+    
+    The DBFpy package provides basic dbf support for python.  Still need to
+    write an interface format file for tablib.
+    
+    Adding DBF format and imports in compat.py
+    
+    Adding DBF format to formats.__init__
+    
+    DBF format had not been committed to formats.__init__, so I’m adding it.
+    
+    Adding a dbf import test
+    
+    Adding at test to check whether a DBF can be created properly and
+    compare it against a regression binary string.
+    
+    Adding an import_set test (and renaming another)
+    
+    Adding an import_set test that conforms with the other import_set tests
+    for other formats.  I’m also adding an export_set function.
+    
+    Fixing system site-packages import
+    
+    Importing dbfpy from tab lib.packages instead of system site packages.
+    
+    Fixing a syntaxError in dbfpy/dbfnew.py
+    
+    Fixing an issue with ending field definitions
+    
+    DBFPY, when writing a DBF, terminates the field definitions with a
+    newline character.  When importing a DBF from a stream, however, DBFPY
+    was looking only for the \x0D character rather than the newline.  Now
+    we consider both cases.
+    
+    Adding a test for dbf format detection
+    
+    Adding DBF filetype detection tests
+    
+    Adding tests for YAML, JSON, TSV, CSV using the DBF detection function.
+    
+    Handling extra exceptions in dbf detection
+    
+    Adding exception handling for struct.error, an exception that DBFPY
+    raises when trying to unpack a TSV table.  Since it’s not a DBF file,
+    we know it’s not a DBF and return False.
+    
+    Fixing an issue with the DBF set exporting test
+    
+    The DBF set export test needed a bit enabled (probably the writeable
+    bit?) before the test would match the regression output.
+    
+    Updating dbf interface
+    
+    Updating the int/float class/type checking in the dbf format file.
+    This allows for python2 and python3 compatibility.
+    
+    Tweaking dbfpy to work with python3
+    
+    Altering a couple of imports.
+    
+    Updating dbf tests for binary data compatibility
+    
+    Making regression strings binary and improving debug messages for dbf
+    assertion errors.
+    
+    Improving file handling for python 2 and 3
+    
+    Updating DBF file handling for both python 2 and 3 in the _dbf
+    interface.
+    
+    Adding a (seemingly) functional dbfpy for python3
+    
+    I’ve made dbfpy python3 compatible!  Tests appear to pass.
+    A significant change was made to the format detection test whereby I
+    made the input string a binary (bytes) string.  If the string is not a
+    bytes string by the time we try to detect the format, we try to decode
+    the string as utf-8 (which admittedly might not be the safest thing to
+    do) and try to decode anyways.
+    
+    Updating imports for tablib dbf interface
+    
+    Now importing python2 or python3 versions as appropriate.
+    
+    Updating dbf package references in compat.py
+    
+    Cleaning up debugging print statements
+    
+    Updating stream handling in dbf interface
+    
+    Factoring the open() call out of the py3 conditional and removing the
+    temp file before returning the stream value.
+    
+    Adding dbfpy3 init.py
+    
+    I had apparently missed the dbfpy3 init file when committing dbfpy3.
+    
+    Adding dbfpy and dbfpy3 to setup.py's package list
+    
+    Switching test order of formats
+    
+    Putting dbf format testing ahead of TSV.  In some of my tests with
+    numeric DBF files, I encountered an issue where the ASCII horizontal
+    tab character (0x09) would appear in a numeric DBF.  Because of the
+    order of tabular format imports, though, format detection would
+    recognize it as a TSV and not as a DBF.
+    
+    Adding my name to AUTHORS.
+    
+    Adding a DBF property to tab lib core
+    
+    Documentation includes examples on how to explicitly load a DBF
+    straight from a file and how to load a DBF from a binary string.  Also,
+    how to write the binary data to a file.
+    
+    Adding DBF format notes to README
+    
+    Adding exclamation point to DBF section title
+    
+    Matching formatting of XLS section
+    
+    Updating setup.py to match current dev state
+    
+    Setup.py had been updated since I forked the tablib repo, so I’m
+    updating setup.py to match its current structure while still
+    maintaining DBF compatibility.
+    
+    Fixed callable collumn test
+    
+    the test was sending a list instead of a function
+    
+    CORE CONTRIBUTORS
+    
+    :cake: @iurisilvio
+    
+    v0.10.0
+    
+    WHEELS
+    
+    3.3, 3.4
+    
+    makefile for WHEELS
+    
+    v0.10.0 history
+    
+    ALL
+    
+    Separate py2 and py3 packages to avoid installation errors. Fix #151
+    
+    Running travis and tox with python 3.4.
+    
+    Adding DBF support
+    
+    Adding the DBFpy python package
+    
+    The DBFpy package provides basic dbf support for python.  Still need to
+    write an interface format file for tablib.
+    
+    Adding DBF format and imports in compat.py
+    
+    Adding DBF format to formats.__init__
+    
+    DBF format had not been committed to formats.__init__, so I’m adding it.
+    
+    Adding a dbf import test
+    
+    Adding at test to check whether a DBF can be created properly and
+    compare it against a regression binary string.
+    
+    Adding an import_set test (and renaming another)
+    
+    Adding an import_set test that conforms with the other import_set tests
+    for other formats.  I’m also adding an export_set function.
+    
+    Fixing system site-packages import
+    
+    Importing dbfpy from tab lib.packages instead of system site packages.
+    
+    Fixing a syntaxError in dbfpy/dbfnew.py
+    
+    Fixing an issue with ending field definitions
+    
+    DBFPY, when writing a DBF, terminates the field definitions with a
+    newline character.  When importing a DBF from a stream, however, DBFPY
+    was looking only for the \x0D character rather than the newline.  Now
+    we consider both cases.
+    
+    Adding a test for dbf format detection
+    
+    Adding DBF filetype detection tests
+    
+    Adding tests for YAML, JSON, TSV, CSV using the DBF detection function.
+    
+    Handling extra exceptions in dbf detection
+    
+    Adding exception handling for struct.error, an exception that DBFPY
+    raises when trying to unpack a TSV table.  Since it’s not a DBF file,
+    we know it’s not a DBF and return False.
+    
+    Fixing an issue with the DBF set exporting test
+    
+    The DBF set export test needed a bit enabled (probably the writeable
+    bit?) before the test would match the regression output.
+    
+    Updating dbf interface
+    
+    Updating the int/float class/type checking in the dbf format file.
+    This allows for python2 and python3 compatibility.
+    
+    Tweaking dbfpy to work with python3
+    
+    Altering a couple of imports.
+    
+    Updating dbf tests for binary data compatibility
+    
+    Making regression strings binary and improving debug messages for dbf
+    assertion errors.
+    
+    Improving file handling for python 2 and 3
+    
+    Updating DBF file handling for both python 2 and 3 in the _dbf
+    interface.
+    
+    Adding a (seemingly) functional dbfpy for python3
+    
+    I’ve made dbfpy python3 compatible!  Tests appear to pass.
+    A significant change was made to the format detection test whereby I
+    made the input string a binary (bytes) string.  If the string is not a
+    bytes string by the time we try to detect the format, we try to decode
+    the string as utf-8 (which admittedly might not be the safest thing to
+    do) and try to decode anyways.
+    
+    Updating imports for tablib dbf interface
+    
+    Now importing python2 or python3 versions as appropriate.
+    
+    Updating dbf package references in compat.py
+    
+    Cleaning up debugging print statements
+    
+    Updating stream handling in dbf interface
+    
+    Factoring the open() call out of the py3 conditional and removing the
+    temp file before returning the stream value.
+    
+    Adding dbfpy3 init.py
+    
+    I had apparently missed the dbfpy3 init file when committing dbfpy3.
+    
+    Adding dbfpy and dbfpy3 to setup.py's package list
+    
+    Switching test order of formats
+    
+    Putting dbf format testing ahead of TSV.  In some of my tests with
+    numeric DBF files, I encountered an issue where the ASCII horizontal
+    tab character (0x09) would appear in a numeric DBF.  Because of the
+    order of tabular format imports, though, format detection would
+    recognize it as a TSV and not as a DBF.
+    
+    Adding my name to AUTHORS.
+    
+    Adding a DBF property to tab lib core
+    
+    Documentation includes examples on how to explicitly load a DBF
+    straight from a file and how to load a DBF from a binary string.  Also,
+    how to write the binary data to a file.
+    
+    Adding DBF format notes to README
+    
+    Adding exclamation point to DBF section title
+    
+    Matching formatting of XLS section
+    
+    Updating setup.py to match current dev state
+    
+    Setup.py had been updated since I forked the tablib repo, so I’m
+    updating setup.py to match its current structure while still
+    maintaining DBF compatibility.
+    
+    Fixed callable collumn test
+    
+    the test was sending a list instead of a function
+    
+    CORE CONTRIBUTORS
+    
+    :cake: @iurisilvio
+    
+    v0.10.0
+    
+    WHEELS
+    
+    3.3, 3.4
+    
+    makefile for WHEELS
+    
+    v0.10.0 history
+    
+    ALL
+    
+    Separate py2 and py3 packages to avoid installation errors. Fix #151
+    
+    Running travis and tox with python 3.4.
+
+commit 8479df725e1e02e4380acaba2cf93a74ca63b84f
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Aug 10 11:46:55 2014 -0300
+
+    Fix some http schemes to follow page scheme.
+
+commit 333deb2311c6896cf6f5c6ecc7523ef7adcbafbd
+Merge: ae730b0 0b714f2
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed Jul 30 08:55:06 2014 -0300
+
+    Merge pull request #160 from ustun/patch-1
+    
+    Typo
+
+commit 0b714f21e1bb302d8cb608f9b3b350cb8fda9694
+Author: Ustun Ozgur <ustun@ustunozgur.com>
+Date:   Wed Jul 30 14:46:50 2014 +0300
+
+    Typo
+
+commit ae730b00b14098aeeb51e8ea996350cf7702e5f8
+Merge: 84e8b03 954bbdc
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Thu Jun 26 14:00:12 2014 -0300
+
+    Merge pull request #154 from fusionbox/freeze-panes
+    
+    Only freeze the headers row, not the headers columns
+
+commit 84e8b0384fc08730990a8bfcfba299ea885ad2fd
+Merge: 7acaa84 7a2842a
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Tue Jun 24 22:42:56 2014 -0300
+
+    Merge pull request #155 from fusionbox/update-unicodecsv
+    
+    Update the vendored unicodecsv to fix None handling
+
+commit 7a2842a8af28eeb1be9fa25da008b2070a99c8ed
+Author: Gavin Wahl <gwahl@fusionbox.com>
+Date:   Tue Jun 24 15:22:12 2014 -0600
+
+    Update the vendored unicodecsv to fix None handling
+    
+    The old version of unicodecsv incorrectly (according
+    https://docs.python.org/2/library/csv.html#csv.writer) encoding None
+    values as the string 'None', instead of the string '' as the python
+    documentation specifies.
+    
+    The newest version of unicodecsv has fixed this.
+    
+    Fixes #121
+
+commit 954bbdccf32b42bb2871a6dc851eec476fee803a
+Author: Gavin Wahl <gwahl@fusionbox.com>
+Date:   Mon Jun 16 15:31:00 2014 -0600
+
+    Only freeze the headers row, not the headers columns
+    
+    Fixes #53
+
+commit 7acaa8460dc69f172dee4db6e0492af1db86492e
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Tue May 27 19:46:32 2014 -0300
+
+    Running travis and tox with python 3.4.
+
+commit 84e7e251aec1d0ef8b3d45376ed91c49bf2c2f06
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Tue May 27 19:25:15 2014 -0300
+
+    Separate py2 and py3 packages to avoid installation errors. Fix #151
+
+commit dc868eff31b66a4dcad354f3d8658cb9bac55a3a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:52:57 2014 -0400
+
+    ALL
+
+commit 43356e908c0bfb150d66ab272d5f41a60c6b8aad
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:52:43 2014 -0400
+
+    v0.10.0 history
+
+commit f7acc1952376956b7ef604460bf47864ecdccd26
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:51:51 2014 -0400
+
+    makefile for WHEELS
+
+commit c5972db8f0fe006aba6c2069ae9f5936a2d3d206
+Merge: 2bc6122 1cc051f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:51:30 2014 -0400
+
+    Merge branch 'develop'
+
+commit 1cc051f3e881289a8b51133c0c1ee73683b2d6fc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:49:23 2014 -0400
+
+    .org
+
+commit 3da155ce0d8b5d5c2e149eeea6d56c47379e5f93
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:49:11 2014 -0400
+
+    3.3, 3.4
+
+commit 9a34cf0980ba1c14ca125e2c0b70cace9d9976aa
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:49:07 2014 -0400
+
+    WHEELS
+
+commit 434f66b4eb051d751a1662e02e2b1fd1e24f728f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:48:00 2014 -0400
+
+    v0.10.0
+
+commit d056916c53b3db0ce1b2a551993c7f4f4796b655
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 27 12:47:54 2014 -0400
+
+    CORE CONTRIBUTORS
+    
+    :cake: @iurisilvio
+
+commit cf5239f097b720d650b5e43f16415c1f79fcef0d
+Merge: fbd277f 49d8cb8
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Fri May 2 11:25:30 2014 -0300
+
+    Merge pull request #150 from brad/csv-newlines
+    
+    Allow csv fields to have multiple lines.
+
+commit 49d8cb816f163ab5239ec9552c5d60cd0e386557
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Wed Apr 30 16:48:12 2014 -0700
+
+    allow csv fields to have multiple lines
+
+commit fbd277ff2ef96343fa4bb41e5fff6c37af674951
+Merge: 453fc86 6f4572f
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Thu May 1 09:17:34 2014 -0300
+
+    Merge pull request #149 from brad/tests_fix
+    
+    Load json to dict to workaround random dictionary hashes. Fix #147
+
+commit 6f4572fa5618d50aa2de3ec82dd76de18e3e4428
+Author: Brad Pitcher <bradpitcher@gmail.com>
+Date:   Wed Apr 30 16:27:20 2014 -0700
+
+    load json to dict to workaround random dictionary hashes
+
+commit 453fc8614cf3324e063b12da76c5f552dd63d2c5
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed Apr 23 15:01:31 2014 -0300
+
+    Add NOTICE and tests files to manifest
+    
+    Tests are code.
+    
+    The NOTICE file is about third-party licenses and are important too.
+
+commit 01cf58e4317337b360f81dcbc7ba3cc5eedb9716
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Wed Apr 23 11:25:23 2014 -0300
+
+    Add travis badge to readme
+
+commit f6cd89c76cb8f025114e208caa8965d3d0196ae7
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 15:36:00 2014 -0300
+
+    Fix DeprecationWarnings: assertEquals -> assertEqual
+
+commit 1e0f30e8a6775861b89b614e40ca3f39d9d51465
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 15:26:00 2014 -0300
+
+    Add py33 to travis matrix
+
+commit 569d35bfca693c1d486009a490c53baeb41bd36f
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 15:25:43 2014 -0300
+
+    Exit with error when `python setup.py test` fails
+
+commit d40cdfbcd0ca4fd45b261fe7788d8211d85b70eb
+Merge: 86bbaf9 0ed01d8
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 14:51:06 2014 -0300
+
+    Merge pull request #146 from kennethreitz/fix/unicode_append
+    
+    Fix test_unicode_append
+
+commit 86bbaf9beaf722822567f37be1f2300556d9901d
+Merge: fc4cc7f 1a7d597
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 14:48:19 2014 -0300
+
+    Merge pull request #141 from fcurella/develop
+    
+    added missing yaml3 module to setup.py
+
+commit 0ed01d85b965bd814cecb3eb33042dd59d8ebb1c
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sat Apr 19 12:41:21 2014 -0300
+
+    Fix test_unicode_append
+
+commit fc4cc7fa148c3e292fb33e9c07eb9e47a3e45fcf
+Merge: 56b627a 1146ec2
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Mon Apr 14 09:06:52 2014 -0300
+
+    Merge pull request #144 from aleasoluciones/develop
+    
+    Remove `extend` from first example to make it simple.
+
+commit 70716fdd216755dc4b542df74e95b0e5ac74f0ee
+Author: papisz <szablowska.patrycja@gmail.com>
+Date:   Wed Apr 9 22:35:56 2014 +0200
+
+    CSV custom delimiter support
+
+commit 1146ec234164f08885c9550b008dcafd511cbd22
+Author: Guillermo Pascual <akira.space@gmail.com>
+Date:   Tue Apr 8 10:13:04 2014 +0200
+
+    Update docs
+
+commit 1a7d59774594aab090be9418a4e98e5af7e14827
+Author: Flavio Curella <flavio.curella@gmail.com>
+Date:   Mon Mar 10 12:56:33 2014 -0500
+
+    added missing package to setup.py
+
+commit 56b627a561f2895d7847dd4794b1dd500916eeeb
+Merge: c8a5563 98e182b
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Thu Jan 23 10:51:59 2014 -0800
+
+    Merge pull request #137 from gisce/fix_xlsx_detect_test
+    
+    Use InvalidFileException to fix the test
+
+commit 98e182bed272d5a2debc62cc07a0b21374ee46a2
+Author: Eduard Carreras <ecarreras@gisce.net>
+Date:   Thu Jan 23 18:15:46 2014 +0100
+
+    Use InvalidFileException to fix the test
+
+commit c8a5563309f6b580748183ac2c9cfad88dd8ebec
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Fri Sep 20 10:06:24 2013 -0300
+
+    Maintain dataset title after sort.
+
+commit c225a64d684700b343882538d964016ec24c36d5
+Author: Thomas Coopman <thomas.coopman@gmail.com>
+Date:   Tue Feb 21 12:45:32 2012 +0100
+
+    don't use ExcelWriter with databook
+
+commit d611d5a14f0db02b1ba0747aff8ce81dea896512
+Merge: 45121dd 955c24c
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:48:28 2014 -0800
+
+    Merge pull request #117 from iurisilvio/patch-1
+    
+    Fix typo: avalable -> available
+
+commit 45121ddd6528a02dcf8d159b304cac97b3f352ee
+Merge: c74357c 7160366
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:47:26 2014 -0800
+
+    Merge pull request #63 from jsdalton/fix_unicode_error_in_html_output
+    
+    Fix unicode error in html output
+
+commit c74357cb20b1ac4e7496eaf6d05a5714317d4b5f
+Merge: 939b0af 97b4401
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:46:50 2014 -0800
+
+    Merge pull request #76 from djv/develop
+    
+    xls and xlsx import support
+
+commit 939b0af551aabc345568d7b439fa97684604ae48
+Merge: 9c20186 63f6cea
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:44:30 2014 -0800
+
+    Merge pull request #110 from djrobstep/develop
+    
+    Fix for a broken YAML test and tsv autodetection
+
+commit 9c2018653fc8d02f1db727dd73cfc61b3fcfa81d
+Merge: 7f0748a 9e45b95
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:44:20 2014 -0800
+
+    Merge pull request #111 from dec0dedab0de/develop
+    
+    using readlines() in _tsv.py fixes a small bug.
+
+commit 2bc6122ee8a69b70a686e47876658cdd8a835be6
+Merge: 783eccc 1aafc7e
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:44:06 2014 -0800
+
+    Merge pull request #113 from dec0dedab0de/master
+    
+    Fixed callable column test
+
+commit 7f0748aac9d561672ecf41684c28d97e4e186229
+Merge: 41a5c67 192a5ef
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:43:50 2014 -0800
+
+    Merge pull request #116 from kachick/fix-tsv-typo
+    
+    Fix some typos in TSV test comment
+
+commit 41a5c6715979905e634d7c6ade957538a1d2bfcb
+Merge: 3efefcc 5ffcfd5
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:43:35 2014 -0800
+
+    Merge pull request #119 from iurisilvio/empty_sheet
+    
+    Remove XLSX empty sheet on export_book
+
+commit 3efefcc8da7bb763f1f143d48df31949510c6da5
+Merge: d19de60 837b3f8
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:43:15 2014 -0800
+
+    Merge pull request #127 from medecau/develop
+    
+    test python 3.3
+
+commit d19de6025bc92abf7b0fbee2b311a7e43aa239bf
+Merge: 65ba937 3b06f37
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:41:15 2014 -0800
+
+    Merge pull request #131 from fusionbox/quotes
+    
+    remove extraneous quote marks
+
+commit 65ba937c0dd3ef9eacbac03359eb1e698f742fb7
+Merge: 79a2bb8 5bd2e3d
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:41:05 2014 -0800
+
+    Merge pull request #129 from lexual/dataset_typo_fix
+    
+    fix misspelling. hundres -> hundreds.
+
+commit 79a2bb888fb8d8d3fcbcb0f0dac4261f2b576b5f
+Merge: 25eacaf c2a9af7
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:40:59 2014 -0800
+
+    Merge pull request #135 from overthink/doc-fixes
+    
+    Fix funny typo, refs to tablib.org
+
+commit 25eacaf6f099b93a1cf1127dd9566154a6e74430
+Merge: ff8f23e e7ee319
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Jan 8 11:17:23 2014 -0800
+
+    Merge pull request #130 from lndbrg/patch-1
+    
+    Add pass to json property.
+
+commit c2a9af7fb35de7b3d26b21bb0a3307f03caac161
+Author: Mark Feeney <mark.feeney@gmail.com>
+Date:   Wed Nov 27 12:38:55 2013 -0500
+
+    Fix funny typo, refs to tablib.org
+
+commit 3b06f3760d70dc4b1ba9bf1daa456f10ebc98230
+Author: Gavin Wahl <gwahl@fusionbox.com>
+Date:   Wed Nov 13 13:01:27 2013 -0700
+
+    remove extraneous quote marks
+
+commit e7ee3195a7b2294bd21bb4f5fd0c43d2460e19b6
+Author: Olle Lundberg <geek@nerd.sh>
+Date:   Mon Nov 11 21:57:17 2013 +0100
+
+    Add pass to json property.
+    
+    To conform to the code for the other properties.
+
+commit 5bd2e3df527775a5750a11338857fef4162068a6
+Author: lexual <lex@jbadigital.com>
+Date:   Fri Nov 8 19:03:53 2013 +1100
+
+    fix misspelling. hundres -> hundreds.
+
+commit 837b3f83e6956d7f58c067a568a01c08f6b90de1
+Author: Pedro Rodrigues <medecau@gmail.com>
+Date:   Sun Oct 27 18:57:26 2013 +0000
+
+    test python 3.3
+
+commit ff8f23edd5f9646720a29c305136b04d18ff0e7b
+Merge: 2c14486 1ab0eb3
+Author: Kenneth Reitz <me@kennethreitz.org>
+Date:   Wed Oct 16 23:48:37 2013 -0700
+
+    Merge pull request #98 from pfctdayelise/fixtests
+    
+    Remove wrong/unused import so tests will actually run
+
+commit 5ffcfd56f24de088cd9e7cd54efeb5e3ef92c5c6
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Mon Sep 16 10:28:50 2013 -0300
+
+    Remove XLSX empty sheet on export_book
+
+commit 955c24c974f3ee48595a4b3ce24d55ab7035412e
+Author: Iuri de Silvio <iurisilvio@gmail.com>
+Date:   Sun Sep 15 15:13:29 2013 -0300
+
+    Fix typo: avalable -> available
+
+commit 192a5efabb6307577004b54d3beece7d0dc9f257
+Author: Kenichi Kamiya <kachick1@gmail.com>
+Date:   Sat Aug 31 21:02:29 2013 +0900
+
+    Fix some typos in TSV test comment
+
+commit 1aafc7e2f48cc8f07c9e782e198378db642fe9bc
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Wed Aug 28 14:03:58 2013 -0400
+
+    Fixed callable collumn test
+    
+    the test was sending a list instead of a function
+
+commit 9e45b95d1238fa530ee7b26a7f0acb6443c10907
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Wed Aug 28 11:40:37 2013 -0400
+
+    Removed import of openpyxl all together
+    
+    It's not needed for any of these tests, but if it were we would
+    need to check for the python version to import the right one.
+
+commit d8f0a018ae752bb1d2b7fba2d803ab29ed19a43a
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Wed Aug 28 11:24:56 2013 -0400
+
+    safe_load is not working for book
+    
+    yaml.safe_load() was not working for import_book,
+    changed it to use yaml.load() instead.
+
+commit 7545f3726e49206ad66099315e520ce584796950
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Wed Aug 28 09:45:30 2013 -0400
+
+    changed import to reflect vendorized openpyxl
+
+commit 85e2bd73fcdfe4090d6686a214be27456ac65be4
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Tue Aug 27 17:34:06 2013 -0400
+
+    put the install back in
+
+commit 37033903c5ad29424f0bd19521066448b0b6fdfe
+Merge: 02c38c2 783eccc
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Tue Aug 27 17:20:31 2013 -0400
+
+    Merge branch 'master' into develop
+
+commit 02c38c2520842806efdbcf2d9d3bb734ef240ed2
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Tue Aug 27 17:14:25 2013 -0400
+
+    edited travis to match master
+
+commit 26748deb9f84963580ef9f0054b72b29b157ed77
+Author: James Patrick Robinson Jr <jamesprobinsonjr@gmail.com>
+Date:   Tue Aug 27 11:57:43 2013 -0400
+
+    changed split('\r\n') to splitlines()
+
+commit 63f6cea1326c61dd8a7ac8d9ec38bf95e3e1accb
+Author: Robert Lechte <robertlechte@gmail.com>
+Date:   Wed Aug 28 02:07:06 2013 +1200
+
+    Fixed tsv auto format detection.
+
+commit 1b035f97744e38f2bfd7654df91dfd464ec92b4c
+Author: Robert Lechte <robertlechte@gmail.com>
+Date:   Wed Aug 28 01:58:30 2013 +1200
+
+    Changed yaml dumping to use safe_dump, for consistency with loading.
+
+commit 2c14486c33d4cd3a4411bfa3cecf2302fdd8453f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 25 17:45:48 2013 -0400
+
+    @alex
+
+commit 8bc69c9d851a463f9b1a4ee9acce766acd5ce194
+Merge: cd71e1a d36a2cb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 25 13:26:47 2013 -0700
+
+    Merge pull request #109 from alex/patch-1
+    
+    Write the example file reliably in the readme
+
+commit d36a2cbd424d750a02773a7d40e44534c480e99a
+Author: Alex Gaynor <alex.gaynor@gmail.com>
+Date:   Sun Aug 25 12:11:46 2013 -0700
+
+    Write the example file reliably in the readme
+    
+    The previous way doesn't work on PyPy or Jython, and emits warnings in recent python3s.
+
+commit 1ab0eb3faeb2a83dd30a989baa1d22f744b63af6
+Author: Brianna Laugher <b.laugher@bom.gov.au>
+Date:   Wed Apr 10 17:45:42 2013 +1000
+
+    Remove wrong/unused import
+
+commit cd71e1a5b14cef2e95876553a6ad4b0c71a1201e
+Merge: 9f38efe 47f79a7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 6 10:02:20 2013 -0800
+
+    Merge pull request #94 from techniq/patch-1
+    
+    Update CI docs (Jenkins->Travis)
+
+commit 47f79a7ca186b6e0a9974a6d610c495d4139a1ea
+Author: Sean Lynch <techniq35@gmail.com>
+Date:   Sun Jan 20 23:22:56 2013 -0500
+
+    Update CI docs (Jenkins->Travis)
+
+commit 9f38efe4133f6f4c4a2e58b5867f3f7883d119c8
+Merge: 5d98239 1543504
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 15 18:56:50 2012 -0800
+
+    Merge pull request #68 from msabramo/python3
+    
+    Improve Python 3 compatibility
+
+commit 5d98239a7e988a1a16261c6cb7073d618b92cfc7
+Merge: a3f0d02 e4c3952
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 15 18:50:22 2012 -0800
+
+    Merge pull request #81 from weirdcanada/frozen-frame-fix
+    
+    Frozen frame fix
+
+commit a3f0d02633a979eb4b11bcea3318fdefd65dcd65
+Merge: e75c3c1 b29007a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 15 18:03:53 2012 -0800
+
+    Merge pull request #89 from PiPeep/patch-1
+    
+    Update url for pip vs easy_install in docs/install
+
+commit b29007a0dffbaede9a061221b08aab7fdb840a0e
+Author: Benjamin Woodruff <benjaminwoodruff@ufl.edu>
+Date:   Wed Oct 31 21:23:49 2012 -0300
+
+    Update url for pip vs easy_install in docs/install
+    
+    The page referred to in the pip documentation has been moved. It
+    discusses the features that pip offers over easy_install.
+
+commit e75c3c1a665ec4a0130412627ffe6b557afdcead
+Merge: 752443f 47cebbc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 22 09:53:49 2012 -0700
+
+    Merge pull request #88 from pfmoore/develop
+    
+    Remove __init__ from slots in ExcelFormula.py for Python 3.3 compatibility
+
+commit 47cebbc328b2b8ec1992068491c826f1ce9cb1e0
+Author: Paul Moore <p.f.moore@gmail.com>
+Date:   Fri Sep 21 23:35:24 2012 +0100
+
+    Remove __init__ from slots in ExcelFormula.py for Python 3.3 compatibility
+
+commit e4c39524f7f1bd55428da914b7a99a4cb739ed56
+Author: Aaron Levin <alevin@kobo.com>
+Date:   Wed Aug 1 11:51:23 2012 -0400
+
+    another try at committing
+
+commit c88c7943147cc317b9a0c7191df8a73090bf35a5
+Author: Aaron Levin <alevin@kobo.com>
+Date:   Wed Aug 1 11:45:12 2012 -0400
+
+    Fixed Frozen Frame issue in xlsx export
+
+commit 752443f07706c666d52ef72ca27e1ae931358f49
+Merge: 652ac85 7c0507b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jun 8 20:12:34 2012 -0700
+
+    Merge pull request #78 from waywardmonkeys/spelling
+    
+    Fix typos.
+
+commit 7c0507bcce3399ba7f4b81e1dbd9c7d36e144a4f
+Author: Bruce Mitchener <bruce.mitchener@gmail.com>
+Date:   Fri Jun 8 14:10:43 2012 +0700
+
+    Fix typos.
+
+commit 652ac85549635428b89117a10d3584fc15fd4690
+Merge: c469360 05ea3c3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 7 17:07:11 2012 -0700
+
+    Merge pull request #77 from rbonvall/fix-typos
+    
+    Fix typos
+
+commit 05ea3c35fce21410cbd697b290cda65dc117fbbe
+Author: Roberto Bonvallet <rbonvall@gmail.com>
+Date:   Thu Jun 7 12:05:22 2012 -0400
+
+    s/Jeckyl/Jekyll/
+
+commit d5fada7e1d56b11a3b451c61c08a5931f99d9d0a
+Author: Roberto Bonvallet <rbonvall@gmail.com>
+Date:   Thu Jun 7 12:04:22 2012 -0400
+
+    s/ebpub/epub/
+
+commit 511c58d4e18479d930023ead214a83b1af0f0bec
+Author: Roberto Bonvallet <rbonvall@gmail.com>
+Date:   Thu Jun 7 12:03:45 2012 -0400
+
+    s/reqeust/request/
+
+commit c469360a0ef415c3cdb42063d1fef5e76df4c35d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 5 11:19:56 2012 +0200
+
+    new domain
+
+commit 97b4401b18ed264f77072dd362ec8d7cca3f4571
+Author: Daniel Velkov <dvelkov@quantcast.com>
+Date:   Fri Jun 1 11:11:15 2012 -0700
+
+    xls and xlsx import support
+
+commit 40e0f41b4cdf287ab46e2ab7e568a4c5e22f2d61
+Merge: e8c923d 3943572
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 16 12:13:57 2012 -0700
+
+    Merge pull request #72 from xando/develop
+    
+    import_book method for xls format implemented
+
+commit 39435727ba79c0023056f45ca7c36d7c72bfb802
+Author: xando <sebastian.pawlus@gmail.com>
+Date:   Wed May 16 17:05:05 2012 +0100
+
+    XLS import_book method implemented.
+
+commit eda9d5af0347e89787aeee27d3fcde0531c8d2c5
+Author: xando <sebastian.pawlus@gmail.com>
+Date:   Wed May 16 16:56:53 2012 +0100
+
+    Generic method import_book (similar to import_set) to import data into Databook model.
+
+commit 15435047c668aa8e1fb5ffc1a8db30e5b944d5fd
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Tue May 15 07:20:04 2012 -0700
+
+    Add myself to AUTHORS
+
+commit a3781e3c896071e49d7cfbac7f24d3f0c5336be9
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Tue May 15 07:19:15 2012 -0700
+
+    Changes for Python 3 compatibility, including vendorizing xlrd3
+
+commit 6a825a8a3965066a71ebf6719498fbd77d7fd912
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Tue May 15 07:18:15 2012 -0700
+
+    NOTICE: Add license info for xlrd3 and xlwt3
+
+commit 6a449d497aa40e6c1aee2d3ce55fce680d1f0a47
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Mon May 14 20:44:23 2012 -0700
+
+    Add support for tox
+
+commit d807c603466d05a2288f3bde8454f331084a6649
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Mon May 14 17:14:46 2012 -0700
+
+    Tweak setup.py for py.test (pytest?)
+
+commit 71603662b1d81a0fa9566cf68cb3fc5a584bdffd
+Author: Jim Dalton <jim@ere.net>
+Date:   Thu May 10 11:29:41 2012 -0700
+
+    Make sure codecs module loaded for all versions of Python
+
+commit 21c11b9911a0141602444265a34219c16c152067
+Author: Jim Dalton <jim@ere.net>
+Date:   Thu May 10 11:14:17 2012 -0700
+
+    Fix UnicodeError in HTML output
+    
+     * Alter `test_unicode_append` so that actual unicode characters outside the ASCII bytestring range are tested.
+    
+     * Make sure output of `render` in markup.py is unicode
+    
+     * Add wrapper around output of `export_set` in _html.py so that unicode characters are output.
+
+commit e8c923d7121da21cb96eedd68710c37f5c9b471f
+Merge: bc581c0 fa6f5b3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Apr 20 06:17:05 2012 -0700
+
+    Merge pull request #58 from jqb/develop
+    
+    Support for Dataset subclassing
+
+commit bc581c08dfe100bbc9c4f11b1229d410ada40745
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Apr 20 10:16:28 2012 -0300
+
+    Update NOTICE
+
+commit 4f9c9d09ec89858773e0c2bacb7193ad6019f7cc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Apr 20 10:15:36 2012 -0300
+
+    ODFPy license
+    
+    (which seems to be missing a copyright for some reason)
+
+commit 63e8a7172dd0b8d521032aba8483bb1f74ed04f5
+Merge: c0a3c3e 45e0af9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Apr 4 05:41:25 2012 -0700
+
+    Merge pull request #61 from bmihelac/patch-1
+    
+    tablib.org domain expired
+
+commit 45e0af9f0ec5341559fa6a72302d1786d44dfd99
+Author: Bojan Mihelac <bmihelac@mihelac.org>
+Date:   Wed Apr 4 15:35:16 2012 +0300
+
+    tablib.org domain expired
+
+commit fa6f5b3af316bfc8195921527418297681674ea2
+Author: Kuba Janoszek <kuba.janoszek@gmail.com>
+Date:   Tue Mar 13 00:21:32 2012 +0100
+
+    Databook.add_sheet test for not Dataset subclass added.
+
+commit 0528e0a5008b86d779cbe89a9c42cb2800409bcf
+Author: Kuba Janoszek <kuba.janoszek@gmail.com>
+Date:   Tue Mar 13 00:14:51 2012 +0100
+
+    AUTHORS updated
+
+commit 8e837349855cef2e54460b705a166bf85e84017c
+Author: Kuba Janoszek <kuba.janoszek@gmail.com>
+Date:   Tue Mar 13 00:05:24 2012 +0100
+
+    Databook.add_sheet accepts Dataset subclasses
+
+commit 783eccc67dbf219a99973e045a12686674ffd568
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 23 06:31:50 2012 -0500
+
+    skip install
+
+commit 7236415f420befb51261090d2d18cc2b1f23a7f2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 23 06:20:57 2012 -0500
+
+    travis
+
+commit c0a3c3ea1e66e92415038d751fe1b92395c4ea5a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 23 06:16:56 2012 -0500
+
+    travis test
+
+commit 14bd964fb11fb45af394212541a4314ab1fa384a
+Author: Jan Brauer <jan@jimdo.com>
+Date:   Sun Jan 29 17:18:30 2012 +0100
+
+    Fix #50 - Catch YAML ScannerError
+
+commit 6bfc6634bad3f8315f6c8ffacf3437c8129a4b62
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jan 28 01:23:54 2012 -0500
+
+    index update
+
+commit 54affad29205d8667b5ef58c50cad07f94fc9696
+Author: mellort <timothy.mellor@gmail.com>
+Date:   Sat Jan 28 01:17:15 2012 -0500
+
+    ref #48. makes Dataset more like a duck with extend()
+
+commit 7c963a0f4dc681f4fb086575188c340fefd7a2e5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Jan 18 11:24:18 2012 -0500
+
+    SOPA
+
+commit 02f27f15c54da0d830b4cf13ee0ef2fb2e11db89
+Merge: c87a954 9c65515
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jan 5 21:37:51 2012 -0800
+
+    Merge pull request #47 from VanL/develop
+    
+    Add detect function in _xls. Update yaml, csv, and tsv detection functio...
+
+commit 9c65515e7a7d466be2168c65ea5a88a40cd3f248
+Author: VanL <van.lindberg@gmail.com>
+Date:   Fri Jan 6 00:12:06 2012 +0000
+
+    Add detect function in _xls. Update yaml, csv, and tsv detection functions to catch other errors when faced with invalid input.
+
+commit c87a954a9ec539814aee65ec40d86e33147e227e
+Merge: 42e40ed 23ab6c4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Dec 24 23:05:03 2011 -0800
+
+    Merge pull request #43 from svetlyak40wt/develop
+    
+    Render table in Markdown format on unicode(dataset). Closes #41.
+
+commit 42e40ed0ab4859995264abb7ee3ba338b5e0371b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 2 02:35:59 2011 -0300
+
+    use yaml safe_load (thanks @toastdriven)
+
+commit 23ab6c4724cded5dac64c164773b76794ec3b00e
+Author: Alexander Artemenko <svetlyak.40wt@gmail.com>
+Date:   Sun Oct 16 11:00:06 2011 +0400
+
+    Render table in Markdown format on unicode(dataset). Closes #41.
+
+commit 32a09ccd6ac26a3cbf4d632871ef383787acbb80
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Aug 31 02:16:16 2011 -0300
+
+    Edited AUTHORS via GitHub
+
+commit 81a7f79b3dd7bff61935c20952c9c8d4d0d55947
+Merge: ec7273d 05c9b33
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 30 22:15:49 2011 -0700
+
+    Merge pull request #37 from jfriedly/patch-1
+    
+    Fixed a few typos.
+
+commit 05c9b330034597a6097fb175460dbf0e0f34323a
+Author: Joel Friedly <joelfriedly@gmail.com>
+Date:   Thu Aug 25 23:33:29 2011 -0300
+
+    Fixed a few typos.
+
+commit ec7273d02ddfc68f0a48be6018482bd26ca88b11
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 15 23:29:19 2011 -0400
+
+    that wasn't right.
+
+commit 19ee1997b570183c082c656ccf0e2545f47fc69a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 15 22:49:14 2011 -0400
+
+    really need to use testing branches..
+
+commit f01d65c2e9d288743302acc2b494af0a7c24ce09
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 15 22:45:35 2011 -0400
+
+    I don't remember merging that..
+
+commit 9778a96351dbbadc3c7a522a44ca4ce7b33c84d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 15 22:43:12 2011 -0400
+
+    tuples didn't have index method in the past.
+    
+    …why?
+
+commit 906138b138e05670913ecf233b8430d59cb6d29b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Aug 11 00:47:23 2011 -0400
+
+    a column w/ no length could work
+
+commit 43c68b396fd51a567f954297a686dcd828778037
+Author: Mike Waldner <mwaldner@gilt.com>
+Date:   Wed Aug 10 20:05:17 2011 -0400
+
+    Fixing magic number in test
+
+commit d611233c80b6cfbba8681211e02aab3e468ed5e9
+Author: Mike Waldner <mwaldner@gilt.com>
+Date:   Wed Aug 10 19:50:31 2011 -0400
+
+    Throwing InvalidDimensions when append_col with header is called but only headers exists
+    Related #33
+
+commit 3d02b866ce410146ca452370c5e3d63e7a36f282
+Merge: bfd2118 887ee2f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Aug 9 21:48:32 2011 -0400
+
+    Merge branch 'append_col_docs' of https://github.com/mawaldne/tablib into develop
+
+commit 887ee2fbacc749002a1d70538c42fb93fd22b7bd
+Author: Mike Waldner <mwaldner@gilt.com>
+Date:   Tue Aug 9 20:51:24 2011 -0400
+
+    Adding documentation changes for append_col
+    Related #21
+
+commit bfd211854a5974459083c7afac98265cbbc94b55
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 8 06:48:34 2011 -0400
+
+    Added Mike Waldner to Authors.
+    #34
+
+commit bc759115001ae4afafadc372e2f2711b9a6ce2d0
+Merge: fde6f11 a2b4e4c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 8 06:47:47 2011 -0400
+
+    Merge branch 'html_None_fix' of https://github.com/mawaldne/tablib into develop
+
+commit a2b4e4c6ba6315571e476b09f69312c7d5788e45
+Author: Mike Waldner <mwaldner@gilt.com>
+Date:   Sun Aug 7 19:19:54 2011 -0400
+
+    Replace None with empty string before creating td
+
+commit fde6f11763cb6c23ac44acaf53b19682e483e516
+Merge: 33a8331 f6d7888
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jul 14 15:16:01 2011 -0400
+
+    Merge branch 'feature/xls-import' of https://github.com/xdissent/tablib into develop
+
+commit 33a83316df627f49e95c744c6ceb87ff051ddbf7
+Merge: e74a8f4 2f8083b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jul 14 15:15:42 2011 -0400
+
+    Merge branch 'fix_pickle_bug_2' of https://github.com/cswegger/tablib into develop
+
+commit f6d7888d9e28222b8df9c5ba5359e358e9c1677b
+Author: Greg Thornton <gthornton@cjadvertising.com>
+Date:   Thu Jul 14 13:47:07 2011 -0500
+
+    Added xls detection.
+
+commit c19e2f2c5bcc2c3bf2b77594c00433704b7111af
+Author: Greg Thornton <gthornton@cjadvertising.com>
+Date:   Thu Jul 14 13:11:33 2011 -0500
+
+    Added xlrd license to NOTICE.
+
+commit eaa2b9b8ea778e7fbe1fe5c659fe1b267d52d4b1
+Author: Greg Thornton <gthornton@cjadvertising.com>
+Date:   Thu Jul 14 13:08:06 2011 -0500
+
+    Added XLS import support
+
+commit 2f8083bda6d78246d41d4cf26f19c5bb447de30f
+Author: Luca Beltrame <luca.beltrame@marionegri.it>
+Date:   Thu Jul 14 10:28:12 2011 +0200
+
+    Fix also __slots__ to ensure proper unpickling
+
+commit 2c5a9af76efd93f49eb0757f8c262dbb87d5be43
+Author: Luca Beltrame <luca.beltrame@marionegri.it>
+Date:   Thu Jul 14 09:36:35 2011 +0200
+
+    Fix pickling (again). Unit tests still pass.
+
+commit e74a8f41cc0bdfe1cb9aae90b9240fd15208e9cb
+Author: Mark Walling <mark@markwalling.org>
+Date:   Mon Jul 11 17:13:47 2011 -0400
+
+    Created get_col method with tests and tutorial.rst update
+    
+    Useful when you have multiple columns with the same header
+
+commit cd5aa4fc06d9af90b076c02a9f596bb84db1d09f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 4 14:36:08 2011 -0400
+
+    toxless
+
+commit 1d460bac401edc450f999fda72cac2d29f9b7efe
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 4 14:27:42 2011 -0400
+
+    setup.py changes
+
+commit 4a3fde37a3e4d2822407fcf5526ebf072041d2e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 4 14:05:48 2011 -0400
+
+    tox cleanups
+
+commit 62ad123ad83553585007fa105c1679db35016142
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 4 05:49:41 2011 -0400
+
+    updated history
+
+commit fefc7b4d1fc4799ae174dfc65b0ee3ce4d26d663
+Merge: 23a5bb1 6313437
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 4 05:48:37 2011 -0400
+
+    Merge branch 'unicodeheaders' of https://github.com/mwalling/tablib into develop
+
+commit 6313437a27d68e42247802f7f68ec3270cb9a2da
+Author: Mark Walling <mark@markwalling.org>
+Date:   Fri Jul 1 17:51:43 2011 -0400
+
+    Added support for detecting unicode column headers
+    
+    Also added tests!
+    
+    Fix for kennethreitz#26
+
+commit 23a5bb14432eda6aa38f47c1bb7e4f6a4b4aa21a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 30 23:00:26 2011 -0400
+
+    yay
+
+commit 864f29cc4b833fc3ac8cdeaa695d5894901d35b5
+Author: Mark Walling <mark@markwalling.org>
+Date:   Thu Jun 30 22:38:57 2011 -0400
+
+    Updated some docstrings in core.py
+    
+     * Binary warning for CSV output, because if you don't, Excel gets upset when Python translates \r\n to \r\n\r\n
+     * Cleaned up what looked like a couple of copy paste errors
+
+commit c136b794a7dc1d7bcdb81a6149e0adacb5493cf8
+Merge: 9b23515 d254c2d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 30 16:29:10 2011 -0400
+
+    Merge branch 'develop'
+
+commit d254c2d2b02b026d08cef01475d16fcc51e763ec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 30 16:28:56 2011 -0400
+
+    dynamic columns bugfix for @mwalling :)
+
+commit 9b235150cf58721596a2ca650e26237b1fd59aba
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 23 06:46:24 2011 -0400
+
+     v0.9.10 (packaging fix)
+
+commit 9f3e6eeaa15bf400a2e223214d38acf50b393501
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Jun 23 05:37:09 2011 -0400
+
+    oops
+
+commit 51728f954fcada9ef346e6f087a4fb1d90d0e160
+Merge: 07d243b 2949b7c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Jun 22 13:34:22 2011 -0400
+
+    Merge codeplane.com:kennethreitz/tablib into develop
+
+commit 2949b7c656a2cdbbcbc24595802b3020daeac1f2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Jun 22 13:27:24 2011 -0400
+
+    A change.
+
+commit 07d243bbc9754ea9521a0170629b6aac8eac4ac1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Jun 22 13:16:09 2011 -0400
+
+    testing GitHub for Mac
+
+commit bf3484e606dfd67df53dc4de02916a8f9717ed8f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 23:04:42 2011 -0400
+
+    release date
+
+commit 9b2ab6fae944207c2422a094d257cbccd014bfe6
+Merge: 983b979 7a3d55d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 23:01:46 2011 -0400
+
+    Merge branch 'release/0.9.9'
+
+commit 7a3d55daab7eb349e66dd71d9301f3b9276098e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 22:58:14 2011 -0400
+
+    test cleanups
+
+commit eec0595c5c8367b9e0a1b619945ac293a6dfd345
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:35:18 2011 -0400
+
+    new column methods in tutorial
+
+commit 0c7c248b9678a97291554e2686f94f7119ce873a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:32:44 2011 -0400
+
+    installation updates
+
+commit 0d14f7f2b9797df396d2e18e9dfd083d72f1ab31
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:28:56 2011 -0400
+
+    Jenkins
+
+commit d5f713024d75c66044614c9eb86c5888d4be0667
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:26:05 2011 -0400
+
+    setup.py fixes
+
+commit 415bc819e7004537be0d214470a1c23705dbc1f0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:17:05 2011 -0400
+
+    __version__
+
+commit 974258094ee15cbfb74d2978e95bdca63a8bfa57
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:15:47 2011 -0400
+
+    tablib version in docs
+
+commit ab16f69be615900cecd37027eb82a4aedb356392
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:08:28 2011 -0400
+
+    big history update
+
+commit 28d9af852ad8cc5def501596da90c2f41ee74e06
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:04:48 2011 -0400
+
+    0.9.9
+
+commit 39c6ea6503526ee07a0b6b7f86487f1c0c3bc48a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:03:50 2011 -0400
+
+    lpop/rpop
+
+commit 39b66ad8e9b4edf3862fe7714362c56d476b5ef0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 20:02:12 2011 -0400
+
+    add row pop
+
+commit 004b3da680b821d0dcedbe52ee6fb5a2a45c9ad5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 19:42:56 2011 -0400
+
+    Major API Changes
+    Related #21
+
+commit d4923533eb3091cd4dddbe74cbddf50b158f74fe
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 19:07:24 2011 -0400
+
+    style fixes
+
+commit 29e0b76910aa187b8b28e9b7029496dd7d2622ad
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 19:04:03 2011 -0400
+
+    bettter setup.py pattern
+
+commit 4f54de26308c4c97439e9fd0006a48749cbc6802
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 19:00:27 2011 -0400
+
+    Stick w/ utf-8. Easy enough to modify.
+    
+    Related: #18.
+
+commit 1f0d68ee795660683b1160b7605614c572d759df
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 18:56:44 2011 -0400
+
+    utf-8-sig encoding for csv/tsv (for excel).
+    Fixes #18.
+
+commit cae8fa12761b9a19a4ed87a890ebf8d55af83e34
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 18:52:01 2011 -0400
+
+    ujson
+
+commit 4c0a20a7b95a05c1ba804e0154108aac28be5be3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 18:51:54 2011 -0400
+
+    staying with MIT License, for now.
+
+commit 6c1fa8713824e22869311717ee61c149b371e012
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jun 21 01:26:16 2011 -0400
+
+    tox cleanup
+
+commit 0e30255836db90482bca09d3b63c239809a0ddc0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 20 12:57:24 2011 -0400
+
+    bugfix
+
+commit 1156d5a2205d4b2c99bc807e020dcaa0558c6d37
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 20 12:56:39 2011 -0400
+
+    NOTICE update
+
+commit 83b71967b9ca3b00d28bed38c7a6e1c3bd7c04af
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 20 12:55:43 2011 -0400
+
+    integrate omnijson
+
+commit 4dab48cd763da70d8ed1294c074843672ecabff3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 20 12:55:37 2011 -0400
+
+    add omnijson
+
+commit 532452632939cbc721780aafa8ea3ec76fd7d18c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jun 20 12:55:30 2011 -0400
+
+    remove anyjson
+
+commit 1dfcd4223311523e28f6741b7310ec8c6333bc01
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 5 18:50:36 2011 -0400
+
+    whitespace
+
+commit f162b19bd6f40e3d4a1723e2a34635386c272beb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Jun 5 18:43:08 2011 -0400
+
+    todo cleanup
+
+commit 707164e45946f30f7b194159b7630c10771be0a4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 25 12:12:04 2011 -0400
+
+    fixes #17
+
+commit 42f0a285c33eef9370a87f8bd8c4c71360758025
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 24 18:30:14 2011 -0400
+
+    gaug.es
+
+commit d111cc7cc7d627efdc3939b105404fd23703292d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 24 17:19:13 2011 -0400
+
+    testimonial cleanup
+
+commit 25fe211a22aa15613f778848a050498de5d53b13
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon May 23 11:20:10 2011 -0400
+
+    fix setup packages
+
+commit 4b675494c427cd29b737805f3d2010fc288e7efb
+Merge: a196b9a 273d272
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 20:10:33 2011 -0400
+
+    Merge branch 'feature/apache' into develop
+
+commit a196b9a5dd5819501ee8958f36483e41b268712f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 20:10:14 2011 -0400
+
+    readme update
+
+commit 5ba56c2bb329c000b1565f7291df860dbb0dcb54
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 19:52:24 2011 -0400
+
+    Turn off OrderedDict for yaml.
+    Fixes #12.
+
+commit 36fbdda492695e8f7c09d88aa2cde91f7dbaffc6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 19:43:29 2011 -0400
+
+    setup.py improvements
+    closes #5
+
+commit 273d2729ee60a15cc408a55d7165fdcc2fb1b3a1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 19:36:38 2011 -0400
+
+    Apache v2
+
+commit 3036bc9e52adfbb47945339226c6a05087ff36f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:45:34 2011 -0400
+
+    abandon
+
+commit b9c74eacc852736d80b7c21a85ea7941b46efdb8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:41:10 2011 -0400
+
+    lower case
+
+commit 805ccfae3423801721bead9f9a99d802da686828
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:39:28 2011 -0400
+
+    mention formats
+
+commit fddc0183947c5a7182acbefef53c919dd0fec7ae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:34:27 2011 -0400
+
+    datestamp
+
+commit 2477100062889ab68f8d7e7aa64536805d6e367c
+Merge: 29d626f 3edb45b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:34:05 2011 -0400
+
+    Merge branch 'release/0.9.8' into develop
+
+commit 983b979fdacd7eb541609bb0ba1f8ea257d709bf
+Merge: 77d9fe8 3edb45b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:33:49 2011 -0400
+
+    Merge branch 'release/0.9.8'
+
+commit 3edb45bac77af1b82fe92286525ae971c4ddc243
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:33:40 2011 -0400
+
+    version bump (v0.9.8)!
+
+commit 29d626fa1fe2c6d52d4db96f49d417654e9fb91f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:29:11 2011 -0400
+
+    2.x bytesio fix
+
+commit 1f22fc73211da0e828ad546701bc3cf9bf0bc4ea
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:22:22 2011 -0400
+
+    BytesIO
+
+commit 8631f60f8d56f897fd6616baba7543d21cb65e73
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:13:48 2011 -0400
+
+    Python3 ods fix
+
+commit 65873b611289fe917b6d62c5aacbe7b70878a373
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:13:40 2011 -0400
+
+    BytesIO
+
+commit 56e44bd45cf3f2e03a81faa212cfd71cc9451028
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 15:06:52 2011 -0400
+
+    csv compatibility
+
+commit 87e65fd3e77f21efc9efc4ab367611702fcd3cfe
+Merge: ffbc3b1 cceb41a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 14:07:17 2011 -0400
+
+    Merge pull request #14 from f4nt/tablib
+    
+    ---
+    
+    This should provide basic support for OpenDocument spreadsheets. I didnt have py2.7 installed to test with in tox, but 2.5, 2.6, and py3k passed all tests with tox for me. Lemme know if you see any issues I may have glossed over.
+    
+    Conflicts:
+            tablib/compat.py
+
+commit ffbc3b122d7db7740d070112aec023cbbf663f4e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 22 14:04:47 2011 -0400
+
+    pass
+
+commit 9d71603dad9d5104e5add6372946e7ce6522ab9b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 19 12:20:17 2011 -0400
+
+    Installation link
+
+commit cceb41af98afe11ef04e1c9b187e70af293c94d0
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Wed May 18 16:12:42 2011 -0500
+
+    ods support
+
+commit 60ffa898fd7db73838c7e30375b602759f3b9022
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon May 16 04:15:34 2011 -0400
+
+    removed meh testimonial
+
+commit a4a211b5a6b96e751f79743e1fd44f08ee2dd5b5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon May 16 02:18:03 2011 -0400
+
+    theme update
+
+commit c9766a48b07daa8e72d5109d644c05e115a55318
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon May 16 02:08:37 2011 -0400
+
+    docs update
+
+commit 6975685b89c99abd8bc0cf61fbd968620ceabff5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 15 19:53:18 2011 -0400
+
+    theme update
+
+commit e920244a1b035e465d16c59bb70a19226091b573
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 15 17:08:26 2011 -0400
+
+    testimonials
+
+commit ea63779bafb4cca25a0e5c5c25e1a76a06e82304
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 15 13:29:54 2011 -0400
+
+    syntax fix
+
+commit d826f6d0aec97d864a6eef72bdae005b5ad84aaf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 15 13:28:15 2011 -0400
+
+    Orgs
+
+commit f6fa3f2abc9f7328d28fb211019a1e5cd18c77f0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun May 15 13:28:10 2011 -0400
+
+    change (c) attribution
+
+commit eed6df45e0f497f6e79551be272f1e3a5fac6fc4
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sun May 15 09:00:47 2011 -0500
+
+    Bolding still doesn't work :(
+
+commit cb4c67767a710701c0415dd164c0c3253ea74f8d
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sun May 15 08:35:29 2011 -0500
+
+    py3k tests now pass
+
+commit 1e21fee70ebbafab5a51e7c3a1ec77dae417802c
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sat May 14 16:44:23 2011 -0500
+
+    start of the py3k port of odfpy
+
+commit 420dd36ab8c4fa7a3f75b8da80ffc2effdf0029e
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sat May 14 16:13:17 2011 -0500
+
+    Tidied up a bit, renamed _odf to _ods like it should have been. Bold not working yet :(
+
+commit 9a05770899a5864e72727830da71a23b7203d050
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sat May 14 14:52:16 2011 -0500
+
+    proof of concept works. Onto styling and tidying
+
+commit 8e055f1c57e82d51bf0320b04c49763a7257b486
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Sat May 14 14:32:03 2011 -0500
+
+    adding odfpy to packages
+
+commit 239e33aaedafe3e55c92c80f67e4e595449bdc4a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat May 14 10:10:02 2011 -0400
+
+    subtle format cleanups
+
+commit bf4fdea1876a86087566eb593f8c30f0a60caf7f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat May 14 10:06:54 2011 -0400
+
+    fewer 2/3 mappings
+
+commit 03086052eddeaf4d1b7521d87c3ac850dcc8e821
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat May 14 10:01:48 2011 -0400
+
+    Merge pull request #11 from cswegger/tablib
+    
+    ---
+    
+    This change applies the same unicode CSV fix for TSV files, since all its done in the exporter is changing a few parameters of the CSV module.
+    
+    All unit tests are still passing after this change.
+
+commit 2128473938274083aa4416f76c1b8ce09561c068
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 21:15:09 2011 -0400
+
+    license/support update
+
+commit 74c64d66a95bf25107dd5d5cd2395850f99e3bda
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 20:51:54 2011 -0400
+
+    pypy-1.5
+
+commit a4e77f22c4989ee6fd87971cc9dadd395a00fda1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:47:16 2011 -0400
+
+    .orig? geeze..
+
+commit 2e03046a071573f8ff42430dac51e0e94c8845b5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:46:37 2011 -0400
+
+    docs fix
+
+commit 06a7b4cd4e448ef69a4023a5a5bc4372026a7313
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:42:42 2011 -0400
+
+    new roadmap
+
+commit 6a70b84166c3fc26ad63a9ed82238ed29685ec17
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:34:24 2011 -0400
+
+    docs on xlsx
+
+commit 77d9fe8b4176164dfe8de35ae1303fa2bf0b90d8
+Merge: 9146de3 64cb547
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:27:44 2011 -0400
+
+    Merge branch 'develop'
+
+commit 64cb547e0a00d9269390db3dd2e6ee686b26fb4a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:27:38 2011 -0400
+
+    missing modules
+
+commit 9146de36d45d2a6bc9adb0375bcc186d9b7167be
+Merge: 865ce62 9761ff5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:15:06 2011 -0400
+
+    Merge branch 'release/0.9.7'
+
+commit 9761ff5e9ef3bed0cd4c7e9a00e5c10bd453e6c7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:13:50 2011 -0400
+
+    hmmm
+
+commit e5259cbb58092184fdeb4d0635c57480164cb1ce
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:13:25 2011 -0400
+
+    version bump
+
+commit 56ef89424f923e29dfbedf29429dac0c2ecdc341
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 01:05:11 2011 -0400
+
+    fallback on from xml.etree.ElementTree for pypy
+
+commit 4a0129929348024a0bd4b5e9e876b9c2d4e78faa
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 00:40:36 2011 -0400
+
+    v0.9.7 release notes
+
+commit 9399bf2fe7cdb32b593dfa0012b6fc16f877a9ec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 00:32:02 2011 -0400
+
+    no vendored tests
+
+commit cbdaa09e8324767926e49e814170a325758c072b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 00:30:03 2011 -0400
+
+    success!!
+
+commit f30e760657bc73a16559b948c0de53916fc63aa9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 00:29:51 2011 -0400
+
+    less compat reliance
+
+commit a60e2f132e67ebdfab6a4220953c8b15d6e97378
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri May 13 00:28:50 2011 -0400
+
+    Finally! :sparkles:Python 3:sparkles: port of openpyxl
+
+commit 2b36d71554b50e4123bc2a6eb5065689b8860272
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 19:16:37 2011 -0400
+
+    additional compat mappings
+
+commit 690de63b7c0c1431151c308c67f8d344f15d6a65
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 19:16:24 2011 -0400
+
+    ugh
+
+commit 6b6ef70c61e1f35ea1b26535a2bec33a74be6bdf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:54:00 2011 -0400
+
+    Convert openpyxl to relative imports
+
+commit 322283b8f968c036321ae2bf90a334f808f7cf3f
+Merge: 3968729 5350355
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:40:17 2011 -0400
+
+    Merge pull request #9 from f4nt/tablib
+    
+    ---
+    
+    I thought I was going to wait til later to do this, but once I got started I couldnt stop myself I guess. I believe this fixes the row limit issues that I mentioned earlier by adding XLSX support. Ive tested it up to 75k rows. Believe the tests and setup.py should be squared away properly as well. Im a bit concerned about the pane freezing stuff, as thats completely undocumented in openpyxl. Truth be told, I barely even know what that functionality does. I hate spreadsheets :)
+    
+    Anyways, let me know if you want any changes or anything made. Dont have to worry about hurting my feelings or anything!
+    
+    Conflicts:
+            tablib/core25.py
+            test_tablib.py
+
+commit 396872990377251966ad733924aa0fbfe177d058
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:38:53 2011 -0400
+
+    html out
+
+commit 7b1e533e391b087cd89f9616f385f253456de169
+Merge: 8dd7d73 35f21cf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:35:54 2011 -0400
+
+    Merge pull request #8 from cswegger/tablib
+    
+    ---
+    
+    This pull request is to fix pickling / unpickling of Row within Dataset. __getstate__ resembled a dictionary comprehension (Python 2.7+) but it wasnt, and it caused wrong values to be pickled, leading to unusable objects after restoring.
+    
+    This patch fixes the issues. All unit tests still pass.
+    
+    Conflicts:
+            tablib/core25.py
+
+commit 8dd7d73abccbedecc8a789208aeff5a64ae28317
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:27:17 2011 -0400
+
+    compat module notes
+
+commit 176c9615d61f33e061ec0bb6cda35a6e4a1f02d2
+Merge: 2cd3813 c65fd42
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:26:08 2011 -0400
+
+    Merge branch 'feature/compat' into develop
+    
+    Conflicts:
+            tablib/core25.py
+
+commit c65fd4201fa836d13248f294df87e946d327fc59
+Merge: 79fb82d 11bca4f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:24:35 2011 -0400
+
+    Merge branch 'compat' into feature/compat
+
+commit 11bca4f7a28bffb90c67a89ae6069995ad0ee180
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 17:20:22 2011 -0400
+
+    callable check fix
+
+commit 2b5818598a87875aa77712bb8e733eea9d4e1f93
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 16:44:39 2011 -0400
+
+    compat module
+
+commit 79fb82d69d9c51e531c02a0af3f1bc49756fdaf4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 16:44:39 2011 -0400
+
+    compat module
+
+commit 5350355fbe0aefe053d40fda03c0688a7b7eae3d
+Author: Mark Rogers <f4nt@f4ntasmic.com>
+Date:   Thu May 12 15:59:57 2011 -0500
+
+    a bunch of cleanup from my previous commit
+
+commit 85673b365cee0cea06b2525ded371af55191e308
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 16:24:19 2011 -0400
+
+    no more core25
+
+commit 87ce64d4c859efb7c3d37b1e715fa04a0c1cc631
+Author: Mark Rogers <mark.rogers@medtelligent.com>
+Date:   Thu May 12 15:12:46 2011 -0500
+
+    Merely a proof of concept, soon to be tidied up
+
+commit 2cd381389cb330f57c212eaa2ba233610cf0bbfa
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 10:13:42 2011 -0400
+
+    Merge pull request #8 from cswegger/tablib
+    
+    ---
+    
+    This pull request is to fix pickling / unpickling of Row within Dataset. __getstate__ resembled a dictionary comprehension (Python 2.7+) but it wasnt, and it caused wrong values to be pickled, leading to unusable objects after restoring.
+    
+    This patch fixes the issues. All unit tests still pass.
+
+commit 35f21cf73ea19a1c1a1a9fc5ed35de2b23d0a0b3
+Author: Luca Beltrame <luca.beltrame@marionegri.it>
+Date:   Thu May 12 16:04:46 2011 +0200
+
+    Fix pickling/unpickling of Dataset instances.
+
+commit 0ebc8f5e1b4fff9822128314b48911b95b9a0e28
+Merge: 4be341b 3b961c5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:53:15 2011 -0400
+
+    Merge branch 'release/0.9.6' into develop
+
+commit 865ce6278296cb0998e5544bdfa4e4e8983d7bb2
+Merge: 15e25ef 3b961c5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:53:12 2011 -0400
+
+    Merge branch 'release/0.9.6'
+
+commit 3b961c59e7d3e65ce0dc14df1ae24545cbe66655
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:52:35 2011 -0400
+
+    version bump
+
+commit 4be341be4fb889a09391a9fd6657e86e779acdce
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:35:07 2011 -0400
+
+    history: unicode+csv support
+    refs #7
+
+commit 2c4337b31764752551d70123897c965c341323a1
+Merge: 999c49a 0e4128c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:31:16 2011 -0400
+
+    Merge branch 'develop' into feature/compat
+
+commit 0e4128c73ebbfdca28c3f8647617aa74c69ccaae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:30:39 2011 -0400
+
+    Erik Youngren to authors
+
+commit 4ebd66cb0939858749030a8dd3403bbcaa675fac
+Merge: 2e5577e bfcfa37
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:28:03 2011 -0400
+
+    Merge branch 'bug/csv-unicode' into develop
+    Closes #7
+    
+    Conflicts:
+            test_tablib.py
+
+commit bfcfa37ebbf5850b8ba4368ccaac0aa3f4c55f20
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:24:14 2011 -0400
+
+    Python3 support for csv module.
+    Refs #7
+
+commit 5c50c1822e0d9f0fa493c064902d48cb092fd831
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 02:00:46 2011 -0400
+
+    integration of unicodecsv module
+    refs #7
+
+commit 2e5577ee91dbfb77a4698b7503a71964a1dc2def
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 01:52:48 2011 -0400
+
+    move csv-unicode branch to bug/csv-unicode
+    refs #7
+
+commit 84e4bd9a47c1a26c17f03335fa47b623df1db1ed
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu May 12 01:47:49 2011 -0400
+
+    added csv/unicode test
+
+commit 7270ce49e193b066dd3ece764d4f5f0057584679
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 11 23:37:38 2011 -0400
+
+    testing webhook
+
+commit c3052cc02cd21bcb4a4d221650e196abaa3e739b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 11 22:57:12 2011 -0400
+
+    kill fabfile
+
+commit 999c49a4f092422f8340849dbd72399233149a86
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 11 19:01:35 2011 -0400
+
+    initial compat module
+
+commit 59c996f9df7e7a6766e990597136e89fb9fc638b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 11 18:21:44 2011 -0400
+
+    history update
+
+commit a2b62669b7fef42e835da0010c63ef1cb9ef0f92
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed May 11 17:58:31 2011 -0400
+
+    seperator => separator
+
+commit 15e25ef735430c0a20be6533b11b147a7dcc7c9d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue May 10 21:24:56 2011 -0400
+
+    no more reqs
+
+commit 7ae7d3ff46f323d0d85678cb3415865357ed0e25
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Apr 5 08:56:20 2011 -0400
+
+    Update TODOs
+
+commit 69ed7181919f327c653d8b155b907df4b33437e5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 16:46:00 2011 -0400
+
+    make it mobile!
+
+commit 328d3880d5e2d1e1e1897fc9c43c4d46a1f4c0ca
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 13:53:03 2011 -0400
+
+    added google analytics to generated docs
+
+commit ea3cc847a0b17f1375e7518223bea3070bd8ca64
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 06:16:34 2011 -0400
+
+    updated roadmap
+
+commit 8efab51355a091544232fd7096b4d47faa63a39d
+Merge: 10bc554 e42d215
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 06:11:02 2011 -0400
+
+    Merge branch 'develop'
+
+commit e42d215833e3dd960fe83d46d660c5b5c3b7403a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 06:09:15 2011 -0400
+
+    sphinx version # fix.
+
+commit 10bc5549c9c6baea0ade06e3974124b31bbb007c
+Merge: 52e9d44 1a5e2ec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 05:58:50 2011 -0400
+
+    Merge branch 'release/0.9.5'
+
+commit 1a5e2ecb3377cf47398113be454c189d9fcb3e1d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Mar 24 05:57:22 2011 -0400
+
+    release date bump
+
+commit e1bf1898474ce8d5bc0ebb7ab2829a340b94587f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 05:47:49 2011 -0400
+
+    setup.py says 25,26,27,30,31,32
+
+commit 0785328e218accaa2fcde7180ac18187a88945b8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:53:24 2011 -0400
+
+    updated HISTORY
+
+commit 6ba0cc9af35fd61e28e6007618e9a2a44b8302c9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:49:07 2011 -0400
+
+    3.1, 3.2 support.
+
+commit 36876205e7ee06c25d5b0a8c4ced78d65c65054e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:48:58 2011 -0400
+
+    3.2 compatibility
+
+commit 1b97b7191ecf84f0fd0eb0ae7e8d49146c89f894
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:24:25 2011 -0400
+
+    pre-version bump
+
+commit 8b575df4190eb9dcf3845ab25883f68428adf703
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:24:12 2011 -0400
+
+    version check in setup.py fix
+
+commit 6a3928759a896678c15e439960f6f6e1b5d86d73
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:13:49 2011 -0400
+
+    25 support
+
+commit 63348d883bb89ce3a806bf2673c8e76f519bcad1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:04:03 2011 -0400
+
+    fix imports for 2x
+
+commit 5dce600969f6219010855650455e9aa6cf514432
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 04:00:05 2011 -0400
+
+    xls import fix
+
+commit 0913b54f4728d3d49a0890e08c07a9043ae6ce0b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 03:56:07 2011 -0400
+
+    this isn't an apple
+
+commit c5bbc74b96cc04254c39f8586e4d976a98b8d02a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 03:55:23 2011 -0400
+
+    import magic
+
+commit 7f5342a1b87aa231f96c134f4d04611b74fee2ee
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:27:40 2011 -0400
+
+    no need for simplejson anymore
+
+commit d42f9bc10fdb1065f91a94b856a9caa168412f67
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:23:43 2011 -0400
+
+    python3 tox config for jenkins
+
+commit c6565c9e291803ff023ca6d35a65552138241b5f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:17:26 2011 -0400
+
+    2.5 compatible version checking
+
+commit 1a9343750ea5f11e0be60ee0eb2ac7b6f7f00606
+Merge: 52e9d44 8a39321
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:08:40 2011 -0400
+
+    Merge branch 'feature/3.x'
+
+commit 8a393214c8db962e6eb55fbabe5439978a64efdf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:08:04 2011 -0400
+
+    add tox tests for 3.x
+
+commit b8ed741a36f5205669f7380ccb129fe6714a4555
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:07:39 2011 -0400
+
+    Same codebase for 2.x and 3.x!
+
+commit cddbd78a61871a91d5ef8d3b883cb43cfd145f75
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 02:02:56 2011 -0400
+
+    autoload 3 modules if using 3
+
+commit b113f49ce6aa4dec565b5c0ee30074a9ecdaf3f4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:59:19 2011 -0400
+
+    python3 AND python2 packages.
+
+commit 1429b9f8c4324df31a52342e52c55d9794fe02dc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:56:57 2011 -0400
+
+    xlwrt3 if python 3
+
+commit 42700f98a5f8d3184e6ad8f123b7d8c0e13f3322
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:47:10 2011 -0400
+
+    check python version
+
+commit 0e56db632ad18d169a2e935b5e9aaa97f9c3b71b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:47:01 2011 -0400
+
+    xlwt3 package
+
+commit b07512071e2e4d81a4334c9cdad24220694731b5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:38:31 2011 -0400
+
+    cyaml fixes
+
+commit e4881809d64c369989987f86ed80f493da9f5952
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:38:20 2011 -0400
+
+    BytesIO in xls for 3.x
+
+commit 54ab300d2d2ea21f68133f4ac8bb0cf4ca183c36
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:37:33 2011 -0400
+
+    markup changes for 3.x
+
+commit 4368d6431770ffa6a2b6bd375e89dbff1d3a899b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:37:14 2011 -0400
+
+    xlwrt cleanups
+
+commit 117344de14ed30d0429a1890e35d5af0e8cc1756
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:13:16 2011 -0400
+
+    2to3!
+
+commit 58bc1c7dcf958c1e00a422390db0e31d1b6197c6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:13:03 2011 -0400
+
+    add xlwt 3.x
+
+commit 4c8b5e72e33a44b7df39529d22225deed05407b1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 01:12:48 2011 -0400
+
+    remove 2.x xlwt
+
+commit b9002361577e5b64c74d3e5734cc6b10e5682aeb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:50:27 2011 -0400
+
+    testing whitespace cleanup
+
+commit dc14a16e04a526b8c2f5a978d8b094760aca05ed
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:49:32 2011 -0400
+
+    added formatter tests
+
+commit 2d2ac9b708a44bd7d6e22752c2afa71d1d848e3b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:49:25 2011 -0400
+
+    col not key
+
+commit 1efcb7a63dbb54206444c423804c54a45481f033
+Merge: 52e9d44 65c73df
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:39:16 2011 -0400
+
+    Merge branch 'feature/formatters'
+
+commit 65c73dfc42ec2012dcc5c91dff43de25936095b1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:38:45 2011 -0400
+
+    do some internal validation for adding formatters
+
+commit 3803a7a21b68633b0e54c6c01824647973ffa95d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:32:56 2011 -0400
+
+    formatter execution in place upon export
+
+commit 8b5b29fc90ca4e222b2f2e9c0ceb6038b53fb0d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:20:39 2011 -0400
+
+    added Dataset.add_formatter
+
+commit e8ba7654263c1f3cddfe63dea3d282a739c9778f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Mar 23 00:03:33 2011 -0400
+
+    tablib.helpers is not longer needed :cake:
+
+commit 57001a546588c7322c2792060dc735d944ea19f0
+Merge: 0391432 c8493ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Mar 22 23:57:42 2011 -0400
+
+    Merge https://github.com/mwhooker/tablib into develop
+
+commit c8493ff047ddfbfa9d0231cd395d3645faedce80
+Author: Matthew Hooker <mhooker@digg.com>
+Date:   Tue Mar 22 17:12:02 2011 -0400
+
+    fixes issue #38: python 2.5 support
+
+commit 03914323c2077f61a40e4dd1a9a87de4214c5b2e
+Merge: e1734f2 2f331ce
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Mar 1 17:06:15 2011 -0500
+
+    Merge https://github.com/playpauseandstop/tablib into develop
+
+commit 2f331cee8ece577b54644efb7e2219ed61d75380
+Author: Igor Davydenko <playpauseandstop@gmail.com>
+Date:   Tue Mar 1 19:36:19 2011 +0200
+
+    Fix #24, add support of spaces in CSV files.
+
+commit e1734f2315bdb87f894911b1e031de39e7297bb6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 14:07:42 2011 -0500
+
+    added __docformat__
+
+commit 22cddbcd6354dc87af9b2797849329a20500966b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:55:24 2011 -0500
+
+    well then
+
+commit 76f09cd3b35f8cda1a8f081d81fd0f83d19fd2e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:37:53 2011 -0500
+
+    Added release number to documentation.
+
+commit d11c09febefbe6150f4e5b168d46970b232ee452
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:37:29 2011 -0500
+
+    Added License text.
+
+commit 9ab277a4682546b64363ba308ef551fde3c4051d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:32:20 2011 -0500
+
+    docs: Python 2.5 is supported now.
+
+commit 23c183114433f69415431c498d799b78b7f688f0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:15:00 2011 -0500
+
+    Added HACKING file.
+
+commit 1cf9bd14b451fd56c06416fde71ee5f8bc0beef2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:12:41 2011 -0500
+
+    ci.kennethreitz.com now
+
+commit c2331f7a23ff0531d96baeb79e8769e5531c986c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 21 02:11:59 2011 -0500
+
+    Updated pythons list.
+
+commit bccf0d1ba1adac259e0ffe5687455f6aadade7fd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 04:37:00 2011 -0500
+
+    no more test suite.
+
+commit c219972ccdf70c7ba0d4762e222b5404f3794b2e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 04:28:50 2011 -0500
+
+    added pypy location to tox config
+
+commit 52e9d44739c141c920d7431e60d88763383d2c6a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:42:20 2011 -0500
+
+    typo
+
+commit e94ecd847218ab69d8519cb6425f16ceffa07ed2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:41:54 2011 -0500
+
+    Small doc updates
+
+commit 96067e63800bbefedaf31eda701fa9a992e05931
+Merge: f69a96f 1cc0f7d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:36:27 2011 -0500
+
+    Merge branch 'release/0.9.4'
+
+commit 1cc0f7d1f47e293d287388259544c8d4c8fa1f9e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:34:59 2011 -0500
+
+    Version Bump (v0.9.4)
+
+commit f685bf548efe1969620e40b38244b99cd6935f2a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:27:28 2011 -0500
+
+    latex stylee
+
+commit ca336926dacd5268ed015ef1f7e60fb7b0c3d54f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:27:12 2011 -0500
+
+    junit's out
+
+commit 1aa3d3b06a97512b9a5291e5461dee1e1e5605f2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:15:39 2011 -0500
+
+    removing coverage from scm
+
+commit be576135b239b76f51f8e2edd6c78545c2c1dfce
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:14:12 2011 -0500
+
+    Added 0.9.4 to History
+
+commit 0c05d0497e967b4dde2548d43d019bdc813f2eb8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 03:13:44 2011 -0500
+
+    Added OrderedDict support.
+
+commit 52e307ea3518c42f6946bdf87be728b8bcb05a38
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 02:59:07 2011 -0500
+
+    Docstring update
+
+commit 5cac9bd97e519a44b75217a82051f63a57a42a4c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 02:42:57 2011 -0500
+
+    Python 2.5 added to compatible language list
+
+commit a285e993f1a7f685f724381c916bfaf78b0ba59a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 02:42:37 2011 -0500
+
+    add simplejson to requirements for 2.5
+
+commit 0ed367a31c33b6b1e892a53e01ec97f488bb2bca
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 02:34:59 2011 -0500
+
+    I can see how that would cause a problem.
+
+commit c4815c24ccd1989516913ec2854ae371d011a3f0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 02:07:42 2011 -0500
+
+    i haz the skillz
+
+commit 20fe1e0153d300e2fce5ac4359aadb03c804ea74
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:55:56 2011 -0500
+
+    py.test now
+
+commit 5db8d1c3a661297fb344b4c4f2e4156594a7dcae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:44:59 2011 -0500
+
+    that makes more sense
+
+commit 828017f9a747b1a2c7017154ef7ffbabb9bd12f5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:34:18 2011 -0500
+
+    wtf? is that even valid?
+
+commit cff8a6ac9a95bfbcb88280c866e17c3d9491d606
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:31:21 2011 -0500
+
+    i've got to figure this out
+
+commit aa8590e8b89023af1008d55f7e7e75a11967cda2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:30:17 2011 -0500
+
+    json
+
+commit d2de647c470c6c69b0881ded19eb32e46c836a09
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:29:16 2011 -0500
+
+    added simplejson to tox config.
+
+commit 7afef680f5a49b86e0f134a482699d59b7b1d719
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Feb 18 01:26:30 2011 -0500
+
+    fixed nose issue
+
+commit 35763f8c245c54d0ac130997bdd5d53391ff78ba
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:31:02 2011 -0500
+
+    fix tox configuration
+
+commit cc3d020914067b489f807d170ae5b816e39730cc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:15:35 2011 -0500
+
+    clear nosetests each time
+
+commit b8b5405f1c8bf47283e4aebc088744583e0574e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:13:01 2011 -0500
+
+    setup.py package fix
+
+commit b7aebbc74f59bb167857c20c9cad085843070d3f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:11:08 2011 -0500
+
+    anyjson in setup.py
+
+commit d776d78df52c8d2a1448cb6c9407de292d4517bd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:09:07 2011 -0500
+
+    Added AnyJSON to json format system
+
+commit 6f9365d376ba108b5bfeda4a68de619fe93df3ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:02:14 2011 -0500
+
+    Added AnyJSON
+
+commit 621b1bd45c877461ee303a2d6504affcbfcc211b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:02:07 2011 -0500
+
+    Added AnyJSON license.
+
+commit be21b6fadd5bc85cb08b7d716002849307c90963
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 20:01:59 2011 -0500
+
+    Remove vendorized SimpleJSON
+
+commit 832bfbbb1b3b0b35768f3a3ff8787391e4e3589e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 19:54:10 2011 -0500
+
+    this should work better
+
+commit 288b15fb5406ef3d77918f87480e4088ed552d01
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 19:37:45 2011 -0500
+
+    tox coverage
+
+commit 73df22303b8d2f69e7ece854a0d660b00d3c07de
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 16:47:42 2011 -0500
+
+    no more failing tests?
+
+commit 4c125bd20657d829d83032fb72818c94f7e0248a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 16:36:28 2011 -0500
+
+    8tabstop? really?
+
+commit ff0de1377af883c79e522b2f31e085540e6e245b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 16:35:36 2011 -0500
+
+    wow, that was ugly
+
+commit ccb29c68fa814424f9fc761fc6ab3d24779a8cc6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 17 16:31:52 2011 -0500
+
+    *shutter* making everyone else happy
+
+commit e077a7f2bc8b37b36ac0da569c244f977c400254
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Feb 16 13:17:03 2011 -0500
+
+    typo
+
+commit dcc52bdc18299466be7fdd07276c2a9af184ae1e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Feb 14 04:16:21 2011 -0500
+
+    Added Benjamin Wohlwend to AUTHORS
+
+commit 9cac54eefc703c0a7cb09e201c4ca032e9fb19c9
+Author: Benjamin Wohlwend <benjamin.wohlwend@divio.ch>
+Date:   Mon Feb 14 10:06:02 2011 +0100
+
+    Python 2.5 doesn't support @property.setter
+
+commit f69a96f07eb23323a0574306d0a673860cffe536
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Feb 13 21:11:02 2011 -0500
+
+    Readme.rst improvements
+
+commit ca77ed6f64c74ee255e18a6fcd968c2a1d2c087c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 10 10:18:58 2011 -0500
+
+    documentation url style update
+
+commit 806aba9ef35e65226a6409afd17d7d3e0cb258f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 10 10:18:30 2011 -0500
+
+    spelling corrections
+
+commit 23cbc0c3333a663f8d05076562858507c0dfe2f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Feb 3 13:52:53 2011 -0500
+
+    More dynamic __slots__
+
+commit 34ab54de774d7f2594de8fb3a4a5dd168c7a151a
+Merge: 08ed309 0843a15
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Feb 2 21:34:08 2011 -0500
+
+    Merge branch 'master' into develop
+
+commit 0843a158798f4d49b9967fc84ab5d983e6487ad0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Feb 2 21:33:41 2011 -0500
+
+    configuration fix for RTD
+
+commit 08ed3093823c6c3fa3500a509d201e483e22c4f5
+Merge: 34415b8 140736f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:36:14 2011 -0500
+
+    Merge branch 'release/0.9.3' into develop
+
+commit 26b6faa88d0c272f7f8153cbd2de6ce451e22caf
+Merge: 7727171 140736f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:35:52 2011 -0500
+
+    Merge branch 'release/0.9.3'
+
+commit 140736ff332ff164f18821ec150488b1a2092898
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:34:40 2011 -0500
+
+    fabfile typo.
+
+commit 5379c5683d9cb7c07f7619e544c0c2fc4efa80b1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:33:12 2011 -0500
+
+    Markup license notice.
+    PD? Really?
+
+commit e8b44b57779b6374fbee3e5dc2b7dc1091e1cf5c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:33:00 2011 -0500
+
+    Version bump.
+
+commit a0822bc9b091ca6b613aac71afc39acf0665a1e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:29:41 2011 -0500
+
+    sorting update.
+
+commit 89b431213bc74f219da48489fbaabdd02bcfe56a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 01:28:10 2011 -0500
+
+    Sorting update for headerless datasets.
+
+commit 695e8c5af7a0d66c6ea96dec535535b0e1ac25b0
+Merge: 0797ec6 1852624
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 00:58:27 2011 -0500
+
+    Merge branch 'feature/sorting' into release/0.9.3
+
+commit 0797ec67d4a4c6c145d86d0b7dca9d3b03c6d8e6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 31 00:58:16 2011 -0500
+
+    Prepping for new release (0.9.3)
+
+commit 1852624a7ebe88eba70b16eb6ea7c5032ec23346
+Merge: 34415b8 f81dc41
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Jan 22 18:35:34 2011 -0500
+
+    Merge pull request #28 from cswegger/tablib
+    
+    ---
+    
+    This patch provides simple column-based sorting to tablib. A (passing) unit-test is also included.
+
+commit f81dc41a57e19926868efa036bdb9e862cd3bbbb
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Tue Jan 11 20:53:59 2011 +0100
+
+    Support for sorting. Unit-tested.
+
+commit 34415b89b858075323b7a2d034c06b57dd26bdc7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jan 10 19:28:12 2011 -0500
+
+    New Year!
+
+commit d25655588b13657c253f9c216d1cc2360a5d5e57
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Dec 13 17:08:11 2010 -0500
+
+    TODO update.
+
+commit 22c4d185e122da6ea1c71d17af009a6c55217c39
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 21:33:01 2010 -0500
+
+    Export HTML for Databooks.
+
+commit e3b3659ea40151eb849e3f53555900b7ba2c7d43
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 21:32:00 2010 -0500
+
+    whitespace fix
+
+commit 22d337790acc82e8760e1dd261c47c93297f1d21
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:58:30 2010 -0500
+
+    small changes to html output
+
+commit 0784d4b32c109515d6d919caf2b07e90caf5ae49
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:55:45 2010 -0500
+
+    Updated todo w/ new html output feature
+
+commit 332c5bccd9c29a7add1ce3887ab19b335a3db880
+Merge: 7055d18 6a7c685
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:53:21 2010 -0500
+
+    Merge branch 'feature/html_out' into develop
+
+commit 7055d18a2e02f02f3eea7a770e87113d177a7a38
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:53:18 2010 -0500
+
+    History update.
+
+commit 6a7c6851111dcbe280c6b358c6136d1f298fda17
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:49:02 2010 -0500
+
+    Import path fix.
+
+commit 0e5b8f7058c254bedac3d7a940baaf1fb0c2ab72
+Merge: 91bd4eb e3e6b65
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Nov 21 18:44:24 2010 -0500
+
+    Merge branch 'fix_databooks' into develop
+
+commit e3e6b656e32c64b7f4d5713ede350bb77506650b
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Sun Nov 21 13:17:36 2010 +0100
+
+    Fix the stupid mistake.
+
+commit 99896a5f28c7c451446ec68bf0215615032b4b57
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Sun Nov 21 13:14:47 2010 +0100
+
+    Fix Databook data leaks.
+
+commit 25da44f56980ac8ddc7aa4b034ab0ec9a1ebd5e7
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Sun Nov 21 13:00:56 2010 +0100
+
+    Support for HTML (export only). Unit-tested. Depends on the "markup.py"
+    package(http://markup.sourceforge.net) which is included in packages/
+    Notice that the tests now depend on the presence of markup.py.
+
+commit 7727171379683dcf859a344d6c8a43dc6d5cfa2b
+Merge: 09d0570 91bd4eb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 21:00:56 2010 -0500
+
+    Merge branch 'release/0.9.2'
+
+commit 91bd4eb9c736270ab5b5eb88f7ebaa790c0ddcfc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 21:00:13 2010 -0500
+
+    Updated history
+
+commit 9b74b139fda16271e4accd3d1a675614056fedd0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 21:00:01 2010 -0500
+
+    Ordered dict in TODO
+
+commit 823a543f41eec8e08c195140c149eb5f41565f1d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:58:50 2010 -0500
+
+    Version bump (v0.9.2)
+
+commit 1aa275bf998f79bb4cc2573130cbb51dedeb230f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:55:38 2010 -0500
+
+    Updated TODO.
+
+commit 17bb0d3b2c4a2e46e2e9dfb8cecf8169db16b59c
+Merge: 46f3022 1a9aee9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:49:08 2010 -0500
+
+    Merge branch 'feature/stacking' into develop
+
+commit 1a9aee928970ecaaba40529fd2def1e47059b828
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:48:50 2010 -0500
+
+    Column stacking only requires headers if headers exist.
+
+commit 196edb82ccbfbca2fe6696f69973384cf570c7f9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:02:08 2010 -0500
+
+    trailing whitespae
+
+commit a2990d5852206ac0ab11fa87bb256b3924871169
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 20:01:31 2010 -0500
+
+    Change stacking method names.
+
+commit d992ece86a4953da218b6d991132ca496a973d20
+Merge: 46f3022 36bbe27
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:56:04 2010 -0500
+
+    Merge branch 'stacking' into feature/stacking
+
+commit 46f302255dc4b807114eaca3c9584323f1913f81
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:54:50 2010 -0500
+
+    Updated prophesy.
+
+commit 9e3ab4c13f850871975512d19b538a7e667a37e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:50:22 2010 -0500
+
+    Support for locked header row.
+
+commit eaed0e48c282041ffb80990c978672817787ec12
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:50:05 2010 -0500
+
+    Formating.
+
+commit 501187b35715eb1eb548995f1769104d42f79836
+Merge: 10ce000 ea4aef8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:15:51 2010 -0500
+
+    Merge branch 'feature/pickling' into develop
+
+commit ea4aef88b6b8f0f374395a1ac39b785e1f595f37
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Nov 17 19:15:36 2010 -0500
+
+    Subtle format fixes.
+
+commit 24d800fac3da85a1231e3cb7a30ddd98342c3af6
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Wed Nov 17 23:03:43 2010 +0100
+
+    Support for pickling/unpickling Row objects. Makes Datasets pickleable.
+
+commit d8136ab6138104583aee6d304eb2d91f809a6ea0
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Wed Nov 17 22:51:43 2010 +0100
+
+    Whitespace
+
+commit 36bbe2726bb014188241164956273096ac795c05
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Mon Nov 15 09:00:57 2010 +0100
+
+    Remove unneded import
+
+commit 1427be2901cb53c52d60a1438492b01cee39b867
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Mon Nov 15 08:59:49 2010 +0100
+
+    Support for row and column stacking. Unit-tested.
+
+commit 10ce000d31f57c70753b797342c139e2f37a1872
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 11 11:02:14 2010 -0500
+
+    Updated changelog.
+
+commit a91254117caeca06df7ff54345deb64f10450b7b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 11 11:02:07 2010 -0500
+
+    Added ordered dict library.
+
+commit b67762604f5ebe6130eb25610962c7918795c4dc
+Merge: 83a8346 657ab98
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 11 10:59:08 2010 -0500
+
+    Merge branch 'transpose' into develop
+
+commit 83a8346e8f7e3a267dfaab93951c13ac96c08528
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 11 10:58:48 2010 -0500
+
+    Added ordered dict license.
+
+commit 657ab98d04d7d32b36eeae63c4da48e6b0a9c100
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Thu Nov 11 09:00:06 2010 +0100
+
+    Support for Dataset transposition. Unit-tested.
+
+commit 9ddb4de9420dc3ae3eb5133e95083a22b0f6000c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Nov 9 12:27:15 2010 -0500
+
+    Documentation typo.
+
+commit 5fad80a540d95c7ba5e7dfa55f885509c992736b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Nov 9 08:43:34 2010 -0500
+
+    Update column append examples.
+
+commit cabab73045943f28a230bfa74ff270fbebf083c2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Nov 9 08:42:51 2010 -0500
+
+    Spacing fixes.
+
+commit 2bb052599031f883ec220921c45d23eee6ae32f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Nov 5 09:46:14 2010 -0400
+
+    Optimized set intersection for tag checking.
+
+commit f364bb576e9242b9c96a41a4a5f5fcefd40c09ac
+Merge: 00e9ae0 8082c4a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 12:08:08 2010 -0400
+
+    Merge branch 'release/0.9.1' into develop
+
+commit 09d057094e70b582878efab3858ec5b7f485e215
+Merge: f01c222 8082c4a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 12:07:52 2010 -0400
+
+    Merge branch 'release/0.9.1'
+
+commit 8082c4ad43a1f900bd3b998cb028fbeaf74ec753
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 12:07:37 2010 -0400
+
+    Version bump (v0.9.1).
+
+commit 00e9ae0120213f5f3cb8c432f8301b391b3dbfd8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 12:05:39 2010 -0400
+
+    Minor bug was causing reference shadowing.
+
+commit f01c22213e7eae1927a2d74e5ac7fcf7467de510
+Merge: 0409ff5 a58bf26
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:54:01 2010 -0400
+
+    Merge branch 'develop'
+
+commit a58bf269d91e1b1784f3ed6a77882c9b0ce69577
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:53:45 2010 -0400
+
+    Typo.
+
+commit 437a135dd37725407d64e1320bd733817995f71e
+Merge: 3048799 dd24edc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:47:36 2010 -0400
+
+    Merge branch 'release/0.9.0' into develop
+
+commit 0409ff50afc3e4cfd2244cc0b14dc776aa191868
+Merge: cf28f4b dd24edc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:47:25 2010 -0400
+
+    Merge branch 'release/0.9.0'
+
+commit dd24edcc24b375235dccdd7ce46606220f94c72a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:47:13 2010 -0400
+
+    Big history update.
+
+commit cf28f4baa83abef0398d0f5b6ecd7343009b7ccb
+Merge: a26d782 52dcf79
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:43:54 2010 -0400
+
+    Merge branch 'release/0.9.0'
+
+commit 52dcf79c41d34a4c8b7019e077400fff102e65cf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:43:44 2010 -0400
+
+    No append documentation necessary.
+
+commit 49f098ee22f707050783ca0e991de9c563f4aae9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:43:23 2010 -0400
+
+    Verb-age update for documentation.
+
+commit 642b1d8deffbc619f749a7d2685bc1dfb81f2c5f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 05:43:00 2010 -0400
+
+    Exception documentation update.
+
+commit f6964bba8f16d588836b6491e61ba7278c06f514
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:49:37 2010 -0400
+
+    Version bump.
+
+commit 8d6e75ad20a2ae56ae7270ff7f4f8943af69e8db
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:49:31 2010 -0400
+
+    Fixes for 0.9.0.
+
+commit 30487999ba7f245fc385036c89effcc3e23807cd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:47:52 2010 -0400
+
+    CI done.
+
+commit b74308e81ee50d9fb31c6e1c6bcd214d43861a79
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:47:25 2010 -0400
+
+    Append fixed.
+
+commit 577289cbc376219e3b2d910e453d5d52b15a3a0b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:46:54 2010 -0400
+
+    Callable Columns again :)
+
+commit cf10703e31391c89c4f5e1dbc105a26c2f82a1a6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:46:38 2010 -0400
+
+    Updated Callable Columns support.
+
+commit 778ad0265e8421afc2df849dfd1449131cfa8487
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:26:03 2010 -0400
+
+    Added new required headers for adding columns.
+
+commit e3dedb8887944919f7383d6ddac4ea79f05e8c58
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:22:50 2010 -0400
+
+    Cleanup todo.
+
+commit c6e240fa52373bd70304341eeb9721881eb61120
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:22:37 2010 -0400
+
+    Cleanups.
+
+commit 5c747c9c2e7c9920ea495e64bad4009e9ee99b3e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:20:45 2010 -0400
+
+    Keepin' it DRY.
+
+commit 0bbd990ed8aae827be2a04100def9e8401f8ac99
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:13:09 2010 -0400
+
+    whitespace fix.
+
+commit fcada243a234532cc8e9282eb96f4b6049e915f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 04:13:02 2010 -0400
+
+    Added new Row class and Dataset.filter().
+
+commit fca8ad6182ea8381bfce5984ff47629090fafc02
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 03:55:42 2010 -0400
+
+    Ugh....
+
+commit 35d9e390fd2695b3e64957d6345333b87dfb7aae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:33:12 2010 -0400
+
+    New todo.
+
+commit 8ca180c461cc350ea64ebeb94abc70e2eb5a140b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:20:45 2010 -0400
+
+    Documentation configuration changes for colors.
+
+commit ff63558a67063ba2792ec69953510dad4c168bd2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:07:04 2010 -0400
+
+    Added TSV to Readme.
+
+commit f621b56178f099e32fa6cf012a5206740d139bc2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:06:17 2010 -0400
+
+    TODO!
+
+commit 2b529bcb1c630c173a03a2d2bc22c05cb7ce81f7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:06:07 2010 -0400
+
+    Quotation constancy.
+
+commit 90c3435600cd26ac64ae5bfcd9ba3cfada492b7a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:02:33 2010 -0400
+
+    TODO Update.
+
+commit 1fa28ee2caae7429dc873c4f6b4ac0f09d88dfd6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 01:01:54 2010 -0400
+
+    Added test_suite.sh script.
+
+commit a5cae7c24919b495b080d9de4dc621f8de8e8828
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:59:06 2010 -0400
+
+    Adde Luca Beltrame to AUTHORS.
+
+commit 666991ca1e06b02a1e2482d62b273720ef80b201
+Merge: 5f41629 cdfacb6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:57:55 2010 -0400
+
+    Merge branch 'master' of github.com:kennethreitz/tablib into develop
+
+commit 5f4162918f4e234fab3e4be39d3670617e19c54b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:57:25 2010 -0400
+
+    New site URL.
+
+commit b554ce36bb5383a1dfd0b06372043ca482f96b3f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:57:18 2010 -0400
+
+    Official removal of cli interface. Bad idea.
+
+commit e5e22d3ca21d3f6ef3906cd6d321f7e8064a7c29
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:57:12 2010 -0400
+
+    Documentation typo fix.
+
+commit 8626351618bff4735deef06990270bb02318e8a3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Nov 4 00:56:31 2010 -0400
+
+    Official removal of cli interface. Bad idea.
+
+commit cdfacb6d6e2a968540cdfab4d54cb69ce4487407
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 26 05:53:07 2010 -0700
+
+    Whitespace.
+
+commit 108c9de1307ea7515f1029246a0043a35996b16e
+Merge: 3b0e0c7 271aeeb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 19 11:12:00 2010 -0400
+
+    Merge branch 'tsv' into develop
+
+commit 271aeebf565127ffa8ce1f5ee80ef6382591d19d
+Merge: a26d782 e75a005
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Tue Oct 19 10:49:10 2010 +0200
+
+    Merge branch 'tsv_origin' into tsv_format
+
+commit e75a00541d83c1df6ede20fec3a5611f960b6821
+Author: Luca Beltrame <einar@heavensinferno.net>
+Date:   Tue Oct 19 10:45:54 2010 +0200
+
+    Support for TSV-files. Unit-tested.
+
+commit 3b0e0c7991da92e8a65c637afd19ac52e93deddd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 10:01:51 2010 -0400
+
+    Updates.
+
+commit 23440fb7a3849217c2549023fd46b5156bec3416
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 06:23:11 2010 -0400
+
+    Documentation update.
+
+commit 459f310857cf64e32843a014e9aa99b71a6c9f75
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 06:22:59 2010 -0400
+
+    Trying a few things.
+
+commit f9021f53c2b95ab33bf67e0e07ef6022f387acbc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 04:37:16 2010 -0400
+
+    Future release?
+
+commit 7fda829d275c1375d7399f2c9234e0bf0093dbc3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 04:37:09 2010 -0400
+
+    Documentation update.
+
+commit ca08ac8a7bd8eed94e1aa186a9530be728c1dca7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 03:03:57 2010 -0400
+
+    Documentation update.
+
+commit 08b51113d314aa9abe063e7ec8e5c1da41c6fb9a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 03:03:50 2010 -0400
+
+    Added seamless deletion of columns.
+
+commit 3e391fc8e39bc8a646a329d84b2c428f0997faab
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 02:33:03 2010 -0400
+
+    Auto version usage.
+
+commit a2308449140055dc44dc4ff575aff63446db7186
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 02:32:52 2010 -0400
+
+    Docs update.
+
+commit bc82be09c567871370eca21d5bf4aab73d87b350
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Oct 10 02:32:41 2010 -0400
+
+    Big Documentation Upgrade.
+
+commit ed9fe01604b9ddc9c2156ae4f2d7e3813bb11f6a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 8 15:47:10 2010 -0400
+
+    Added column insertion.
+    Documentation update.
+
+commit e69546a0ffed82b937e91e34d5d1c1f597575fb5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 8 15:46:50 2010 -0400
+
+    Major documentation update.
+
+commit d4b659ece9dc1fa682d2d937752acf6cc0b82ae6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 8 11:50:43 2010 -0400
+
+    documentation update
+
+commit 55eb3f93e37141ed33455bc4b7db4b6f721445fd
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 8 11:49:53 2010 -0400
+
+    documentation update
+
+commit be7182aea958520a9a2c37ae05130c88119f4e8d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 8 09:41:19 2010 -0400
+
+    installation documentation update.
+
+commit 48def2cba6a9125b32b4455374297b7160507f37
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 7 17:52:21 2010 -0400
+
+    Documentation Update. Site should be up soon.
+
+commit df8c0335d19ce2f264ae16ba42d1eace7296a566
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 7 16:01:27 2010 -0400
+
+    Fixed incorrect packaging.
+
+commit d0b09f0fce9ed602c398a0381a0a171d1fe91d61
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 7 16:01:17 2010 -0400
+
+    Doc upgrades.
+
+commit 9efd982bfac2bc00877b0cf09cd8b28e1ddc07d5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Oct 7 16:01:09 2010 -0400
+
+    Documentation update.
+
+commit a3c82804cdd7c9f2215b5abd074ca2d166aa1f7c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 20:01:52 2010 -0400
+
+    Simple fix.
+
+commit 2e75e93f57a521bc666b551a2e57d640834861e7
+Merge: 315a082 f5c0c5c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:46:55 2010 -0400
+
+    Merge branch 'release/0.8.5' into develop
+
+commit a26d782e88dd42f7838aeec3b38891c8de815396
+Merge: 4fc5e06 f5c0c5c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:46:44 2010 -0400
+
+    Merge branch 'release/0.8.5'
+
+commit f5c0c5c34da086b602a9440f160b71e851351e6d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:46:25 2010 -0400
+
+    Updated History.
+
+commit d9aee8e605df78dbeca2eb27821f181fdb4887ab
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:13:40 2010 -0400
+
+    Version bump (v0.8.5)
+
+commit 315a082b70ca3ed60ec1befb52e2d45db361d4ce
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:11:14 2010 -0400
+
+    Whoops.
+
+commit 120ce9fcd6a7cd42d326be1b32143fc1b868c11a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 15:10:58 2010 -0400
+
+    No dependencies!
+
+commit 914a82eac9e4c697a1a15140270259bfc2b8eb91
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 14:35:23 2010 -0400
+
+    Added NOTICE file for other licenses.
+
+commit 3931bcb4e689fa986899f722d40b34406ef7f11e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 14:27:05 2010 -0400
+
+    Added vendorized JSON.
+
+commit 471e56c387591e2dec5ed949a6d2f6aa3e5f43f8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 14:26:54 2010 -0400
+
+    Added new vendorized package namespaces.
+
+commit 8553dbc040410937381c5b507bf3a996aa544425
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 13:45:48 2010 -0400
+
+    Added simplejson to packages.
+
+commit 96c93871cf1e8f047b6656912636cc638f2a1808
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 13:42:52 2010 -0400
+
+    Vendorized XLWT.
+
+commit a54949bc08e7323bb7b276d8b8acd7ab0ec5a397
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 13:42:26 2010 -0400
+
+    Removed external dependencies, but utilize them if
+    available.
+
+commit ed686c23914d42dec69fcc9e8e8fc52a727095eb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 12:48:56 2010 -0400
+
+    Packages is a package.
+
+commit 143677be77d9deac237b92c15a20b87b8b164a2e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 12:48:43 2010 -0400
+
+    New exception style.
+
+commit b2c35c254368e87d6293bbb506d240a486a68688
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 12:23:58 2010 -0400
+
+    Fallback on vendorized yaml.
+
+commit 9dfd9d0c8e93f27ea0268d907ce82709892a4fac
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 12:23:30 2010 -0400
+
+    Rely on built-in JSON.
+
+commit 140e23c980bda39df77cf17c1d4fe103083bc6a1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Oct 6 12:23:14 2010 -0400
+
+    Vendorized yaml.
+
+commit ac797f1eda9f916fb32be6b6fd1a3241a2ec5c56
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:30:27 2010 -0400
+
+    Added cofiguration.
+
+commit 7c90595364baf4545e451c15346deb81dc5a79f7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:30:13 2010 -0400
+
+    Heavy documentation update.
+
+commit 38ac98fdb2fca1c5197348d9dcfd049c0a65ab86
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:29:55 2010 -0400
+
+    Typo in readme.
+
+commit 07c7d172d94479e73aaa73fa9a4a05e2650366d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:29:49 2010 -0400
+
+    No build!
+
+commit 9c7707be60791f6e17eb583a833dc29856511208
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:29:43 2010 -0400
+
+    Added generic doctesting.
+
+commit 14bee652084b47852b1c266fc18d298299e49c26
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Oct 5 17:29:32 2010 -0400
+
+    Added kr theme.
+
+commit 4fc5e0655d18d039e99b31d476b2e662127bd740
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 16:22:39 2010 -0400
+
+    setup.py updated
+
+commit da2e670d0db8acbc9a95f83234f24dcf4c30e4a8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 16:12:42 2010 -0400
+
+    Oops.
+
+commit 5912bf4870d7518dd7741bd5537fd7e8d4da4936
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 16:04:36 2010 -0400
+
+    none should have an __in__ method.
+
+commit 28e9d7e23e7b09e09a005c954cd86e4f1bca9442
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 16:04:02 2010 -0400
+
+    Whitespaces.
+
+commit 930d38cf5abcebe021f3dc0bc95d15533fbb9a46
+Merge: 520a198 5e433c2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 15:52:43 2010 -0400
+
+    Merge branch 'release/0.8.4'
+
+commit 5e433c263d2c7ca333503f45c54430bb2ff014da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 15:51:45 2010 -0400
+
+    version bump v0.8.4
+
+commit 19ac9b97162a248d52b34ca3dad24618230897c1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 15:51:05 2010 -0400
+
+    Updated history for v0.8.4.
+
+commit 6feb59504a793bcf8b82b9e00e5e5a74e370f3e0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 15:50:52 2010 -0400
+
+    Version bump.
+
+commit 817eedd6f5cdc8dab03b024947bf0b2663ccc820
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 15:50:41 2010 -0400
+
+    Only wrap when needed.
+
+commit 4d1c5a99966d8972bc0737389d6bf670c810dca3
+Merge: c612bb3 1ea7931
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:55:59 2010 -0400
+
+    Merge branch 'release/0.8.3' into develop
+
+commit 520a1986d72f4baad3607911db0023967e1b9246
+Merge: c223dfb 1ea7931
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:55:48 2010 -0400
+
+    Merge branch 'release/0.8.3'
+
+commit 1ea793112cdbc7328e37138e12aa0bfa8cedd9ea
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:55:35 2010 -0400
+
+    Version Bump (v0.8.3)
+
+commit 41a7a5d32991c80899a3a900cbb63ffd4c577126
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:55:26 2010 -0400
+
+    No cli app at this time.
+
+commit c4edaa2ca856c99f56a5a12ae00ca7f2c432ef10
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:55:17 2010 -0400
+
+    Appended history.
+
+commit c612bb3dae663b076acdd4e6edada1b9a276f9af
+Merge: bfe7006 c223dfb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:52:12 2010 -0400
+
+    Merge branch 'master' into develop
+
+commit c223dfbdf12bfa9ec6458184b83ac3e458efb185
+Merge: 6407afb 49bd48b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:40:45 2010 -0400
+
+    Merge branch 'hotfix/0.8.2'
+
+commit 49bd48b0166c111a0c7619c5ce37be0628492239
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:39:59 2010 -0400
+
+    namspace fix.
+
+commit c6d90bc825ad07e54e71de4374b72620e149420a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:39:05 2010 -0400
+
+    Updated history.
+
+commit bcd0e37a655b9bddbf33e1c7882c03e70e943abe
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:38:28 2010 -0400
+
+    Version bump.
+
+commit 8c92e878a3a83f2e7d0c6cf3a1fe4a2f1ef59dba
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:38:17 2010 -0400
+
+    Upgraded XLS abstraction layer.
+
+commit da2b011358e49654eb911cb0c0a76b460ea9afa2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:33:34 2010 -0400
+
+    Added separator support for XLS output.
+
+commit a8b0bf4b5fc680ab7165d77d69eb976bcd339d09
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 11:33:16 2010 -0400
+
+    Typo.
+
+commit 6574d3e58bfcf55305420346a7d7028614b55839
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 10:54:14 2010 -0400
+
+    XLS support for Separators.
+    Bolden headers and Separators.
+
+commit 10207998284bc4dc97346ce3b9dc13efc7e883ec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 10:53:48 2010 -0400
+
+    Separator append and insert support.
+
+commit 333e73f892d7a61e0c4dea4bbf4d5cfd4aa9c58a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Oct 4 10:19:31 2010 -0400
+
+    Added wrapping support.
+
+commit bfe70066b8a4a635de3c4ef9cdbcb51cace8152a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 1 18:44:50 2010 -0400
+
+    Added Josh Ourisman to authors
+
+commit fbfbe01b70fde0221375bb64fb2eabac7ca65221
+Merge: d85523b 06a394e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Oct 1 17:56:31 2010 -0400
+
+    Merge branch 'joshmerge' into develop
+
+commit 06a394ea5ccf57600a12b0deca45a2f7e89b018b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 09:01:34 2010 -0400
+
+    typo in setup.py.
+
+commit 9427decdb035067dbc367c436e2706127242dbaa
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:33:57 2010 -0400
+
+    Changes.
+
+commit fb59035f8d2718417a24ab7e141397d85cc13b12
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:35:10 2010 -0400
+
+    Added tablib.import_set() and tested accordingly.
+
+commit 187d12cffc5cb3b46f0ce6333cf0f5f407d3a949
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:09:44 2010 -0400
+
+    Format Auto-detection in place.
+    Test suite updated.
+
+commit eaa4de779391d9cbfc970cd418ccb36efdde122e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:03:03 2010 -0400
+
+    Auto-detectors operational.
+
+commit d479c5735ad5875fc2a953abd1c20654ddc83aef
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:36:20 2010 -0400
+
+    Hmmm....
+
+commit 96668bb393f1dbab54e7a48a8093f7f744c92de8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:28:46 2010 -0400
+
+    tabbed runner
+
+commit b369baba409cfbd924c24e6afa3d0f17c5bdc8e5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:27:53 2010 -0400
+
+    Added runner (for testing).
+
+commit 25f846a78a2ba313632839530b1823e94d30320c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:27:04 2010 -0400
+
+    Added entrance point, setup.py updates.
+
+commit 22fe18239fcf6d0886ed95979c6d7352951539b4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:26:53 2010 -0400
+
+    Added legacy cli interface.
+
+commit 149bafa97b3c93b5116090d2834f0c19e6face95
+Author: Josh Ourisman <josh@joshourisman.com>
+Date:   Fri Oct 1 16:17:04 2010 -0400
+
+    added ability to append new column passing a callable as the value that will be applied to every row; w/ test
+
+commit 9f7fec23793b25c7aeffcee4186d6009dc816cca
+Author: Josh Ourisman <josh@joshourisman.com>
+Date:   Fri Oct 1 15:27:28 2010 -0400
+
+    changing syntax of checking for row and col values in append(); slightly more robust this way
+
+commit 762ac39e27970ffb240ae3926b9b453c4c207671
+Merge: 2a7aa95 6407afb
+Author: Josh Ourisman <josh@joshourisman.com>
+Date:   Fri Oct 1 14:57:36 2010 -0400
+
+    resolved merge conflict
+
+commit 2a7aa959b35cdc535727a27147cae7721db47014
+Author: Josh Ourisman <josh@joshourisman.com>
+Date:   Fri Oct 1 14:51:36 2010 -0400
+
+    modified .gitignore to actually ignore .pyc files
+
+commit d85523b6a6dc5452105a887f3d5fe60534b57332
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 09:01:34 2010 -0400
+
+    typo in setup.py.
+
+commit 6407afba3eedaf27c2614a362f0842470a8f4fae
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:46:31 2010 -0400
+
+    typo fix.
+
+commit 25a5bcea0ca261f618282c8dd6d3b89d353edff2
+Merge: f58d4b6 5ba92b0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:45:14 2010 -0400
+
+    merge
+
+commit 7aada689526a4525ef31c807c3f301db28b6e34d
+Merge: 9f26c23 5ba92b0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:37:43 2010 -0400
+
+    Merge branch 'hotfix/8.0.1'
+
+commit 5ba92b0f6b09ec96e20377ff8925d7b4cfae48e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:37:32 2010 -0400
+
+    Packaging fix.
+    Version bump.
+
+commit f58d4b67dc22570fe69338ddf841b76569872ad8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 28 08:33:57 2010 -0400
+
+    Changes.
+
+commit a310ab7a09e2444d146877d27e0bba6872866b8b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:35:10 2010 -0400
+
+    Added tablib.import_set() and tested accordingly.
+
+commit 7f2f925ddb7d47192b79204ccf80e8a9c42f1601
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:09:44 2010 -0400
+
+    Format Auto-detection in place.
+    Test suite updated.
+
+commit 3fc898e222c6215c46711d36677f70b8df33eca3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 18:03:03 2010 -0400
+
+    Auto-detectors operational.
+
+commit de46f45e2e13d0f689d895236c6bdcb0656593b2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:36:20 2010 -0400
+
+    Hmmm....
+
+commit 392eaac299e84b7f4dc0104765080933e89b1f5b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:28:46 2010 -0400
+
+    tabbed runner
+
+commit 3a9c3944cfbd9aeaf8fd81acd33f89768bc864f4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:27:53 2010 -0400
+
+    Added runner (for testing).
+
+commit 8c402da729598979322f13cab9fb4dd63a1000a5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:27:04 2010 -0400
+
+    Added entrance point, setup.py updates.
+
+commit 8feb6e8ddf7cecc26958654411b6bfc0aec08499
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:26:53 2010 -0400
+
+    Added legacy cli interface.
+
+commit 9072b6ddae5cf6410ef86872e3b084321f2034ca
+Merge: 7e7ad73 8136f4b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:19:06 2010 -0400
+
+    Merge branch 'release/0.8.0' into develop
+
+commit 9f26c23eb50f6d00e04b4fe4bd5e5e98b512cfbe
+Merge: dc21825 8136f4b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:18:51 2010 -0400
+
+    Merge branch 'release/0.8.0'
+
+commit 8136f4b09eac5ed160fd49ec70f2c1338df6ec8d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:18:48 2010 -0400
+
+    Updated history for v0.8.0.
+
+commit 7e7ad73ddd7303ae01cc689c4c247941adb06532
+Merge: 86d84b5 f889910
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:13:25 2010 -0400
+
+    Merge branch 'release/0.8.0' into develop
+
+commit f8899106297606d391fcdfa1a75c276bc7ed272d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 17:12:50 2010 -0400
+
+    Big documentation update.
+
+commit 969d9d957d73e942220200a2786f761f2791d51d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:59:27 2010 -0400
+
+    Version Bump (to v0.8.0)
+
+commit 86d84b555dbc531f8c941e8481803d48b0d55448
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:53:33 2010 -0400
+
+    Import cleanup.
+
+commit 66867527d2d3da934b62efb65f1c587b037566f6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:51:09 2010 -0400
+
+    Format import cleanups.
+
+commit 7505d8d985459f4050a9cd720f0a9b8fb516e639
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:49:21 2010 -0400
+
+    Adding docstrings for pylint coverage.
+
+commit d5515c17b80a4f8cf030b014eff331e1a2fb0538
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:47:04 2010 -0400
+
+    Removed useless imports.
+
+commit 07ac723971152198a1a4367d5e15a58aa9977204
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 16:46:52 2010 -0400
+
+    Readme update for imports.
+
+commit 5d7843ea59b2d7b592d0b790b6e2241dd69a29bb
+Merge: 666dd1d b5f0cf9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:57:30 2010 -0400
+
+    Merge branch 'feature/imports' into develop
+
+commit b5f0cf9d374bceb57d5a5900a77ca0fa1930563a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:56:43 2010 -0400
+
+    Tests elegant book imports.
+
+commit a73bbe16450054e4238018a68f97319d1da60d8f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:56:20 2010 -0400
+
+    Elegant databook importers.
+
+commit f1bdf43aab2e6c6a2641fd52086918e3fa0e5b42
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:50:06 2010 -0400
+
+    Book wiper.
+
+commit 7623bfe7b09817b3d64e234d630c225b5b3d0bba
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:40:05 2010 -0400
+
+    Updated tests for set imports.
+
+commit 59ccc0b4224c383d55bbab8535c4e8e74cf46c99
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:39:09 2010 -0400
+
+    YAML input support.
+
+commit 99154aa6d615555baef8cf850db780f6e93585d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:24:59 2010 -0400
+
+    Merge branches 'feature/import-seamless' and 'feature/imports' into feature/imports
+
+commit 65836d5acea764584540082b45d8d58dac2bd52e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:24:16 2010 -0400
+
+    Updated elegant imports for instance properties.
+    Data wipes.
+
+commit 4117503ed5f2229c54df68bc9ab339f7ea7cb36d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 15:23:01 2010 -0400
+
+    Elegant imports in place!
+
+commit dfa26a7d53097c32283f2876be2e0b1ecf1b312f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 10:49:06 2010 -0400
+
+    Typos.
+
+commit 4f035caf1b8bf9f6f0f594682651f55d192f5a68
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 10:40:59 2010 -0400
+
+    Added dataset wipe.
+
+commit a9c7a5067dffa9f5d67708941c0eefca7aa7c203
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 06:22:40 2010 -0400
+
+    Added dataset wipe.
+
+commit 80cb42e8dd787a2ceffb37fe7a2380a97d000f4e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 06:20:34 2010 -0400
+
+    Archaic imports in place!
+
+commit 8d7e5732cd95c23cfa5947342312e7e519f8e311
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:59:02 2010 -0400
+
+    Typo.
+
+commit 942dd3dadfc8de2956b1179b0d4ae608e68fc64c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:58:40 2010 -0400
+
+    Added tablib core docstring placeholder.
+
+commit b1d282744cfcc20fd5fc7478e64832b6b484cdfb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:57:42 2010 -0400
+
+    Docstring updates.
+
+commit 4c0c879d657b0d8c791135de8e5b8420bf410a96
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:53:19 2010 -0400
+
+    Updated tests.
+
+commit cab63e02c873ffa86a4688342d35ae72ca321625
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:53:13 2010 -0400
+
+    Module namespace change.
+
+commit 63d025888aeaf61022524f09d520e4b29687bdc5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:49:21 2010 -0400
+
+    Added format importers.
+
+commit 5a993ac281f5dbfd0cee2039c61af0701e5fa323
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:49:14 2010 -0400
+
+    Working on it.
+
+commit 666dd1d2c7ad3fa7d38416dce977bd61a9c04e5c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:17:03 2010 -0400
+
+    Pylint preps.
+
+commit ac1666e3aea58c410b74a85ede2f2549212f571e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:14:07 2010 -0400
+
+    removing garbage
+
+commit 5b7e817db20c7492d501901b79c2b7f2585e407f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 21 02:42:08 2010 -0400
+
+    Only CSV Left.
+
+commit f9c168e4bc9194228982f631e31331264a180119
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:08:35 2010 -0400
+
+    Added coverage bin.
+
+commit 82f3d84c7dfff4e31e36a645c3ff7d07a564df8f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:06:04 2010 -0400
+
+    Added docstring.
+
+commit 121cf46aec71486645031e73343c7f24f4c603ad
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:04:51 2010 -0400
+
+    Corrected always-false condition.
+
+commit 4bb4a05bcbb044a9eaaac2e1e7eb11b41d3d9739
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:02:58 2010 -0400
+
+    Longer varnames for pylint.
+
+commit e52b8dd329903f96206a28dc0c0b1ab6ef455166
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 05:01:05 2010 -0400
+
+    Added methods to struct for pylint.
+
+commit 93fb89b8b6915a277c66df458e9dd7b47a5a4be8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:58:24 2010 -0400
+
+    Cleanup * imports.
+
+commit c01b66a16a84bd171dde1d22be39fea595e87ed4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:53:20 2010 -0400
+
+    Moving that back.
+
+commit c3fa29a166bc91c202eee6faa432283b14fc46f3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:51:56 2010 -0400
+
+    Added public method for pylint.
+
+commit 8d6a52aaf5d228fa48d55f0133ea52e93537683e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:49:31 2010 -0400
+
+    Cleanups for pylint.
+
+commit 703b1da04cf3b3c883b26ad9746b16e59da377d3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:45:22 2010 -0400
+
+    General cleanups for pylint.
+
+commit 0e6bd079cc05cc3d7312a2c6e002d1d536ab7da1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:43:45 2010 -0400
+
+    Improved docstring.
+
+commit 579dbf0cc0686d568cb1386ccbbd81837c90e49b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:43:39 2010 -0400
+
+    Added docstring.
+    Removed unneeded import.
+
+commit fbabb430ca7159cf0570193704367234e4c2b90b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:04:36 2010 -0400
+
+    small setup.py fix
+
+commit b8f923f8c5713da12ffbf42bd3794f3cef2674bc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 04:03:01 2010 -0400
+
+    added Luke Lee to Authors
+
+commit fbe6fe161254a780ca47d0424f46069d0c34c352
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 02:55:21 2010 -0400
+
+    fix old push
+
+commit 17e90e71e5406fc8621c254e58ae6cf169e38c34
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 25 02:54:43 2010 -0400
+
+    test
+
+commit dc21825f346e2c422c7a3ebc180cce62726aaaa7
+Merge: fbcc3b6 7364995
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:39:47 2010 -0400
+
+    Merge branch 'release/0.7.1'
+
+commit 7364995eaabf49d35652754158151a232af08a22
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:39:27 2010 -0400
+
+    Version bump (v0.7.1)
+
+commit 3407170b99772c6155498372ac41ca663c1961ec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:37:32 2010 -0400
+
+    Updated TODO.
+
+commit dd13744c9223ec34a0ad9df44f70a95cd8d21b31
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:37:08 2010 -0400
+
+    Documentation update for properties.
+
+commit 31e4c39762d9ddab781c55b1c23fc6a21a4c6a31
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:34:01 2010 -0400
+
+    Updated tests for reverted methods.
+
+commit 4fc70957ac4fc796f27e199e12cc54cc2115b374
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 21:33:48 2010 -0400
+
+    Reverted methods back to properties.
+
+commit 7f17ccf445c602bdbdf0852009bff71b9aab9040
+Merge: f386ef8 9b3268f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:37:36 2010 -0400
+
+    Merge branch 'hotfix/dict' into develop
+
+commit fbcc3b60af5e3afa4459d9352b4cdadd2db7d183
+Merge: f386ef8 9b3268f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:37:26 2010 -0400
+
+    Merge branch 'hotfix/dict'
+
+commit 9b3268f0adaeab7968f72f52f00e5f7659a0d219
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:37:10 2010 -0400
+
+    Whoops.
+
+commit f386ef8ac8c3540e9c8c28607981f9a3bb21ffb2
+Merge: be0f77f e8f5e02
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:18:55 2010 -0400
+
+    Merge branch 'feature/unicode' into develop
+
+commit e8f5e023c48dc318ede162cf49ae064c8b8e698e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:18:18 2010 -0400
+
+    Version bump (v0.7.0).
+
+commit 81445aeec8ceab0126a17e8d0130b548c5c3eca1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:05:15 2010 -0400
+
+    Updated readme to reflect property to method changes.
+
+commit f94a236122e4d40d7d79a5f52ff45fdb1debd5d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 14:04:02 2010 -0400
+
+    Changed export properties to methods.
+
+commit bfbb7c626ff70b9d840648cee546d4d2fad349a3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 12:50:10 2010 -0400
+
+    Moved from cStringIO to StringIO. More stable.
+
+commit be0f77f9ee108909a9d268ae50089ad367216946
+Merge: 04a16af 3b44349
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 09:21:51 2010 -0400
+
+    Merge branch 'release/0.6.4' into develop
+
+commit 3b44349090daa69e298f5d63925deca29e7cc06f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 09:21:02 2010 -0400
+
+    Version bump (0.6.4).
+
+commit 04a16afa58d0b7451d452ede8a549d2bf1f5207a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 09:14:08 2010 -0400
+
+    Chmox.
+
+commit a8632125dc86557e4ef9dd17811a8dacc829b639
+Merge: 2c60ce9 ccf2ebc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 09:07:31 2010 -0400
+
+    Merge branch 'master' into dev
+
+commit ccf2ebcde29afe6a21f7a7973d510f383e982a93
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 20 08:57:49 2010 -0400
+
+    Version bump (v0.6.4)
+
+commit 2c60ce9233c7a3960c8c4e057ecc510e11b275e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 19 23:51:48 2010 -0400
+
+    String decoding to avoid unicode collisions for XLS output.
+
+commit 649c7e8bb70f55c8046e73fd38f75ba7de52e87e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 19 23:31:05 2010 -0400
+
+    Removed unneeded tuple_check.
+
+commit 2d3dc5ef71ec1d0e9cbfccd9300c96a9eee080a6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 19 23:26:18 2010 -0400
+
+    PEP257.
+
+commit efc516f36668d0dbea1bfb1ace684bbc14c6cda1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 19 23:23:03 2010 -0400
+
+    PEP8.
+
+commit b2a51fd9411a4f5aca1d277bdb3492f0aa1b9410
+Merge: dbcea81 d54d70b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 19 23:13:29 2010 -0400
+
+    Merge branch 'durden' into develop
+
+commit d54d70bc223ab4f5d85e61e9b9d4c6376739012f
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 17:04:14 2010 -0500
+
+    Added test for csv export
+
+commit 391ad61bef1d37fcb3b5aa2650a355588082f8c1
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:41:23 2010 -0500
+
+    Improved del test
+    
+    - Added testing for data set width/height
+
+commit 99a45814d1205ba9a3f5c7045ccf232afc0ba310
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:36:17 2010 -0500
+
+    Added tests del functionality
+
+commit fad3546614ceadf6c6be8fdcbd2ce6fc0237c211
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:25:18 2010 -0500
+
+    Added docstrings
+
+commit 7ba2849829f2265973f434ab318b4af1a0e2ad4b
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:16:31 2010 -0500
+
+    Misc. PEP8 whitespace celeanup
+
+commit 7ec0f2ef0716298c2666451490138cbb5a85bdc1
+Merge: bd47068 dbcea81
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:14:27 2010 -0500
+
+    Attempt at merging upstream develop branch
+    
+    - Kept the slicing tests in tact by leaving their setup info. in the main setup
+    - Moved around some of the test methods to organize them a bit by functionality
+
+commit bd470684a4d0cdf5f7e5ea127d28a89a92ef33b6
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Sun Sep 19 16:06:47 2010 -0500
+
+    Ignore file update
+    
+    - Update ignoring of python leftovers
+    - Added vi noise
+
+commit dbcea81c170b0bb101a23428e648034d1ab41258
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Sep 16 00:59:58 2010 -0400
+
+    Inline docs.
+
+commit 49dc4a249eef20f8f844da333d128e4519bf713e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 15 23:46:56 2010 -0400
+
+    Removed useless is_string function.
+
+commit 7cd82f956fe6a855abcb2f7d085bb0c83a6e4f98
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 15 23:46:40 2010 -0400
+
+    Version Bump.
+
+commit 13c3e537fd5619b316bb3ffa268eaec72bf56795
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 14 00:09:04 2010 -0400
+
+    reamde update
+
+commit f913853cae2b019974d54a2a1f89a3a283e1d2e7
+Merge: ea1de42 d0c8df9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 14 00:07:19 2010 -0400
+
+    Merge branch 'release/0.6.3'
+
+commit ea1de420a3edcc616e7ee2536f0838e611b734e4
+Merge: 876b849 b2cd061
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 14 00:02:38 2010 -0400
+
+    Merge branch 'release/0.6.3'
+
+commit d0c8df95a3f7234414fe6b7df72cae52b55f6af8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 14 00:02:14 2010 -0400
+
+    Version bump. v0.6.3.
+
+commit bb4e97f8aae83f3f98f265c3cf2c98e0418c83d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Sep 14 00:01:59 2010 -0400
+
+    Updated readme for column additions.
+
+commit ffaeb646399c5f544d3760d6fc1ec857cb815146
+Merge: b2cd061 f31ec56
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 23:56:08 2010 -0400
+
+    Merge branch 'feature/add-cols' into develop
+
+commit f31ec562b4834089ac0d4a9510da6a80a5ba9a0a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 23:49:16 2010 -0400
+
+    Extensively testing
+
+commit 68d7204b2dacb157a3c0dc33b40ec3a6957f7471
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 23:25:49 2010 -0400
+
+    Added data.append(col=[]) support.
+
+commit 52db1ddc3eca6f4a0b3bb7ff2f71501d6b15d571
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 21:27:35 2010 -0500
+
+    Fixed typo in test from previous commit
+
+commit 4755020dd7f6e9e7451c3c6518de0db0ba3fc620
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 21:26:15 2010 -0500
+
+    Added extra row to base data set
+    - Testing with 3 rows is a bit more interesting
+
+commit 5468dd7e679cd33ec6223ef451197d341ff2f32d
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 21:23:20 2010 -0500
+
+    Added test for slicing data elements
+
+commit 8673710ddb6dbd13d61cd6015352910a5df105aa
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 21:08:31 2010 -0500
+
+    Refactored creation of data set into setUp
+    - Broke out tuples for more robust comparisions
+
+commit f01cf184d4d1a94ac16ac33e84bb6ea71d9ff485
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 21:03:29 2010 -0500
+
+    Added simple test for slicing by headers
+
+commit 1482ca4a198579afaa3f2a191ad2f468b28d2b37
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 20:32:36 2010 -0500
+
+    Adding docstrings
+
+commit 93c6c3958172875354a688d430e92f0d95428e6a
+Author: Luke Lee <durdenmisc@gmail.com>
+Date:   Mon Sep 13 20:23:31 2010 -0500
+
+    Misc. pep8 cleanups including spaces after ',' and blank line organization
+
+commit a0cb44cc436249d97ee5bca9623de388ff13f6ff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 20:03:46 2010 -0400
+
+    Made Struct really powerful.
+
+commit b2cd06177363f85c365c1565663f29e2163f56cf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 18:13:20 2010 -0400
+
+    Updated Roadmap
+
+commit 876b849950a7c56ae158f417f2336eaeb970b65c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:44:28 2010 -0400
+
+    mend
+
+commit 40c9e0957816f36f6648ba597c8428c992f223d5
+Merge: ec5b1cf 9f5379f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:26:56 2010 -0400
+
+    Merge branch 'release/0.6.2'
+
+commit 9f5379fcc75e18463780241a0e3c1405657d132d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:24:39 2010 -0400
+
+    Version Bump (0.6.2).
+
+commit 9ecc57dbf703f9c95b3ebf872f436c8162796b4e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:22:02 2010 -0400
+
+    Added header property to prevent invalid headers being set.
+
+commit a7471f7302ab6fba0740198c203d9af4efe8c837
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:21:40 2010 -0400
+
+    Testing fixtures for fixed bugs.
+
+commit 70211b71e009cc3ec0ae96d431f25a3f1bd6c244
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 17:18:25 2010 -0400
+
+    Updated Readme.rst
+
+commit ddf4b441b07c1542b1bd44b5db4bb61c5fa79cc8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:50:08 2010 -0400
+
+    Fixed exception catch, Fixes Issue #5.
+
+commit a0509126e0f593078045c49f774c857b65c634c5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:49:11 2010 -0400
+
+    Added simple unit-testing structure.
+
+commit ec5b1cf3e0b4590f5f4213a061b6246d1d37acb3
+Merge: 275ac9d 3fb729a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:14:34 2010 -0400
+
+    Merge branch 'develop'
+
+commit 3fb729aac6ca8aa0377b8b6637347dea6624f4f2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:11:07 2010 -0400
+
+    Removed non-working unit-tests.
+
+commit 647f69044f31ff8ac1f26a919d0c24008bf47cc2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:07:27 2010 -0400
+
+    Cleaning up code a bit.
+
+commit 3da34af76fdb2357e571bb8091ec61a84a86aa49
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:06:37 2010 -0400
+
+    Removed un-implimented junk from core.py
+
+commit 5b42824871b357bcd6531845b2bb8ac5a4436572
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 16:06:14 2010 -0400
+
+    Removed vendorized packages.
+
+commit 89209b6bd3041c946033570af3aa5087042bff87
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 15:59:46 2010 -0400
+
+    Moving tabbed cli to future feature branch.
+
+commit 9362d3283b1c5d955bc5ec1f037979187c2eb62e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 15:51:15 2010 -0400
+
+    Version bump (v0.6.1)
+
+commit 123851a73722779dba7a702da66588d87903c3ac
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 15:49:18 2010 -0400
+
+    README.rst update.
+
+commit 54973c276c55cf953ef838fe79e186dec49c3f97
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Sep 13 15:48:08 2010 -0400
+
+    Added reqs.txt
+
+commit 275ac9d194fb2fdc90634961e77ad72247c25a66
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 14:12:30 2010 -0400
+
+    Setup.py typo
+
+commit 4ecd5888af21e1d62010d9a44a33c18016bf58f6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 14:03:26 2010 -0400
+
+    Readme issue
+
+commit 359f12c83c6f7ab7dadf27cc9d0aef60e37dffb4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:55:52 2010 -0400
+
+    Another readme update.
+
+commit de8d76fdae8ab1ec57a79bb5cb0be7bdef407d43
+Merge: e9d9350 f188e3d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:52:05 2010 -0400
+
+    Merge branch 'develop'
+
+commit f188e3dd8779a1c100b097ca44e9739e0d37fa6a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:48:48 2010 -0400
+
+    Heavy readme update.
+
+commit 3dff8f5b794ceaff6ab51be79f7425c0b8981f3a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:28:55 2010 -0400
+
+    updated readme a bit
+
+commit c24d2dd45d124319f6ae6ac8050c59ce064c0cec
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:17:21 2010 -0400
+
+    Docstring updates.
+
+commit 4e98563483b2e9a701f25f8a6ac0c8d665bf5d54
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:16:05 2010 -0400
+
+    Encodings are important.
+
+commit ca17c9f96543d0f287da45bc2bdbbcbb506912c9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:15:38 2010 -0400
+
+    Proper usage of MANIFEST.
+
+commit 41c4fcc59f18c882d0526d43356934b55df797d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:15:21 2010 -0400
+
+    Added authors and others to manifest.
+
+commit e9166b14fd4da5c68774d959ef390da6b6e4491b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:13:43 2010 -0400
+
+    Cleaned up fabfile.
+
+commit a5528d731e89e931b034b8f3080b1928b4f358c5
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:13:08 2010 -0400
+
+    Updated verbage in AUTHORS.
+
+commit 1a122f2a4d42caf02c840530285b2b39a8e7185c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 13:12:21 2010 -0400
+
+    gitignore
+
+commit e9d9350e4325930eca0bfce85b5598809565e111
+Merge: ff069b1 ac4b568
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 12:51:13 2010 -0400
+
+    merge for version bump into master
+
+commit ac4b568cba0fa76230a831194bdbf5b81c37a6da
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Sep 12 11:45:31 2010 -0400
+
+    Updates for push.
+
+commit 8be372b8cc317fb070041ae0431e10c475beeea6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:14:56 2010 -0400
+
+    Readme cleanups.
+
+commit f8d8d3058ae81b68a9bb63e0bd311c4a05a8f1f2
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:09:13 2010 -0400
+
+    Hmm
+
+commit d03ba7e532426a8665817d35c245dc2ece36a868
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:09:06 2010 -0400
+
+    Optimizations.
+
+commit 35102ab951f0231f817e3c57be1741ce8580625d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:08:57 2010 -0400
+
+    Prepping for distribution.
+
+commit b8587e5cb0d797a8e3478ba69f6e3947ad018579
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:08:48 2010 -0400
+
+    Packaging for distribution.
+
+commit da4f2013f1e8b05d937369c1867a25ed79ff4faf
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Sep 11 23:08:31 2010 -0400
+
+    Unvendorized packages.
+
+commit ff069b160433f322426e135974590756bdc9054e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 18:07:52 2010 -0400
+
+    version bump
+
+commit 2994a9fc0d00f40a2d3dff220e06a5d60a0d158b
+Merge: 4b6fbe9 9f025dc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 18:06:40 2010 -0400
+
+    Merge branch 'release/0.0.5'
+
+commit 310400af5b3696be2cfd2f0816f7f621d945033f
+Merge: 9f025dc d52537b
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 18:06:25 2010 -0400
+
+    Merge branch 'feature/paged' into develop
+
+commit d52537b75b016a9d8128998236badd980848394f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 18:05:32 2010 -0400
+
+    Added workbook feature for xls support.
+    Other formats expected.
+
+commit 40490d1ba5a55dd39e77569eb6f150241fcdb946
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 17:35:13 2010 -0400
+
+    Added base DataBook object.
+
+commit 9f025dc1112d9b9986566143af45ae5620a8f2c8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 15:55:08 2010 -0400
+
+    Added name to corelib.
+
+commit 335e3b113404822dbb7d2eb0a8a333fa97f97555
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Wed Sep 8 15:55:01 2010 -0400
+
+    Updated setup file.
+
+commit 6b4afc38d17f4ebfb0cd42db77e2c13ce1dd2979
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Sep 2 00:21:03 2010 -0400
+
+    Roadmap Update
+
+commit bd3099897cbf0efe91ad7f77bf920b14811828ea
+Merge: 37ffbc7 f22357f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Sep 2 00:04:13 2010 -0400
+
+    Merge branch 'hotfix/readme' into develop
+
+commit 4b6fbe9225fb0112b8c0ee9a23dd2ea5297b3205
+Merge: 607ea4a f22357f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Sep 2 00:04:07 2010 -0400
+
+    Merge branch 'hotfix/readme'
+
+commit f22357f1bc83707678932d3dbc460daf4b257e7e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Thu Sep 2 00:03:48 2010 -0400
+
+    Readme fix
+
+commit 37ffbc71c009b027d3ffa522a0a3f546d6ac7a7c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 05:31:45 2010 -0400
+
+    index and append methods
+
+commit 6f7c64eb03b80f4bff2d44e13b6e0cd19749967d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 05:18:22 2010 -0400
+
+    Better xlwt handling.
+
+commit 89be8f402fdc5a2e2121b091ff03178c080c8354
+Merge: 0862b35 7044896
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:58:44 2010 -0400
+
+    Merge branch 'release/0.0.4' into develop
+
+commit 607ea4a8aaa50e689a09b967eb8d2e20d9829406
+Merge: 8fca234 7044896
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:58:36 2010 -0400
+
+    Merge branch 'release/0.0.4'
+
+commit 7044896d562f8d32f8bdf084ae1ac20ff567bfb4
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:58:27 2010 -0400
+
+    0.0.4.
+
+commit 8fca2343886b418fd7198c05c44b35a482e92f3f
+Merge: bfc8d81 0862b35
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:55:24 2010 -0400
+
+    test
+
+commit bfc8d813b67490f8d83a8d5b238c06d02c3e12ee
+Merge: 3cd03cd 9fe0f95
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:47:19 2010 -0400
+
+    Merge branch 'release/0.0.3'
+
+commit 0862b359056c43610789663b8813b1c7ef36302c
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:46:30 2010 -0400
+
+    Readme update.
+
+commit e8bf07da1a817f890066c6445d63a624c7535a96
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:45:49 2010 -0400
+
+    Test tests.
+
+commit 5c70fe0a0793ac0e5d9491f50d109fd5819cf14e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:45:35 2010 -0400
+
+    Cleanup.
+
+commit 6c37412c76fcb26f0179cc727d72916a8c1efca6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:45:26 2010 -0400
+
+    Updated readme, commenting out unimplimented features.
+
+commit 54a83602e49da4ca5fad61254c27a1132b995bda
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:38:45 2010 -0400
+
+    Removed unnecessary typecheck module.
+
+commit f486b77a7a0d96e7d069bfcd0a519a8a25b2562f
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:23:56 2010 -0400
+
+    Added XLS export support.
+
+commit fecfecfd167f16381b987bab0e481b7be6cacba9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 03:22:50 2010 -0400
+
+    xlwt patch for compatibility reasons (may be unnecessary)
+
+commit 9a65b8deed895ad4665da9aeb363aff8886a42e1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 02:59:22 2010 -0400
+
+    Added CSV Export Support.
+
+commit 61231b38ac67e5e51102b86d105115af5be4e1f7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 02:38:59 2010 -0400
+
+    Epic.
+
+commit b7a8b65c00686a0589b6d85426430c472cb3492d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 02:37:49 2010 -0400
+
+    Validate method refactor.
+    Removal of Digest method.
+
+commit 6dd71c88301cd18d59bd7146fb84459c024484f7
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 02:35:56 2010 -0400
+
+    Updated history.rst formatting
+
+commit 8d44ad8a12bca0abf875606049f8793ada71a698
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 02:32:57 2010 -0400
+
+    YAML export support complete.
+
+commit 1850a934aa4f11c04df32676090546f88aa83483
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 01:39:38 2010 -0400
+
+    JSON support working well.
+
+commit ee953512b7cbcc53b29551b73ca6de5fdd84eced
+Merge: c0fb5ca 6405ec3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 01:38:30 2010 -0400
+
+    Merge branch 'feature/base-object' into develop
+
+commit 6405ec3bafcfca3ec33a7f533a8fee53afa2cd19
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 01:01:32 2010 -0400
+
+    General improvments
+
+commit ea64e4cfacc7b640b65a4b23a7b18606aba8f138
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 00:33:44 2010 -0400
+
+    Dataset Title Metatdata.
+    Improved dataset repr.
+
+commit 0bea48ccc376eaba938e7339c8e88d992341cebc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 00:28:54 2010 -0400
+
+    Imports.
+
+commit 687670762f43ba3f72f5d7690c069764b65d5e3d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 00:28:47 2010 -0400
+
+    Added PyYaml into vendorized packages.
+
+commit 254ce62b2aebbb962055c129bdde12ab8e307593
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Aug 30 00:22:11 2010 -0400
+
+    .append
+
+commit 2b3f2771384a8de615fab485d8541d38fc529c0d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 23:38:03 2010 -0400
+
+    Time for some testing.
+
+commit a2f59584e499c27464e1d1e36b442541a52418d6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 23:21:37 2010 -0400
+
+    Version bump (v0.0.3)
+
+commit 4d3a31e19f5472ae27a39841e8e535a2f9507850
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 23:20:59 2010 -0400
+
+    API change.
+
+commit 95c98861daef57091347343f9238bdb25bfc5c4d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 22:41:34 2010 -0400
+
+    Object structure in place
+
+commit 59d1f9fdedac38032b55649eb8e416c21f0eb688
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 20:12:39 2010 -0400
+
+    Changed Data class to Dataset.
+
+commit 9fe0f954e67fdd5dbc2f854b3feec0b7cfca94af
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 17:37:30 2010 -0400
+
+    model started
+
+commit b869f83d8740de55a1ae66592d082ac98bb7b0b9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 17:36:52 2010 -0400
+
+    Version bump
+
+commit c0fb5cade92ee993371890f31afd78bfeb26230d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 17:35:51 2010 -0400
+
+    readme updates
+
+commit 3cd03cd8a968f77220bcc528101ff93b6203b6ba
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 15:47:03 2010 -0400
+
+    .gitignore updated
+
+commit 466daeed7e6d2408a03680948c73b1906169a4c0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 15:46:57 2010 -0400
+
+    Simple changes
+
+commit ce7e517afb66844c075b4a5808874e59b16a6169
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 15:10:35 2010 -0400
+
+    Removed XML tests. Ew.
+
+commit ab44ed888aff8a4233e5590966d2046308ca3db3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sun Aug 29 15:10:26 2010 -0400
+
+    Garbage.
+
+commit 48d74333ef95bc37b38fead2110a675761f7ee78
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 21:12:48 2010 -0400
+
+    Repo cleanup
+
+commit ad0c7afa2247803fc4bc66c8a14ee1822a606100
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 21:06:30 2010 -0400
+
+    readme
+
+commit 5018fd70fca8cebcdcca7f8c2d1b13d01139f4b1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 21:03:00 2010 -0400
+
+    Readme.rst update.
+
+commit cca8b3d77e73e0a5f2d3b856bbc75254bdeb8eff
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 20:59:36 2010 -0400
+
+    added gitignore
+
+commit 8fcfa9a45f222594c0cc35f03ecfa27b4ee6376d
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 20:58:39 2010 -0400
+
+    remove noise
+
+commit 11981294372e3244c641c7bfd5e578248e6ce028
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 20:47:03 2010 -0400
+
+    Change is a-comin'.
+
+commit 1b79a6fdcc5736e8cbfd6eff58d55f126a794a28
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 20:17:44 2010 -0400
+
+    packed simplejson
+
+commit b6419d79183dad0965c8574757e333a87761a2fb
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Sat Aug 28 17:14:39 2010 -0400
+
+    module name refactorization
+
+commit de8ed8dd03f5417e210a7dcd29e694c5b4bfa29e
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 16 17:28:30 2010 -0400
+
+    establish framework
+
+commit 0cfd0e3c24b5a13cb0497b6d3d73acc30f8cec46
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 16 17:26:50 2010 -0400
+
+    write test pattern
+
+commit 1731782113189256e11d7070ff19dfee8658a230
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Fri Jul 16 17:23:10 2010 -0400
+
+    general update
+
+commit 2d7fc6d10808d57f5af6034e6ac09c451658ff82
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 15:19:59 2010 -0400
+
+    whoops - pep8
+
+commit a1527325d566b8bdcb7da189dd2a016bc683e8a3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 15:15:37 2010 -0400
+
+    hmmmm
+
+commit dcff226fc09e3b25f2b0a9143dcefc3389ac5e8a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 13:42:44 2010 -0400
+
+    cli | paing coming along
+
+commit deeefc0063f439ffd9144a8c7a20501be6a80ee1
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 09:31:37 2010 -0400
+
+    --no-message
+
+commit fb80d6051692521db484c22e0eca2b83d05ef931
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 09:30:50 2010 -0400
+
+    chmod
+
+commit 00dfe719d1550891428e80de13f0979996f31ae9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 09:30:14 2010 -0400
+
+    ultra simple cli interface
+
+commit 4525bca7f9651e8e90297ce7d70f745632e77dd9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 09:17:17 2010 -0400
+
+    --no-message
+
+commit bc082c69bb058b98540845a6452d0aff23f7c5c3
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 09:12:17 2010 -0400
+
+    added cli pipe syntax
+
+commit 2ae1781e32e5491a78a1b7ec01559d6aa0fb5862
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 08:55:03 2010 -0400
+
+    runner formating
+
+commit 22058a4d9570a631021659a7815949b7c2962839
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 08:54:26 2010 -0400
+
+    MIT
+
+commit 9ec524f5b454d260c4729b27ce99ed62345fb4c6
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 08:48:19 2010 -0400
+
+    readme header fix
+
+commit 328ca504ce1f773907dbcabc905344c3ceb90017
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 08:47:34 2010 -0400
+
+    added epilog
+
+commit 35e218d22ec218ce0fcf428241ad79f93199b4d0
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Tue Jul 13 08:43:51 2010 -0400
+
+    added HTML support do documentation (export only)
+
+commit 156bf2134194517fd954e685fb4ab5c74867fd15
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 17:05:35 2010 -0400
+
+    __init__.py
+
+commit 9c75b47753bb039b85a0727b797a425bf173ab70
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 17:02:01 2010 -0400
+
+    vendorized excel library
+
+commit 20859814422b86dd0d4486c42219913a0ac4e83a
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:59:40 2010 -0400
+
+    ascii art
+
+commit 00d47dc5016c69fe732904451b078ba754a4c2bc
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:58:25 2010 -0400
+
+    ascii art
+
+commit ee8a5b1cdca4c9f06445859e669ce4e9c6f8f311
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:53:06 2010 -0400
+
+    added new vision for cli usage
+
+commit 665ba34a2b3c1e3008430bde407bd20bb1e79af9
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:50:42 2010 -0400
+
+    vendorized typecheck
+
+commit 5849e3e5056dc49d1a8e3cc841226e6795041bd8
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:36:56 2010 -0400
+
+    documentation update
+
+commit 6f59d24994b30863897af59e10b45399547c6b96
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 16:19:29 2010 -0400
+
+    intial structure; documentation
+
+commit 967772b04372c2f41022b240401875ee48fc2554
+Author: Kenneth Reitz <me@kennethreitz.com>
+Date:   Mon Jul 12 15:24:56 2010 -0400
+
+    first commit
